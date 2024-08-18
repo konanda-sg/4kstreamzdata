@@ -82,7 +82,7 @@
     {
         "channel_name": "Duronto TV",
         "channel_logo": "https://tds-images.thedailystar.net/sites/default/files/feature/images/duronto.jpg",
-        "channel_url": "http://103.81.104.118/hls/stream17.m3u8"
+        "channel_url": "https://edge01.iptv.digijadoo.net/live/duronto_tv/playlist.m3u8?md5=cmZZwoEGuyD6kbFDC13qNg&expires=1724170136&user=c28278b7cc41459ea95c1d05df91e3e7"
     },
     {
         "channel_name": "Ekattor TV",
@@ -112,7 +112,7 @@
     {
         "channel_name": "GTV (Bangladeshi TV channel)",
         "channel_logo": "https://upload.wikimedia.org/wikipedia/en/2/20/GTVBangladeshLogo.png",
-        "channel_url": "http://103.81.104.118/hls/stream17.m3u8"
+        "channel_url": "https://edge01.iptv.digijadoo.net/live/gazi_tv_hd/playlist.m3u8?md5=U_a0pl5XzMsGKLuZCxHNFQ&expires=1724033530&user=c15be118d93a464dabf77260596012cf"
     },
     {
         "channel_name": "Independent Television (Bangladesh)",
@@ -147,7 +147,7 @@
     {
         "channel_name": "Nagorik (TV channel)",
         "channel_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Nagorik_TV_Logo.png/150px-Nagorik_TV_Logo.png",
-        "channel_url": "http://103.81.104.118/hls/stream17.m3u8"
+        "channel_url": "https://edge01.iptv.digijadoo.net/live/nagorik_tv/playlist.m3u8?md5=U2egxm8Ji6iqNB3KQecObw&expires=1724033825&user=c15be118d93a464dabf77260596012cf"
     },
     {
         "channel_name": "News24 (Bangladeshi TV channel)",
