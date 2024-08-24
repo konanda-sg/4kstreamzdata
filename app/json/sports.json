@@ -37,12 +37,12 @@
     {
         "channel_name": "Geo Super HD",
         "channel_logo": "https://seeklogo.com/images/G/geo-super-logo-9EE9DB603E-seeklogo.com.png",
-        "channel_url": "https://example.com/geo_super_hd"
+        "channel_url": "http://opplextv.cyou:8080/live/0455/0455/167568.ts"
     },
     {
         "channel_name": "Ptv SPORTS",
         "channel_logo": "https://upload.wikimedia.org/wikipedia/en/e/e4/PTV_Sports.png",
-        "channel_url": "https://example.com/ptv_sports"
+        "channel_url": "http://opplextv.cyou:8080/live/0455/0455/217968.ts"
     },
     {
         "channel_name": "RTR Sports",
