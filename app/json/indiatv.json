@@ -48,8 +48,13 @@
         "channel_url": "https://dr1zhpsuem5f4.cloudfront.net/master.m3u8"
     },
     {
-        "channel_logo": "hsh",
-        "channel_name": "hsh",
-        "channel_url": "example.m3u8"
+        "channel_logo": "https://i.postimg.cc/CK0Wbdb4/image.jpg",
+        "channel_name": "Balle Balle",
+        "channel_url": "https://mcncdndigital.com/balleballetv/index.m3u8"
+    },
+    {
+        "channel_logo": "https://i.postimg.cc/Twn3jBVd/Music-India.png",
+        "channel_name": "Music India",
+        "channel_url": "https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Musicindia/default/musicindia.m3u8"
     }
 ]
