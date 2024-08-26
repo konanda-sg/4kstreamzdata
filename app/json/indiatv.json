@@ -4,61 +4,24 @@
         "channel_name": "7S Music (576p)",
         "channel_url": "http://103.199.161.254/Content/7smusic/Live/Channel(7smusic)/index.m3u8"
     },
-    {
-        "channel_logo": "9XJalwa.in",
-        "channel_name": "9X Jalwa",
-        "channel_url": "https://amg01281-9xmediapvtltd-9xjalwa-samsungin-goszf.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjalwa-samsungin/playlist.m3u8"
-    },
-    {
-        "channel_logo": "9XJhakaas.in",
-        "channel_name": "9x Jhakaas",
-        "channel_url": "https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8"
-    },
-    {
-        "channel_logo": "9XTashan.in",
-        "channel_name": "9X Tashan",
-        "channel_url": "https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8"
-    },
+    
     {
         "channel_logo": "9XM.in",
         "channel_name": "9XM (480p)",
         "channel_url": "https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/index.m3u8"
     },
     {
-        "channel_logo": "A1TVRajasthan.in",
-        "channel_name": "A1 TV Rajasthan (720p)",
-        "channel_url": "https://5b48d7e1b4bce.streamlock.net/myapp/a1live/playlist.m3u8"
-    },
-    {
         "channel_logo": "AajTak.in",
         "channel_name": "Aaj Tak",
         "channel_url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8"
     },
-    {
-        "channel_logo": "AajTak.in",
-        "channel_name": "Aaj Tak (404p)",
-        "channel_url": "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8"
-    },
-    {
-        "channel_logo": "AajTak.in",
-        "channel_name": "Aaj Tak (360p)",
-        "channel_url": "https://lmil.live-s.cdn.bitgravity.com/cdn-live/_definst_/lmil/live/aajtak_app.smil/playlist.m3u8"
-    },
+   
     {
         "channel_logo": "Aastha.in",
         "channel_name": "Aastha (480p)",
         "channel_url": "https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/chunklist_b1328000.m3u8"
     },
-    {
-        "channel_logo": "AasthaBhajan.in",
-        "channel_name": "Aastha Bhajan (480p)",
-        "channel_url": "https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8"
-    },
-    {
-        "channel_logo": "AathavanTV.uk",
-        "channel_name": "Aathavan TV (720p)",
-        "channel_url": "http://45.77.66.224:1935/athavantv/live/playlist.m3u8"
-    },
+    
     {
         "channel_logo": "ABPGanga.in",
         "channel_name": "ABP Ganga (1080p)",
@@ -80,68 +43,13 @@
         "channel_url": "https://d316coox0if60r.cloudfront.net/out/v1/7723f2221c3449c3910aaa8f91592bf0/index.m3u8"
     },
     {
-        "channel_logo": "Adipoli.in",
-        "channel_name": "Adipoli (1080p)",
-        "channel_url": "https://live.hungama.com/linear/adipoli/playlist.m3u8"
-    },
-    {
-        "channel_logo": "AJNetNews.in",
-        "channel_name": "AJ Net News",
-        "channel_url": "http://rtmp.logicwebs.in:1935/live/ajnet/playlist.m3u8"
-    },
-    {
-        "channel_logo": "AkaramKidz.in",
-        "channel_name": "Akaram Kidz (460p)",
-        "channel_url": "http://akaram.zecast.net/akaram-live/akaramkidz/index.m3u8"
-    },
-    {
-        "channel_logo": "AKDCalcuttaNews.in",
-        "channel_name": "AKD Calcutta News (540p)",
-        "channel_url": "https://d39iawgzv3h0yo.cloudfront.net/out/v1/1ef4344a3b4a41908915d58ac7bd5e23/index.m3u8"
-    },
-    {
         "channel_logo": "AmritaTV.in",
         "channel_name": "Amrita TV (720p)",
         "channel_url": "https://dr1zhpsuem5f4.cloudfront.net/master.m3u8"
     },
     {
-        "channel_logo": "AngelTVAfrica.in",
-        "channel_name": "Angel TV Africa (720p)",
-        "channel_url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelafrica_all/playlist.m3u8"
-    },
-    {
-        "channel_logo": "AngelTVAmerica.in",
-        "channel_name": "Angel TV America (720p)",
-        "channel_url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelamerica_all/playlist.m3u8"
-    },
-    {
-        "channel_logo": "AngelTVArabia.in",
-        "channel_name": "Angel TV Arabia (720p)",
-        "channel_url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelarabia_all/playlist.m3u8"
-    },
-    {
-        "channel_logo": "AngelTVAustralia.in",
-        "channel_name": "Angel TV Australia (720p)",
-        "channel_url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelaustralia_all/playlist.m3u8"
-    },
-    {
-        "channel_logo": "AngelTVChinese.in",
-        "channel_name": "Angel TV Chinese (720p)",
-        "channel_url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelchinese_all/playlist.m3u8"
-    },
-    {
-        "channel_logo": "AngelTVFarEast.in",
-        "channel_name": "Angel TV Far East (720p)",
-        "channel_url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelfareast_all/playlist.m3u8"
-    },
-    {
-        "channel_logo": "AngelTVHebrew.in",
-        "channel_name": "Angel TV Hebrew (720p)",
-        "channel_url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelhebrew_all/playlist.m3u8"
-    },
-    {
-        "channel_logo": "AngelTVIndia.in",
-        "channel_name": "Angel TV India",
+        "channel_logo": "",
+        "channel_name": "",
         "channel_url": "example.m3u8"
     }
 ]
