@@ -1,55 +1,55 @@
 [
     {
-        "channel_logo": "7SMusic.in",
+        "channel_logo": "https://i.postimg.cc/tCKdHGtc/images-12.jpg",
         "channel_name": "7S Music (576p)",
         "channel_url": "http://103.199.161.254/Content/7smusic/Live/Channel(7smusic)/index.m3u8"
     },
     
     {
-        "channel_logo": "9XM.in",
+        "channel_logo": "https://i.postimg.cc/ZnZRLjrV/images-4.png",
         "channel_name": "9XM (480p)",
         "channel_url": "https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/index.m3u8"
     },
     {
-        "channel_logo": "AajTak.in",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/2/28/Aaj_tak_logo.png",
         "channel_name": "Aaj Tak",
         "channel_url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8"
     },
    
     {
-        "channel_logo": "Aastha.in",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/en/8/86/Aastha_international.png",
         "channel_name": "Aastha (480p)",
         "channel_url": "https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/chunklist_b1328000.m3u8"
     },
     
     {
-        "channel_logo": "ABPGanga.in",
+        "channel_logo": "https://i.postimg.cc/DwqxjP4R/images-5.png",
         "channel_name": "ABP Ganga (1080p)",
         "channel_url": "https://abplivetv.akamaized.net/hls/live/2043013/ganga/master.m3u8"
     },
     {
-        "channel_logo": "ABPMajha.in",
+        "channel_logo": "https://i.postimg.cc/6Q8gHvwZ/images-6.png",
         "channel_name": "ABP Majha (720p)",
         "channel_url": "https://abplivetv.akamaized.net/hls/live/2043011/manjha/master.m3u8"
     },
     {
-        "channel_logo": "ABPNews.in",
+        "channel_logo": "https://i.postimg.cc/RZ62dtvH/images-13.jpg",
         "channel_name": "ABP News (720p)",
         "channel_url": "https://abplivetv.akamaized.net/hls/live/2043010/hindi/master.m3u8"
     },
     {
-        "channel_logo": "ABPSanjha.in",
+        "channel_logo": "https://i.postimg.cc/ZYNcwLNZ/images-7.png",
         "channel_name": "ABP Sanjha (720p)",
         "channel_url": "https://d316coox0if60r.cloudfront.net/out/v1/7723f2221c3449c3910aaa8f91592bf0/index.m3u8"
     },
     {
-        "channel_logo": "AmritaTV.in",
+        "channel_logo": "https://i.postimg.cc/66PkvzXX/images-19.jpg",
         "channel_name": "Amrita TV (720p)",
         "channel_url": "https://dr1zhpsuem5f4.cloudfront.net/master.m3u8"
     },
     {
-        "channel_logo": "",
-        "channel_name": "",
+        "channel_logo": "hsh",
+        "channel_name": "hsh",
         "channel_url": "example.m3u8"
     }
 ]
