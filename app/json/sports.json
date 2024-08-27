@@ -55,9 +55,14 @@
         "channel_url": "http://opplextv.cyou:8080/live/0455/0455/167592.ts"
     },
     {
+        "channel_name": "SuperSpot Football",
+        "channel_logo": "https://i.postimg.cc/nhC25TMn/images-23.jpg",
+        "channel_url": "http://xtv.ooo:8080/live/98267/02727/238480.m3u8"
+    },
+    {
         "channel_name": "Sky Sports Cricket",
         "channel_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEcc1FBQM4BRw2mFDH2Rhj0a80012M1G8mtpk4hkC35eQfVOKfwxnWmorw5jppxwztlaRU1teoYQGtZbI5gESEU_IhuE-_6Y5tWkoEfkgnAB8qX9W-mTwN87WeKO9ZKvbr1nRC_QigNB21_cuhkprP3cdx-1W4PTK6J6tbgTSA59oC50YO4bWu_YYoj7k/s480/Sky-Sports-Cricket.jpg",
-        "channel_url": "http://opplextv.cyou:8080/live/0455/0455/167594.ts"
+        "channel_url": "http://tv.cloudcdn.me/live.ts?channelId=281&uid=4280&deviceMac=00:1A:79:17:C1:7F&play_token=test"
     },
     {
         "channel_name": "Sony Ten 1",
