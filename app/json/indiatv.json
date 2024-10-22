@@ -112,6 +112,12 @@
     },
     
     {
+        "channel_name": "Enter 10 Bangla",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/en/e/ea/Enterr10_Bangla.jpeg",
+        "channel_url": "https://entezeetv.fun/bdcast/hls/index.m3u8?id=0RTkWfzB&e=.m3u8|Referer=https://entezeetv.fun/bdcast//"
+    },
+    
+    {
         "channel_name": "Enter 10 Movies",
         "channel_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f3/Enterr10_logo.png",
         "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/104202.ts"
@@ -168,52 +174,17 @@
         "channel_logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Maha_Movies.png",
         "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/104206.ts"
     },
-    {
-        "channel_name": "Sony Max",
-        "channel_logo": "https://upload.wikimedia.org/wikipedia/en/b/b6/Sony_Max_new.png",
-        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/66179.ts"
-    },
-    {
-        "channel_name": "Star Gold Thrills",
-        "channel_logo": "https://stargoldthrills.com/wp-content/uploads/2024/07/STAR-Gold_20240706_212419_0000.png",
-        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/221258.ts"
-    },
-    {
-        "channel_name": "Star Gold Romance",
-        "channel_logo": "https://static.wikia.nocookie.net/logopedia/images/8/8a/Star_Gold_Romance.svg",
-        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/66186.ts"
-    },
-    {
-        "channel_name": "Star Gold 2",
-        "channel_logo": "https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/afaqs/media/post_attachments/41d240a6a57208111c1d55f18e3e947681cc1aaca30c8cfdadff35afa5bf55d9.png",
-        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/106133.ts"
-    },
-    {
-        "channel_name": "WOW Cinema One",
-        "channel_logo": "https://multireach.in/wp-content/uploads/2020/09/wow-cinema.png",
-        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/106132.ts"
-    },
-    {
-        "channel_name": "Zee Anmol Cinema",
-        "channel_logo": "https://pbs.twimg.com/profile_images/1682422987801395200/z2CV_4S8_400x400.jpg",
-        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/66187.ts"
-    },
-    {
-        "channel_name": "Zee Classic",
-        "channel_logo": "https://starcabletvnetwork.com/wp-content/uploads/2024/05/zeeclassic_new-504x405-1.png",
-        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/66201.ts"
-    },
-   
-    {
-        "channel_name": "Enter 10 Bangla",
-        "channel_logo": "https://upload.wikimedia.org/wikipedia/en/e/ea/Enterr10_Bangla.jpeg",
-        "channel_url": "https://entezeetv.fun/bdcast/hls/index.m3u8?id=0RTkWfzB&e=.m3u8|Referer=https://entezeetv.fun/bdcast//"
-    },
-
+    
     {
         "channel_name": "Nick Jr",
         "channel_logo": "https://logos-world.net/wp-content/uploads/2021/09/Nick-Jr.-Logo-2009-present.png",
         "channel_url": "http://xtv.ooo:8080/live/98267/02727/238531.ts"
+    },
+    
+    {
+        "channel_name": "Sangeet Bhojpuri",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sangeet_Bhojpuri.jpg",
+        "channel_url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Sangeetbhojpuri/default/sangeetbhojpuri-audio_208482_und=208000-video=247600.m3u8"
     },
     {
         "channel_name": "Star Jalsha",
@@ -230,16 +201,41 @@
         "channel_logo": "https://tvschedule.today/_next/image?url=https%3A%2F%2Fimagesdishtvd2h.whatsonindia.com%2Fdasimages%2Fchannel%2Flandscape%2F360x270%2FiwxMxXyV.png&w=256&q=75",
         "channel_url": "http://humsab.xyz/IN_STARGOLDSELECT/index.m3u8"
     },
+    
+    
+    {
+        "channel_name": "Star Gold Thrills",
+        "channel_logo": "https://stargoldthrills.com/wp-content/uploads/2024/07/STAR-Gold_20240706_212419_0000.png",
+        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/221258.ts"
+    },
+    {
+        "channel_name": "Star Gold Romance",
+        "channel_logo": "https://static.wikia.nocookie.net/logopedia/images/8/8a/Star_Gold_Romance.svg",
+        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/66186.ts"
+    },
+    {
+        "channel_name": "Star Gold 2",
+        "channel_logo": "https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/afaqs/media/post_attachments/41d240a6a57208111c1d55f18e3e947681cc1aaca30c8cfdadff35afa5bf55d9.png",
+        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/106133.ts"
+    },
+    {
+        "channel_name": "Sony Max",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/en/b/b6/Sony_Max_new.png",
+        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/66179.ts"
+    },
     {
         "channel_name": "Sony Max 2",
         "channel_logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sony_MAX2.png",
         "channel_url": "http://humsab.xyz/IN_S_X2/mpegts?token=f7aa562528f2909e7f249d2152b3655f"
     },
+   
+    
     {
-        "channel_name": "Sangeet Bhojpuri",
-        "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sangeet_Bhojpuri.jpg",
-        "channel_url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Sangeetbhojpuri/default/sangeetbhojpuri-audio_208482_und=208000-video=247600.m3u8"
+        "channel_name": "WOW Cinema One",
+        "channel_logo": "https://multireach.in/wp-content/uploads/2020/09/wow-cinema.png",
+        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/106132.ts"
     },
+
     {
         "channel_name": "Yrf Music",
         "channel_logo": "https://jiotvimages.cdn.jio.com/dare_images/shows/430/-/2024-06-24/2406242753006.jpg",
@@ -269,6 +265,17 @@
         "channel_name": "Zee Bollywood",
         "channel_logo": "https://www.bizasialive.com/wp-content/uploads/2018/08/zeebollywoodlogoNEW.jpg",
         "channel_url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood1/default/zeebollywood1.m3u8"
+    },
+    
+    {
+        "channel_name": "Zee Anmol Cinema",
+        "channel_logo": "https://pbs.twimg.com/profile_images/1682422987801395200/z2CV_4S8_400x400.jpg",
+        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/66187.ts"
+    },
+    {
+        "channel_name": "Zee Classic",
+        "channel_logo": "https://starcabletvnetwork.com/wp-content/uploads/2024/05/zeeclassic_new-504x405-1.png",
+        "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/66201.ts"
     },
 
     {
