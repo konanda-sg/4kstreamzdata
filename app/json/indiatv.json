@@ -88,6 +88,29 @@
         "channel_logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Color_Cineplex_HD.png",
         "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/104191.ts"
     },
+     {
+        "channel_logo": "https://i.postimg.cc/LspTDn6R/056bb4aa-a8a4-48d1-bad0-22b18089d22d.jpg",
+        "channel_name": "Desi Tv",
+        "channel_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/desi-tv/master.m3u8"
+    },
+    {
+        "channel_logo": "https://i.postimg.cc/66MJpt5b/images-1.png",
+        "channel_name": "Discovery Bangla",
+        "channel_url": "https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8"
+    },
+
+    {
+        "channel_name": "Discovery Kids",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Discovery_Kids_Logo_2021-Presente.webp",
+        "channel_url": "https://freeott.site/discovery/Discovery_Kids.m3u8"
+    },
+
+    {
+        "channel_name": "Disney Channel",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2019_Disney_Channel_logo.svg",
+        "channel_url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24&isp=10&bind=0&uin=159413&playseek=0"
+    },
+    
     {
         "channel_name": "Enter 10 Movies",
         "channel_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f3/Enterr10_logo.png",
@@ -97,6 +120,43 @@
         "channel_name": "Goldmines",
         "channel_logo": "https://pbs.twimg.com/profile_images/1509086349692858370/0iiGu-t__400x400.jpg",
         "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/112972.ts"
+    },
+    
+    {
+        "channel_name": "Hungama",
+        "channel_logo": "https://admin.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2016/05/16/Untitled-1_40.jpg?itok=BEI60cNq",
+        "channel_url": "http://xtv.ooo:8080/live/98267/02727/150480.ts"
+    },
+    {
+        "channel_name": "Jalsha Movies",
+        "channel_logo": "https://i.postimg.cc/KvBPSWk0/jalsha-movie.jpg",
+        "channel_url": "http://tv.cloudcdn.me/live.ts?channelId=117&uid=8164&deviceMac=00:1A:79:17:D4:A1"
+    },
+    {
+        "channel_name": "Khushboo Bangla",
+        "channel_logo": "https://i.postimg.cc/q72z6Pgn/Khushboo.jpg",
+        "channel_url": "https://cdn3.pishow.tv/live/283/master.m3u8"
+    },
+    {
+        "channel_name": "MTV",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/MTV_2021_%28brand_version%29.svg",
+        "channel_url": "http://14.102.123.50:5001/live/248.m3u8"
+    },
+    {
+        "channel_name": "MTV Beats",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/3/33/MTV_Beats_Logo.png",
+        "channel_url": "https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Mtvbeats/default/mtvbeats-audio_208482_und=208000-video=2137600.m3u8"
+    },
+    
+    {
+        "channel_logo": "https://i.postimg.cc/Twn3jBVd/Music-India.png",
+        "channel_name": "Music India",
+        "channel_url": "https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Musicindia/default/musicindia.m3u8"
+    },
+    {
+        "channel_logo": "https://i.postimg.cc/SNQqCqyh/1708ecea-d867-423c-9743-2aabefcd8ecc.jpg",
+        "channel_name": "Mon Tv",
+        "channel_url": "https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8"
     },
     {
         "channel_name": "Manoranjan Movies",
@@ -143,71 +203,13 @@
         "channel_logo": "https://starcabletvnetwork.com/wp-content/uploads/2024/05/zeeclassic_new-504x405-1.png",
         "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/66201.ts"
     },
-    {
-        "channel_logo": "https://i.postimg.cc/LspTDn6R/056bb4aa-a8a4-48d1-bad0-22b18089d22d.jpg",
-        "channel_name": "Desi Tv",
-        "channel_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/desi-tv/master.m3u8"
-    },
-    {
-        "channel_logo": "https://i.postimg.cc/66MJpt5b/images-1.png",
-        "channel_name": "Discovery Bangla",
-        "channel_url": "https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8"
-    },
-
-    {
-        "channel_name": "Discovery Kids",
-        "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Discovery_Kids_Logo_2021-Presente.webp",
-        "channel_url": "https://freeott.site/discovery/Discovery_Kids.m3u8"
-    },
-
-    {
-        "channel_name": "Disney Channel",
-        "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2019_Disney_Channel_logo.svg",
-        "channel_url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24&isp=10&bind=0&uin=159413&playseek=0"
-    },
-
+   
     {
         "channel_name": "Enter 10 Bangla",
         "channel_logo": "https://upload.wikimedia.org/wikipedia/en/e/ea/Enterr10_Bangla.jpeg",
         "channel_url": "https://entezeetv.fun/bdcast/hls/index.m3u8?id=0RTkWfzB&e=.m3u8|Referer=https://entezeetv.fun/bdcast//"
     },
 
-    {
-        "channel_name": "Hungama",
-        "channel_logo": "https://admin.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2016/05/16/Untitled-1_40.jpg?itok=BEI60cNq",
-        "channel_url": "http://xtv.ooo:8080/live/98267/02727/150480.ts"
-    },
-    {
-        "channel_name": "Jalsha Movies",
-        "channel_logo": "https://i.postimg.cc/KvBPSWk0/jalsha-movie.jpg",
-        "channel_url": "http://tv.cloudcdn.me/live.ts?channelId=117&uid=8164&deviceMac=00:1A:79:17:D4:A1"
-    },
-    {
-        "channel_name": "Khushboo Bangla",
-        "channel_logo": "https://i.postimg.cc/q72z6Pgn/Khushboo.jpg",
-        "channel_url": "https://cdn3.pishow.tv/live/283/master.m3u8"
-    },
-    {
-        "channel_name": "MTV",
-        "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/MTV_2021_%28brand_version%29.svg",
-        "channel_url": "http://14.102.123.50:5001/live/248.m3u8"
-    },
-    {
-        "channel_name": "MTV Beats",
-        "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/3/33/MTV_Beats_Logo.png",
-        "channel_url": "https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Mtvbeats/default/mtvbeats-audio_208482_und=208000-video=2137600.m3u8"
-    },
-    
-    {
-        "channel_logo": "https://i.postimg.cc/Twn3jBVd/Music-India.png",
-        "channel_name": "Music India",
-        "channel_url": "https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Musicindia/default/musicindia.m3u8"
-    },
-    {
-        "channel_logo": "https://i.postimg.cc/SNQqCqyh/1708ecea-d867-423c-9743-2aabefcd8ecc.jpg",
-        "channel_name": "Mon Tv",
-        "channel_url": "https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8"
-    },
     {
         "channel_name": "Nick Jr",
         "channel_logo": "https://logos-world.net/wp-content/uploads/2021/09/Nick-Jr.-Logo-2009-present.png",
