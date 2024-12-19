@@ -1,16 +1,6 @@
 {
   "notifications": [
-    {
-      "id": 1,
-      "title": "Welcome!",
-      "message": "Thanks for installing 4K Streamz!",
-      "timestamp": "2024-11-14T00:00:00Z"
-    },
-    {
-      "id": 2,
-      "title": "New Movie Alert!",
-      "message": "A new movie has been added to the collection.",
-      "timestamp": "2024-11-14T00:00:00Z"
-    }
+    {"id": "1", "title": "Update Available", "message": "New version released."},
+    {"id": "2", "title": "Welcome", "message": "Thank you for using our app!"}
   ]
 }
