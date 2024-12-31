@@ -1,7 +1,7 @@
 {
   "notifications": [
     {"id": "1", "title": "Update Available", "message": "New version released."},
-    {"id": "2", "title": "Welcome", "message": "Thank you for using our app!"}
-    {"id": "3", "title": "HI Shohan", "message": "Fuck You"},
+    {"id": "2", "title": "Welcome", "message": "Thank you for using our app!"},
+    {"id": "3", "title": "HI Shohan", "message": "Fuck You"}
   ]
 }
