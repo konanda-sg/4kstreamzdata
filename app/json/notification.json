@@ -1,6 +1,6 @@
 {
   "notifications": [
     {"id": "1", "title": "Welcome", "message": "Thank you for using our app!"},
-    {"id": "1", "title": "Welcome", "message": "Thank you for using our app!"}
+    {"id": "2", "title": "Movie", "message": "New Movie Released"}
   ]
 }
