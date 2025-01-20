@@ -1,0 +1,31 @@
+name: FFmpeg Transcoding
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  transcode:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install FFmpeg
+      run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+    - name: Transcode Video
+      run: |
+        ffmpeg -i input.mp4 \
+          -map v:0 -map a:0 -s:v:0 1280x720 -b:v:0 3500k -c:v:0 h264 -c:a:0 aac -f hls 720p.m3u8 \
+          -map v:0 -map a:0 -s:v:0 854x480 -b:v:0 1500k -c:v:0 h264 -c:a:0 aac -f hls 480p.m3u8 \
+          -map v:0 -map a:0 -s:v:0 640x360 -b:v:0 800k -c:v:0 h264 -c:a:0 aac -f hls 360p.m3u8 \
+          -map v:0 -map a:0 -s:v:0 426x240 -b:v:0 400k -c:v:0 h264 -c:a:0 aac -f hls 240p.m3u8
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: transcoded-videos
+        path: "*.m3u8, *.ts"
