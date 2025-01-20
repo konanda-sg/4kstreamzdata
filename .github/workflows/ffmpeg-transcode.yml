@@ -18,7 +18,7 @@ jobs:
 
     - name: Transcode Video
       run: |
-        ffmpeg -i app/check.m3u8 \
+        ffmpeg -i app/video/Glitch Sound Effects Pack Free Download - Glitch Sound Effect For Edits - No Copyright.mp4 \
           -map v:0 -map a:0 -s:v:0 1280x720 -b:v:0 3500k -c:v:0 h264 -c:a:0 aac -f hls 720p.m3u8 \
           -map v:0 -map a:0 -s:v:0 854x480 -b:v:0 1500k -c:v:0 h264 -c:a:0 aac -f hls 480p.m3u8 \
           -map v:0 -map a:0 -s:v:0 640x360 -b:v:0 800k -c:v:0 h264 -c:a:0 aac -f hls 360p.m3u8 \
