@@ -1,0 +1,60 @@
+[
+  {
+    "event_title": "BIG BOSS",
+    "event_poster": "https://i.postimg.cc/h4bSDbrw/Bigg-Boss-16.jpg",
+    "event_links": [
+      {
+        "link_title": "Main Stream",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/356533.ts"
+      }
+    ]
+  },
+  {
+    "event_title": "WWE 7/24",
+    "event_poster": "https://i.postimg.cc/L4cx4ZyK/images-2.jpg",
+    "event_links": [
+      {
+        "link_title": "Live Stream",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/388817.m3u8"
+      }
+    ]
+  },
+  {
+    "event_title": "Netflix Action",
+    "event_poster": "https://i.postimg.cc/Z5y3YMyc/images_(1).png",
+    "event_links": [
+      {
+        "link_title": "Netflix Action 1",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/247998.m3u8"
+      },
+      {
+        "link_title": "Netflix Action 2",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/247999.m3u8"
+      },
+      {
+        "link_title": "Netflix Action 3",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/248000.m3u8"
+      },
+      {
+        "link_title": "Netflix Action 4",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/248001.m3u8"
+      },
+      {
+        "link_title": "Netflix Action 5",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/248002.m3u8"
+      },
+      {
+        "link_title": "Netflix Action 6",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/248003.m3u8"
+      },
+      {
+        "link_title": "Netflix Action 7",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/248004.m3u8"
+      },
+      {
+        "link_title": "Netflix Action 8",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/248005.m3u8"
+      }
+    ]
+  }
+]
