@@ -25,14 +25,6 @@
     {
       "link_title": "LINK 1",
       "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/206566.m3u8"
-    },
-    {
-      "link_title": "LINK 2 - LIV",
-      "event_url": "http://example.com/stream2.m3u8"
-    },
-    {
-      "link_title": "LINK 3 - LIV",
-      "event_url": "http://example.com/stream3.m3u8"
     }
   ]
 }
