@@ -4,6 +4,20 @@
       "event_title":"SRI LANKA VS AUSTRALIA",
       "event_poster":"https://i.postimg.cc/SNj626Np/20250210-135749.jpg",
       "event_url":"http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/206566.m3u8"
+      "event_links": [
+    {
+      "link_title": "LINK 1",
+      "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/206566.m3u8"
+    },
+    {
+      "link_title": "LINK 2 - LIV",
+      "event_url": "http://example.com/stream2.m3u8"
+    },
+    {
+      "link_title": "LINK 3 - LIV",
+      "event_url": "http://example.com/stream3.m3u8"
+    }
+  ]
    },
 
 
