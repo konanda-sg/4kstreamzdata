@@ -346,7 +346,12 @@
             {
                 "link_title": "Star Jalsha",
                 "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245898.m3u8"
+            },
+            {
+                "link_title": "Star Jalsha ( server 2 )",
+                "channel_url": "https://cdn.hoichoi24.com/INBD-STAR-JALSHA-hoichoi24.com/index.m3u8"
             }
+            
         ]
     },
     {
