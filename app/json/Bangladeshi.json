@@ -140,7 +140,12 @@
             {
                 "link_title": "Deepto TV",
                 "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245927.m3u8"
+            },
+            {
+                "link_title": "Deepto TV ( Server 2 )",
+                "channel_url": "https://byphdgllyk.gpcdn.net/hls/DeeptoTV/index.m3u8?v=1"
             }
+              
         ]
     },
     {
