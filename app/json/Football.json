@@ -1,31 +1,5 @@
 [
   {
-    "event_id": 101,
-    "event_title": "FIFA WORLD CUP QUALIFIERS",
-    "event_poster": "https://cdn.plus.fifa.com/images/public/cms/36/08/f3/87/3608f387-6a40-476d-bc61-10108ecd427e.jpg?width=800&height=450",
-    "event_links": [
-      {
-        "link_title": "Main Stream",
-        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353561.m3u8"
-      }
-    ]
-  },
-  {
-    "event_id": 102,
-    "event_title": "UEFA Nations League",
-    "event_poster": "https://seeklogo.com/images/U/uefa-nations-league-logo-59A91CE207-seeklogo.com.png",
-    "event_links": [
-      {
-        "link_title": "English Stream",
-        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/238480.m3u8"
-      },
-      {
-        "link_title": "Spanish Stream",
-        "event_url": "http://example.com/spanish-stream.m3u8"
-      }
-    ]
-  },
-  {
     "event_id": 103,
     "event_title": "UEFA Champions League",
     "event_poster": "https://i.postimg.cc/2SP5FmYm/images-29.jpg",
@@ -33,10 +7,6 @@
       {
         "link_title": "HD Stream",
         "event_url": "http://Supersonictv.live:8080/live/309298/746090/86863.m3u8"
-      },
-      {
-        "link_title": "Mobile Stream",
-        "event_url": "http://example.com/mobile-stream.m3u8"
       }
     ]
   },
@@ -59,10 +29,28 @@
       {
         "link_title": "Main Stream",
         "event_url": "http://Supersonictv.live:8080/live/309298/746090/86863.m3u8"
-      },
+      }
+    ]
+  },
+  {
+    "event_id": 101,
+    "event_title": "FIFA WORLD CUP QUALIFIERS",
+    "event_poster": "https://cdn.plus.fifa.com/images/public/cms/36/08/f3/87/3608f387-6a40-476d-bc61-10108ecd427e.jpg?width=800&height=450",
+    "event_links": [
       {
-        "link_title": "Backup Stream",
-        "event_url": "http://example.com/backup-stream.m3u8"
+        "link_title": "Main Stream",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353561.m3u8"
+      }
+    ]
+  },
+  {
+    "event_id": 102,
+    "event_title": "UEFA Nations League",
+    "event_poster": "https://editorial.uefa.com/resources/027d-1727cdfbc0d0-3a52a9a63e3d-1000/fbl-eur-nations-finals-draw.jpeg",
+    "event_links": [
+      {
+        "link_title": "English Stream",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/238480.m3u8"
       }
     ]
   },
