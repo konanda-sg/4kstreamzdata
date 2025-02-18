@@ -481,6 +481,10 @@
             {
                 "link_title": "Zee Cinema",
                 "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/206307.m3u8"
+            },
+            {
+                "link_title": "Zee Cinema ( Server 2 )",
+                "channel_url": "http://170.254.18.107/ZEECINEMA/index.m3u8"
             }
         ]
     },
