@@ -5,8 +5,20 @@
     "event_poster": "https://i.postimg.cc/2SP5FmYm/images-29.jpg",
     "event_links": [
       {
-        "link_title": "HD Stream",
+        "link_title": "Super sport",
         "event_url": "http://Supersonictv.live:8080/live/309298/746090/86863.m3u8"
+      },
+      {
+        "link_title": "Arena Sports Premier 1",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353722.m3u8"
+      },
+      {
+        "link_title": "Arena Sports Premier 2",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353723.m3u8"
+      },
+      {
+        "link_title": "Arena Sports Premier 3",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353724.m3u8"
       }
     ]
   },
