@@ -3,6 +3,11 @@
       "event_title": "ICC Champions Trophy",
       "event_poster": "https://i.postimg.cc/qMd9hLFJ/Champions-Trophy-2025-Full-Schedule-Dates-Venue-Squads-Players-List-Live-Score-Updates-Here.webp",
       "event_links": [
+       
+         {
+            "link_title": "T Sports",
+            "event_url": "http://161.248.188.101/T_sports/index.m3u8"
+         },
          {
                 "link_title": "Star Sports ( Hindi )",
                 "event_url": "http://45.148.145.57/In_Hin/index.m3u8"
@@ -14,10 +19,6 @@
          {
             "link_title": "Sports 18",
             "event_url": "https://jiotvbpklive.cdn.jio.com/bpk-tv/IDCDemo_IPL23_Sports18_MOB/Fallback/index.m3u8"
-         },
-         {
-            "link_title": "T Sports",
-            "event_url": "http://161.248.188.101/T_sports/index.m3u8"
          },
          {
             "link_title": "PTV Sports",
