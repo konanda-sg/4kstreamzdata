@@ -41,6 +41,50 @@
       }
     ]
   },
+
+  {
+    "event_id": 107,
+    "event_title": "UEFA Europa League",
+    "event_poster": "https://editorial.uefa.com/resources/0291-1bf4b87aacb3-0ce47fb3ce3a-1000/16x9_uel_wtw_2024_1.jpeg",
+    "event_links": [
+      {
+        "link_title": "Super sport",
+        "event_url": "http://Supersonictv.live:8080/live/309298/746090/86863.m3u8"
+      },
+      {
+        "link_title": "Arena Sports Premier 1",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353722.m3u8"
+      },
+      {
+        "link_title": "Arena Sports Premier 2",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353723.m3u8"
+      },
+      {
+        "link_title": "Arena Sports Premier 3",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353724.m3u8"
+      },
+      {
+        "link_title": "TNT SPORTS 1",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/346373.m3u8"
+      },
+      
+      {
+        "link_title": "TNT SPORTS 2",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/346374.m3u8"
+      },
+      
+      {
+        "link_title": "TNT SPORTS 3",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/346375.m3u8"
+      },
+      
+      {
+        "link_title": "TNT SPORTS 4",
+        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/346376.m3u8"
+      }
+    ]
+  },
+  
   {
     "event_id": 104,
     "event_title": "Laliga",
