@@ -155,15 +155,32 @@
       }
     ]
   },
+  
   {
-    "event_id": 106,
-    "event_title": "RSL League",
-    "event_poster": "https://i.postimg.cc/MG5c2BFD/images-6.jpg",
-    "event_links": [
-      {
-        "link_title": "Exclusive Stream",
-        "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353561.m3u8"
-      }
-    ]
+  "event_id": 106,
+  "event_title": "RSL League",
+  "event_poster": "https://i.postimg.cc/MG5c2BFD/images-6.jpg",
+  "event_links": [
+    {
+      "link_title": "SSC 1",
+      "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353561.m3u8"
+    },
+    {
+      "link_title": "SSC 2",
+      "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353562.m3u8"
+    },
+    {
+      "link_title": "SSC 3",
+      "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353563.m3u8"
+    },
+    {
+      "link_title": "SSC 4",
+      "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353564.m3u8"
+    },
+    {
+      "link_title": "SSC 5",
+      "event_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/353565.m3u8"
+    }
+  ]
   }
 ]
