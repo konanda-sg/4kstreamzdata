@@ -1,115 +1,115 @@
 [
-  {
-      "channel_name": "Ananda TV",
-      "channel_logo": "https://i.postimg.cc/TYLfYjRJ/Logo-of-Ananda-TV-svg.png",
-      "channel_links": [
-         {
-            "link_title": "Ananda TV",
-            "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245929.m3u8"
-         },
-        {
-            "link_title": "Ananda TV2",
-            "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245930.m3u8"
-         }
-      ]
-   },
-   {
-      "channel_name": "Asian TV",
-      "channel_logo": "https://i.postimg.cc/FKgJC58z/800px-svg.png",
-      "channel_links": [
-         {
-            "link_title": "Asian TV",
-            "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245908.m3u8"
-         }
-      ]
-   },
-   {
-      "channel_name": "ATN Bangla",
-      "channel_logo": "https://i.postimg.cc/tgNBxwBh/atn-bangla-logo-501-D1-EAC7-E-seeklogo-com.png",
-      "channel_links": [
-         {
-            "link_title": "ATN Bangla",
-            "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245909.m3u8"
-         }
-      ]
-   },
-   {
-      "channel_name": "ATN News",
-      "channel_logo": "https://i.postimg.cc/N0hz7mvY/atn-news-logo-6-A3-E3-EC072-seeklogo-com.png",
-      "channel_links": [
-         {
-            "link_title": "ATN News",
-            "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245905.m3u8"
-         }
-      ]
-   },
-   {
-      "channel_name": "Bangla TV",
-      "channel_logo": "https://i.postimg.cc/ryb0p9X7/bangla-tv.png",
-      "channel_links": [
-         {
-            "link_title": "Bangla TV",
-            "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245910.m3u8"
-         }
-      ]
-   },
-   {
-      "channel_name": "Banglavision",
-      "channel_logo": "https://i.postimg.cc/gkwKVLxN/1200px-Banglavision-svg.png",
-      "channel_links": [
-         {
-            "link_title": "Banglavision",
-            "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245957.m3u8"
-         }
-      ]
-   },
-   {
-      "channel_name": "Bijoy TV",
-      "channel_logo": "https://i.postimg.cc/wjYXwVMW/640px-BIJOY-TV-Logo-BD.png",
-      "channel_links": [
-         {
-            "link_title": "Bijoy TV",
-            "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245946.m3u8"
-         }
-      ]
-   },
-   {
-      "channel_name": "Boishakhi Television",
-      "channel_logo": "https://i.postimg.cc/Bv0GZd6x/1200px-Boishakhi-TV-logo-svg.png",
-      "channel_links": [
-         {
-            "link_title": "Boishakhi Television",
-            "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245923.m3u8"
-         }
-      ]
-   },
-   {
-      "channel_name": "BTV",
-      "channel_logo": "https://i.postimg.cc/1zJYxTNR/1200px-Bangladesh-Television-Logo-svg.png",
-      "channel_links": [
-         {
-            "link_title": "BTV",
-            "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245930.m3u8"
-         }
-      ]
-   },
-   {
-      "channel_name": "Channel 9",
-      "channel_logo": "https://i.postimg.cc/wMLjbDbz/1200px-Channel9-bd-svg.png",
-      "channel_links": [
-         {
-            "link_title": "Channel 9",
-            "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245902.m3u8"
-         }
-      ]
-   },
+    {
+        "channel_name": "Ananda TV",
+        "channel_logo": "https://i.postimg.cc/TYLfYjRJ/Logo-of-Ananda-TV-svg.png",
+        "channel_links": [
+            {
+                "link_title": "Ananda TV",
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245929.m3u8"
+            },
+            {
+                "link_title": "Ananda TV2",
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245930.m3u8"
+            }
+        ]
+    },
+    {
+        "channel_name": "Asian TV",
+        "channel_logo": "https://i.postimg.cc/FKgJC58z/800px-svg.png",
+        "channel_links": [
+            {
+                "link_title": "Asian TV",
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245908.m3u8"
+            }
+        ]
+    },
+    {
+        "channel_name": "ATN Bangla",
+        "channel_logo": "https://i.postimg.cc/tgNBxwBh/atn-bangla-logo-501-D1-EAC7-E-seeklogo-com.png",
+        "channel_links": [
+            {
+                "link_title": "ATN Bangla",
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245909.m3u8"
+            }
+        ]
+    },
+    {
+        "channel_name": "ATN News",
+        "channel_logo": "https://i.postimg.cc/N0hz7mvY/atn-news-logo-6-A3-E3-EC072-seeklogo-com.png",
+        "channel_links": [
+            {
+                "link_title": "ATN News",
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245905.m3u8"
+            }
+        ]
+    },
+    {
+        "channel_name": "Bangla TV",
+        "channel_logo": "https://i.postimg.cc/ryb0p9X7/bangla-tv.png",
+        "channel_links": [
+            {
+                "link_title": "Bangla TV",
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245910.m3u8"
+            }
+        ]
+    },
+    {
+        "channel_name": "Banglavision",
+        "channel_logo": "https://i.postimg.cc/gkwKVLxN/1200px-Banglavision-svg.png",
+        "channel_links": [
+            {
+                "link_title": "Banglavision",
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245957.m3u8"
+            }
+        ]
+    },
+    {
+        "channel_name": "Bijoy TV",
+        "channel_logo": "https://i.postimg.cc/wjYXwVMW/640px-BIJOY-TV-Logo-BD.png",
+        "channel_links": [
+            {
+                "link_title": "Bijoy TV",
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245946.m3u8"
+            }
+        ]
+    },
+    {
+        "channel_name": "Boishakhi Television",
+        "channel_logo": "https://i.postimg.cc/Bv0GZd6x/1200px-Boishakhi-TV-logo-svg.png",
+        "channel_links": [
+            {
+                "link_title": "Boishakhi Television",
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245923.m3u8"
+            }
+        ]
+    },
+    {
+        "channel_name": "BTV",
+        "channel_logo": "https://i.postimg.cc/1zJYxTNR/1200px-Bangladesh-Television-Logo-svg.png",
+        "channel_links": [
+            {
+                "link_title": "BTV",
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245930.m3u8"
+            }
+        ]
+    },
+    {
+        "channel_name": "Channel 9",
+        "channel_logo": "https://i.postimg.cc/wMLjbDbz/1200px-Channel9-bd-svg.png",
+        "channel_links": [
+            {
+                "link_title": "Channel 9",
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245902.m3u8"
+            }
+        ]
+    },
     {
         "channel_name": "Channel 24 (Bangladeshi TV channel)",
         "channel_logo": "https://i.postimg.cc/s2w1CY46/channel-24.png",
         "channel_links": [
             {
                 "link_title": "Channel 24",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245969.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245969.m3u8"
             }
         ]
     },
@@ -119,7 +119,7 @@
         "channel_links": [
             {
                 "link_title": "Channel i",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245913.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245913.m3u8"
             }
         ]
     },
@@ -129,7 +129,7 @@
         "channel_links": [
             {
                 "link_title": "DBC News",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245914.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245914.m3u8"
             }
         ]
     },
@@ -139,13 +139,12 @@
         "channel_links": [
             {
                 "link_title": "Deepto TV",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245927.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245927.m3u8"
             },
             {
                 "link_title": "Deepto TV ( Server 2 )",
                 "channel_url": "https://byphdgllyk.gpcdn.net/hls/DeeptoTV/index.m3u8?v=1"
             }
-              
         ]
     },
     {
@@ -154,7 +153,7 @@
         "channel_links": [
             {
                 "link_title": "Desh TV",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245913.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245913.m3u8"
             }
         ]
     },
@@ -164,7 +163,7 @@
         "channel_links": [
             {
                 "link_title": "Disney XD",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245913.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245913.m3u8"
             }
         ]
     },
@@ -174,7 +173,7 @@
         "channel_links": [
             {
                 "link_title": "Duronto TV",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245955.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245955.m3u8"
             }
         ]
     },
@@ -184,7 +183,7 @@
         "channel_links": [
             {
                 "link_title": "Ekattor TV",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245915.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245915.m3u8"
             }
         ]
     },
@@ -194,7 +193,7 @@
         "channel_links": [
             {
                 "link_title": "Ekhon",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245943.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245943.m3u8"
             }
         ]
     },
@@ -204,7 +203,7 @@
         "channel_links": [
             {
                 "link_title": "Ekushey Television",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245937.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245937.m3u8"
             }
         ]
     },
@@ -214,7 +213,7 @@
         "channel_links": [
             {
                 "link_title": "Gaan Bangla",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245935.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245935.m3u8"
             }
         ]
     },
@@ -234,12 +233,12 @@
         "channel_links": [
             {
                 "link_title": "GTV",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245901.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245901.m3u8"
             },
-          {
-            "link_title": "GTV Server 2 ",
-            "channel_url": "http://isp.top10bhaluka.com/tv/stream.m3u8?id=GTV"
-          }
+            {
+                "link_title": "GTV Server 2",
+                "channel_url": "http://isp.top10bhaluka.com/tv/stream.m3u8?id=GTV"
+            }
         ]
     },
     {
@@ -248,7 +247,7 @@
         "channel_links": [
             {
                 "link_title": "Independent Television",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245916.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245916.m3u8"
             }
         ]
     },
@@ -268,7 +267,7 @@
         "channel_links": [
             {
                 "link_title": "Jamuna Television",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245917.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245917.m3u8"
             }
         ]
     },
@@ -278,7 +277,7 @@
         "channel_links": [
             {
                 "link_title": "Maasranga Television",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245904.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245904.m3u8"
             }
         ]
     },
@@ -288,7 +287,7 @@
         "channel_links": [
             {
                 "link_title": "Mohona Television",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245920.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245920.m3u8"
             }
         ]
     },
@@ -300,9 +299,9 @@
                 "link_title": "My TV",
                 "channel_url": "https://mytvbangla.com/0.m3u8"
             },
-          {
+            {
                 "link_title": "My TV Server 2",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245964.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245964.m3u8"
             }
         ]
     },
@@ -312,7 +311,7 @@
         "channel_links": [
             {
                 "link_title": "Nagorik TV",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245939.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245939.m3u8"
             }
         ]
     },
@@ -322,7 +321,7 @@
         "channel_links": [
             {
                 "link_title": "News24",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245903.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245903.m3u8"
             }
         ]
     },
@@ -332,7 +331,7 @@
         "channel_links": [
             {
                 "link_title": "NTV",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245924.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245924.m3u8"
             }
         ]
     },
@@ -342,7 +341,7 @@
         "channel_links": [
             {
                 "link_title": "RTV",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245911.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245911.m3u8"
             }
         ]
     },
@@ -352,7 +351,7 @@
         "channel_links": [
             {
                 "link_title": "SA TV",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245945.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245945.m3u8"
             }
         ]
     },
@@ -362,7 +361,7 @@
         "channel_links": [
             {
                 "link_title": "Somoy TV",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/245925.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/245925.m3u8"
             }
         ]
     },
@@ -382,12 +381,12 @@
         "channel_links": [
             {
                 "link_title": "T Sports",
-                "channel_url": "http://opplextv.cyou:8080/live/naqeebkhan/naqeebkhan123/167590.m3u8"
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/167590.m3u8"
             },
-          {
+            {
                 "link_title": "T sports ( Server 2 )",
                 "channel_url": "https://live.tsports.com/mobile_hls/tsports_live_2/playlist.m3u8"
             }
         ]
     }
-]
+      ]
