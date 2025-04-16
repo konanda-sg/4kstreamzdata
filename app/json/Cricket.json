@@ -15,5 +15,22 @@
                 "event_url": "https://crichdplaylist.extratvteam.workers.dev/master.m3u8?cid=star1in"
          }
       ]
+   },
+
+   {
+      "event_title": "PSL 2025",
+      "event_poster": "https://www.sportcal.com/wp-content/uploads/sites/32/2024/01/main65a169d64f683.jpg",
+      "event_links": [
+       
+         {
+                "link_title": "1Sports",
+                "event_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/167586.m3u8"
+         },
+         {
+                "link_title": "Ten Sports",
+                "event_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/167569.m3u8"
+            }
+         
+      ]
    }
 ]
