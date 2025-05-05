@@ -399,6 +399,11 @@
         "channel_links": [
             {
                 "link_title": "Somoy TV",
+                "channel_url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1702/output/1702.m3u8",
+                "link_type": "none"
+            },
+            {
+                "link_title": "Somoy TV 2",
                 "channel_url": "245925.m3u8",
                 "link_type": "opplex"
             }
