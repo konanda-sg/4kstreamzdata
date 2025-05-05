@@ -201,7 +201,12 @@
         "channel_logo": "https://i.postimg.cc/MpSdzKG5/1200px-Ekattor-TV-logo-svg.png",
         "channel_links": [
             {
-                "link_title": "Ekattor TV",
+                "link_title": "Ekattor Tv",
+                "channel_url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1705/output/1705.m3u8",
+                "link_type": "opplex"
+             },
+            {
+                "link_title": "Ekattor TV 2",
                 "channel_url": "245915.m3u8",
                 "link_type": "opplex"
             }
