@@ -120,6 +120,11 @@
         "channel_links": [
             {
                 "link_title": "Channel 24",
+                "channel_url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1703/output/1703.m3u8",
+                "link_type": "none"
+            },
+            {
+                "link_title": "Channel 24 2",
                 "channel_url": "245969.m3u8",
                 "link_type": "opplex"
             }
@@ -203,7 +208,7 @@
             {
                 "link_title": "Ekattor Tv",
                 "channel_url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1705/output/1705.m3u8",
-                "link_type": "opplex"
+                "link_type": "none"
              },
             {
                 "link_title": "Ekattor TV 2",
@@ -276,8 +281,13 @@
         "channel_name": "Independent Television (Bangladesh)",
         "channel_logo": "https://i.postimg.cc/65shh5CK/1200px-Independent-Television-Logo-svg.png",
         "channel_links": [
-            {
+                        {
                 "link_title": "Independent Television",
+                "channel_url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1704/output/1704.m3u8",
+                "link_type": "none"
+                        },
+            {
+                "link_title": "Independent Television 2",
                 "channel_url": "245916.m3u8",
                 "link_type": "opplex"
             }
