@@ -444,10 +444,77 @@
             }
         ]
     },
-    {
+
+     {
+        "channel_name": "Sony Aath",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sony_Aath_logo.svg/1742px-Sony_Aath_logo.svg.png",
+        "channel_links": [
+            {
+                "link_title": "Sony Aath",
+                "channel_url": "https://tataplay.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+
+         {
+        "channel_name": "Sony Pal",
+        "channel_logo": "https://www.sonypicturesnetworks.com/images/logos/SONY%20PAL.png",
+        "channel_links": [
+            {
+                "link_title": "Sony pal",
+                "channel_url": "https://tataplay.slivcdn.com/hls/live/2011641/SonyPalSD/master.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+
+         {
+        "channel_name": "Sony Marathii",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/en/7/7d/Sony_Marathi.png",
+        "channel_links": [
+            {
+                "link_title": "Sony Marathii",
+                "channel_url": "https://tataplay.slivcdn.com/hls/live/2011641/SonyMarathi/master.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+
+         {
+        "channel_name": "Sony Sab",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/en/f/f4/Sony_Sab_new.png",
+        "channel_links": [
+            {
+                "link_title": "Sony Sab",
+                "channel_url": "https://tataplay.slivcdn.com/hls/live/2011641/SABHD/master.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+
+         {
+        "channel_name": "Sony Set",
+        "channel_logo": "https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png",
+        "channel_links": [
+            {
+                "link_title": "Set Hd",
+                "channel_url": "https://tataplay.slivcdn.com/hls/live/2011641/SETHD/master.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+
+         {
         "channel_name": "Sony Max",
         "channel_logo": "https://upload.wikimedia.org/wikipedia/en/b/b6/Sony_Max_new.png",
         "channel_links": [
+        
+            {
+                "link_title": "Sony Max",
+                "channel_url": "https://tataplay.slivcdn.com/hls/live/2011641/SonyMaxhd/master.m3u8",
+                "link_type": "none"
+            },
             {
                 "link_title": "Sony Max",
                 "channel_url": "66179.m3u8",
@@ -455,17 +522,61 @@
             }
         ]
     },
-    {
-        "channel_name": "Sony Max 2",
+
+         {
+        "channel_name": "Sony Hd",
+        "channel_logo": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/409efa6e-c69a-4971-ac4e-a2a76dcd02e5/dfg9wj7-0e8e4456-1c71-4aa0-bc54-8136acc429ac.png/v1/fill/w_342,h_437/sony_max_hd_logo__2022_present__by_mattjacks2003_dfg9wj7-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDM3IiwicGF0aCI6IlwvZlwvNDA5ZWZhNmUtYzY5YS00OTcxLWFjNGUtYTJhNzZkY2QwMmU1XC9kZmc5d2o3LTBlOGU0NDU2LTFjNzEtNGFhMC1iYzU0LTgxMzZhY2M0MjlhYy5wbmciLCJ3aWR0aCI6Ijw9MzQyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0._utM8C_62bxBbR8tSxW6bNwlJ8t8ncDdDPNXWbNLetE",
+        "channel_links": [
+            {
+                "link_title": "Sony Hd",
+                "channel_url": "https://tataplay.slivcdn.com/hls/live/2011641/SonyMaxSD/master.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+
+         {
+         "channel_name": "Sony Max 2",
         "channel_logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sony_MAX2.png",
         "channel_links": [
+             {
+                "link_title": "Sony Max 2",
+                "channel_url": "https://tataplay.slivcdn.com/hls/live/2011641/MAX2/master.m3u8",
+                "link_type": "none"
+            },
             {
                 "link_title": "Sony Max 2",
                 "channel_url": "66189.m3u8",
                 "link_type": "opplex"
             }
+           
         ]
     },
+
+         {
+        "channel_name": "Sony Pix",
+        "channel_logo": "https://www.sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png",
+        "channel_links": [
+            {
+                "link_title": "Sony Pix",
+                "channel_url": "https://tataplay.slivcdn.com/hls/live/2011641/PIXHD/master.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+
+         {
+        "channel_name": "Sony WAH",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/hi/5/58/Sony_Wah_new_logo.png",
+        "channel_links": [
+            {
+                "link_title": "Sony WAH",
+                "channel_url": "https://tataplay.slivcdn.com/hls/live/2011641/SonyWah/master.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    
     {
         "channel_name": "WOW Cinema One",
         "channel_logo": "https://multireach.in/wp-content/uploads/2020/09/wow-cinema.png",
