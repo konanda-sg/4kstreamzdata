@@ -49,9 +49,15 @@
         "channel_links": [
             {
                 "link_title": "Aaj Tak",
+                "channel_url": "https:\\aajtaklive-amd.akamaized.net\hls\live\2014416\aajtak\aajtaklive\live_404p\chunks.m3u8",
+                "link_type": "none"
+            },
+            {
+                "link_title": "Aaj Tak",
                 "channel_url": "244915.m3u8",
                 "link_type": "opplex"
             }
+            
         ]
     },
     {
@@ -566,7 +572,7 @@
             },
             {
                 "link_title": "Zee Bangla ( Server 2 )",
-                "channel_url": "http://zkbvzkj.megahdtv.xyz:900/live/1103581436/4099381829/400159620.ts",
+                "channel_url": "https:\\smart.bengaldigital.live\Zee-Bangla\index.m3u8",
                 "link_type": "none"
             }
         ]
