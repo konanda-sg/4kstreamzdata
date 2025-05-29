@@ -1,0 +1,16 @@
+[
+    {
+        "notification_id": "uuid123",
+        "title": "Evening News!",
+        "body": "Check out the latest headlines.",
+        "image_url": "https://yourserver.com/images/news.jpg",
+        "target_time": "2025-05-29T12:45:00Z"
+    },
+    {
+        "notification_id": "uuid456",
+        "title": "Special Offer!",
+        "body": "Limited time discount on premium.",
+        "image_url": "https://yourserver.com/images/offer.png",
+        "target_time": "2025-05-29T13:00:00Z"
+    }
+]
