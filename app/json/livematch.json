@@ -1,0 +1,77 @@
+[
+  {
+    "team1_name": "Sri Lanka",
+    "team2_name": "Bangladesh",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187756/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187744/image",
+    "time": "3:50 pm 16-06-2025",
+    "league_name": "Cricket || Bangladesh in Sri Lanka, 2025",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+    "category": "cricket",
+    "live_links": [
+            {
+                "link_title": "Astro Cricket",
+                "channel_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
+                "headers": {
+        "Host": "bldcmprod-cdn.toffeelive.com",
+        "cookie": "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29tLw:Expires=1750221078:KeyName=prod_linear:Signature=iySLrTkUJN8Qietd5OhVaneKnG0KvDnkoEzMg64J-HBScF0XW9p0xCxTrhp1DCXRHLXiSYvD-_j_k9-oVfq_BQ",
+        "user-agent": "Toffee (Linux;Android 14) AndroidXMedia3/1.1.1/64103898/4d2ec9b8c7534adc",
+        "client-api-header": "angM1aXCHQLmmSW6cDlpXMD6tLdwnhMoUeaBBFKmd98bX6Vrae5xCMbm4gg0+u33rnxeGQDZNr2GD1tW0cWwKEpWimNlGqXVQGhpiIBz1JFxN+OxXcQqaMPrjwUhCyI5mO1DGyNv18+Z2EpmHtVnLzV9SrGsQWu4oRKjxE8QIMsRs6LrvL6hWGPlOGQke/qb5QxQZNetPzI39jHhX7Zi2XrCMIT4a+gk2Wu1c3wIybwkqknPcTp4Bj1cEF3Q+q1dV05SBhzpEDfoR2BLyQ6dV3LvmY6MNKxbUjby7hMsg35lFl2Df2mZsr7C27309w/qWi8lLXDjB7B1MozIGKn8rw3bXY5YlrPKBKztyiisAjQQi7kc5ISXyGSwRmhciwkciuitsSL0LlqHY7/Qkkh71EtaK3XEgVpLdH8zRCsTwfu1iIVPiDwTycuuBy4XWkcNnd0iLB35yftQpiL8HfpO2jQnrAwzePxszJ7mewVG+M0P/qyTBD52NkPR8uW0AZmDKp5LHTCGf7sqldDzpZvU+gsSdvtsBUcmHzjINGEoyXk=",
+        "accept-encoding": "gzip"
+      }
+            },
+
+            {
+                "link_title": "Astro Cricket",
+                "channel_url": "https://live.tsports.com/mobile_hls/tsports_live_2/playlist.m3u8"
+            }
+        ]
+    
+  },
+
+  {
+    "team1_name": "ireland",
+    "team2_name": "west indies",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187756/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187744/image",
+    "time": "11:50 pm 16-06-2025",
+    "league_name": "Cricket || Bangladesh in Sri Lanka, 2025",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+    "category": "cricket",
+    "live_links": [
+      
+
+            {
+                "link_title": "Astro Cricket",
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/167551.m3u8"
+            }
+        ]
+    
+  },
+
+  {
+    "team1_name": "argentina",
+    "team2_name": "brazil",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187756/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187744/image",
+    "time": "10:50 pm 16-06-2025",
+    "league_name": "Cricket || Bangladesh in Sri Lanka, 2025",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+    "category": "Football",
+    "live_links": [
+            {
+                "link_title": "Tsports",
+                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/167534.m3u8",
+                "headers": {
+        "Host": "bldcmprod-cdn.toffeelive.com",
+        "cookie": "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29tLw:Expires=1750221078:KeyName=prod_linear:Signature=iySLrTkUJN8Qietd5OhVaneKnG0KvDnkoEzMg64J-HBScF0XW9p0xCxTrhp1DCXRHLXiSYvD-_j_k9-oVfq_BQ",
+        "user-agent": "Toffee (Linux;Android 14) AndroidXMedia3/1.1.1/64103898/4d2ec9b8c7534adc",
+        "client-api-header": "angM1aXCHQLmmSW6cDlpXMD6tLdwnhMoUeaBBFKmd98bX6Vrae5xCMbm4gg0+u33rnxeGQDZNr2GD1tW0cWwKEpWimNlGqXVQGhpiIBz1JFxN+OxXcQqaMPrjwUhCyI5mO1DGyNv18+Z2EpmHtVnLzV9SrGsQWu4oRKjxE8QIMsRs6LrvL6hWGPlOGQke/qb5QxQZNetPzI39jHhX7Zi2XrCMIT4a+gk2Wu1c3wIybwkqknPcTp4Bj1cEF3Q+q1dV05SBhzpEDfoR2BLyQ6dV3LvmY6MNKxbUjby7hMsg35lFl2Df2mZsr7C27309w/qWi8lLXDjB7B1MozIGKn8rw3bXY5YlrPKBKztyiisAjQQi7kc5ISXyGSwRmhciwkciuitsSL0LlqHY7/Qkkh71EtaK3XEgVpLdH8zRCsTwfu1iIVPiDwTycuuBy4XWkcNnd0iLB35yftQpiL8HfpO2jQnrAwzePxszJ7mewVG+M0P/qyTBD52NkPR8uW0AZmDKp5LHTCGf7sqldDzpZvU+gsSdvtsBUcmHzjINGEoyXk=",
+        "accept-encoding": "gzip"
+      }
+            }
+        ]
+    
+  }
+
+]
