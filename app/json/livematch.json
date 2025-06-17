@@ -7,10 +7,10 @@
     "time": "3:50 pm 16-06-2025",
     "league_name": "Cricket || Bangladesh in Sri Lanka, 2025",
     "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-    "category": "cricket",
+    "category": "Cricket",
     "live_links": [
             {
-                "link_title": "Astro Cricket",
+                "link_title": "Ten Cricket",
                 "channel_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
                 "headers": {
         "Host": "bldcmprod-cdn.toffeelive.com",
@@ -21,23 +21,28 @@
       }
             },
 
-            {
-                "link_title": "hestro Cricket",
-                "channel_url": "https://live.tsports.com/mobile_hls/tsports_live_2/playlist.m3u8"
-            }
+         {
+                "link_title": "Sony Sports 2",
+                "channel_url": "https://pubads.g.doubleclick.net/ssai/event/Syu8F41-R1y_JmQ7x0oNxQ/master.m3u8"
+         },
+
+      {
+        "link_title": "T Sports",
+        "channel_url": "https://live-test.tsports.com/live-02/index.m3u8?hdntl=Expires=1749592049~_GO=Generated~URLPrefix=aHR0cHM6Ly9saXZlLXRlc3QudHNwb3J0cy5jb20v~Signature=AXWJlB7Q3yzjm2gSnmfrgO44c-hvKkr0oIyuG9-xAotpIkIUzJlLdzfVx1XWjvCqszP4RhtI7qvnn1w2W2a40M6uhDQE&hdnts=URLPrefix=aHR0cHM6Ly9saXZlLXRlc3QudHNwb3J0cy5jb20v~Expires=1749557013300~hmac=58aa4952e1ecb196253fca5077b37f7952cfd02583c105a724ebcde68e315ca6"
+      }
         ]
     
   },
 
   {
-    "team1_name": "ireland",
-    "team2_name": "west indies",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187756/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187744/image",
-    "time": "11:50 pm 16-06-2025",
-    "league_name": "Cricket || Bangladesh in Sri Lanka, 2025",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-    "category": "cricket",
+    "team1_name": "Scotland",
+    "team2_name": "Nepal",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187576/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187772/image",
+    "time": "08:00 pm 17-06-2025",
+    "league_name": "T20I Tri-Series in Scotland",
+    "league_icon": "https://www.sofascore.com/static/images/placeholders/tournament.svg",
+    "category": "Cricket",
     "live_links": [
       
 
