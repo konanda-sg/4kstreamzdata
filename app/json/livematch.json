@@ -4,7 +4,7 @@
     "team2_name": "Bangladesh",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187756/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/187744/image",
-    "time": "1750176000000",
+    "time": "1750307400000",
     "league_name": "Cricket || Bangladesh in Sri Lanka, 2025",
     "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
     "category": "Cricket",
@@ -34,25 +34,7 @@
     
   },
 
-  {
-    "team1_name": "Scotland",
-    "team2_name": "Nepal",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187576/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187772/image",
-    "time": "1750176000000",
-    "league_name": "T20I Tri-Series in Scotland",
-    "league_icon": "https://www.sofascore.com/static/images/placeholders/tournament.svg",
-    "category": "Cricket",
-    "live_links": [
-      
 
-            {
-                "link_title": "bastro Cricket",
-                "channel_url": "http://opplextv.cyou:8080/live/huzaifa90/2345563/167551.m3u8"
-            }
-        ]
-    
-  },
 
   {
     "team1_name": "CF Monterrey",
