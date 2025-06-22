@@ -164,6 +164,11 @@
         "channel_links": [
             {
                 "link_title": "SSC 5",
+                "channel_url": "https://ssc-5-enc.edgenextcdn.net/out/v1/99289eac5a7b4319905da595afbd792b/index.mpd?|drmScheme=clearkey&drmLicense=c88b512b17ab4f6cb09eb0ff4a1056ed:adc08ee1c20a734972a55c9aebbd1888",
+                "link_type" : "none"
+            },
+            {
+                "link_title": "SSC 5",
                 "channel_url": "353565.m3u8",
                 "link_type" : "opplex"
             }
