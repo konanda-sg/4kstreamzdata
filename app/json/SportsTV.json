@@ -394,11 +394,16 @@
         ]
     },
     {
-        "channel_name": "TNT Sports 2 Cricket",
+        "channel_name": "TNT Sports 2",
         "channel_logo": "https://img2.sport-tv-guide.live/images/tv-station-tnt-sports-2-cl-2561.png",
         "channel_links": [
+               {
+                "link_title": "TNT Sports 2",
+                "channel_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd?|drmScheme=clearkey&drmLicense=6d1708b185c6c4d7b37600520c7cc93c:1aace05f58d8edef9697fd52cb09f441",
+                "link_type" : "none"
+               },
             {
-                "link_title": "TNT Sports 2 Cricket",
+                "link_title": "TNT Sports 2",
                 "channel_url": "206566.m3u8",
                 "link_type" : "opplex"
             }
