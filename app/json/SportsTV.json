@@ -80,6 +80,13 @@
         "channel_name": "Geo Super HD",
         "channel_logo": "https://i.postimg.cc/tR6fDSvV/geo-super-logo-9-EE9-DB603-E-seeklogo-com.png",
         "channel_links": [
+            
+            {
+                "link_title": "Geo Super HD",
+                "channel_url": "https://live3.shoq.com.pk/live/eds/Geo_Super/DASH/Geo_Super.mpd?|drmScheme=clearkey&drmLicense=7641daa5bacfbb61936c40a221c9e78e:5732dd242f28338e909dc06cb1a1e5a2",
+                "link_type" : "none"
+            },
+            
             {
                 "link_title": "Geo Super HD",
                 "channel_url": "167568.m3u8",
