@@ -118,6 +118,12 @@
         "channel_name": "SSC 1",
         "channel_logo": "https://i.imgur.com/dM7GQXG.png",
         "channel_links": [
+               {
+                "link_title": "SSC 1",
+                "channel_url": "https://ssc-1-enc.edgenextcdn.net/out/v1/c696e4819b55414388a1a487e8a45ca1/index.mpd?|drmScheme=clearkey&drmLicense=d84c325f36814f39bbe59080272b10c3:550727de4c96ef1ecff874905493580f",
+                "link_type" : "none"
+               },
+            
             {
                 "link_title": "SSC 1",
                 "channel_url": "353561.m3u8",
@@ -372,12 +378,12 @@
         ]
     },
     {
-        "channel_name": "TNT Sports",
+        "channel_name": "TNT Sports 1",
         "channel_logo": "https://i.postimg.cc/pLjcYJP5/images-11.jpg",
         "channel_links": [
             {
                 "link_title": "TNT Sports",
-                "channel_url": "https://example.com/tnt_sports",
+                "channel_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd?|drmScheme=clearkey&drmLicense=ae26845bd33038a9c0774a0981007294:63ac662dde310cfb4cc6f9b43b34196d",
                 "link_type" : "none"
             }
         ]
@@ -410,9 +416,14 @@
         ]
     },
     {
-        "channel_name": "Willow Cricket",
+        "channel_name": "Willow",
         "channel_logo": "https://mgpindia.com/wp-content/uploads/2021/10/willow-logo.jpg",
         "channel_links": [
+               {
+                "link_title": "Willow Sports",
+                "channel_url": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/clients/dash/enc/f60kqesunw/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd?|drmScheme=clearkey&drmLicense=1779c27b9d077a3ba0c9cc1bb9a94b9f:cc5cf3b7928fb9e0a1ee6a8b566f0a8e",
+                "link_type" : "none"
+               },
             {
                 "link_title": "Willow Cricket",
                 "channel_url": "167583.m3u8",
