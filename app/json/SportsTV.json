@@ -413,30 +413,59 @@
             }
         ]
     },
+    
     {
         "channel_name": "TNT Sports 1",
-        "channel_logo": "https://i.postimg.cc/pLjcYJP5/images-11.jpg",
+        "channel_logo": "https://i.postimg.cc/85Bgh543/ezgif-402835652ea478.png",
         "channel_links": [
             {
                 "link_title": "TNT Sports",
                 "channel_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd?|drmScheme=clearkey&drmLicense=ae26845bd33038a9c0774a0981007294:63ac662dde310cfb4cc6f9b43b34196d",
-                "link_type" : "none"
+                "link_type": "none"
             }
         ]
     },
     {
         "channel_name": "TNT Sports 2",
-        "channel_logo": "https://img2.sport-tv-guide.live/images/tv-station-tnt-sports-2-cl-2561.png",
+        "channel_logo": "https://i.postimg.cc/fTgn717w/ezgif-4c65ec12f3b691.png",
         "channel_links": [
-               {
-                "link_title": "TNT Sports 2",
-                "channel_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd?|drmScheme=clearkey&drmLicense=6d1708b185c6c4d7b37600520c7cc93c:1aace05f58d8edef9697fd52cb09f441",
-                "link_type" : "none"
-               },
             {
-                "link_title": "TNT Sports 2",
-                "channel_url": "206566.m3u8",
-                "link_type" : "opplex"
+                "link_title": "TNT Sports",
+                "channel_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd?|drmScheme=clearkey&drmLicense=6d1708b185c6c4d7b37600520c7cc93c:1aace05f58d8edef9697fd52cb09f441",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "TNT Sports 3",
+        "channel_logo": "https://i.postimg.cc/bwDXmLL1/ezgif-42e21daf3689c1.png",
+        "channel_links": [
+            {
+                "link_title": "TNT Sports",
+                "channel_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd?|drmScheme=clearkey&drmLicense=4e993aa8c1f295f8b94e8e9e6f6d0bfe:86a1ed6e96caab8eb1009fe530d2cf4f",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "TNT Sports 4",
+        "channel_logo": "https://i.postimg.cc/Z51G23D2/ezgif-40e3a6650b2f66.png",
+        "channel_links": [
+            {
+                "link_title": "TNT Sports",
+                "channel_url": "https://www.xfireflix.fun/sports/stream.php/bbtespn/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "TNT Sports 5",
+        "channel_logo": "https://i.postimg.cc/mrCvsDvD/ezgif-4f74d5c1ef3c8b.png",
+        "channel_links": [
+            {
+                "link_title": "TNT Sports",
+                "channel_url": "https://www.xfireflix.fun/sports/stream.php/bbtespn/playlist.m3u8",
+                "link_type": "none"
             }
         ]
     },
