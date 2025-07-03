@@ -62,25 +62,15 @@
     </div>
 
     <!-- Main Chat Interface -->
-    <div id="chat-container" class="flex flex-col h-screen max-w-4xl mx-auto bg-white shadow-xl opacity-0 transition-opacity duration-500 hidden-until-ready">
-        <!-- Header -->
-        <header class="bg-slate-800 text-white p-4 shadow-md z-10 flex justify-between items-center">
-            <div class="w-1/3"></div> <!-- Spacer -->
-            <div class="w-1/3 text-center">
-                <h1 class="text-2xl font-bold">4K Streamz Live Chat</h1>
-                <div class="text-xs text-slate-300 mt-1">
-                    User ID: <span id="user-id-display" class="font-mono"></span> | Status: <span id="admin-status-display" class="font-semibold">User</span>
-                </div>
-            </div>
-            <div class="w-1/3 flex justify-end">
-                <button id="logout-button" class="bg-red-600 text-white text-xs font-bold py-1 px-3 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-300 transition">
-                    Log Out
-                </button>
-            </div>
-        </header>
+    <div id="chat-container" class="relative flex flex-col h-screen max-w-4xl mx-auto bg-white shadow-xl opacity-0 transition-opacity duration-500 hidden-until-ready">
+        
+        <!-- NEW: Floating Logout Button -->
+        <button id="logout-button" class="absolute top-4 right-4 bg-red-600 text-white text-sm font-bold py-2 px-4 rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-300 transition z-20 shadow-lg">
+            Log Out
+        </button>
 
         <!-- Chat Messages Area -->
-        <main id="chat-messages" class="flex-1 p-6 overflow-y-auto space-y-4 bg-slate-50">
+        <main id="chat-messages" class="flex-1 p-6 pt-20 overflow-y-auto space-y-4 bg-slate-50">
             <!-- Messages will be dynamically inserted here -->
         </main>
 
@@ -114,8 +104,6 @@
         const chatMessages = document.getElementById('chat-messages');
         const messageForm = document.getElementById('message-form');
         const messageInput = document.getElementById('message-input');
-        const userIdDisplay = document.getElementById('user-id-display');
-        const adminStatusDisplay = document.getElementById('admin-status-display');
         const logoutButton = document.getElementById('logout-button');
 
         // --- State Variables ---
@@ -147,9 +135,8 @@
             onAuthStateChanged(auth, (user) => {
                 if (user) {
                     currentUserId = user.uid;
-                    userIdDisplay.textContent = currentUserId.substring(0, 8) + '...';
 
-                    // *** NEW: Check for saved user name in localStorage ***
+                    // Check for saved user name in localStorage
                     const savedName = localStorage.getItem('chatUserName');
                     const savedIsAdmin = localStorage.getItem('chatUserIsAdmin') === 'true';
 
@@ -157,7 +144,6 @@
                         // If a name is saved, bypass the name modal
                         currentUserName = savedName;
                         isCurrentUserAdmin = savedIsAdmin;
-                        adminStatusDisplay.textContent = isCurrentUserAdmin ? 'Admin' : 'User';
 
                         statusContainer.style.display = 'none';
                         chatContainer.style.display = 'flex';
@@ -254,9 +240,8 @@
                         currentUserName = nameValue;
                         isCurrentUserAdmin = false;
                     }
-                    adminStatusDisplay.textContent = isCurrentUserAdmin ? 'Admin' : 'User';
 
-                    // *** NEW: Save user info to localStorage ***
+                    // Save user info to localStorage
                     localStorage.setItem('chatUserName', currentUserName);
                     localStorage.setItem('chatUserIsAdmin', isCurrentUserAdmin);
 
@@ -277,7 +262,7 @@
                 messageInput.value = '';
             });
 
-            // *** NEW: Logout button event listener ***
+            // Logout button event listener
             logoutButton.addEventListener('click', () => {
                 localStorage.removeItem('chatUserName');
                 localStorage.removeItem('chatUserIsAdmin');
