@@ -64,7 +64,7 @@
     <!-- Main Chat Interface -->
     <div id="chat-container" class="relative flex flex-col h-screen max-w-4xl mx-auto bg-white shadow-xl opacity-0 transition-opacity duration-500 hidden-until-ready">
         
-        <!-- NEW: Floating Logout Button -->
+        <!-- Floating Logout Button -->
         <button id="logout-button" class="absolute top-4 right-4 bg-red-600 text-white text-sm font-bold py-2 px-4 rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-300 transition z-20 shadow-lg">
             Log Out
         </button>
@@ -111,6 +111,32 @@
         let currentUserName = null;
         let isCurrentUserAdmin = false;
         let messagesUnsubscribe = null;
+        let db; // Make db accessible to loginUser function
+
+        /**
+         * Centralized function to handle user login, UI switching, and starting chat listener.
+         * @param {string} name - The name of the user to log in.
+         * @param {boolean} isAdmin - The admin status of the user.
+         */
+        function completeLogin(name, isAdmin) {
+            currentUserName = name;
+            isCurrentUserAdmin = isAdmin;
+
+            // Save user info to localStorage for "stay logged in" feature
+            localStorage.setItem('chatUserName', currentUserName);
+            localStorage.setItem('chatUserIsAdmin', isCurrentUserAdmin);
+
+            // Hide the name modal and show the chat interface
+            nameModal.classList.add('opacity-0');
+            setTimeout(() => nameModal.style.display = 'none', 300);
+            
+            chatContainer.style.display = 'flex';
+            chatContainer.classList.remove('hidden-until-ready');
+            setTimeout(() => chatContainer.classList.remove('opacity-0'), 50);
+            
+            // Start listening for messages from the database
+            listenForMessages();
+        }
 
         // --- Main Initialization Function ---
         function main() {
@@ -127,7 +153,7 @@
 
             // Initialize Firebase
             const app = initializeApp(firebaseConfig);
-            const db = getFirestore(app);
+            db = getFirestore(app); // Assign to the outer scope db variable
             const auth = getAuth(app);
             const analytics = getAnalytics(app);
             setLogLevel('debug');
@@ -136,23 +162,16 @@
                 if (user) {
                     currentUserId = user.uid;
 
-                    // Check for saved user name in localStorage
+                    // Check for a saved user name in localStorage
                     const savedName = localStorage.getItem('chatUserName');
-                    const savedIsAdmin = localStorage.getItem('chatUserIsAdmin') === 'true';
-
+                    
                     if (savedName) {
-                        // If a name is saved, bypass the name modal
-                        currentUserName = savedName;
-                        isCurrentUserAdmin = savedIsAdmin;
-
-                        statusContainer.style.display = 'none';
-                        chatContainer.style.display = 'flex';
-                        chatContainer.classList.remove('hidden-until-ready');
-                        setTimeout(() => chatContainer.classList.remove('opacity-0'), 50);
-                        
-                        listenForMessages(db);
+                        // If a name is saved, log the user in automatically
+                        const savedIsAdmin = localStorage.getItem('chatUserIsAdmin') === 'true';
+                        statusContainer.style.display = 'none'; // Hide loading screen
+                        completeLogin(savedName, savedIsAdmin);
                     } else {
-                        // If no name is saved, show the name modal
+                        // If no name is saved, show the name entry modal
                         statusContainer.style.display = 'none';
                         nameModal.style.display = 'flex';
                         nameModal.classList.remove('hidden-until-ready');
@@ -163,6 +182,7 @@
                         }, 50);
                     }
                 } else {
+                    // If no user, attempt to sign in anonymously
                     signInAnonymously(auth).catch((error) => {
                         console.error("Error during anonymous sign-in:", error);
                         if (error.code === 'auth/configuration-not-found') {
@@ -174,10 +194,10 @@
                 }
             });
 
-            setupEventListeners(db);
+            setupEventListeners();
         }
 
-        function listenForMessages(db) {
+        function listenForMessages() {
             const messagesRef = collection(db, "messages");
             const q = query(messagesRef);
             if (messagesUnsubscribe) messagesUnsubscribe();
@@ -212,7 +232,7 @@
             return item;
         }
 
-        async function sendMessage(db, text) {
+        async function sendMessage(text) {
             if (!text.trim() || !currentUserName) return;
             try {
                 const messagesRef = collection(db, "messages");
@@ -228,37 +248,28 @@
             }
         }
 
-        function setupEventListeners(db) {
+        function setupEventListeners() {
             nameForm.addEventListener('submit', (e) => {
                 e.preventDefault();
                 const nameValue = nameInput.value.trim();
                 if (nameValue) {
+                    let nameToLogin;
+                    let isAdmin;
                     if (nameValue === '176725') {
-                        currentUserName = '4K STREAMZ';
-                        isCurrentUserAdmin = true;
+                        nameToLogin = '4K STREAMZ';
+                        isAdmin = true;
                     } else {
-                        currentUserName = nameValue;
-                        isCurrentUserAdmin = false;
+                        nameToLogin = nameValue;
+                        isAdmin = false;
                     }
-
-                    // Save user info to localStorage
-                    localStorage.setItem('chatUserName', currentUserName);
-                    localStorage.setItem('chatUserIsAdmin', isCurrentUserAdmin);
-
-                    nameModal.classList.add('opacity-0');
-                    setTimeout(() => nameModal.style.display = 'none', 300);
-                    
-                    chatContainer.style.display = 'flex';
-                    chatContainer.classList.remove('hidden-until-ready');
-                    setTimeout(() => chatContainer.classList.remove('opacity-0'), 50);
-                    
-                    listenForMessages(db);
+                    // Use the centralized login function
+                    completeLogin(nameToLogin, isAdmin);
                 }
             });
 
             messageForm.addEventListener('submit', (e) => {
                 e.preventDefault();
-                sendMessage(db, messageInput.value);
+                sendMessage(messageInput.value);
                 messageInput.value = '';
             });
 
