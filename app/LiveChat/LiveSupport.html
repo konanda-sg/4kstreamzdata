@@ -38,7 +38,7 @@
 <body class="bg-slate-100 text-slate-800">
 
     <!-- Loading / Status Indicator -->
-    <div id="status-container" class="fixed inset-0 flex items-center justify-center bg-slate-100 z-50">
+    <div id="status-container" class="fixed inset-0 flex items-center justify-center bg-slate-100 z-50 p-4">
         <div class="text-center">
             <p id="status-message" class="text-lg text-slate-600">Connecting to Chat Service...</p>
         </div>
@@ -64,10 +64,18 @@
     <!-- Main Chat Interface -->
     <div id="chat-container" class="flex flex-col h-screen max-w-4xl mx-auto bg-white shadow-xl opacity-0 transition-opacity duration-500 hidden-until-ready">
         <!-- Header -->
-        <header class="bg-slate-800 text-white p-4 shadow-md z-10">
-            <h1 class="text-2xl font-bold text-center">Worldwide Chat</h1>
-            <div class="text-xs text-center text-slate-300 mt-1">
-                Your User ID: <span id="user-id-display" class="font-mono"></span> | Status: <span id="admin-status-display" class="font-semibold">User</span>
+        <header class="bg-slate-800 text-white p-4 shadow-md z-10 flex justify-between items-center">
+            <div class="w-1/3"></div> <!-- Spacer -->
+            <div class="w-1/3 text-center">
+                <h1 class="text-2xl font-bold">Worldwide Chat</h1>
+                <div class="text-xs text-slate-300 mt-1">
+                    User ID: <span id="user-id-display" class="font-mono"></span> | Status: <span id="admin-status-display" class="font-semibold">User</span>
+                </div>
+            </div>
+            <div class="w-1/3 flex justify-end">
+                <button id="logout-button" class="bg-red-600 text-white text-xs font-bold py-1 px-3 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-300 transition">
+                    Log Out
+                </button>
             </div>
         </header>
 
@@ -108,6 +116,7 @@
         const messageInput = document.getElementById('message-input');
         const userIdDisplay = document.getElementById('user-id-display');
         const adminStatusDisplay = document.getElementById('admin-status-display');
+        const logoutButton = document.getElementById('logout-button');
 
         // --- State Variables ---
         let currentUserId = null;
@@ -118,7 +127,6 @@
         // --- Main Initialization Function ---
         function main() {
             // *** YOUR FIREBASE CONFIGURATION IS NOW HERE ***
-            // This object connects the app to your personal Firebase project.
             const firebaseConfig = {
               apiKey: "AIzaSyCvn2SZVYrVlkmBO2N3udY40CKOvqqFSgk",
               authDomain: "livechat4k.firebaseapp.com",
@@ -133,40 +141,58 @@
             const app = initializeApp(firebaseConfig);
             const db = getFirestore(app);
             const auth = getAuth(app);
-            const analytics = getAnalytics(app); // Initialize Analytics
+            const analytics = getAnalytics(app);
             setLogLevel('debug');
 
             onAuthStateChanged(auth, (user) => {
                 if (user) {
                     currentUserId = user.uid;
-                    console.log("User authenticated with UID:", currentUserId);
-                    userIdDisplay.textContent = currentUserId;
-                    
-                    // User is authenticated, hide status and show name modal
-                    statusContainer.style.display = 'none';
-                    nameModal.style.display = 'flex';
-                    nameModal.classList.remove('hidden-until-ready');
-                    setTimeout(() => {
-                        nameModal.classList.add('opacity-100');
-                        nameModalContent.classList.add('scale-100');
-                        nameModalContent.classList.remove('scale-95');
-                    }, 50);
+                    userIdDisplay.textContent = currentUserId.substring(0, 8) + '...';
 
+                    // *** NEW: Check for saved user name in localStorage ***
+                    const savedName = localStorage.getItem('chatUserName');
+                    const savedIsAdmin = localStorage.getItem('chatUserIsAdmin') === 'true';
+
+                    if (savedName) {
+                        // If a name is saved, bypass the name modal
+                        currentUserName = savedName;
+                        isCurrentUserAdmin = savedIsAdmin;
+                        adminStatusDisplay.textContent = isCurrentUserAdmin ? 'Admin' : 'User';
+
+                        statusContainer.style.display = 'none';
+                        chatContainer.style.display = 'flex';
+                        chatContainer.classList.remove('hidden-until-ready');
+                        setTimeout(() => chatContainer.classList.remove('opacity-0'), 50);
+                        
+                        listenForMessages(db);
+                    } else {
+                        // If no name is saved, show the name modal
+                        statusContainer.style.display = 'none';
+                        nameModal.style.display = 'flex';
+                        nameModal.classList.remove('hidden-until-ready');
+                        setTimeout(() => {
+                            nameModal.classList.add('opacity-100');
+                            nameModalContent.classList.add('scale-100');
+                            nameModalContent.classList.remove('scale-95');
+                        }, 50);
+                    }
                 } else {
-                    console.log("No user found, attempting to sign in anonymously...");
                     signInAnonymously(auth).catch((error) => {
                         console.error("Error during anonymous sign-in:", error);
-                        statusMessage.textContent = "Error: Could not connect to the chat service.";
+                        if (error.code === 'auth/configuration-not-found') {
+                            statusMessage.innerHTML = `<div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 rounded-md" role="alert"><p class="font-bold text-lg">Configuration Error</p><p>Anonymous sign-in is not enabled in your Firebase project.</p><p class="mt-2 text-sm"><b>To fix this:</b></p><ol class="list-decimal list-inside text-left text-sm"><li>Go to your Firebase Console.</li><li>Navigate to <b>Authentication</b> > <b>Sign-in method</b>.</li><li>Click <b>Add new provider</b> and enable <b>Anonymous</b>.</li></ol></div>`;
+                        } else {
+                            statusMessage.textContent = "Error: Could not connect to the chat service.";
+                        }
                     });
                 }
             });
 
-            // Attach event listeners that depend on Firebase services
             setupEventListeners(db);
         }
 
         function listenForMessages(db) {
-            const messagesRef = collection(db, "messages"); // Using a simple collection name "messages"
+            const messagesRef = collection(db, "messages");
             const q = query(messagesRef);
             if (messagesUnsubscribe) messagesUnsubscribe();
             messagesUnsubscribe = onSnapshot(q, (snapshot) => {
@@ -193,18 +219,10 @@
             const containerClasses = `flex ${isMyMessage ? 'justify-end' : 'justify-start'}`;
             const bubbleColors = isMyMessage ? 'bg-blue-600 text-white' : 'bg-slate-200 text-slate-800';
             let senderNameClasses = `text-sm font-bold mb-1 ${isMyMessage ? 'text-blue-100' : 'text-slate-500'}`;
-            
-            let adminBadge = '';
-            if (msg.isAdminMessage) {
-                adminBadge = `<span class="ml-2 bg-yellow-400 text-yellow-900 text-xs font-semibold px-2 py-0.5 rounded-full">Admin</span>`;
-            }
+            let adminBadge = msg.isAdminMessage ? `<span class="ml-2 bg-yellow-400 text-yellow-900 text-xs font-semibold px-2 py-0.5 rounded-full">Admin</span>` : '';
             
             item.className = containerClasses;
-            item.innerHTML = `
-                <div class="${bubbleClasses} ${bubbleColors}">
-                    <p class="${senderNameClasses}">${msg.senderName || 'Anonymous'}${adminBadge}</p>
-                    <p class="break-words">${msg.text}</p>
-                </div>`;
+            item.innerHTML = `<div class="${bubbleClasses} ${bubbleColors}"><p class="${senderNameClasses}">${msg.senderName || 'Anonymous'}${adminBadge}</p><p class="break-words">${msg.text}</p></div>`;
             return item;
         }
 
@@ -228,20 +246,20 @@
             nameForm.addEventListener('submit', (e) => {
                 e.preventDefault();
                 const nameValue = nameInput.value.trim();
-
                 if (nameValue) {
-                    // *** ADMIN LOGIC ***
                     if (nameValue === '176725') {
                         currentUserName = '4K STREAMZ';
                         isCurrentUserAdmin = true;
-                        adminStatusDisplay.textContent = 'Admin';
                     } else {
                         currentUserName = nameValue;
                         isCurrentUserAdmin = false;
-                        adminStatusDisplay.textContent = 'User';
                     }
+                    adminStatusDisplay.textContent = isCurrentUserAdmin ? 'Admin' : 'User';
 
-                    // Hide modal and show chat interface
+                    // *** NEW: Save user info to localStorage ***
+                    localStorage.setItem('chatUserName', currentUserName);
+                    localStorage.setItem('chatUserIsAdmin', isCurrentUserAdmin);
+
                     nameModal.classList.add('opacity-0');
                     setTimeout(() => nameModal.style.display = 'none', 300);
                     
@@ -249,7 +267,6 @@
                     chatContainer.classList.remove('hidden-until-ready');
                     setTimeout(() => chatContainer.classList.remove('opacity-0'), 50);
                     
-                    // Start listening for messages
                     listenForMessages(db);
                 }
             });
@@ -258,6 +275,13 @@
                 e.preventDefault();
                 sendMessage(db, messageInput.value);
                 messageInput.value = '';
+            });
+
+            // *** NEW: Logout button event listener ***
+            logoutButton.addEventListener('click', () => {
+                localStorage.removeItem('chatUserName');
+                localStorage.removeItem('chatUserIsAdmin');
+                location.reload();
             });
         }
 
