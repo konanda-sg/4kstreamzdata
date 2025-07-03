@@ -29,14 +29,25 @@
         #chat-messages::-webkit-scrollbar-thumb:hover {
             background: #64748b; /* slate-500 */
         }
+        /* Hide elements until they are ready to be shown */
+        .hidden-until-ready {
+            display: none;
+        }
     </style>
 </head>
 <body class="bg-slate-100 text-slate-800">
 
+    <!-- Loading / Status Indicator -->
+    <div id="status-container" class="fixed inset-0 flex items-center justify-center bg-slate-100 z-50">
+        <div class="text-center">
+            <p id="status-message" class="text-lg text-slate-600">Connecting to Chat Service...</p>
+        </div>
+    </div>
+
     <!-- Name Entry Modal -->
-    <div id="name-modal" class="fixed inset-0 bg-gray-900 bg-opacity-80 flex items-center justify-center z-50 transition-opacity duration-300">
-        <div class="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-sm transform transition-all duration-300 scale-95 opacity-0" id="name-modal-content">
-            <h2 class="text-2xl font-bold text-center text-slate-700 mb-6">Welcome to 4K STREAMZ Live Chat</h2>
+    <div id="name-modal" class="fixed inset-0 bg-gray-900 bg-opacity-80 flex items-center justify-center z-40 transition-opacity duration-300 opacity-0 hidden-until-ready">
+        <div class="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-sm transform transition-all duration-300 scale-95" id="name-modal-content">
+            <h2 class="text-2xl font-bold text-center text-slate-700 mb-6">Welcome to Worldwide Chat</h2>
             <p class="text-center text-slate-500 mb-6">Please set your name to join the conversation.</p>
             <form id="name-form">
                 <div class="mb-4">
@@ -50,11 +61,11 @@
         </div>
     </div>
 
-    <!-- Main Chat Interface (Initially Hidden) -->
-    <div id="chat-container" class="flex flex-col h-screen max-w-4xl mx-auto bg-white shadow-xl opacity-0 transition-opacity duration-500">
+    <!-- Main Chat Interface -->
+    <div id="chat-container" class="flex flex-col h-screen max-w-4xl mx-auto bg-white shadow-xl opacity-0 transition-opacity duration-500 hidden-until-ready">
         <!-- Header -->
         <header class="bg-slate-800 text-white p-4 shadow-md z-10">
-            <h1 class="text-2xl font-bold text-center">4K STREAMZ Live Chat</h1>
+            <h1 class="text-2xl font-bold text-center">Worldwide Chat</h1>
             <div class="text-xs text-center text-slate-300 mt-1">
                 Your User ID: <span id="user-id-display" class="font-mono"></span> | Status: <span id="admin-status-display" class="font-semibold"></span>
             </div>
@@ -83,28 +94,9 @@
         import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
         import { getFirestore, collection, addDoc, query, onSnapshot, serverTimestamp, doc, getDoc, setDoc, setLogLevel } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
 
-        // --- Configuration and Initialization ---
-
-        // These global variables are provided by the environment.
-        const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-chat-app';
-        const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {};
-        const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
-
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const db = getFirestore(app);
-        const auth = getAuth(app);
-        
-        // Enable detailed logging for debugging purposes
-        setLogLevel('debug');
-
-        // --- State Variables ---
-        let currentUserId = null;
-        let currentUserName = null;
-        let isCurrentUserAdmin = false;
-        let messagesUnsubscribe = null; // To hold the listener cleanup function
-
         // --- DOM Element References ---
+        const statusContainer = document.getElementById('status-container');
+        const statusMessage = document.getElementById('status-message');
         const nameModal = document.getElementById('name-modal');
         const nameModalContent = document.getElementById('name-modal-content');
         const nameForm = document.getElementById('name-form');
@@ -116,168 +108,129 @@
         const userIdDisplay = document.getElementById('user-id-display');
         const adminStatusDisplay = document.getElementById('admin-status-display');
 
-        // --- Core Logic ---
+        // --- State Variables ---
+        let currentUserId = null;
+        let currentUserName = null;
+        let isCurrentUserAdmin = false;
+        let messagesUnsubscribe = null;
 
-        /**
-         * Handles user authentication state changes. This is the entry point of the app's logic.
-         */
-        onAuthStateChanged(auth, async (user) => {
-            if (user) {
-                // User is signed in.
-                currentUserId = user.uid;
-                console.log("User authenticated with UID:", currentUserId);
-                userIdDisplay.textContent = currentUserId;
-
-                // Check if this user is the admin and set up the app.
-                await checkAndSetAdmin();
-                
-            } else {
-                // User is not signed in, attempt to sign in.
-                console.log("No user found, attempting to sign in...");
-                try {
-                    if (initialAuthToken) {
-                        await signInWithCustomToken(auth, initialAuthToken);
-                        console.log("Signed in with custom token.");
-                    } else {
-                        await signInAnonymously(auth);
-                        console.log("Signed in anonymously.");
-                    }
-                } catch (error) {
-                    console.error("Error during sign-in:", error);
-                    // Display an error to the user if sign-in fails
-                    document.body.innerHTML = `<div class="text-red-500 text-center p-8">Error: Could not connect to the chat service. Please refresh the page.</div>`;
-                }
+        // --- Main Initialization Function ---
+        function main() {
+            // These global variables are provided by the environment.
+            // Check if the necessary Firebase configuration exists.
+            if (typeof __firebase_config === 'undefined') {
+                statusMessage.innerHTML = `
+                    <h1 class="text-2xl font-bold text-red-600 mb-4">Initialization Error</h1>
+                    <p class="text-slate-600">This chat application cannot run from a local file.<br>Please use it within the original collaborative environment.</p>
+                `;
+                console.error("Firebase config not found. This app cannot run locally.");
+                return; // Stop execution
             }
-        });
 
-        /**
-         * Checks if an admin is already designated. If not, it assigns the current user as the admin.
-         * This ensures only the very first user becomes the admin.
-         */
-        async function checkAndSetAdmin() {
+            const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-chat-app';
+            const firebaseConfig = JSON.parse(__firebase_config);
+            const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
+            
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const db = getFirestore(app);
+            const auth = getAuth(app);
+            setLogLevel('debug');
+
+            onAuthStateChanged(auth, async (user) => {
+                if (user) {
+                    currentUserId = user.uid;
+                    console.log("User authenticated with UID:", currentUserId);
+                    userIdDisplay.textContent = currentUserId;
+                    await checkAndSetAdmin(db, appId);
+                    
+                    // User is authenticated, hide status and show name modal
+                    statusContainer.style.display = 'none';
+                    nameModal.style.display = 'flex';
+                    nameModal.classList.remove('hidden-until-ready');
+                    setTimeout(() => {
+                        nameModal.classList.add('opacity-100');
+                        nameModalContent.classList.add('scale-100');
+                        nameModalContent.classList.remove('scale-95');
+                    }, 50);
+
+                } else {
+                    console.log("No user found, attempting to sign in...");
+                    try {
+                        if (initialAuthToken) {
+                            await signInWithCustomToken(auth, initialAuthToken);
+                        } else {
+                            await signInAnonymously(auth);
+                        }
+                    } catch (error) {
+                        console.error("Error during sign-in:", error);
+                        statusMessage.textContent = "Error: Could not connect to the chat service.";
+                    }
+                }
+            });
+
+            // Attach event listeners that depend on Firebase services
+            setupEventListeners(db, appId);
+        }
+
+        async function checkAndSetAdmin(db, appId) {
             const adminConfigRef = doc(db, `/artifacts/${appId}/public/data/config/admin_settings`);
             try {
-                const docSnap = await getDoc(adminConfigRef);
-
+                const docSnap = await getDoc(adminConfig_ref);
                 if (docSnap.exists()) {
-                    // Admin document exists, check if current user is the admin
-                    const adminUid = docSnap.data().adminUid;
-                    if (currentUserId === adminUid) {
-                        isCurrentUserAdmin = true;
-                        console.log("Current user is the Admin.");
-                    } else {
-                        isCurrentUserAdmin = false;
-                        console.log("Current user is a regular user.");
-                    }
+                    isCurrentUserAdmin = (currentUserId === docSnap.data().adminUid);
                 } else {
-                    // No admin document exists, this is the first user. Make them the admin.
-                    console.log("No admin found. Setting current user as Admin.");
                     await setDoc(adminConfigRef, { adminUid: currentUserId });
                     isCurrentUserAdmin = true;
                 }
             } catch (error) {
                 console.error("Error checking/setting admin:", error);
-            } finally {
-                // Update the UI with the user's status
-                adminStatusDisplay.textContent = isCurrentUserAdmin ? 'Admin' : 'User';
             }
+            adminStatusDisplay.textContent = isCurrentUserAdmin ? 'Admin' : 'User';
+            console.log(`User admin status: ${isCurrentUserAdmin}`);
         }
 
-        /**
-         * Listens for new messages in the Firestore database and renders them.
-         */
-        function listenForMessages() {
+        function listenForMessages(db, appId) {
             const messagesRef = collection(db, `/artifacts/${appId}/public/data/messages`);
             const q = query(messagesRef);
-
-            if (messagesUnsubscribe) {
-                messagesUnsubscribe(); // Detach any old listener
-            }
-
+            if (messagesUnsubscribe) messagesUnsubscribe();
             messagesUnsubscribe = onSnapshot(q, (snapshot) => {
                 const messages = [];
-                snapshot.forEach(doc => {
-                    messages.push({ id: doc.id, ...doc.data() });
-                });
-
-                // Sort messages by timestamp client-side to avoid needing a composite index
-                messages.sort((a, b) => {
-                    const timeA = a.timestamp ? a.timestamp.seconds : 0;
-                    const timeB = b.timestamp ? b.timestamp.seconds : 0;
-                    return timeA - timeB;
-                });
-
+                snapshot.forEach(doc => messages.push({ id: doc.id, ...doc.data() }));
+                messages.sort((a, b) => (a.timestamp?.seconds || 0) - (b.timestamp?.seconds || 0));
                 renderMessages(messages);
-
-            }, (error) => {
-                console.error("Error fetching messages:", error);
-            });
+            }, (error) => console.error("Error fetching messages:", error));
         }
         
-        /**
-         * Renders an array of message objects to the chat window.
-         * @param {Array<Object>} messages - The array of messages to display.
-         */
         function renderMessages(messages) {
-            chatMessages.innerHTML = ''; // Clear existing messages
+            chatMessages.innerHTML = '';
             messages.forEach(msg => {
                 const messageElement = createMessageElement(msg);
                 chatMessages.appendChild(messageElement);
             });
-            // Scroll to the latest message
             chatMessages.scrollTop = chatMessages.scrollHeight;
         }
 
-        /**
-         * Creates an HTML element for a single message.
-         * @param {Object} msg - The message object from Firestore.
-         * @returns {HTMLElement} The created div element for the message.
-         */
         function createMessageElement(msg) {
             const item = document.createElement('div');
             const isMyMessage = msg.senderId === currentUserId;
-
-            // Base classes for all messages
-            let bubbleClasses = 'max-w-xs md:max-w-md p-4 rounded-2xl shadow';
-            let containerClasses = 'flex';
-            let senderNameClasses = 'text-sm font-bold mb-1';
-
-            if (isMyMessage) {
-                // My messages align right
-                containerClasses += ' justify-end';
-                bubbleClasses += ' bg-blue-600 text-white';
-                senderNameClasses += ' text-blue-100';
-            } else {
-                // Others' messages align left
-                containerClasses += ' justify-start';
-                bubbleClasses += ' bg-slate-200 text-slate-800';
-                senderNameClasses += ' text-slate-500';
-            }
+            const bubbleClasses = 'max-w-xs md:max-w-md p-4 rounded-2xl shadow';
+            const containerClasses = `flex ${isMyMessage ? 'justify-end' : 'justify-start'}`;
+            const bubbleColors = isMyMessage ? 'bg-blue-600 text-white' : 'bg-slate-200 text-slate-800';
+            const senderNameClasses = `text-sm font-bold mb-1 ${isMyMessage ? 'text-blue-100' : 'text-slate-500'}`;
+            const adminBadge = msg.isAdminMessage ? `<span class="ml-2 bg-yellow-400 text-yellow-900 text-xs font-semibold px-2 py-0.5 rounded-full">Admin</span>` : '';
             
             item.className = containerClasses;
-
-            let adminBadge = '';
-            if (msg.isAdminMessage) {
-                adminBadge = `<span class="ml-2 bg-yellow-400 text-yellow-900 text-xs font-semibold px-2 py-0.5 rounded-full">Admin</span>`;
-                senderNameClasses += ' text-yellow-700'; // Special color for admin name
-            }
-
             item.innerHTML = `
-                <div class="${bubbleClasses}">
+                <div class="${bubbleClasses} ${bubbleColors}">
                     <p class="${senderNameClasses}">${msg.senderName || 'Anonymous'}${adminBadge}</p>
                     <p class="break-words">${msg.text}</p>
-                </div>
-            `;
+                </div>`;
             return item;
         }
 
-        /**
-         * Sends a new message to the Firestore database.
-         * @param {string} text - The content of the message.
-         */
-        async function sendMessage(text) {
+        async function sendMessage(db, appId, text) {
             if (!text.trim() || !currentUserName) return;
-
             try {
                 const messagesRef = collection(db, `/artifacts/${appId}/public/data/messages`);
                 await addDoc(messagesRef, {
@@ -287,47 +240,37 @@
                     isAdminMessage: isCurrentUserAdmin,
                     timestamp: serverTimestamp()
                 });
-                console.log("Message sent successfully.");
             } catch (error) {
                 console.error("Error sending message: ", error);
             }
         }
 
-        // --- Event Listeners ---
+        function setupEventListeners(db, appId) {
+            nameForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const name = nameInput.value.trim();
+                if (name) {
+                    currentUserName = name;
+                    nameModal.classList.add('opacity-0');
+                    setTimeout(() => nameModal.style.display = 'none', 300);
+                    
+                    chatContainer.style.display = 'flex';
+                    chatContainer.classList.remove('hidden-until-ready');
+                    setTimeout(() => chatContainer.classList.remove('opacity-0'), 50);
+                    
+                    listenForMessages(db, appId);
+                }
+            });
 
-        // Handle name submission
-        nameForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const name = nameInput.value.trim();
-            if (name) {
-                currentUserName = name;
-                console.log(`User set name to: ${currentUserName}`);
-                
-                // Hide modal and show chat
-                nameModal.classList.add('opacity-0');
-                setTimeout(() => nameModal.style.display = 'none', 300);
-                
-                chatContainer.classList.remove('opacity-0');
+            messageForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                sendMessage(db, appId, messageInput.value);
+                messageInput.value = '';
+            });
+        }
 
-                // Start listening for messages now that the user is ready
-                listenForMessages();
-            }
-        });
-
-        // Handle message submission
-        messageForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            sendMessage(messageInput.value);
-            messageInput.value = ''; // Clear input field
-        });
-
-        // --- Initial UI Setup ---
-        window.addEventListener('load', () => {
-            // Animate modal entrance
-            nameModalContent.classList.remove('scale-95', 'opacity-0');
-            nameModalContent.classList.add('scale-100', 'opacity-100');
-        });
-
+        // Start the application
+        main();
     </script>
 </body>
 </html>
