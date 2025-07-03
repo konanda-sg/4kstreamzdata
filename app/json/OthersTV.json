@@ -1,0 +1,120 @@
+[
+  {
+    "channel_name": "BIG BOSS",
+    "channel_logo": "https://i.postimg.cc/h4bSDbrw/Bigg-Boss-16.jpg",
+    "channel_links": [
+      {
+        "link_title": "Main Stream",
+        "channel_url": "356533.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "IN-TG | BIGG BOSS 24X7 HD",
+        "channel_url": "383800.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "IN-KN | BIGG BOSS 24X7 HD",
+        "channel_url": "383799.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "IN-TM | BIGG BOSS 24X7 HD",
+        "channel_url": "383798.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "IN-MAR | BIGG BOSS 24X7",
+        "channel_url": "383797.m3u8",
+        "link_type": "opplex"
+      }
+    ]
+  },
+  {
+    "channel_name": "WWE 7/24",
+    "channel_logo": "https://i.postimg.cc/L4cx4ZyK/images-2.jpg",
+    "channel_links": [
+      {
+        "link_title": "WWE 7/24",
+        "channel_url": "388817.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "WWE Network HD",
+        "channel_url": "383065.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "SportsNet WWE FHD",
+        "channel_url": "383064.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "OSN WWE Network HD",
+        "channel_url": "383063.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "WWE HD",
+        "channel_url": "383062.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "WWE Superslam",
+        "channel_url": "383061.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "WWE Superslam",
+        "channel_url": "383060.m3u8",
+        "link_type": "opplex"
+      }
+    ]
+  },
+  {
+    "channel_name": "Netflix Action",
+    "channel_logo": "https://i.postimg.cc/Z5y3YMyc/images_(1).png",
+    "channel_links": [
+      {
+        "link_title": "Netflix Action 1",
+        "channel_url": "247998.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "Netflix Action 2",
+        "channel_url": "247999.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "Netflix Action 3",
+        "channel_url": "248000.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "Netflix Action 4",
+        "channel_url": "248001.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "Netflix Action 5",
+        "channel_url": "248002.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "Netflix Action 6",
+        "channel_url": "248003.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "Netflix Action 7",
+        "channel_url": "248004.m3u8",
+        "link_type": "opplex"
+      },
+      {
+        "link_title": "Netflix Action 8",
+        "channel_url": "248005.m3u8",
+        "link_type": "opplex"
+      }
+    ]
+  }
+]
