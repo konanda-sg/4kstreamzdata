@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4K Streamz Live Chat</title>
-    <!-- Tailwind CSS for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -33,18 +31,26 @@
         .hidden-until-ready {
             display: none;
         }
+        /* Styling for the reply button on messages */
+        .reply-button {
+            display: none; /* Hidden by default */
+            cursor: pointer;
+            margin-left: 8px;
+            color: #64748b; /* slate-500 */
+        }
+        .group:hover .reply-button {
+            display: inline-block; /* Show on hover */
+        }
     </style>
 </head>
 <body class="bg-slate-100 text-slate-800">
 
-    <!-- Loading / Status Indicator -->
     <div id="status-container" class="fixed inset-0 flex items-center justify-center bg-slate-100 z-50 p-4">
         <div class="text-center">
             <p id="status-message" class="text-lg text-slate-600">Connecting to Chat Service...</p>
         </div>
     </div>
 
-    <!-- Name Entry Modal -->
     <div id="name-modal" class="fixed inset-0 bg-gray-900 bg-opacity-80 flex items-center justify-center z-40 transition-opacity duration-300 opacity-0 hidden-until-ready">
         <div class="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-sm transform transition-all duration-300 scale-95" id="name-modal-content">
             <h2 class="text-2xl font-bold text-center text-slate-700 mb-6">Welcome to 4K STREAMZ Live Chat</h2>
@@ -61,21 +67,25 @@
         </div>
     </div>
 
-    <!-- Main Chat Interface -->
     <div id="chat-container" class="relative flex flex-col h-screen max-w-4xl mx-auto bg-white shadow-xl opacity-0 transition-opacity duration-500 hidden-until-ready">
         
-        <!-- Floating Logout Button -->
         <button id="logout-button" class="absolute top-4 right-4 bg-red-600 text-white text-sm font-bold py-2 px-4 rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-300 transition z-20 shadow-lg">
             Log Out
         </button>
 
-        <!-- Chat Messages Area -->
         <main id="chat-messages" class="flex-1 p-6 pt-20 overflow-y-auto space-y-4 bg-slate-50">
-            <!-- Messages will be dynamically inserted here -->
-        </main>
+            </main>
 
-        <!-- Message Input Form -->
         <footer class="p-4 bg-white border-t border-slate-200">
+            <div id="reply-to-container" class="hidden p-2 mb-2 bg-slate-100 border-l-4 border-blue-500 rounded-md">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <p class="font-bold text-sm text-blue-600">Replying to <span id="reply-to-name"></span></p>
+                        <p id="reply-to-text" class="text-sm text-slate-600 truncate"></p>
+                    </div>
+                    <button id="cancel-reply-button" class="text-slate-500 hover:text-slate-700">&times;</button>
+                </div>
+            </div>
             <form id="message-form" class="flex items-center space-x-4">
                 <input type="text" id="message-input" placeholder="Type your message..." autocomplete="off" required class="flex-1 px-4 py-3 border border-slate-300 rounded-full focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
                 <button type="submit" class="bg-blue-600 text-white rounded-full p-3 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 transition-transform transform hover:scale-110">
@@ -85,12 +95,11 @@
         </footer>
     </div>
 
-    <!-- Firebase SDK -->
     <script type="module">
         // Import necessary functions from Firebase SDK
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
         import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
-        import { getFirestore, collection, addDoc, query, onSnapshot, serverTimestamp, setLogLevel } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+        import { getFirestore, collection, addDoc, query, onSnapshot, serverTimestamp, orderBy, setLogLevel } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-analytics.js";
 
         // --- DOM Element References ---
@@ -105,13 +114,20 @@
         const messageForm = document.getElementById('message-form');
         const messageInput = document.getElementById('message-input');
         const logoutButton = document.getElementById('logout-button');
+        // *** NEW: Reply related DOM elements ***
+        const replyToContainer = document.getElementById('reply-to-container');
+        const replyToName = document.getElementById('reply-to-name');
+        const replyToText = document.getElementById('reply-to-text');
+        const cancelReplyButton = document.getElementById('cancel-reply-button');
 
         // --- State Variables ---
         let currentUserId = null;
         let currentUserName = null;
         let isCurrentUserAdmin = false;
         let messagesUnsubscribe = null;
-        let db; // Make db accessible to loginUser function
+        let db;
+        // *** NEW: State for managing the message being replied to ***
+        let currentReply = null;
 
         /**
          * Centralized function to handle user login, UI switching, and starting chat listener.
@@ -122,11 +138,9 @@
             currentUserName = name;
             isCurrentUserAdmin = isAdmin;
 
-            // Save user info to localStorage for "stay logged in" feature
             localStorage.setItem('chatUserName', currentUserName);
             localStorage.setItem('chatUserIsAdmin', isCurrentUserAdmin);
 
-            // Hide the name modal and show the chat interface
             nameModal.classList.add('opacity-0');
             setTimeout(() => nameModal.style.display = 'none', 300);
             
@@ -134,26 +148,23 @@
             chatContainer.classList.remove('hidden-until-ready');
             setTimeout(() => chatContainer.classList.remove('opacity-0'), 50);
             
-            // Start listening for messages from the database
             listenForMessages();
         }
 
         // --- Main Initialization Function ---
         function main() {
-            // *** YOUR FIREBASE CONFIGURATION IS NOW HERE ***
             const firebaseConfig = {
-              apiKey: "AIzaSyCvn2SZVYrVlkmBO2N3udY40CKOvqqFSgk",
-              authDomain: "livechat4k.firebaseapp.com",
-              projectId: "livechat4k",
-              storageBucket: "livechat4k.appspot.com",
-              messagingSenderId: "706518064615",
-              appId: "1:706518064615:web:497cb42f14b0d8bb223142",
-              measurementId: "G-CVQC0T70EM"
+                apiKey: "AIzaSyCvn2SZVYrVlkmBO2N3udY40CKOvqqFSgk",
+                authDomain: "livechat4k.firebaseapp.com",
+                projectId: "livechat4k",
+                storageBucket: "livechat4k.appspot.com",
+                messagingSenderId: "706518064615",
+                appId: "1:706518064615:web:497cb42f14b0d8bb223142",
+                measurementId: "G-CVQC0T70EM"
             };
 
-            // Initialize Firebase
             const app = initializeApp(firebaseConfig);
-            db = getFirestore(app); // Assign to the outer scope db variable
+            db = getFirestore(app);
             const auth = getAuth(app);
             const analytics = getAnalytics(app);
             setLogLevel('debug');
@@ -161,17 +172,13 @@
             onAuthStateChanged(auth, (user) => {
                 if (user) {
                     currentUserId = user.uid;
-
-                    // Check for a saved user name in localStorage
                     const savedName = localStorage.getItem('chatUserName');
                     
                     if (savedName) {
-                        // If a name is saved, log the user in automatically
                         const savedIsAdmin = localStorage.getItem('chatUserIsAdmin') === 'true';
-                        statusContainer.style.display = 'none'; // Hide loading screen
+                        statusContainer.style.display = 'none';
                         completeLogin(savedName, savedIsAdmin);
                     } else {
-                        // If no name is saved, show the name entry modal
                         statusContainer.style.display = 'none';
                         nameModal.style.display = 'flex';
                         nameModal.classList.remove('hidden-until-ready');
@@ -182,7 +189,6 @@
                         }, 50);
                     }
                 } else {
-                    // If no user, attempt to sign in anonymously
                     signInAnonymously(auth).catch((error) => {
                         console.error("Error during anonymous sign-in:", error);
                         if (error.code === 'auth/configuration-not-found') {
@@ -199,12 +205,13 @@
 
         function listenForMessages() {
             const messagesRef = collection(db, "messages");
-            const q = query(messagesRef);
+            // *** MODIFIED: Query now orders by timestamp ***
+            const q = query(messagesRef, orderBy("timestamp"));
             if (messagesUnsubscribe) messagesUnsubscribe();
             messagesUnsubscribe = onSnapshot(q, (snapshot) => {
                 const messages = [];
                 snapshot.forEach(doc => messages.push({ id: doc.id, ...doc.data() }));
-                messages.sort((a, b) => (a.timestamp?.seconds || 0) - (b.timestamp?.seconds || 0));
+                // No need for client-side sort if Firestore is ordering
                 renderMessages(messages);
             }, (error) => console.error("Error fetching messages:", error));
         }
@@ -218,34 +225,101 @@
             chatMessages.scrollTop = chatMessages.scrollHeight;
         }
 
+        // *** MODIFIED: createMessageElement now handles replies ***
         function createMessageElement(msg) {
             const item = document.createElement('div');
             const isMyMessage = msg.senderId === currentUserId;
+
+            // Container for both message and reply icon
+            const messageContainer = document.createElement('div');
+            messageContainer.className = `flex items-center group ${isMyMessage ? 'flex-row-reverse' : ''}`;
+
+            const bubble = document.createElement('div');
             const bubbleClasses = 'max-w-xs md:max-w-md p-4 rounded-2xl shadow';
-            const containerClasses = `flex ${isMyMessage ? 'justify-end' : 'justify-start'}`;
             const bubbleColors = isMyMessage ? 'bg-blue-600 text-white' : 'bg-slate-200 text-slate-800';
             let senderNameClasses = `text-sm font-bold mb-1 ${isMyMessage ? 'text-blue-100' : 'text-slate-500'}`;
             let adminBadge = msg.isAdminMessage ? `<span class="ml-2 bg-yellow-400 text-yellow-900 text-xs font-semibold px-2 py-0.5 rounded-full">Admin</span>` : '';
             
-            item.className = containerClasses;
-            item.innerHTML = `<div class="${bubbleClasses} ${bubbleColors}"><p class="${senderNameClasses}">${msg.senderName || 'Anonymous'}${adminBadge}</p><p class="break-words">${msg.text}</p></div>`;
+            // *** NEW: Create the quoted reply block if it exists ***
+            let replyHtml = '';
+            if (msg.replyTo) {
+                replyHtml = `
+                    <div class="mb-2 p-2 border-l-2 ${isMyMessage ? 'border-blue-300 bg-blue-500' : 'border-slate-400 bg-slate-300'} rounded-md">
+                        <p class="font-bold text-xs">${msg.replyTo.senderName}</p>
+                        <p class="text-sm opacity-90 truncate">${msg.replyTo.text}</p>
+                    </div>
+                `;
+            }
+            
+            bubble.className = `${bubbleClasses} ${bubbleColors}`;
+            bubble.innerHTML = `${replyHtml}<p class="${senderNameClasses}">${msg.senderName || 'Anonymous'}${adminBadge}</p><p class="break-words">${msg.text}</p>`;
+            
+            // *** NEW: Create and add the reply button ***
+            const replyButton = document.createElement('span');
+            replyButton.className = 'reply-button';
+            replyButton.innerHTML = `
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-up-left"><polyline points="9 14 4 9 9 4"></polyline><path d="M20 20v-7a4 4 0 0 0-4-4H4"></path></svg>
+            `;
+            replyButton.addEventListener('click', () => {
+                // Set the current reply state
+                currentReply = {
+                    text: msg.text,
+                    senderName: msg.senderName
+                };
+                // Update and show the reply UI
+                replyToName.textContent = msg.senderName;
+                replyToText.textContent = msg.text;
+                replyToContainer.classList.remove('hidden');
+                messageInput.focus();
+            });
+
+            // Assemble the message container
+            if (isMyMessage) {
+                messageContainer.appendChild(replyButton);
+                messageContainer.appendChild(bubble);
+            } else {
+                messageContainer.appendChild(bubble);
+                messageContainer.appendChild(replyButton);
+            }
+            
+            item.className = `flex ${isMyMessage ? 'justify-end' : 'justify-start'}`;
+            item.appendChild(messageContainer);
             return item;
         }
 
+        // *** MODIFIED: sendMessage now includes reply data ***
         async function sendMessage(text) {
             if (!text.trim() || !currentUserName) return;
             try {
                 const messagesRef = collection(db, "messages");
-                await addDoc(messagesRef, {
+                
+                const messageData = {
                     text: text,
                     senderName: currentUserName,
                     senderId: currentUserId,
                     isAdminMessage: isCurrentUserAdmin,
                     timestamp: serverTimestamp()
-                });
+                };
+
+                // If there's a current reply, add it to the message data
+                if (currentReply) {
+                    messageData.replyTo = currentReply;
+                }
+
+                await addDoc(messagesRef, messageData);
+
+                // Reset reply state after sending
+                cancelReply();
+
             } catch (error) {
                 console.error("Error sending message: ", error);
             }
+        }
+
+        // *** NEW: Function to cancel the current reply ***
+        function cancelReply() {
+            currentReply = null;
+            replyToContainer.classList.add('hidden');
         }
 
         function setupEventListeners() {
@@ -262,7 +336,6 @@
                         nameToLogin = nameValue;
                         isAdmin = false;
                     }
-                    // Use the centralized login function
                     completeLogin(nameToLogin, isAdmin);
                 }
             });
@@ -273,12 +346,14 @@
                 messageInput.value = '';
             });
 
-            // Logout button event listener
             logoutButton.addEventListener('click', () => {
                 localStorage.removeItem('chatUserName');
                 localStorage.removeItem('chatUserIsAdmin');
                 location.reload();
             });
+
+            // *** NEW: Event listener for the cancel reply button ***
+            cancelReplyButton.addEventListener('click', cancelReply);
         }
 
         // Start the application
