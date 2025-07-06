@@ -72,8 +72,6 @@
         <main id="chat-messages" class="flex-1 p-6 pt-20 overflow-y-auto space-y-4 bg-slate-50">
             </main>
 
-        <div id="typing-indicator" class="h-6 px-6 text-slate-500 text-sm italic"></div>
-
         <footer class="p-4 bg-white border-t border-slate-200">
             <div id="reply-to-container" class="hidden p-2 mb-2 bg-slate-100 border-l-4 border-blue-500 rounded-md">
                 <div class="flex justify-between items-center">
@@ -94,9 +92,10 @@
     </div>
 
     <script type="module">
+        // *** MODIFIED: Removed doc, setDoc, deleteDoc from imports ***
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
         import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
-        import { getFirestore, collection, addDoc, query, onSnapshot, serverTimestamp, orderBy, setLogLevel, doc, setDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+        import { getFirestore, collection, addDoc, query, onSnapshot, serverTimestamp, orderBy, setLogLevel } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-analytics.js";
 
         // --- DOM Element References ---
@@ -115,8 +114,7 @@
         const replyToName = document.getElementById('reply-to-name');
         const replyToText = document.getElementById('reply-to-text');
         const cancelReplyButton = document.getElementById('cancel-reply-button');
-        const typingIndicator = document.getElementById('typing-indicator');
-
+        
         // --- State Variables ---
         let currentUserId = null;
         let currentUserName = null;
@@ -124,20 +122,18 @@
         let messagesUnsubscribe = null;
         let db;
         let currentReply = null;
-        let typingTimeout = null;
-        let typingStatusUnsubscribe = null;
 
-        // *** NEW: List of forbidden words for the filter ***
+        // *** List of forbidden words for the filter ***
         const forbiddenWords = [
-  // English Profanity & Slurs
-  'fuck', 'sex', 'bitch', 'asshole', 'pussy', 'dick', 'shit', 'cunt', 
-  'damn', 'hell', 'nigger', 'nigga', 'faggot', 'slut', 'whore', 
-  'bastard', 'cocksucker', 'motherfucker', 'vagina', 'penis', 'anus',
-
-  // Bengali (Bangla) Profanity & Slurs
-  'বালের', 'চোদা', 'বাল', 'চুদনা', 'মাগী', 'খানকি', 'শালা', 
-  'হারামি', 'বাঞ্চোত', 'গান্ডু', 'চুতমারানি', 'বালছাল', 'হোগা', 'গাইড়'
-];
+          // English Profanity & Slurs
+          'fuck', 'sex', 'bitch', 'asshole', 'pussy', 'dick', 'shit', 'cunt', 
+          'damn', 'hell', 'nigger', 'nigga', 'faggot', 'slut', 'whore', 
+          'bastard', 'cocksucker', 'motherfucker', 'vagina', 'penis', 'anus',
+        
+          // Bengali (Bangla) Profanity & Slurs
+          'বালের', 'চোদা', 'বাল', 'চুদনা', 'মাগী', 'খানকি', 'শালা', 
+          'হারামি', 'বাঞ্চোত', 'গান্ডু', 'চুতমারানি', 'বালছাল', 'হোগা', 'গাইড়'
+        ];
 
 
         function completeLogin(name, isAdmin) {
@@ -155,7 +151,6 @@
             setTimeout(() => chatContainer.classList.remove('opacity-0'), 50);
             
             listenForMessages();
-            listenForTyping();
         }
 
         function main() {
@@ -215,35 +210,6 @@
             }, (error) => console.error("Error fetching messages:", error));
         }
 
-        function listenForTyping() {
-            const typingRef = collection(db, "typing_status");
-            if (typingStatusUnsubscribe) typingStatusUnsubscribe();
-            typingStatusUnsubscribe = onSnapshot(typingRef, (snapshot) => {
-                const typingUsers = [];
-                const now = Date.now();
-                snapshot.forEach(doc => {
-                    if (doc.id !== currentUserId && (now - doc.data().timestamp) < 5000) {
-                        typingUsers.push(doc.data().name);
-                    }
-                });
-                updateTypingIndicatorUI(typingUsers);
-            });
-        }
-
-        function updateTypingIndicatorUI(users) {
-            if (users.length === 0) {
-                typingIndicator.textContent = '';
-                return;
-            }
-            if (users.length === 1) {
-                typingIndicator.textContent = `${users[0]} is typing...`;
-            } else if (users.length === 2) {
-                typingIndicator.textContent = `${users.join(' and ')} are typing...`;
-            } else {
-                typingIndicator.textContent = 'Several people are typing...';
-            }
-        }
-        
         function renderMessages(messages) {
             chatMessages.innerHTML = '';
             messages.forEach(msg => {
@@ -306,25 +272,17 @@
             return item;
         }
         
-        // *** MODIFIED: sendMessage now includes the word filter logic ***
         async function sendMessage(text) {
             if (!text.trim() || !currentUserName) return;
 
             // --- Word Filter Logic ---
-            // Create a regular expression from the forbidden words list.
-            // The 'i' flag makes the search case-insensitive.
             const filterRegex = new RegExp(forbiddenWords.join('|'), 'i'); 
-
             if (filterRegex.test(text)) {
                 alert('Your message contains restricted words and cannot be sent.');
-                messageInput.value = ''; // Clear the input field
-                return; // Stop the function from sending the message
+                messageInput.value = '';
+                return;
             }
             // --- End of Filter Logic ---
-
-            clearTimeout(typingTimeout);
-            typingTimeout = null;
-            await removeMyTypingStatus();
 
             try {
                 const messagesRef = collection(db, "messages");
@@ -344,29 +302,6 @@
             }
         }
         
-        async function updateMyTypingStatus() {
-            if (!currentUserId || !currentUserName) return;
-            const typingRef = doc(db, "typing_status", currentUserId);
-            try {
-                await setDoc(typingRef, {
-                    name: currentUserName,
-                    timestamp: Date.now()
-                });
-            } catch (error) {
-                console.error("Failed to set typing status:", error);
-            }
-        }
-
-        async function removeMyTypingStatus() {
-            if (!currentUserId) return;
-            const typingRef = doc(db, "typing_status", currentUserId);
-            try {
-                await deleteDoc(typingRef);
-            } catch (error) {
-                console.error("Failed to remove typing status:", error);
-            }
-        }
-
         function cancelReply() {
             currentReply = null;
             replyToContainer.classList.add('hidden');
@@ -390,27 +325,12 @@
             });
 
             logoutButton.addEventListener('click', () => {
-                removeMyTypingStatus();
                 localStorage.removeItem('chatUserName');
                 localStorage.removeItem('chatUserIsAdmin');
                 location.reload();
             });
 
             cancelReplyButton.addEventListener('click', cancelReply);
-
-            messageInput.addEventListener('keyup', () => {
-                if (typingTimeout) clearTimeout(typingTimeout);
-                
-                if (messageInput.value.trim()) {
-                    updateMyTypingStatus();
-                    typingTimeout = setTimeout(() => {
-                        removeMyTypingStatus();
-                        typingTimeout = null;
-                    }, 3000);
-                } else {
-                    removeMyTypingStatus();
-                }
-            });
         }
 
         main();
