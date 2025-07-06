@@ -9,37 +9,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        /* Custom styles to enhance the look and feel */
         body {
             font-family: 'Inter', sans-serif;
         }
-        /* Custom scrollbar for a cleaner look in WebKit browsers */
         #chat-messages::-webkit-scrollbar {
             width: 8px;
         }
         #chat-messages::-webkit-scrollbar-track {
-            background: #f1f5f9; /* slate-100 */
+            background: #f1f5f9;
         }
         #chat-messages::-webkit-scrollbar-thumb {
-            background: #94a3b8; /* slate-400 */
+            background: #94a3b8;
             border-radius: 10px;
         }
         #chat-messages::-webkit-scrollbar-thumb:hover {
-            background: #64748b; /* slate-500 */
+            background: #64748b;
         }
-        /* Hide elements until they are ready to be shown */
         .hidden-until-ready {
             display: none;
         }
-        /* Styling for the reply button on messages */
         .reply-button {
-            display: none; /* Hidden by default */
+            display: none;
             cursor: pointer;
             margin-left: 8px;
-            color: #64748b; /* slate-500 */
+            color: #64748b;
         }
         .group:hover .reply-button {
-            display: inline-block; /* Show on hover */
+            display: inline-block;
         }
     </style>
 </head>
@@ -76,6 +72,8 @@
         <main id="chat-messages" class="flex-1 p-6 pt-20 overflow-y-auto space-y-4 bg-slate-50">
             </main>
 
+        <div id="typing-indicator" class="h-6 px-6 text-slate-500 text-sm italic"></div>
+
         <footer class="p-4 bg-white border-t border-slate-200">
             <div id="reply-to-container" class="hidden p-2 mb-2 bg-slate-100 border-l-4 border-blue-500 rounded-md">
                 <div class="flex justify-between items-center">
@@ -96,10 +94,9 @@
     </div>
 
     <script type="module">
-        // Import necessary functions from Firebase SDK
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
         import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
-        import { getFirestore, collection, addDoc, query, onSnapshot, serverTimestamp, orderBy, setLogLevel } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+        import { getFirestore, collection, addDoc, query, onSnapshot, serverTimestamp, orderBy, setLogLevel, doc, setDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-analytics.js";
 
         // --- DOM Element References ---
@@ -114,11 +111,11 @@
         const messageForm = document.getElementById('message-form');
         const messageInput = document.getElementById('message-input');
         const logoutButton = document.getElementById('logout-button');
-        // *** NEW: Reply related DOM elements ***
         const replyToContainer = document.getElementById('reply-to-container');
         const replyToName = document.getElementById('reply-to-name');
         const replyToText = document.getElementById('reply-to-text');
         const cancelReplyButton = document.getElementById('cancel-reply-button');
+        const typingIndicator = document.getElementById('typing-indicator');
 
         // --- State Variables ---
         let currentUserId = null;
@@ -126,14 +123,14 @@
         let isCurrentUserAdmin = false;
         let messagesUnsubscribe = null;
         let db;
-        // *** NEW: State for managing the message being replied to ***
         let currentReply = null;
+        let typingTimeout = null;
+        let typingStatusUnsubscribe = null;
 
-        /**
-         * Centralized function to handle user login, UI switching, and starting chat listener.
-         * @param {string} name - The name of the user to log in.
-         * @param {boolean} isAdmin - The admin status of the user.
-         */
+        // *** NEW: List of forbidden words for the filter ***
+        const forbiddenWords = ['fuck', 'sex', 'bitch', 'asshole', 'pussy', 'dick', 'বালের', 'চোদা', 'বাল', 'চুদনা'];
+
+
         function completeLogin(name, isAdmin) {
             currentUserName = name;
             isCurrentUserAdmin = isAdmin;
@@ -149,9 +146,9 @@
             setTimeout(() => chatContainer.classList.remove('opacity-0'), 50);
             
             listenForMessages();
+            listenForTyping();
         }
 
-        // --- Main Initialization Function ---
         function main() {
             const firebaseConfig = {
                 apiKey: "AIzaSyCvn2SZVYrVlkmBO2N3udY40CKOvqqFSgk",
@@ -166,7 +163,7 @@
             const app = initializeApp(firebaseConfig);
             db = getFirestore(app);
             const auth = getAuth(app);
-            const analytics = getAnalytics(app);
+            getAnalytics(app);
             setLogLevel('debug');
 
             onAuthStateChanged(auth, (user) => {
@@ -185,17 +182,12 @@
                         setTimeout(() => {
                             nameModal.classList.add('opacity-100');
                             nameModalContent.classList.add('scale-100');
-                            nameModalContent.classList.remove('scale-95');
                         }, 50);
                     }
                 } else {
                     signInAnonymously(auth).catch((error) => {
                         console.error("Error during anonymous sign-in:", error);
-                        if (error.code === 'auth/configuration-not-found') {
-                            statusMessage.innerHTML = `<div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 rounded-md" role="alert"><p class="font-bold text-lg">Configuration Error</p><p>Anonymous sign-in is not enabled in your Firebase project.</p><p class="mt-2 text-sm"><b>To fix this:</b></p><ol class="list-decimal list-inside text-left text-sm"><li>Go to your Firebase Console.</li><li>Navigate to <b>Authentication</b> > <b>Sign-in method</b>.</li><li>Click <b>Add new provider</b> and enable <b>Anonymous</b>.</li></ol></div>`;
-                        } else {
-                            statusMessage.textContent = "Error: Could not connect to the chat service.";
-                        }
+                        statusMessage.textContent = "Error: Could not connect to the chat service.";
                     });
                 }
             });
@@ -205,15 +197,42 @@
 
         function listenForMessages() {
             const messagesRef = collection(db, "messages");
-            // *** MODIFIED: Query now orders by timestamp ***
             const q = query(messagesRef, orderBy("timestamp"));
             if (messagesUnsubscribe) messagesUnsubscribe();
             messagesUnsubscribe = onSnapshot(q, (snapshot) => {
                 const messages = [];
                 snapshot.forEach(doc => messages.push({ id: doc.id, ...doc.data() }));
-                // No need for client-side sort if Firestore is ordering
                 renderMessages(messages);
             }, (error) => console.error("Error fetching messages:", error));
+        }
+
+        function listenForTyping() {
+            const typingRef = collection(db, "typing_status");
+            if (typingStatusUnsubscribe) typingStatusUnsubscribe();
+            typingStatusUnsubscribe = onSnapshot(typingRef, (snapshot) => {
+                const typingUsers = [];
+                const now = Date.now();
+                snapshot.forEach(doc => {
+                    if (doc.id !== currentUserId && (now - doc.data().timestamp) < 5000) {
+                        typingUsers.push(doc.data().name);
+                    }
+                });
+                updateTypingIndicatorUI(typingUsers);
+            });
+        }
+
+        function updateTypingIndicatorUI(users) {
+            if (users.length === 0) {
+                typingIndicator.textContent = '';
+                return;
+            }
+            if (users.length === 1) {
+                typingIndicator.textContent = `${users[0]} is typing...`;
+            } else if (users.length === 2) {
+                typingIndicator.textContent = `${users.join(' and ')} are typing...`;
+            } else {
+                typingIndicator.textContent = 'Several people are typing...';
+            }
         }
         
         function renderMessages(messages) {
@@ -222,15 +241,16 @@
                 const messageElement = createMessageElement(msg);
                 chatMessages.appendChild(messageElement);
             });
-            chatMessages.scrollTop = chatMessages.scrollHeight;
+            const shouldScroll = chatMessages.scrollTop + chatMessages.clientHeight >= chatMessages.scrollHeight - 100;
+            if(shouldScroll){
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
         }
 
-        // *** MODIFIED: createMessageElement now handles replies ***
         function createMessageElement(msg) {
             const item = document.createElement('div');
             const isMyMessage = msg.senderId === currentUserId;
 
-            // Container for both message and reply icon
             const messageContainer = document.createElement('div');
             messageContainer.className = `flex items-center group ${isMyMessage ? 'flex-row-reverse' : ''}`;
 
@@ -240,7 +260,6 @@
             let senderNameClasses = `text-sm font-bold mb-1 ${isMyMessage ? 'text-blue-100' : 'text-slate-500'}`;
             let adminBadge = msg.isAdminMessage ? `<span class="ml-2 bg-yellow-400 text-yellow-900 text-xs font-semibold px-2 py-0.5 rounded-full">Admin</span>` : '';
             
-            // *** NEW: Create the quoted reply block if it exists ***
             let replyHtml = '';
             if (msg.replyTo) {
                 replyHtml = `
@@ -254,26 +273,17 @@
             bubble.className = `${bubbleClasses} ${bubbleColors}`;
             bubble.innerHTML = `${replyHtml}<p class="${senderNameClasses}">${msg.senderName || 'Anonymous'}${adminBadge}</p><p class="break-words">${msg.text}</p>`;
             
-            // *** NEW: Create and add the reply button ***
             const replyButton = document.createElement('span');
             replyButton.className = 'reply-button';
-            replyButton.innerHTML = `
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-up-left"><polyline points="9 14 4 9 9 4"></polyline><path d="M20 20v-7a4 4 0 0 0-4-4H4"></path></svg>
-            `;
+            replyButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-up-left"><polyline points="9 14 4 9 9 4"></polyline><path d="M20 20v-7a4 4 0 0 0-4-4H4"></path></svg>`;
             replyButton.addEventListener('click', () => {
-                // Set the current reply state
-                currentReply = {
-                    text: msg.text,
-                    senderName: msg.senderName
-                };
-                // Update and show the reply UI
+                currentReply = { text: msg.text, senderName: msg.senderName };
                 replyToName.textContent = msg.senderName;
                 replyToText.textContent = msg.text;
                 replyToContainer.classList.remove('hidden');
                 messageInput.focus();
             });
 
-            // Assemble the message container
             if (isMyMessage) {
                 messageContainer.appendChild(replyButton);
                 messageContainer.appendChild(bubble);
@@ -286,13 +296,29 @@
             item.appendChild(messageContainer);
             return item;
         }
-
-        // *** MODIFIED: sendMessage now includes reply data ***
+        
+        // *** MODIFIED: sendMessage now includes the word filter logic ***
         async function sendMessage(text) {
             if (!text.trim() || !currentUserName) return;
+
+            // --- Word Filter Logic ---
+            // Create a regular expression from the forbidden words list.
+            // The 'i' flag makes the search case-insensitive.
+            const filterRegex = new RegExp(forbiddenWords.join('|'), 'i'); 
+
+            if (filterRegex.test(text)) {
+                alert('Your message contains restricted words and cannot be sent.');
+                messageInput.value = ''; // Clear the input field
+                return; // Stop the function from sending the message
+            }
+            // --- End of Filter Logic ---
+
+            clearTimeout(typingTimeout);
+            typingTimeout = null;
+            await removeMyTypingStatus();
+
             try {
                 const messagesRef = collection(db, "messages");
-                
                 const messageData = {
                     text: text,
                     senderName: currentUserName,
@@ -300,23 +326,38 @@
                     isAdminMessage: isCurrentUserAdmin,
                     timestamp: serverTimestamp()
                 };
-
-                // If there's a current reply, add it to the message data
-                if (currentReply) {
-                    messageData.replyTo = currentReply;
-                }
+                if (currentReply) messageData.replyTo = currentReply;
 
                 await addDoc(messagesRef, messageData);
-
-                // Reset reply state after sending
                 cancelReply();
-
             } catch (error) {
                 console.error("Error sending message: ", error);
             }
         }
+        
+        async function updateMyTypingStatus() {
+            if (!currentUserId || !currentUserName) return;
+            const typingRef = doc(db, "typing_status", currentUserId);
+            try {
+                await setDoc(typingRef, {
+                    name: currentUserName,
+                    timestamp: Date.now()
+                });
+            } catch (error) {
+                console.error("Failed to set typing status:", error);
+            }
+        }
 
-        // *** NEW: Function to cancel the current reply ***
+        async function removeMyTypingStatus() {
+            if (!currentUserId) return;
+            const typingRef = doc(db, "typing_status", currentUserId);
+            try {
+                await deleteDoc(typingRef);
+            } catch (error) {
+                console.error("Failed to remove typing status:", error);
+            }
+        }
+
         function cancelReply() {
             currentReply = null;
             replyToContainer.classList.add('hidden');
@@ -327,15 +368,8 @@
                 e.preventDefault();
                 const nameValue = nameInput.value.trim();
                 if (nameValue) {
-                    let nameToLogin;
-                    let isAdmin;
-                    if (nameValue === '176725') {
-                        nameToLogin = '4K STREAMZ';
-                        isAdmin = true;
-                    } else {
-                        nameToLogin = nameValue;
-                        isAdmin = false;
-                    }
+                    const isAdmin = nameValue === '176725';
+                    const nameToLogin = isAdmin ? '4K STREAMZ' : nameValue;
                     completeLogin(nameToLogin, isAdmin);
                 }
             });
@@ -347,16 +381,29 @@
             });
 
             logoutButton.addEventListener('click', () => {
+                removeMyTypingStatus();
                 localStorage.removeItem('chatUserName');
                 localStorage.removeItem('chatUserIsAdmin');
                 location.reload();
             });
 
-            // *** NEW: Event listener for the cancel reply button ***
             cancelReplyButton.addEventListener('click', cancelReply);
+
+            messageInput.addEventListener('keyup', () => {
+                if (typingTimeout) clearTimeout(typingTimeout);
+                
+                if (messageInput.value.trim()) {
+                    updateMyTypingStatus();
+                    typingTimeout = setTimeout(() => {
+                        removeMyTypingStatus();
+                        typingTimeout = null;
+                    }, 3000);
+                } else {
+                    removeMyTypingStatus();
+                }
+            });
         }
 
-        // Start the application
         main();
     </script>
 </body>
