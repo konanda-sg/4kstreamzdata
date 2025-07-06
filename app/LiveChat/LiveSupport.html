@@ -128,7 +128,16 @@
         let typingStatusUnsubscribe = null;
 
         // *** NEW: List of forbidden words for the filter ***
-        const forbiddenWords = ['fuck', 'sex', 'bitch', 'asshole', 'pussy', 'dick', 'বালের', 'চোদা', 'বাল', 'চুদনা'];
+        const forbiddenWords = [
+  // English Profanity & Slurs
+  'fuck', 'sex', 'bitch', 'asshole', 'pussy', 'dick', 'shit', 'cunt', 
+  'damn', 'hell', 'nigger', 'nigga', 'faggot', 'slut', 'whore', 
+  'bastard', 'cocksucker', 'motherfucker', 'vagina', 'penis', 'anus',
+
+  // Bengali (Bangla) Profanity & Slurs
+  'বালের', 'চোদা', 'বাল', 'চুদনা', 'মাগী', 'খানকি', 'শালা', 
+  'হারামি', 'বাঞ্চোত', 'গান্ডু', 'চুতমারানি', 'বালছাল', 'হোগা', 'গাইড়'
+];
 
 
         function completeLogin(name, isAdmin) {
