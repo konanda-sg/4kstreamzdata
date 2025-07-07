@@ -4,127 +4,94 @@
     "team2_name": "Bangladesh",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187756/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/187744/image",
-    "time": "1750307400000",
+    "time": "1751986800000",
     "league_name": "Cricket || Bangladesh in Sri Lanka, 2025",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/11191/image/dark",
     "category": "Cricket",
     "live_links": [
-            {
-                "link_title": "Willow",
-                "channel_url": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/clients/dash/enc/f60kqesunw/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd?|drmScheme=clearkey&drmLicense=1779c27b9d077a3ba0c9cc1bb9a94b9f:cc5cf3b7928fb9e0a1ee6a8b566f0a8e"
-              
-            },
-
-         {
-                "link_title": "Sony Sports 2",
-                "channel_url": "https://pubads.g.doubleclick.net/ssai/event/Syu8F41-R1y_JmQ7x0oNxQ/master.m3u8"
-         },
 
       {
-        "link_title": "T Sports",
-        "channel_url": "https://live-test.tsports.com/live-02/index.m3u8?hdntl=Expires=1749592049~_GO=Generated~URLPrefix=aHR0cHM6Ly9saXZlLXRlc3QudHNwb3J0cy5jb20v~Signature=AXWJlB7Q3yzjm2gSnmfrgO44c-hvKkr0oIyuG9-xAotpIkIUzJlLdzfVx1XWjvCqszP4RhtI7qvnn1w2W2a40M6uhDQE&hdnts=URLPrefix=aHR0cHM6Ly9saXZlLXRlc3QudHNwb3J0cy5jb20v~Expires=1749557013300~hmac=58aa4952e1ecb196253fca5077b37f7952cfd02583c105a724ebcde68e315ca6"
-      }
-        ]
-    
-  },
-
-
-
-  {
-    "team1_name": "CF Monterrey",
-    "team2_name": "Inter",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1932/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2697/image",
-    "time": "1750208400000",
-    "league_name": "Football || FIFA Club World Cup, Group E, Round 1",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/357/image/dark",
-    "category": "Football",
-    "live_links": [
+                "link_title": "T Sports",
+                "channel_url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8"
+         },
             {
-                "link_title": "Tsports",
-                "channel_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "headers": {
-        "Host": "bldcmprod-cdn.toffeelive.com",
-        "cookie": "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29tLw:Expires=1750250636:KeyName=prod_linear:Signature=Vza1V4X2NVslffoy_Ok7MEqbeicfJbDMKi8cCG7gOyW1NwdJa-7WMoaYb67VcVF3jyCP15evSY0NXeFJ0UNnDg",
-        "user-agent": "Toffee (Linux;Android 14) AndroidXMedia3/1.1.1/64103898/4d2ec9b8c7534adc",
-        "client-api-header": "angM1aXCHQLmmSW6cDlpXMD6tLdwnhMoUeaBBFKmd98bX6Vrae5xCMbm4gg0+u33rnxeGQDZNr2GD1tW0cWwKEpWimNlGqXVQGhpiIBz1JFxN+OxXcQqaMPrjwUhCyI5mO1DGyNv18+Z2EpmHtVnLzV9SrGsQWu4oRKjxE8QIMsRs6LrvL6hWGPlOGQke/qb5QxQZNetPzI39jHhX7Zi2XrCMIT4a+gk2Wu1c3wIybwkqknPcTp4Bj1cEF3Q+q1dV05SBhzpEDfoR2BLyQ6dV3LvmY6MNKxbUjby7hMsg35lFl2Df2mZsr7C27309w/qWi8lLXDjB7B1MozIGKn8rw3bXY5YlrPKBKztyiisAjQQi7kc5ISXyGSwRmhciwkciuitsSL0LlqHY7/Qkkh71EtaK3XEgVpLdH8zRCsTwfu1iIVPiDwTycuuBy4XWkcNnd0iLB35yftQpiL8HfpO2jQnrAwzePxszJ7mewVG+M0P/qyTBD52NkPR8uW0AZmDKp5LHTCGf7sqldDzpZvU+gsSdvtsBUcmHzjINGEoyXk=",
-        "accept-encoding": "gzip"
-      }
+                "link_title": "TNT 3",
+                "channel_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd?|drmScheme=clearkey&drmLicense=4e993aa8c1f295f8b94e8e9e6f6d0bfe:86a1ed6e96caab8eb1009fe530d2cf4f"
+              
             }
         ]
     
   },
 
-  {
-    "team1_name": "Manchester City",
-    "team2_name": "Wydad Casablanca",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/17/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/36268/image",
-    "time": "1750262400000",
-"league_name": "Football || FIFA Club World Cup, Group G, Round 1",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/357/image/dark",
-    "category": "Football",
-    "live_links": [
-            {
-                "link_title": "Tsports",
-                "channel_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "headers": {
-        "Host": "bldcmprod-cdn.toffeelive.com",
-        "cookie": "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29tLw:Expires=1750250636:KeyName=prod_linear:Signature=Vza1V4X2NVslffoy_Ok7MEqbeicfJbDMKi8cCG7gOyW1NwdJa-7WMoaYb67VcVF3jyCP15evSY0NXeFJ0UNnDg",
-        "user-agent": "Toffee (Linux;Android 14) AndroidXMedia3/1.1.1/64103898/4d2ec9b8c7534adc",
-        "client-api-header": "angM1aXCHQLmmSW6cDlpXMD6tLdwnhMoUeaBBFKmd98bX6Vrae5xCMbm4gg0+u33rnxeGQDZNr2GD1tW0cWwKEpWimNlGqXVQGhpiIBz1JFxN+OxXcQqaMPrjwUhCyI5mO1DGyNv18+Z2EpmHtVnLzV9SrGsQWu4oRKjxE8QIMsRs6LrvL6hWGPlOGQke/qb5QxQZNetPzI39jHhX7Zi2XrCMIT4a+gk2Wu1c3wIybwkqknPcTp4Bj1cEF3Q+q1dV05SBhzpEDfoR2BLyQ6dV3LvmY6MNKxbUjby7hMsg35lFl2Df2mZsr7C27309w/qWi8lLXDjB7B1MozIGKn8rw3bXY5YlrPKBKztyiisAjQQi7kc5ISXyGSwRmhciwkciuitsSL0LlqHY7/Qkkh71EtaK3XEgVpLdH8zRCsTwfu1iIVPiDwTycuuBy4XWkcNnd0iLB35yftQpiL8HfpO2jQnrAwzePxszJ7mewVG+M0P/qyTBD52NkPR8uW0AZmDKp5LHTCGf7sqldDzpZvU+gsSdvtsBUcmHzjINGEoyXk=",
-        "accept-encoding": "gzip"
-      }
-            }
-        ]
-    
-  },
+
 
   {
-    "team1_name": "Real Madrid",
-    "team2_name": "Al-Hilal",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2829/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/21895/image",
-    "time": "1750273200000",
-    "league_name": "Football || FIFA Club World Cup, Group H, Round 1",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/357/image/dark",
-    "category": "Football",
-    "live_links": [
-            {
-                "link_title": "Tsports",
-                "channel_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "headers": {
-        "Host": "bldcmprod-cdn.toffeelive.com",
-        "cookie": "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29tLw:Expires=1750250636:KeyName=prod_linear:Signature=Vza1V4X2NVslffoy_Ok7MEqbeicfJbDMKi8cCG7gOyW1NwdJa-7WMoaYb67VcVF3jyCP15evSY0NXeFJ0UNnDg",
-        "user-agent": "Toffee (Linux;Android 14) AndroidXMedia3/1.1.1/64103898/4d2ec9b8c7534adc",
-        "client-api-header": "angM1aXCHQLmmSW6cDlpXMD6tLdwnhMoUeaBBFKmd98bX6Vrae5xCMbm4gg0+u33rnxeGQDZNr2GD1tW0cWwKEpWimNlGqXVQGhpiIBz1JFxN+OxXcQqaMPrjwUhCyI5mO1DGyNv18+Z2EpmHtVnLzV9SrGsQWu4oRKjxE8QIMsRs6LrvL6hWGPlOGQke/qb5QxQZNetPzI39jHhX7Zi2XrCMIT4a+gk2Wu1c3wIybwkqknPcTp4Bj1cEF3Q+q1dV05SBhzpEDfoR2BLyQ6dV3LvmY6MNKxbUjby7hMsg35lFl2Df2mZsr7C27309w/qWi8lLXDjB7B1MozIGKn8rw3bXY5YlrPKBKztyiisAjQQi7kc5ISXyGSwRmhciwkciuitsSL0LlqHY7/Qkkh71EtaK3XEgVpLdH8zRCsTwfu1iIVPiDwTycuuBy4XWkcNnd0iLB35yftQpiL8HfpO2jQnrAwzePxszJ7mewVG+M0P/qyTBD52NkPR8uW0AZmDKp5LHTCGf7sqldDzpZvU+gsSdvtsBUcmHzjINGEoyXk=",
-        "accept-encoding": "gzip"
-      }
-            }
-        ]
-    
-  },
-
-  {
-    "team1_name": "Scotland",
-    "team2_name": "Netherlands",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187576/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187840/image",
-    "time": "1750255200000",
-    "league_name": "Cricket || T20I Tri-Series in Scotland",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark.dgdgfg",
+    "team1_name": "Zimbabwe",
+    "team2_name": "South Africa",
+    "team1_logo_url": "https://www.sofascore.com/team/cricket/zimbabwe/187745",
+    "team2_logo_url": "https://www.sofascore.com/team/cricket/south-africa/187747",
+    "time": "1752512400000",
+    "league_name": "Cricket || Zimbabwe T20I Tri Series",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/",
     "category": "Cricket",
     "live_links": [
             {
-                "link_title": "Tsports",
-                "channel_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "headers": {
-        "Host": "bldcmprod-cdn.toffeelive.com",
-        "cookie": "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29tLw:Expires=1750250636:KeyName=prod_linear:Signature=Vza1V4X2NVslffoy_Ok7MEqbeicfJbDMKi8cCG7gOyW1NwdJa-7WMoaYb67VcVF3jyCP15evSY0NXeFJ0UNnDg",
-        "user-agent": "Toffee (Linux;Android 14) AndroidXMedia3/1.1.1/64103898/4d2ec9b8c7534adc",
-        "client-api-header": "angM1aXCHQLmmSW6cDlpXMD6tLdwnhMoUeaBBFKmd98bX6Vrae5xCMbm4gg0+u33rnxeGQDZNr2GD1tW0cWwKEpWimNlGqXVQGhpiIBz1JFxN+OxXcQqaMPrjwUhCyI5mO1DGyNv18+Z2EpmHtVnLzV9SrGsQWu4oRKjxE8QIMsRs6LrvL6hWGPlOGQke/qb5QxQZNetPzI39jHhX7Zi2XrCMIT4a+gk2Wu1c3wIybwkqknPcTp4Bj1cEF3Q+q1dV05SBhzpEDfoR2BLyQ6dV3LvmY6MNKxbUjby7hMsg35lFl2Df2mZsr7C27309w/qWi8lLXDjB7B1MozIGKn8rw3bXY5YlrPKBKztyiisAjQQi7kc5ISXyGSwRmhciwkciuitsSL0LlqHY7/Qkkh71EtaK3XEgVpLdH8zRCsTwfu1iIVPiDwTycuuBy4XWkcNnd0iLB35yftQpiL8HfpO2jQnrAwzePxszJ7mewVG+M0P/qyTBD52NkPR8uW0AZmDKp5LHTCGf7sqldDzpZvU+gsSdvtsBUcmHzjINGEoyXk=",
-        "accept-encoding": "gzip"
-      }
+                "link_title": "Intro",
+                "channel_url": "http://nightbirdscompany.github.io/4kstreamzdata/app/video/4K%20Streamz%20Intro.mp4"
+            }
+        ]
+    
+  },
+
+  {
+    "team1_name": "South Africa",
+    "team2_name": "New Zealand",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187747/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187755/image",
+    "time": "1752685200000",
+"league_name": "Cricket || Zimbabwe T20I Tri Series",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/",
+    "category": "Cricket",
+    "live_links": [
+            {
+                "link_title": "Intro",
+                "channel_url": "http://nightbirdscompany.github.io/4kstreamzdata/app/video/4K%20Streamz%20Intro.mp4"
+            }
+        ]
+    
+  },
+
+  {
+    "team1_name": "Zimbabwe",
+    "team2_name": "New Zealand",
+    "team1_logo_url": "https://www.sofascore.com/team/cricket/zimbabwe/187745",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187755/image",
+    "time": "1752858000000",
+"league_name": "Cricket || Zimbabwe T20I Tri Series",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/",
+    "category": "Cricket",
+    "live_links": [
+            {
+                "link_title": "Intro",
+                "channel_url": "http://nightbirdscompany.github.io/4kstreamzdata/app/video/4K%20Streamz%20Intro.mp4"
+            }
+        ]
+    
+  },
+
+  {
+    "team1_name": "England",
+    "team2_name": "India",
+    "team1_logo_url": "https://www.sofascore.com/team/cricket/england/187757",
+    "team2_logo_url": "https://www.sofascore.com/team/cricket/india/187765",
+    "time": "1752163200000",
+    "league_name": "Cricket || Anderson-Tendulkar Trophy",
+    "league_icon": "https://img.sofascore.com/api/v1/",
+    "category": "Cricket",
+    "live_links": [
+            {
+                "link_title": "Intro",
+                "channel_url": "http://nightbirdscompany.github.io/4kstreamzdata/app/video/4K%20Streamz%20Intro.mp4"
             }
         ]
     
