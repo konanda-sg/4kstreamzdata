@@ -28,8 +28,8 @@
   {
     "team1_name": "Zimbabwe",
     "team2_name": "South Africa",
-    "team1_logo_url": "https://www.sofascore.com/team/cricket/zimbabwe/187745",
-    "team2_logo_url": "https://www.sofascore.com/team/cricket/south-africa/187747",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187745/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187747/image",
     "time": "1752490800000",
     "league_name": "Cricket || Zimbabwe T20I Tri Series",
     "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/",
@@ -64,7 +64,7 @@
   {
     "team1_name": "Zimbabwe",
     "team2_name": "New Zealand",
-    "team1_logo_url": "https://www.sofascore.com/team/cricket/zimbabwe/187745",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187745/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/187755/image",
     "time": "1752836400000",
 "league_name": "Cricket || Zimbabwe T20I Tri Series",
@@ -82,10 +82,28 @@
   {
     "team1_name": "England",
     "team2_name": "India",
-    "team1_logo_url": "https://www.sofascore.com/team/cricket/england/187757",
-    "team2_logo_url": "https://www.sofascore.com/team/cricket/india/187765",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187757/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187765/image",
     "time": "1752141600000",
     "league_name": "Cricket || Anderson-Tendulkar Trophy",
+    "league_icon": "https://img.sofascore.com/api/v1/",
+    "category": "Cricket",
+    "live_links": [
+            {
+                "link_title": "Intro",
+                "channel_url": "http://nightbirdscompany.github.io/4kstreamzdata/app/video/4K%20Streamz%20Intro.mp4"
+            }
+        ]
+    
+  },
+
+   {
+    "team1_name": "West Indies",
+    "team2_name": "Australia",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187760/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187746/image",
+    "time": "1752345000000",
+    "league_name": "Cricket || The Frank Worrell Trophy",
     "league_icon": "https://img.sofascore.com/api/v1/",
     "category": "Cricket",
     "live_links": [
