@@ -38,7 +38,18 @@
             {
                 "link_title": "Intro",
                 "channel_url": "http://nightbirdscompany.github.io/4kstreamzdata/app/video/4K%20Streamz%20Intro.mp4"
+            },
+
+      {
+                "link_title": "Tsports",
+                "channel_url": "https://companion-live-play1.streamready.in/live/med14-2/sony_sab/ndashd/sony_sab.mpd",
+      "headers": {
+    "Host": "companion-live-play1.streamready.in",
+    "cookie": "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvc29ueV9zYWIvbmRhc2hkLw==:Expires=1751903113:KeyName=iptv-prod-media-cdn-keys:Signature=HOl46PsQ2QU08I5M1p0N-B7w4yKmpEH8PfKGGWfL3awUmI57q2H9tQFBwJz5HuZ8qyT9mJMfydYyPQaGn9tfAQ==",
+    "user-agent": "tv.accedo.airtel.wynk/1.97.1 (Linux;Android 11) ygx/69.1 ExoPlayerLib/2.19.1"
+  }
             }
+
         ]
     
   },
