@@ -1,120 +1,706 @@
 [
-  {
-    "channel_name": "BIG BOSS",
-    "channel_logo": "https://i.postimg.cc/h4bSDbrw/Bigg-Boss-16.jpg",
-    "channel_links": [
-      {
-        "link_title": "Main Stream",
-        "channel_url": "356533.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "IN-TG | BIGG BOSS 24X7 HD",
-        "channel_url": "383800.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "IN-KN | BIGG BOSS 24X7 HD",
-        "channel_url": "383799.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "IN-TM | BIGG BOSS 24X7 HD",
-        "channel_url": "383798.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "IN-MAR | BIGG BOSS 24X7",
-        "channel_url": "383797.m3u8",
-        "link_type": "opplex"
-      }
-    ]
-  },
-  {
-    "channel_name": "WWE 7/24",
-    "channel_logo": "https://i.postimg.cc/L4cx4ZyK/images-2.jpg",
-    "channel_links": [
-      {
-        "link_title": "WWE 7/24",
-        "channel_url": "388817.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "WWE Network HD",
-        "channel_url": "383065.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "SportsNet WWE FHD",
-        "channel_url": "383064.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "OSN WWE Network HD",
-        "channel_url": "383063.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "WWE HD",
-        "channel_url": "383062.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "WWE Superslam",
-        "channel_url": "383061.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "WWE Superslam",
-        "channel_url": "383060.m3u8",
-        "link_type": "opplex"
-      }
-    ]
-  },
-  {
-    "channel_name": "Netflix Action",
-    "channel_logo": "https://i.postimg.cc/Z5y3YMyc/images_(1).png",
-    "channel_links": [
-      {
-        "link_title": "Netflix Action 1",
-        "channel_url": "247998.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "Netflix Action 2",
-        "channel_url": "247999.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "Netflix Action 3",
-        "channel_url": "248000.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "Netflix Action 4",
-        "channel_url": "248001.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "Netflix Action 5",
-        "channel_url": "248002.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "Netflix Action 6",
-        "channel_url": "248003.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "Netflix Action 7",
-        "channel_url": "248004.m3u8",
-        "link_type": "opplex"
-      },
-      {
-        "link_title": "Netflix Action 8",
-        "channel_url": "248005.m3u8",
-        "link_type": "opplex"
-      }
-    ]
-  }
+    {
+        "channel_name": "92 News HD",
+        "channel_logo": "https://i.imgur.com/gp1Ao4s.jpeg",
+        "channel_links": [
+            {
+                "link_title": "92 News HD (720p)",
+                "channel_url": "http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Aik News",
+        "channel_logo": "https://i.imgur.com/svPXoAP.png",
+        "channel_links": [
+            {
+                "link_title": "Aik News",
+                "channel_url": "https://video.primexsports.com/pnn/live/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "City News HD",
+        "channel_logo": "https://i.imgur.com/GtYG9lG.png",
+        "channel_links": [
+            {
+                "link_title": "City News HD (1080p)",
+                "channel_url": "http://cdn.citymediagroupreg.com:1935/citynewshd/myStream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Dunya News",
+        "channel_logo": "https://i.imgur.com/1PbtW0y.png",
+        "channel_links": [
+            {
+                "link_title": "Dunya News (INT Feed) (720p) [Not 24/7]",
+                "channel_url": "https://imob.dunyanews.tv/livehd/ngrp:dunyalivehd_2_all/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Geo News",
+        "channel_logo": "https://i.imgur.com/Op4EsaB.png",
+        "channel_links": [
+            {
+                "link_title": "Geo News (576p)",
+                "channel_url": "https://jk3lz82elw79-hls-live.5centscdn.com/GEONEWS/3500ba09d0538297440ca620c9dd46bf.sdp/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Geo Tez",
+        "channel_logo": "https://geotez.tv/assets/front/images/tez_logo.png",
+        "channel_links": [
+            {
+                "link_title": "Geo Tez (576i)",
+                "channel_url": "https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Humraaz TV",
+        "channel_logo": "https://i.imgur.com/1Lc9t0D.png",
+        "channel_links": [
+            {
+                "link_title": "Humraaz TV [Not 24/7]",
+                "channel_url": "https://cdn61.liveonlineservices.com/hls/humraaz.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Lahore News",
+        "channel_logo": "https://i.imgur.com/bQfQeEA.jpeg",
+        "channel_links": [
+            {
+                "link_title": "Lahore News (720p) [Not 24/7]",
+                "channel_url": "https://vcdn.dunyanews.tv/lahorelive/ngrp:lnews_1_all/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "PNN News",
+        "channel_logo": "https://i.imgur.com/edKutxd.png",
+        "channel_links": [
+            {
+                "link_title": "PNN News (720p)",
+                "channel_url": "https://cdn.bmstudiopk.com/pnn/smil:PNN.smil/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Such TV",
+        "channel_logo": "https://i.imgur.com/yYMh3JJ.png",
+        "channel_links": [
+            {
+                "link_title": "Such TV",
+                "channel_url": "https://video.primexsports.com/suchnews/live/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Suno News HD",
+        "channel_logo": "https://i.imgur.com/FeSntVO.jpg",
+        "channel_links": [
+            {
+                "link_title": "Suno News HD (720p)",
+                "channel_url": "https://cdn.bmstudiopk.com/sunotv/live/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Voice News",
+        "channel_logo": "https://i.imgur.com/rlYzN6J.png",
+        "channel_links": [
+            {
+                "link_title": "Voice News (720p)",
+                "channel_url": "https://cdn.bmstudiopk.com/vop/live/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "&TV",
+        "channel_logo": "https://i.imgur.com/32W50Y6.png",
+        "channel_links": [
+            {
+                "link_title": "&TV (1080p)",
+                "channel_url": "https://amg01117-amg01117c1-amgplt0165.playout.now3.amagi.tv/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "ABN Urdu",
+        "channel_logo": "https://i.imgur.com/Y9ScPIl.png",
+        "channel_links": [
+            {
+                "link_title": "ABN Urdu (540p)",
+                "channel_url": "https://mediaserver.abnvideos.com/streams/abnurdu.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Al Ehsaan TV",
+        "channel_logo": "https://i.imgur.com/hRzxiJ3.png",
+        "channel_links": [
+            {
+                "link_title": "Al Ehsaan TV (720p)",
+                "channel_url": "https://cdn.bmstudiopk.com/alehsaan/live/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "EWTN Africa Asia",
+        "channel_logo": "https://i.imgur.com/sua70RO.png",
+        "channel_links": [
+            {
+                "link_title": "EWTN Africa Asia (720p)",
+                "channel_url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "EWTN Asia-Pacific",
+        "channel_logo": "https://i.imgur.com/sua70RO.png",
+        "channel_links": [
+            {
+                "link_title": "EWTN Asia-Pacific (720p) [Not 24/7]",
+                "channel_url": "https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Fazal TV",
+        "channel_logo": "https://i.imgur.com/c0fvKia.png",
+        "channel_links": [
+            {
+                "link_title": "Fazal TV (1080p)",
+                "channel_url": "http://cdn9.live247stream.com/punjabitvcanada/tv/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Gawahi TV",
+        "channel_logo": "https://i.imgur.com/0W6zzHS.png",
+        "channel_links": [
+            {
+                "link_title": "Gawahi TV (720p)",
+                "channel_url": "https://livecdn.live247stream.com/gawahi/tv/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Grace Network",
+        "channel_logo": "https://i.imgur.com/QSaZPJ4.png",
+        "channel_links": [
+            {
+                "link_title": "Grace Network (720p)",
+                "channel_url": "https://livecdn.live247stream.com/grace/tv/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "HK TV",
+        "channel_logo": "https://i.imgur.com/brAY4XF.png",
+        "channel_links": [
+            {
+                "link_title": "HK TV (720p)",
+                "channel_url": "https://streamer12.vdn.dstreamone.net/hktv/hktv/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Isaac TV",
+        "channel_logo": "https://i.imgur.com/RHDbsiO.png",
+        "channel_links": [
+            {
+                "link_title": "Isaac TV (720p)",
+                "channel_url": "https://livecdn.live247stream.com/isaac/tv/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Joshua TV",
+        "channel_logo": "https://i.imgur.com/x9xPR2h.png",
+        "channel_links": [
+            {
+                "link_title": "Joshua TV (720p)",
+                "channel_url": "https://livecdn.live247stream.com/joshua/tv/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "King TV",
+        "channel_logo": "https://i.imgur.com/dujrwRE.png",
+        "channel_links": [
+            {
+                "link_title": "King TV (720p) [Not 24/7]",
+                "channel_url": "https://streamer12.vdn.dstreamone.net/kingtv/kingtv/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Madani Channel English",
+        "channel_logo": "https://i.imgur.com/Abi9j0A.png",
+        "channel_links": [
+            {
+                "link_title": "Madani Channel English (720p)",
+                "channel_url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/c6a600b0-82cb-454a-8953-2bb2bb372edc/master.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Madani Channel Urdu",
+        "channel_logo": "https://i.imgur.com/MitLeCJ.png",
+        "channel_links": [
+            {
+                "link_title": "Madani Channel Urdu (720p)",
+                "channel_url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/b9790f10-cb0d-4e30-82bf-84a756234e58/master.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Peace TV Urdu",
+        "channel_logo": "https://github.com/fawazahmed0/tiger/raw/master/peace/urdu.jpg",
+        "channel_links": [
+            {
+                "link_title": "Peace TV Urdu (1080p)",
+                "channel_url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "ARY Musik",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/en/b/bb/ARY_Musik_logo.png",
+        "channel_links": [
+            {
+                "link_title": "ARY Musik (1080p)",
+                "channel_url": "https://arymusik.aryzap.com/3fd38b2c62d0c3bbd74aedabb533c03a/6459fa78/v1/01847ac7a4930b8ed5aa6ed04aba/01847ac8f5f70b8ed5aa6ed04abd/main.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "JooMusic",
+        "channel_logo": "https://i.imgur.com/KHuKQQL.png",
+        "channel_links": [
+            {
+                "link_title": "JooMusic (720p)",
+                "channel_url": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "aurLife HD",
+        "channel_logo": "https://i.imgur.com/GfWLn3O.jpg",
+        "channel_links": [
+            {
+                "link_title": "aurLife HD (614p)",
+                "channel_url": "http://124.109.47.101/hls/stream1.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "РТР Планета Азия",
+        "channel_logo": "https://i.imgur.com/DTtK0z7.png",
+        "channel_links": [
+            {
+                "link_title": "РТР Планета Азия",
+                "channel_url": "https://player.smotrim.ru/iframe/stream/live_id/683d9649-a96c-4a4d-b468-91c0ee2bf363",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Bloomberg TV Asia",
+        "channel_logo": "https://i.imgur.com/OuogLHx.png",
+        "channel_links": [
+            {
+                "link_title": "Bloomberg TV Asia (720p)",
+                "channel_url": "https://bloomberg.com/media-manifest/streams/asia.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Bloomberg TV Asia Live Event",
+        "channel_logo": "https://i.imgur.com/OuogLHx.png",
+        "channel_links": [
+            {
+                "link_title": "Bloomberg TV Asia Live Event (720p)",
+                "channel_url": "https://bloomberg.com/media-manifest/streams/asia-event.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "CNBC Asia HD",
+        "channel_logo": "https://i.imgur.com/Mn8Rsup.png",
+        "channel_links": [
+            {
+                "link_title": "CNBC Asia HD (720p) [Geo-blocked]",
+                "channel_url": "https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Discover Pakistan",
+        "channel_logo": "https://i.imgur.com/IJH47fJ.png",
+        "channel_links": [
+            {
+                "link_title": "Discover Pakistan (1080p)",
+                "channel_url": "https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Express Entertainment",
+        "channel_logo": "https://i.imgur.com/rgHbb8W.png",
+        "channel_links": [
+            {
+                "link_title": "Express Entertainment (1080p)",
+                "channel_url": "https://5dcabf026b188.streamlock.net/expressdigital/livestream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Geo Kahani",
+        "channel_logo": "https://i.imgur.com/uKYH0IM.png",
+        "channel_links": [
+            {
+                "link_title": "Geo Kahani (360p)",
+                "channel_url": "https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Hum TV",
+        "channel_logo": "https://upload.wikimedia.org/wikipedia/en/e/e4/Hum_TV_2013.png",
+        "channel_links": [
+            {
+                "link_title": "Hum TV",
+                "channel_url": "https://g4wlkwx8l23a-hls-live.5centscdn.com/HUM/271ddf829afeece44d8732757fba1a66.sdp/playlist_dvr.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "One Golf",
+        "channel_logo": "https://i.imgur.com/7JhaEW5.png",
+        "channel_links": [
+            {
+                "link_title": "One Golf (720p)",
+                "channel_url": "http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "PTV Sports",
+        "channel_logo": "https://i.imgur.com/CPm6GHA.png",
+        "channel_links": [
+            {
+                "link_title": "PTV Sports",
+                "channel_url": "http://121.91.61.106:8000/play/a00l/index.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Ten Sports Pakistan",
+        "channel_logo": "https://i.imgur.com/nnqpYNm.png",
+        "channel_links": [
+            {
+                "link_title": "Ten Sports Pakistan",
+                "channel_url": "http://121.91.61.106:8000/play/a04h/index.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "PMI TV",
+        "channel_logo": "https://i.imgur.com/SfyCwXj.png",
+        "channel_links": [
+            {
+                "link_title": "PMI TV (720p) [Not 24/7]",
+                "channel_url": "https://cdn.live247stream.com/pmi/tv/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Praise TV",
+        "channel_logo": "https://i.imgur.com/T9fIdLs.png",
+        "channel_links": [
+            {
+                "link_title": "Praise TV (720p)",
+                "channel_url": "https://livecdn.live247stream.com/praise/tv/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Shine Star TV",
+        "channel_logo": "https://i.imgur.com/I3lTIeN.png",
+        "channel_links": [
+            {
+                "link_title": "Shine Star TV (720p) [Not 24/7]",
+                "channel_url": "https://f-tx-edge-87.christianworldmedia.com/shinetvpak2/mp4:shinetvpak2/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Sindh TV",
+        "channel_logo": "https://i.imgur.com/izpeOsx.png",
+        "channel_links": [
+            {
+                "link_title": "Sindh TV",
+                "channel_url": "https://stream717.duckdns.org/hls/stream1.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "TV5Monde Pacifique",
+        "channel_logo": "https://i.imgur.com/mfZOYZI.png",
+        "channel_links": [
+            {
+                "link_title": "TV5Monde Pacifique (1080p) [Geo-blocked]",
+                "channel_url": "https://ott.tv5monde.com/Content/HLS/Live/channel(pacifique)/variant.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Zindagi TV",
+        "channel_logo": "https://i.imgur.com/XBHvR5J.png",
+        "channel_links": [
+            {
+                "link_title": "Zindagi TV (576p) [Not 24/7]",
+                "channel_url": "https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "ARY News",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "ARY News",
+                "channel_url": "http://125.209.88.166:45793/BRN/AryNews.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "GEO News",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "GEO News",
+                "channel_url": "http://125.209.88.166:45793/BRN/GeoNews.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "92 News",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "92 News",
+                "channel_url": "http://125.209.88.166:45793/BRN/92News.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "BOL News",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "BOL News",
+                "channel_url": "http://125.209.88.166:45793/BRN/BolNews.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "City 42",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "City 42",
+                "channel_url": "http://125.209.88.166:45793/BRN/City42.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Dunya News",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "Dunya News",
+                "channel_url": "http://125.209.88.166:45793/BRN/DuniyaNews.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Express News",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "Express News",
+                "channel_url": "http://125.209.88.166:45793/BRN/ExpressNews.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "GEO Tez",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "GEO Tez",
+                "channel_url": "http://125.209.88.166:45793/BRN/GeoTez.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "GNN News",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "GNN News",
+                "channel_url": "http://125.209.88.166:45793/BRN/GNNHD.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "HUM News",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "HUM News",
+                "channel_url": "http://125.209.88.166:45793/BRN/HumNewsHD.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Lahore News",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "Lahore News",
+                "channel_url": "http://125.209.88.166:45793/BRN/LahoreNewsHD.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "NEO News",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "NEO News",
+                "channel_url": "http://125.209.88.166:45793/BRN/NeoNewsHD.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "News One",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "News One",
+                "channel_url": "http://125.209.88.166:45793/BRN/NewsOne.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "PTV News",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "PTV News",
+                "channel_url": "http://125.209.88.166:45793/BRN/PTVNews.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "Public News",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "Public News",
+                "channel_url": "http://125.209.88.166:45793/BRN/PublicNewsHD.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "SAMA News",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "SAMA News",
+                "channel_url": "http://125.209.88.166:45793/BRN/Sama.stream/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    },
+    {
+        "channel_name": "DUNYA NEWS",
+        "channel_logo": "https://buddytv.netlify.app/img/no-logo.png",
+        "channel_links": [
+            {
+                "link_title": "DUNYA NEWS",
+                "channel_url": "https://imob.dunyanews.tv/livehd/_definst_/ngrp:dunyalivehd_2_all/playlist.m3u8",
+                "link_type": "none"
+            }
+        ]
+    }
 ]
