@@ -101,8 +101,8 @@
     "category": "Cricket",
     "live_links": [
             {
-                "link_title": "Intro",
-                "channel_url": "http://nightbirdscompany.github.io/4kstreamzdata/app/video/4K%20Streamz%20Intro.mp4"
+                "link_title": "Sony Ten 1",
+                "channel_url": "https://tataplay.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8"
             }
         ]
     
@@ -126,55 +126,20 @@
     
   },
 
-      {
-    "team1_name": "Fluminense",
-    "team2_name": "Chelsea.",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1961/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/38/image",
-    "time": "1752001200000",
-    "league_name": "Football || FIFA Club World Cup",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/357/image/dark",
-    "category": "Football",
-    "live_links": [
-            {
-                "link_title": "Intro",
-                "channel_url": "http://nightbirdscompany.github.io/4kstreamzdata/app/video/4K%20Streamz%20Intro.mp4"
-            }
-        ]
-    
-  },
-
-      {
-    "team1_name": "PSG",
-    "team2_name": "Real Madrid",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1644/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2829/image",
-    "time": "1752087600000",
-    "league_name": "Football || FIFA Club World Cup",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/357/image/dark",
-    "category": "Football",
-    "live_links": [
-            {
-                "link_title": "Server 1",
-                "channel_url": "https://shls-live-ak.akamaized.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index_6.m3u8"
-            }
-        ]
-    
-  },
 
    {
-    "team1_name": "TBC",
-    "team2_name": "TBC",
-    "team1_logo_url": "https://www.gstatic.com/onebox/sports/logos/crest_48dp.png",
-    "team2_logo_url": "https://www.gstatic.com/onebox/sports/logos/crest_48dp.png",
+    "team1_name": "Chelsea",
+    "team2_name": "PSG",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/38/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1644/image",
     "time": "1752433200000",
     "league_name": "Football || FIFA Club World Cup",
     "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/357/image/dark",
     "category": "Football",
     "live_links": [
-            {
-                "link_title": "Intro",
-                "channel_url": "http://nightbirdscompany.github.io/4kstreamzdata/app/video/4K%20Streamz%20Intro.mp4"
+           {
+                "link_title": "Server 1",
+                "channel_url": "https://shls-live-ak.akamaized.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index_6.m3u8"
             }
         ]
     
