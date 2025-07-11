@@ -4,7 +4,7 @@
     "team2_name": "Bangladesh",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187756/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/187744/image",
-    "time": "1751965200000",
+    "time": "1752411600000",
     "league_name": "Cricket || Bangladesh in Sri Lanka, 3 T20I Series",
     "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/11191/image/dark",
     "category": "Cricket",
@@ -143,8 +143,13 @@
     "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/357/image/dark",
     "category": "Football",
     "live_links": [
+
            {
-                "link_title": "Server 1",
+                "link_title": "Sport TV",
+                "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd?|drmScheme=clearkey&drmLicense=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7"
+            },
+           {
+                "link_title": "MBC",
                 "channel_url": "https://shls-live-ak.akamaized.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index_6.m3u8"
             }
         ]
