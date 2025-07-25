@@ -1,72 +1,12 @@
 [
-  {
-    "team1_name": "Sri Lanka",
-    "team2_name": "Bangladesh",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187756/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187744/image",
-    "time": "1752411600000",
-    "league_name": "Cricket || Bangladesh in Sri Lanka, 3 T20I Series",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/11191/image/dark",
-    "category": "Cricket",
-    "live_links": [
-
-      {
-                "link_title": "Ten Cricket",
-                "channel_url": "https://edge3-moblive.yuppcdn.net/drm/smil:tencricketdrm.smil/manifest.mpd?|drmScheme=clearkey&drmLicense=9872e439f21f4a299cab249c6554daa3:0cdfcfe0d0f1fbe100554ce3ef4c4665"
-         },
-
-      {
-                "link_title": "Sony Ten 2",
-                "channel_url": "https://tataplay.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8"
-         },
-      
-            {
-                "link_title": "TNT 2",
-                "channel_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd?|drmScheme=clearkey&drmLicense=6d1708b185c6c4d7b37600520c7cc93c:1aace05f58d8edef9697fd52cb09f441"
-              
-            }
-        ]
-    
-  },
-
-
-
-  {
-    "team1_name": "Zimbabwe",
-    "team2_name": "South Africa",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187745/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187747/image",
-    "time": "1752490800000",
-    "league_name": "Cricket || Zimbabwe T20I Tri Series",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/",
-    "category": "Cricket",
-    "live_links": [
-            {
-                "link_title": "Intro",
-                "channel_url": "http://nightbirdscompany.github.io/4kstreamzdata/app/video/4K%20Streamz%20Intro.mp4"
-            },
-
-      {
-                "link_title": "Tsports",
-                "channel_url": "https://companion-live-play1.streamready.in/live/med14-2/sony_sab/ndashd/sony_sab.mpd?|drmScheme=clearkey&drmLicense=49275a5eddfd38abb2ad95e90c75b2a0:1d523581670d2f288391d91ca43b87e2 ",
-      "headers": {
-    "Host": "companion-live-play1.streamready.in",
-    "cookie": "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvc29ueV9zYWIvbmRhc2hkLw==:Expires=1751903113:KeyName=iptv-prod-media-cdn-keys:Signature=HOl46PsQ2QU08I5M1p0N-B7w4yKmpEH8PfKGGWfL3awUmI57q2H9tQFBwJz5HuZ8qyT9mJMfydYyPQaGn9tfAQ==",
-    "user-agent": "tv.accedo.airtel.wynk/1.97.1 (Linux;Android 11) ygx/69.1 ExoPlayerLib/2.19.1"
-  }
-            }
-
-        ]
-    
-  },
 
   {
     "team1_name": "South Africa",
     "team2_name": "New Zealand",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187747/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/187755/image",
-    "time": "1752663600000",
-"league_name": "Cricket || Zimbabwe T20I Tri Series",
+    "time": "1753527600000",
+    "league_name": "Cricket || T20I Tri-Series in Zimbabwe, Final",
     "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/",
     "category": "Cricket",
     "live_links": [
@@ -78,58 +18,15 @@
     
   },
 
-  {
-    "team1_name": "Zimbabwe",
-    "team2_name": "New Zealand",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187745/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187755/image",
-    "time": "1752836400000",
-"league_name": "Cricket || Zimbabwe T20I Tri Series",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/",
-    "category": "Cricket",
-    "live_links": [
-            {
-                "link_title": "Intro",
-                "channel_url": "http://nightbirdscompany.github.io/4kstreamzdata/app/video/4K%20Streamz%20Intro.mp4"
-            }
-        ]
-    
-  },
-
-  {
-    "team1_name": "England",
-    "team2_name": "India",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187757/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187765/image",
-    "time": "1752141600000",
-    "league_name": "Cricket || Anderson-Tendulkar Trophy",
-    "league_icon": "https://img.sofascore.com/api/v1/",
-    "category": "Cricket",
-    "live_links": [
-            {
-                "link_title": "Sony Ten 1",
-                "channel_url": "https://tataplay.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8"
-            },
-            {
-                "link_title": "Ten Cricket",
-                "channel_url": "https://edge3-moblive.yuppcdn.net/drm/smil:tencricketdrm.smil/manifest.mpd?|drmScheme=clearkey&drmLicense=9872e439f21f4a299cab249c6554daa3:0cdfcfe0d0f1fbe100554ce3ef4c4665"
-            },
-            {
-                "link_title": "Willow",
-                "channel_url": "https://www.xfireflix.fun/sports/stream.php/willowusa/playlist.m3u8"
-            }
-        ]
-    
-  },
 
    {
     "team1_name": "West Indies",
     "team2_name": "Australia",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187760/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/187746/image",
-    "time": "1752345000000",
-    "league_name": "Cricket || The Frank Worrell Trophy",
-    "league_icon": "https://img.sofascore.com/api/v1/",
+    "time": "1753484400000",
+    "league_name": "Cricket || Australia in West Indies, 5 T20I Series",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/11191/image/dark",
     "category": "Cricket",
     "live_links": [
             {
@@ -142,13 +39,36 @@
 
 
    {
-    "team1_name": "Chelsea",
-    "team2_name": "PSG",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/38/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1644/image",
-    "time": "1752433200000",
-    "league_name": "Football || FIFA Club World Cup",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/357/image/dark",
+    "team1_name": "Inter Miami CF",
+    "team2_name": "FC Cincinnati",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/337602/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/215167/image",
+    "time": "1753571700000",
+    "league_name": "Football || MLS",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/242/image/dark",
+    "category": "Football",
+    "live_links": [
+
+           {
+                "link_title": "Sport TV",
+                "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd?|drmScheme=clearkey&drmLicense=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7"
+            },
+           {
+                "link_title": "MBC",
+                "channel_url": "https://shls-live-ak.akamaized.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index_6.m3u8"
+            }
+        ]
+    
+  },
+
+    {
+    "team1_name": "Chicago Fire",
+    "team2_name": "New York Red Bulls",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2505/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2506/image",
+    "time": "1753576200000",
+    "league_name": "Football || MLS",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/242/image/dark",
     "category": "Football",
     "live_links": [
 
