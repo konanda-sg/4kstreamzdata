@@ -32,6 +32,7 @@
             display: none;
             cursor: pointer;
             margin-left: 8px;
+            margin-right: 8px; /* Added for spacing on my messages */
             color: #64748b;
         }
         .group:hover .reply-button {
@@ -70,7 +71,8 @@
         </button>
 
         <main id="chat-messages" class="flex-1 p-6 pt-20 overflow-y-auto space-y-4 bg-slate-50">
-            </main>
+            <!-- Messages will be rendered here -->
+        </main>
 
         <footer class="p-4 bg-white border-t border-slate-200">
             <div id="reply-to-container" class="hidden p-2 mb-2 bg-slate-100 border-l-4 border-blue-500 rounded-md">
@@ -92,7 +94,6 @@
     </div>
 
     <script type="module">
-        // *** MODIFIED: Removed doc, setDoc, deleteDoc from imports ***
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
         import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
         import { getFirestore, collection, addDoc, query, onSnapshot, serverTimestamp, orderBy, setLogLevel } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
@@ -123,16 +124,16 @@
         let db;
         let currentReply = null;
 
-        // *** List of forbidden words for the filter ***
+        // List of forbidden words for the filter
         const forbiddenWords = [
-          // English Profanity & Slurs
-          'fuck', 'sex', 'bitch', 'asshole', 'pussy', 'dick', 'shit', 'cunt', 
-          'damn', 'hell', 'nigger', 'nigga', 'faggot', 'slut', 'whore', 
-          'bastard', 'cocksucker', 'motherfucker', 'vagina', 'penis', 'anus',
+            // English Profanity & Slurs
+            'fuck', 'sex', 'bitch', 'asshole', 'pussy', 'dick', 'shit', 'cunt', 
+            'damn', 'hell', 'nigger', 'nigga', 'faggot', 'slut', 'whore', 
+            'bastard', 'cocksucker', 'motherfucker', 'vagina', 'penis', 'anus',
         
-          // Bengali (Bangla) Profanity & Slurs
-          'বালের', 'চোদা', 'বাল', 'চুদনা', 'মাগী', 'খানকি', 'শালা', 
-          'হারামি', 'বাঞ্চোত', 'গান্ডু', 'চুতমারানি', 'বালছাল', 'হোগা', 'গাইড়'
+            // Bengali (Bangla) Profanity & Slurs
+            'বালের', 'চোদা', 'বাল', 'চুদনা', 'মাগী', 'খানকি', 'শালা', 
+            'হারামি', 'বাঞ্চোত', 'গান্ডু', 'চুতমারানি', 'বালছাল', 'হোগা', 'গাইড়'
         ];
 
 
@@ -227,10 +228,10 @@
             const isMyMessage = msg.senderId === currentUserId;
 
             const messageContainer = document.createElement('div');
-            messageContainer.className = `flex items-center group ${isMyMessage ? 'flex-row-reverse' : ''}`;
+            messageContainer.className = `flex items-start group ${isMyMessage ? 'flex-row-reverse' : ''}`;
 
             const bubble = document.createElement('div');
-            const bubbleClasses = 'max-w-xs md:max-w-md p-4 rounded-2xl shadow';
+            const bubbleClasses = 'max-w-xs md:max-w-md p-3 rounded-2xl shadow'; // Reduced padding slightly
             const bubbleColors = isMyMessage ? 'bg-blue-600 text-white' : 'bg-slate-200 text-slate-800';
             let senderNameClasses = `text-sm font-bold mb-1 ${isMyMessage ? 'text-blue-100' : 'text-slate-500'}`;
             let adminBadge = msg.isAdminMessage ? `<span class="ml-2 bg-yellow-400 text-yellow-900 text-xs font-semibold px-2 py-0.5 rounded-full">Admin</span>` : '';
@@ -244,9 +245,22 @@
                     </div>
                 `;
             }
+
+            // *** NEW: Format the timestamp ***
+            let timeHtml = '';
+            if (msg.timestamp) {
+                const date = msg.timestamp.toDate();
+                // This will format the time according to the user's local settings (e.g., 10:30 PM)
+                const timeString = date.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+                // This will format the date (e.g., Jul 30, 2025)
+                const dateString = date.toLocaleDateString([], { month: 'short', day: 'numeric', year: 'numeric' });
+                timeHtml = `<div class="text-xs mt-2 opacity-70 ${isMyMessage ? 'text-blue-200' : 'text-slate-500'} text-right">${dateString}, ${timeString}</div>`;
+            }
+            // *** END NEW ***
             
             bubble.className = `${bubbleClasses} ${bubbleColors}`;
-            bubble.innerHTML = `${replyHtml}<p class="${senderNameClasses}">${msg.senderName || 'Anonymous'}${adminBadge}</p><p class="break-words">${msg.text}</p>`;
+            // *** MODIFIED: Added timeHtml to the bubble's content ***
+            bubble.innerHTML = `${replyHtml}<p class="${senderNameClasses}">${msg.senderName || 'Anonymous'}${adminBadge}</p><p class="break-words">${msg.text}</p>${timeHtml}`;
             
             const replyButton = document.createElement('span');
             replyButton.className = 'reply-button';
@@ -278,6 +292,7 @@
             // --- Word Filter Logic ---
             const filterRegex = new RegExp(forbiddenWords.join('|'), 'i'); 
             if (filterRegex.test(text)) {
+                // Replaced alert with a custom, non-blocking modal in a real app
                 alert('Your message contains restricted words and cannot be sent.');
                 messageInput.value = '';
                 return;
@@ -291,7 +306,7 @@
                     senderName: currentUserName,
                     senderId: currentUserId,
                     isAdminMessage: isCurrentUserAdmin,
-                    timestamp: serverTimestamp()
+                    timestamp: serverTimestamp() // This remains the same
                 };
                 if (currentReply) messageData.replyTo = currentReply;
 
