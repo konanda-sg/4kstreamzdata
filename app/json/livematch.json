@@ -5,45 +5,8 @@
     "team2_name": "South Africa",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187746/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/187747/image",
-    "time": "1754774100000",
-    "league_name": "Cricket || South Africa in Australia, 3 T20I Series",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/",
-    "category": "Cricket",
-    "live_links": [
-            {
-                "link_title": "Intro",
-                "channel_url": "http://nightbirdscompany.github.io/4kstreamzdata/app/video/4K%20Streamz%20Intro.mp4"
-            }
-        ]
-    
-  },
-
-
-   {
-    "team1_name": "West Indies",
-    "team2_name": "Pakistan",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187760/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187754/image",
-    "time": "1754676000000",
-    "league_name": "Cricket || Pakistan in West Indies, 3 ODI Series",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/11191/image/dark",
-    "category": "Cricket",
-    "live_links": [
-            {
-                "link_title": "TNT 2",
-                "channel_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd?|drmScheme=clearkey&drmLicense=6d1708b185c6c4d7b37600520c7cc93c:1aace05f58d8edef9697fd52cb09f441"
-            }
-        ]
-    
-  },
-
-  {
-    "team1_name": "Australia",
-    "team2_name": "South Africa",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187746/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187747/image",
-    "time": "1754946900000",
-    "league_name": "Cricket || South Africa in Australia, 3 T20I Series",
+    "time": "1755335700000",
+    "league_name": "Cricket || South Africa in Australia",
     "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/",
     "category": "Cricket",
     "live_links": [
@@ -60,13 +23,13 @@
 
 
    {
-    "team1_name": "Chelsea",
-    "team2_name": "Bayer 04 Leverkusen",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/38/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2681/image",
-    "time": "1754676000000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/853/image/dark",
+    "team1_name": "Aston Villa",
+    "team2_name": "Newcastle United",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/40/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/39/image",
+    "time": "1755343800000",
+    "league_name": "Football || Premier League 2025/2026, Round 1",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/17/image",
     "category": "Football",
     "live_links": [
 
