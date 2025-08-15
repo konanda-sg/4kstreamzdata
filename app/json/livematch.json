@@ -46,13 +46,13 @@
   },
 
     {
-    "team1_name": "AS Monaco",
-    "team2_name": "Inter",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1653/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2697/image",
-    "time": "1754676000000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/853/image/dark",
+    "team1_name": "Brighton & Hove Albion",
+    "team2_name": "Fulham",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/30/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/43/image",
+    "time": "1755352800000",
+    "league_name": "Football || Premier League 2025/2026, Round 1",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/17/image",
     "category": "Football",
     "live_links": [
 
@@ -69,13 +69,13 @@
   },
 
       {
-    "team1_name": "Manchester United",
-    "team2_name": "Fiorentina",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/35/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2693/image",
-    "time": "1754739900000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/853/image/dark",
+    "team1_name": "Portsmouth",
+    "team2_name": "Norwich City",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/263/image",
+    "time": "1755343800000",
+    "league_name": "Football || Championship",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
     "category": "Football",
     "live_links": [
 
