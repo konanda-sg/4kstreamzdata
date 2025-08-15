@@ -317,15 +317,17 @@
         "channel_name": "Star Jalsha",
         "channel_logo": "https://i.postimg.cc/yN42bNvx/Star-Jalsha-logo-2023.png",
         "channel_links": [
+            
+            {
+                "link_title": "Star Jalsha ( server 2 )",
+                "channel_url": "http://tvsen5.aynaott.com/gUX8BJmNc2yF/tracks-v1a1/mono.ts.m3u8",
+                "link_type": "none"
+            },
+
             {
                 "link_title": "Star Jalsha",
                 "channel_url": "245898.m3u8",
                 "link_type": "opplex"
-            },
-            {
-                "link_title": "Star Jalsha ( server 2 )",
-                "channel_url": "http://atg100.xyz/live/UL33K17/SYC4T9D/76204.m3u8",
-                "link_type": "none"
             }
         ]
     },
