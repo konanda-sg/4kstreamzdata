@@ -51,7 +51,7 @@
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/30/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/43/image",
     "time": "1755352800000",
-    "league_name": "Football || Premier League 2025/2026, Round 1",
+    "league_name": "Football || Premier League 2025/2026",
     "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/17/image",
     "category": "Football",
     "live_links": [
@@ -92,13 +92,13 @@
   },
 
       {
-    "team1_name": "Chelsea",
-    "team2_name": "Milan",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/38/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2692/image",
-    "time": "1754834400000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/853/image/dark",
+    "team1_name": "Preston North End",
+    "team2_name": "Leicester City",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/21/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/31/image",
+    "time": "1755352800000",
+    "league_name": "Football || Championship",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
     "category": "Football",
     "live_links": [
 
@@ -116,21 +116,25 @@
 
 
 {
-    "team1_name": "Moto GP",
-    "team2_name": "Moto GO",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/category/1325/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/category/1325/image",
-    "time": "1754901900000",
-    "league_name": "MotorSports || MotoGP",
-    "league_icon": "https://img.sofascore.com/api/v1/category/1325/image",
-    "category": "MotorSports",
+    "team1_name": "Wolverhampton",
+    "team2_name": "Manchester City",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/17/image",
+    "time": "1755361800000",
+    "league_name": "Football || Premier League 2025/2026, Round 1",
+    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/17/image",
+    "category": "Football",
     "live_links": [
 
            {
-                "link_title": "TNT 2",
-                "channel_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd?|drmScheme=clearkey&drmLicense=6d1708b185c6c4d7b37600520c7cc93c:1aace05f58d8edef9697fd52cb09f441"
+                "link_title": "Sport TV",
+                "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd?|drmScheme=clearkey&drmLicense=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7"
+            },
+           {
+                "link_title": "MBC",
+                "channel_url": "https://shls-live-ak.akamaized.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index_6.m3u8"
             }
-        ]
+    ]
     
   }
 
