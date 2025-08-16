@@ -5,7 +5,7 @@
     "team2_name": "South Africa",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187746/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/187747/image",
-    "time": "1755335700000",
+    "time": "1765335700000",
     "league_name": "Cricket || South Africa in Australia",
     "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/",
     "category": "Cricket",
@@ -22,29 +22,7 @@
 
 
 
-   {
-    "team1_name": "Aston Villa",
-    "team2_name": "Newcastle United",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/40/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/39/image",
-    "time": "1755343800000",
-    "league_name": "Football || Premier League 2025/2026, Round 1",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/17/image",
-    "category": "Football",
-    "live_links": [
-
-           {
-                "link_title": "Sport TV",
-                "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd?|drmScheme=clearkey&drmLicense=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7"
-            },
-           {
-                "link_title": "MBC",
-                "channel_url": "https://shls-live-ak.akamaized.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index_6.m3u8"
-            }
-        ]
-    
-  },
-
+  
     {
     "team1_name": "Brighton & Hove Albion",
     "team2_name": "Fulham",
@@ -57,39 +35,14 @@
     "live_links": [
 
            {
-                "link_title": "Sport TV",
-                "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd?|drmScheme=clearkey&drmLicense=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7"
-            },
-           {
-                "link_title": "MBC",
-                "channel_url": "https://shls-live-ak.akamaized.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index_6.m3u8"
-            }
+                "link_title": "TNT 1",
+                "channel_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd?|drmScheme=clearkey&drmLicense=ae26845bd33038a9c0774a0981007294:63ac662dde310cfb4cc6f9b43b34196d"
+           }
         ]
     
   },
 
-      {
-    "team1_name": "Portsmouth",
-    "team2_name": "Norwich City",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/263/image",
-    "time": "1755343800000",
-    "league_name": "Football || Championship",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-    "category": "Football",
-    "live_links": [
-
-           {
-                "link_title": "Sport TV",
-                "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd?|drmScheme=clearkey&drmLicense=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7"
-            },
-           {
-                "link_title": "MBC",
-                "channel_url": "https://shls-live-ak.akamaized.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index_6.m3u8"
-            }
-        ]
-    
-  },
+      
 
       {
     "team1_name": "Preston North End",
@@ -127,13 +80,9 @@
     "live_links": [
 
            {
-                "link_title": "Sport TV",
-                "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd?|drmScheme=clearkey&drmLicense=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7"
-            },
-           {
-                "link_title": "MBC",
-                "channel_url": "https://shls-live-ak.akamaized.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index_6.m3u8"
-            }
+                "link_title": "TNT 1",
+                "channel_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd?|drmScheme=clearkey&drmLicense=ae26845bd33038a9c0774a0981007294:63ac662dde310cfb4cc6f9b43b34196d"
+           }
     ]
     
   }
