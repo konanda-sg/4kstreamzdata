@@ -1,5 +1,37 @@
 [
   {
+    "team1_name": "Jean",
+    "team2_name": "Musaev",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784879366540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784879366540x302.jpg",
+    "time": "1785024000000",
+    "league_name": "Cricket || Pfl 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Jean Vs Musaev",
+        "channel_url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/tapmad-PAKvsWI-BK-TesT/master.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Guyana Amazon Warriors",
+    "team2_name": "Desert Vipers",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DVDD@2x.png",
+    "time": "1785018600000",
+    "league_name": "Cricket || Global Super League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Guyana Amazon Warriors Vs Desert Vipers",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4247437_english_hls_7d1a57b8d583030_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "West Indies",
     "team2_name": "Pakistan",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png",
@@ -196,54 +228,6 @@
     ]
   },
   {
-    "team1_name": "Day 3 - Main Feed",
-    "team2_name": "Tpc Twin Cities - Blaine, Minnesota",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1784982600000",
-    "league_name": "Golf || 3M Open 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
-    "category": "Golf",
-    "live_links": [
-      {
-        "link_title": "Day 3 Main Feed",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246803_english_hls_7c0d958ec349342_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Day 6",
-    "team2_name": "Portugal",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1784995200000",
-    "league_name": "Tennis || Atp 250 - Millenium Estoril Open 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
-    "category": "Tennis",
-    "live_links": [
-      {
-        "link_title": "Day 6",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/143514_english_hls_9205c863a887330_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Day 3 - World Feed",
-    "team2_name": "Tpc Twin Cities - Blaine, Minnesota",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785000600000",
-    "league_name": "Golf || 3M Open 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
-    "category": "Golf",
-    "live_links": [
-      {
-        "link_title": "Day 3 World Feed",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246804_english_hls_4519eb4cde71293_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Smackdown",
     "team2_name": "Smackdown",
     "team1_logo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg",
@@ -264,38 +248,6 @@
       {
         "link_title": "SD SERVER",
         "channel_url": "http://193.47.62.44/hls/ZZZZZ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Mets",
-    "team2_name": "Dodgers",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3629/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3638/image",
-    "time": "1784934600000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Red Sox",
-    "team2_name": "Blue Jays",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3646/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3642/image",
-    "time": "1784934900000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -332,22 +284,6 @@
     ]
   },
   {
-    "team1_name": "Orioles",
-    "team2_name": "Braves",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3652/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3656/image",
-    "time": "1784934300000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Twins",
     "team2_name": "Athletics",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/3649/image",
@@ -364,91 +300,11 @@
     ]
   },
   {
-    "team1_name": "Phillies",
-    "team2_name": "Yankees",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3635/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3654/image",
-    "time": "1784933100000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Marlins",
-    "team2_name": "Padres",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3639/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3636/image",
-    "time": "1784934600000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Rangers",
     "team2_name": "Mariners",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/3647/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/3641/image",
     "time": "1784937900000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "White Sox",
-    "team2_name": "Astros",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3644/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3655/image",
-    "time": "1784936400000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Nationals",
-    "team2_name": "Diamondbacks",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/5930/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3640/image",
-    "time": "1784933100000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Rays",
-    "team2_name": "Guardians",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3653/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3650/image",
-    "time": "1784934600000",
     "league_name": "Baseball || Mlb",
     "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
     "category": "Baseball",
@@ -524,22 +380,6 @@
     ]
   },
   {
-    "team1_name": "Jean",
-    "team2_name": "Musaev",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784879366540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784879366540x302.jpg",
-    "time": "1785024000000",
-    "league_name": "Cricket || Pfl 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Manchester Super Giants",
     "team2_name": "Birmingham Pheonix",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784890142540x302men.jpg",
@@ -578,22 +418,6 @@
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784891006540x302men.jpg",
     "time": "1785085200000",
     "league_name": "Cricket || The Hundred Men'S Competition 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Guyana Amazon Warriors",
-    "team2_name": "Desert Vipers",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DVDD@2x.png",
-    "time": "1785018600000",
-    "league_name": "Cricket || Global Super League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -866,6 +690,54 @@
     "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Perth-Scorchers-XI.png",
     "time": "1785277800000",
     "league_name": "Cricket || Global Super League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Nepal",
+    "team2_name": "Netherlands",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NEP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NED@2x.png",
+    "time": "1785313800000",
+    "league_name": "Cricket || Icc Cwc League 2 Netherlands, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Galle Gallants",
+    "team2_name": "Kandy Royals",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Kandy-Royals.png",
+    "time": "1785315600000",
+    "league_name": "Cricket || Lanka Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Colombo Kaps",
+    "team2_name": "Dambulla Sixers",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DS@2x.png",
+    "time": "1785331800000",
+    "league_name": "Cricket || Lanka Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
