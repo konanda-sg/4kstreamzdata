@@ -16,22 +16,6 @@
     ]
   },
   {
-    "team1_name": "Ankalaev",
-    "team2_name": "Guskov",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784797420540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784797420540x302.jpg",
-    "time": "1784995200000",
-    "league_name": "Cricket || Ufc 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Ankalaev Vs Guskov",
-        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Welsh Fire",
     "team2_name": "Mi London",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784877903540x302men.jpg",
@@ -44,22 +28,6 @@
       {
         "link_title": "Welsh Fire Vs Mi London",
         "channel_url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Colombo Kaps",
-    "team2_name": "Dambulla Sixers",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DS@2x.png",
-    "time": "1784986200000",
-    "league_name": "Cricket || Lanka Premier League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Colombo Kaps Vs Dambulla Sixers",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246721_english_hls_414959cb1224583_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -640,7 +608,7 @@
     "team2_name": "Musaev",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784879366540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784879366540x302.jpg",
-    "time": "1785020400000",
+    "time": "1785024000000",
     "league_name": "Cricket || Pfl 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -834,6 +802,22 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ZIM@2x.png",
     "time": "1784975400000",
     "league_name": "Cricket || India Tour Of Zimbabwe, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Colombo Kaps",
+    "team2_name": "Dambulla Sixers",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DS@2x.png",
+    "time": "1784986200000",
+    "league_name": "Cricket || Lanka Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
