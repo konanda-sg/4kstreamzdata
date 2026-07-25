@@ -16,22 +16,6 @@
     ]
   },
   {
-    "team1_name": "Welsh Fire",
-    "team2_name": "Mi London",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784877903540x302men.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784877903540x302men.jpg",
-    "time": "1784998800000",
-    "league_name": "Cricket || The Hundred Men'S Competition 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Welsh Fire Vs Mi London",
-        "channel_url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "West Indies",
     "team2_name": "Pakistan",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png",
@@ -337,22 +321,6 @@
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/3632/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/3633/image",
     "time": "1784938500000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Brewers",
-    "team2_name": "Rockies",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3630/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3628/image",
-    "time": "1784923800000",
     "league_name": "Baseball || Mlb",
     "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
     "category": "Baseball",
