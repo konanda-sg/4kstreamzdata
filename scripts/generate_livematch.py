@@ -2,12 +2,13 @@
 """
 Generate Live Match JSON from source sports data.
 Converts Bangladesh time (Asia/Dhaka) to UTC Unix timestamp in milliseconds.
+Auto-removes matches older than 24 hours.
 """
 
 import json
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Any
 
 import requests
@@ -85,6 +86,39 @@ def fetch_source_data() -> Dict[str, Any]:
         raise
 
 
+def convert_bdt_to_datetime(start_time: str) -> Optional[datetime]:
+    """Convert Bangladesh local time string to datetime object."""
+    if not start_time:
+        return None
+    
+    try:
+        parts = start_time.strip().split()
+        if len(parts) < 3:
+            return None
+        
+        date_str = parts[0]
+        time_str = parts[1]
+        ampm = parts[2]
+        
+        day, month, year = map(int, date_str.split('-'))
+        hour, minute = map(int, time_str.split(':'))
+        
+        if ampm.upper() == "PM" and hour != 12:
+            hour += 12
+        elif ampm.upper() == "AM" and hour == 12:
+            hour = 0
+        
+        naive_dt = datetime(year, month, day, hour, minute)
+        bdt_dt = BDT_TIMEZONE.localize(naive_dt)
+        utc_dt = bdt_dt.astimezone(pytz.UTC)
+        
+        return utc_dt
+        
+    except Exception as e:
+        print(f"⚠️  Warning: Failed to parse time '{start_time}': {e}")
+        return None
+
+
 def convert_bdt_to_utc_timestamp(start_time: str) -> str:
     """Convert Bangladesh local time to UTC Unix timestamp in milliseconds."""
     if not start_time:
@@ -118,6 +152,25 @@ def convert_bdt_to_utc_timestamp(start_time: str) -> str:
     except Exception as e:
         print(f"⚠️  Warning: Failed to convert time '{start_time}': {e}")
         return str(int(datetime.now().timestamp() * 1000))
+
+
+def is_match_expired(start_time: str) -> bool:
+    """
+    Check if a match is older than 24 hours.
+    Returns True if the match should be removed.
+    """
+    if not start_time:
+        return False
+    
+    utc_dt = convert_bdt_to_datetime(start_time)
+    if not utc_dt:
+        return False
+    
+    # Check if match is older than 24 hours
+    now_utc = datetime.now(pytz.UTC)
+    time_diff = now_utc - utc_dt
+    
+    return time_diff > timedelta(hours=24)
 
 
 def get_valid_url(url: str, fallback: str = None) -> str:
@@ -178,6 +231,11 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
             print(f"⚠️  Skipping match: Missing team names")
             return None
         
+        # Check if match is expired (older than 24 hours)
+        if is_match_expired(start_time):
+            print(f"   🕐 Skipping expired match: {team_a} vs {team_b} (started at {start_time})")
+            return None
+        
         if category and event_name:
             league_name = f"{category} || {event_name}"
         elif category:
@@ -207,8 +265,12 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
                     # Build the final URL with DRM if available
                     final_url = build_stream_url(stream_url, drm_key)
                     
-                    # Use stream name as link_title, fallback to event_name
-                    link_title = stream_name if stream_name and stream_name.strip() else match_event_name or f"{team_a} vs {team_b}"
+                    # Use stream name if available, otherwise use match name
+                    if stream_name and stream_name.strip():
+                        link_title = stream_name
+                    else:
+                        # If no stream name, use match event name or team names
+                        link_title = match_event_name if match_event_name and match_event_name.strip() else f"{team_a} vs {team_b}"
                     
                     live_links.append({
                         "link_title": link_title,
@@ -250,6 +312,9 @@ def main():
     """Main execution function."""
     print("🚀 Starting Live Match JSON Generator")
     print("=" * 50)
+    print(f"⏰ Current UTC time: {datetime.now(pytz.UTC).strftime('%Y-%m-%d %H:%M:%S %Z')}")
+    print("📋 Matches older than 24 hours will be automatically removed")
+    print("=" * 50)
     
     try:
         source_data = fetch_source_data()
@@ -262,6 +327,7 @@ def main():
             print(f"\n🔄 Processing {len(matches)} matches...")
             transformed_matches = []
             skipped = 0
+            expired = 0
             
             for idx, match in enumerate(matches, 1):
                 transformed = transform_match(match)
@@ -270,12 +336,20 @@ def main():
                     live_links_count = len(transformed.get('live_links', []))
                     print(f"   ✓ Match {idx}: {transformed.get('team1_name')} vs {transformed.get('team2_name')} (Links: {live_links_count})")
                 else:
-                    skipped += 1
+                    # Check if it was skipped due to expiry
+                    event_info = match.get("eventInfo", {})
+                    start_time = event_info.get("startTime", "")
+                    if start_time and is_match_expired(start_time):
+                        expired += 1
+                    else:
+                        skipped += 1
                     print(f"   ✗ Match {idx}: Skipped")
             
             print(f"\n✅ Successfully transformed {len(transformed_matches)} matches")
             if skipped > 0:
-                print(f"   ⚠️  Skipped {skipped} matches")
+                print(f"   ⚠️  Skipped {skipped} matches (missing required fields)")
+            if expired > 0:
+                print(f"   🕐 Removed {expired} expired matches (older than 24 hours)")
         
         os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
         
