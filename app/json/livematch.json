@@ -260,54 +260,6 @@
     ]
   },
   {
-    "team1_name": "Barcelona",
-    "team2_name": "Europa",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2817/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/135672/image",
-    "time": "1784916000000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Galatasaray",
-    "team2_name": "Monza",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3061/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2729/image",
-    "time": "1784916000000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Braunschweig",
-    "team2_name": "Southampton",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2557/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/45/image",
-    "time": "1784916000000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Day 3 - Main Feed",
     "team2_name": "Tpc Twin Cities - Blaine, Minnesota",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
@@ -336,6 +288,22 @@
       {
         "link_title": "Day 6",
         "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/143514_english_hls_9205c863a887330_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Day 3 - World Feed",
+    "team2_name": "Tpc Twin Cities - Blaine, Minnesota",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785000600000",
+    "league_name": "Golf || 3M Open 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
+    "category": "Golf",
+    "live_links": [
+      {
+        "link_title": "Day 3 World Feed",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246804_english_hls_4519eb4cde71293_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -972,6 +940,22 @@
     ]
   },
   {
+    "team1_name": "Desert Vipers",
+    "team2_name": "Perth Scorchers Xi",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DVDD@2x.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Perth-Scorchers-XI.png",
+    "time": "1785277800000",
+    "league_name": "Cricket || Global Super League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
     "team1_name": "Krl",
     "team2_name": "Jk",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/369187/image",
@@ -1028,22 +1012,6 @@
     "league_name": "Cricket || The Hundred Women",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Day 3 - World Feed",
-    "team2_name": "Tpc Twin Cities - Blaine, Minnesota",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785000600000",
-    "league_name": "Golf || 3M Open 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
-    "category": "Golf",
     "live_links": [
       {
         "link_title": "Intro",
