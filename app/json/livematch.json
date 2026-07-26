@@ -92,38 +92,6 @@
     ]
   },
   {
-    "team1_name": "Gg",
-    "team2_name": "Krl",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/453389/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/369187/image",
-    "time": "1784971800000",
-    "league_name": "Cricket || Lanka Premier League",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Sl-W",
-    "team2_name": "Sob-W",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/377206/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/377205/image",
-    "time": "1784973600000",
-    "league_name": "Cricket || The Hundred Women",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Wef",
     "team2_name": "Mil",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/377179/image",
@@ -172,50 +140,18 @@
     ]
   },
   {
-    "team1_name": "Japan - Race 2",
-    "team2_name": "Suzuka City, Japan",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-POR@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png",
-    "time": "1785038400000",
-    "league_name": "Motorsports || Ferrari Challenge Series 2026",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Motorsports",
-    "live_links": [
-      {
-        "link_title": "Japan Race 2",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/143795_english_hls_abb347c8ca16419_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Race",
     "team2_name": "Budapest",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR3@2x.png",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-POR@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png",
-    "time": "1785046200000",
-    "league_name": "Motorsports || F3 Hungary 2026",
+    "time": "1785051600000",
+    "league_name": "Motorsports || Porsche Mobil 1 Supercup 2026",
     "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
     "category": "Motorsports",
     "live_links": [
       {
         "link_title": "Race",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/139736_english_hls_b32c4b967831348_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Cowboys",
-    "team2_name": "Broncos",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4257/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4258/image",
-    "time": "1784972100000",
-    "league_name": "Rugby || Nrl",
-    "league_icon": "https://img.icons8.com/color/96/000000/rugby.png",
-    "category": "Rugby",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/143613_english_hls_6b2f31727495861_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -354,38 +290,6 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NEP@2x.png",
     "time": "1785141000000",
     "league_name": "Cricket || Icc Cwc League 2 Netherlands, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Netherlands",
-    "team2_name": "Namibia",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NED@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NAB@2x.png",
-    "time": "1784968200000",
-    "league_name": "Cricket || Icc Cwc League 2 Netherlands, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Kandy Royals",
-    "team2_name": "Galle Gallants",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Kandy-Royals.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png",
-    "time": "1784970000000",
-    "league_name": "Cricket || Lanka Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -588,6 +492,22 @@
     ]
   },
   {
+    "team1_name": "Lahore Qalandars",
+    "team2_name": "San Francisco Unicorns",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Lahore-Qalandars.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/San-Francisco-Unicorns.png",
+    "time": "1785331800000",
+    "league_name": "Cricket || Global Super League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
     "team1_name": "Krl",
     "team2_name": "Jk",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/369187/image",
@@ -652,38 +572,6 @@
     ]
   },
   {
-    "team1_name": "Qualifying 2",
-    "team2_name": "Oschersleben, Germany",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-DTM@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png",
-    "time": "1785048600000",
-    "league_name": "Motorsports || Dtm 2026",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Motorsports",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Race",
-    "team2_name": "Budapest",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-POR@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png",
-    "time": "1785051600000",
-    "league_name": "Motorsports || Porsche Mobil 1 Supercup 2026",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Motorsports",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Race",
     "team2_name": "Hungary",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR2@2x.png",
@@ -692,22 +580,6 @@
     "league_name": "Motorsports || F2 Hungary 2026",
     "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
     "category": "Motorsports",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Atp 250 - Millenium Estoril Open 2026",
-    "team2_name": "Portugal",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785056400000",
-    "league_name": "Tennis || Atp 250 - Millenium Estoril Open 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
-    "category": "Tennis",
     "live_links": [
       {
         "link_title": "Intro",
@@ -788,6 +660,22 @@
     "league_name": "Motorsports || Dtm 2026",
     "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
     "category": "Motorsports",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Day 7",
+    "team2_name": "Portugal",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785081600000",
+    "league_name": "Tennis || Atp 250 - Millenium Estoril Open 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
+    "category": "Tennis",
     "live_links": [
       {
         "link_title": "Intro",
@@ -898,6 +786,38 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
     "time": "1785254400000",
     "league_name": "Tennis || Atp 250 - Mifel Tennis Open By Telcel Oppo 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
+    "category": "Tennis",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Atp 500 - Mubadala Dc Open 2026",
+    "team2_name": "Washington, United States",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785313800000",
+    "league_name": "Tennis || Atp 500 - Mubadala Dc Open 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
+    "category": "Tennis",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Atp 500 - Mubadala Dc Open 2026",
+    "team2_name": "Washington, United States",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785313800000",
+    "league_name": "Tennis || Atp 500 - Mubadala Dc Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
     "category": "Tennis",
     "live_links": [
