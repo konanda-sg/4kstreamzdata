@@ -1,16 +1,16 @@
 [
   {
-    "team1_name": "Kazakhstan",
-    "team2_name": "Sri Lanka",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784899862540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784899862540x302.jpg",
-    "time": "1785043800000",
+    "team1_name": "Nepal",
+    "team2_name": "Bangladesh",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784900020540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784900020540x302.jpg",
+    "time": "1785052800000",
     "league_name": "Cricket || Cava Men'S Volleyball Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Kazakhstan Vs Sri Lanka",
+        "link_title": "Nepal Vs Bangladesh",
         "channel_url": "https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8"
       }
     ]
@@ -188,18 +188,18 @@
     ]
   },
   {
-    "team1_name": "Canterbury",
-    "team2_name": "New Zealand",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4253/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4267/image",
-    "time": "1784964600000",
-    "league_name": "Rugby || Nrl",
-    "league_icon": "https://img.icons8.com/color/96/000000/rugby.png",
-    "category": "Rugby",
+    "team1_name": "Race",
+    "team2_name": "Budapest",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR3@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png",
+    "time": "1785046200000",
+    "league_name": "Motorsports || F3 Hungary 2026",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Motorsports",
     "live_links": [
       {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+        "link_title": "Race",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/139736_english_hls_b32c4b967831348_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -644,22 +644,6 @@
     "league_name": "Cricket || The Hundred Women",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Race",
-    "team2_name": "Budapest",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR3@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png",
-    "time": "1785046200000",
-    "league_name": "Motorsports || F3 Hungary 2026",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Motorsports",
     "live_links": [
       {
         "link_title": "Intro",
