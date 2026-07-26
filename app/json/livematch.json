@@ -1,17 +1,17 @@
 [
   {
-    "team1_name": "Pakistan",
-    "team2_name": "Uzbekistan",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784900138540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784900138540x302.jpg",
-    "time": "1785061800000",
-    "league_name": "Cricket || Cava Men'S Volleyball Championship 2026",
+    "team1_name": "Manchester Super Giants",
+    "team2_name": "Birmingham Pheonix",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784890142540x302men.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784890142540x302men.jpg",
+    "time": "1785072600000",
+    "league_name": "Cricket || The Hundred Men'S Competition 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Pakistan Vs Uzbekistan",
-        "channel_url": "https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8"
+        "link_title": "Manchester Super Giants Vs Birmingham Pheonix",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
       }
     ]
   },
@@ -64,92 +64,12 @@
     ]
   },
   {
-    "team1_name": "West Indies",
-    "team2_name": "Pakistan",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
-    "time": "1784984400000",
-    "league_name": "Cricket || Pakistan Tour Of West Indies, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "West Indies Vs Pakistan",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/143633_english_hls_37959550fb90160_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Wi",
-    "team2_name": "Pak",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187760/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187754/image",
-    "time": "1784988000000",
-    "league_name": "Cricket || Icc World Test Championship",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Ds",
-    "team2_name": "Ck",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/369189/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/453390/image",
-    "time": "1784988000000",
-    "league_name": "Cricket || Lanka Premier League",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Wef",
     "team2_name": "Mil",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/377179/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/377172/image",
     "time": "1784998800000",
     "league_name": "Cricket || The Hundred",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Sl",
-    "team2_name": "Sob",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/377178/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/377177/image",
-    "time": "1784986200000",
-    "league_name": "Cricket || The Hundred",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Wef-W",
-    "team2_name": "Mil-W",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/377207/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/377200/image",
-    "time": "1784986200000",
-    "league_name": "Cricket || The Hundred Women",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -240,34 +160,18 @@
     ]
   },
   {
-    "team1_name": "Manchester Super Giants",
-    "team2_name": "Birmingham Pheonix",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784890142540x302men.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784890142540x302men.jpg",
-    "time": "1785072600000",
-    "league_name": "Cricket || The Hundred Men'S Competition 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
+    "team1_name": "Day 4 - Main Feed",
+    "team2_name": "Tpc Twin Cities - Blaine, Minnesota",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785069000000",
+    "league_name": "Golf || 3M Open 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
+    "category": "Golf",
     "live_links": [
       {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "West Indies",
-    "team2_name": "Pakistan",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784550745540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784550745540x302.jpg",
-    "time": "1785074400000",
-    "league_name": "Cricket || Pakistan Tour Of West Indies 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+        "link_title": "Day 4 Main Feed",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246805_english_hls_302416363781824_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -342,22 +246,6 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NEP@2x.png",
     "time": "1785141000000",
     "league_name": "Cricket || Icc Cwc League 2 Netherlands, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Colombo Kaps",
-    "team2_name": "Dambulla Sixers",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DS@2x.png",
-    "time": "1784986200000",
-    "league_name": "Cricket || Lanka Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -560,6 +448,22 @@
     ]
   },
   {
+    "team1_name": "Malaysia Xi",
+    "team2_name": "Sea Hawks Cricket Club",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALY@2x.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Seahawks.png",
+    "time": "1785373200000",
+    "league_name": "Cricket || Malaysia And Sea Hawks Cricket Club 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
     "team1_name": "Krl",
     "team2_name": "Jk",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/369187/image",
@@ -616,22 +520,6 @@
     "league_name": "Cricket || The Hundred Women",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Day 4 - Main Feed",
-    "team2_name": "Tpc Twin Cities - Blaine, Minnesota",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785069000000",
-    "league_name": "Golf || 3M Open 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
-    "category": "Golf",
     "live_links": [
       {
         "link_title": "Intro",
