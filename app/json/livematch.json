@@ -1,21 +1,5 @@
 [
   {
-    "team1_name": "Trent Rockets",
-    "team2_name": "London Spirit",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784891006540x302men.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784891006540x302men.jpg",
-    "time": "1785085200000",
-    "league_name": "Cricket || The Hundred Men'S Competition 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Trent Rockets Vs London Spirit",
-        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Day 4 - Main Feed",
     "team2_name": "Tpc Twin Cities - Blaine, Minnesota",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
@@ -60,22 +44,6 @@
       {
         "link_title": "Day 4 World Feed",
         "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246806_english_hls_ff055b058229766_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "San Francisco Unicorns",
-    "team2_name": "Perth Scorchers Xi",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/San-Francisco-Unicorns.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Perth-Scorchers-XI.png",
-    "time": "1785072600000",
-    "league_name": "Cricket || Global Super League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -182,6 +150,22 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DS@2x.png",
     "time": "1785072600000",
     "league_name": "Cricket || Lanka Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "San Francisco Unicorns",
+    "team2_name": "Perth Scorchers Xi",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/San-Francisco-Unicorns.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Perth-Scorchers-XI.png",
+    "time": "1785072600000",
+    "league_name": "Cricket || Global Super League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -512,11 +496,11 @@
     ]
   },
   {
-    "team1_name": "Atp 250 - Mifel Tennis Open By Telcel Oppo 2026",
+    "team1_name": "Day 1",
     "team2_name": "Mexico",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785168000000",
+    "time": "1785198600000",
     "league_name": "Tennis || Atp 250 - Mifel Tennis Open By Telcel Oppo 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
     "category": "Tennis",
@@ -560,11 +544,11 @@
     ]
   },
   {
-    "team1_name": "Atp 250 - Mifel Tennis Open By Telcel Oppo 2026",
+    "team1_name": "Day 2",
     "team2_name": "Mexico",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785254400000",
+    "time": "1785285000000",
     "league_name": "Tennis || Atp 250 - Mifel Tennis Open By Telcel Oppo 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
     "category": "Tennis",
@@ -608,11 +592,11 @@
     ]
   },
   {
-    "team1_name": "Atp 250 - Mifel Tennis Open By Telcel Oppo 2026",
+    "team1_name": "Day 3",
     "team2_name": "Mexico",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785340800000",
+    "time": "1785371400000",
     "league_name": "Tennis || Atp 250 - Mifel Tennis Open By Telcel Oppo 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
     "category": "Tennis",
@@ -656,11 +640,11 @@
     ]
   },
   {
-    "team1_name": "Atp 250 - Mifel Tennis Open By Telcel Oppo 2026",
+    "team1_name": "Day 4",
     "team2_name": "Mexico",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785427200000",
+    "time": "1785457800000",
     "league_name": "Tennis || Atp 250 - Mifel Tennis Open By Telcel Oppo 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
     "category": "Tennis",
