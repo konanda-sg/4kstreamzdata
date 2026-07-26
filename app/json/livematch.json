@@ -228,46 +228,6 @@
     ]
   },
   {
-    "team1_name": "Smackdown",
-    "team2_name": "Smackdown",
-    "team1_logo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg",
-    "team2_logo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg",
-    "time": "1784937600000",
-    "league_name": "Boxing || Friday Night Smackdown",
-    "league_icon": "https://img.icons8.com/color/96/000000/boxing.png",
-    "category": "Boxing",
-    "live_links": [
-      {
-        "link_title": "WWE HD",
-        "channel_url": "https://chatgpt.hereisman.net/playlist/52583/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
-      },
-      {
-        "link_title": "WWE LIVE HD",
-        "channel_url": "https://melancholy.fromthyheart.site/dailymotion/live/playlist/1.m3u8"
-      },
-      {
-        "link_title": "SD SERVER",
-        "channel_url": "http://193.47.62.44/hls/ZZZZZ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Cardinals",
-    "team2_name": "Reds",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3632/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3633/image",
-    "time": "1784938500000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Giants",
     "team2_name": "Angels",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/3634/image",
@@ -276,54 +236,6 @@
     "league_name": "Baseball || Mlb",
     "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
     "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Twins",
-    "team2_name": "Athletics",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3649/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3645/image",
-    "time": "1784938200000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Rangers",
-    "team2_name": "Mariners",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3647/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3641/image",
-    "time": "1784937900000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Winnipeg",
-    "team2_name": "Calgary",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4435/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4433/image",
-    "time": "1784939400000",
-    "league_name": "American Football || Cfl",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "American Football",
     "live_links": [
       {
         "link_title": "Intro",
