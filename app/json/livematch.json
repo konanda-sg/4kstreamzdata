@@ -1,21 +1,5 @@
 [
   {
-    "team1_name": "Pakistan",
-    "team2_name": "Kazakhstan",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784900738540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784900738540x302.jpg",
-    "time": "1785148200000",
-    "league_name": "Cricket || Cava Men'S Volleyball Championship 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Pakistan Vs Kazakhstan",
-        "channel_url": "https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Namibia",
     "team2_name": "Nepal",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NAB@2x.png",
@@ -32,18 +16,18 @@
     ]
   },
   {
-    "team1_name": "West Indies",
-    "team2_name": "Pakistan",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784550745540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784550745540x302.jpg",
-    "time": "1785160800000",
-    "league_name": "Cricket || Pakistan Tour Of West Indies 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
+    "team1_name": "World Feed - Day 1",
+    "team2_name": "Washington, United States",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785162600000",
+    "league_name": "Tennis || Atp 500 - Mubadala Dc Open 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
+    "category": "Tennis",
     "live_links": [
       {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+        "link_title": "World Feed Day 1",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/143640_english_hls_6cd30c2cc670542_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -70,6 +54,22 @@
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785143739540x302.jpg",
     "time": "1785213000000",
     "league_name": "Cricket || Pakistan Women Tour Of Sri Lanka 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Sunrisers Leeds",
+    "team2_name": "Manchester Super Giants",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785155337540x302men.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785155337540x302men.jpg",
+    "time": "1785259800000",
+    "league_name": "Cricket || The Hundred Men'S Competition 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -128,22 +128,6 @@
     ]
   },
   {
-    "team1_name": "Chelsea",
-    "team2_name": "Western Sydney Wanderers",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHEL@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SYWA@2x.png",
-    "time": "1785230100000",
-    "league_name": "Football || Club Friendlies 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Colombo Kaps",
     "team2_name": "Jaffna Kings",
     "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
@@ -160,30 +144,14 @@
     ]
   },
   {
-    "team1_name": "Galle Gallants",
-    "team2_name": "Dambulla Sixers",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DS@2x.png",
-    "time": "1785072600000",
-    "league_name": "Cricket || Lanka Premier League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "San Francisco Unicorns",
-    "team2_name": "Perth Scorchers Xi",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/San-Francisco-Unicorns.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Perth-Scorchers-XI.png",
-    "time": "1785072600000",
-    "league_name": "Cricket || Global Super League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
+    "team1_name": "Chelsea",
+    "team2_name": "Western Sydney Wanderers",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHEL@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SYWA@2x.png",
+    "time": "1785230100000",
+    "league_name": "Football || Club Friendlies 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
     "live_links": [
       {
         "link_title": "Intro",
@@ -400,46 +368,14 @@
     ]
   },
   {
-    "team1_name": "Msg",
-    "team2_name": "Bph",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/377173/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/377174/image",
-    "time": "1785072600000",
-    "league_name": "Cricket || The Hundred",
+    "team1_name": "South Delhi Superstarz",
+    "team2_name": "East Delhi Riders",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-EDR@2x.png",
+    "time": "1785569400000",
+    "league_name": "Cricket || Delhi Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Trt-W",
-    "team2_name": "Lns-W",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/377204/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/377203/image",
-    "time": "1785072600000",
-    "league_name": "Cricket || The Hundred Women",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "World Feed - Day 1",
-    "team2_name": "Washington, United States",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785162600000",
-    "league_name": "Tennis || Atp 500 - Mubadala Dc Open 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
-    "category": "Tennis",
     "live_links": [
       {
         "link_title": "Intro",
@@ -677,6 +613,22 @@
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
     "time": "1785493800000",
+    "league_name": "Golf || Rocket Classic 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
+    "category": "Golf",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "World Feed - Day 2",
+    "team2_name": "Detroit Golf Club - Detroit, Michigan",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
+    "time": "1785522600000",
     "league_name": "Golf || Rocket Classic 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
     "category": "Golf",
