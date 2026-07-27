@@ -1,33 +1,33 @@
 [
   {
-    "team1_name": "Bangladesh",
-    "team2_name": "Sri Lanka",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784900629540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784900629540x302.jpg",
-    "time": "1785139200000",
+    "team1_name": "Pakistan",
+    "team2_name": "Kazakhstan",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784900738540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784900738540x302.jpg",
+    "time": "1785148200000",
     "league_name": "Cricket || Cava Men'S Volleyball Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Bangladesh Vs Sri Lanka",
-        "channel_url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8"
+        "link_title": "Pakistan Vs Kazakhstan",
+        "channel_url": "https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8"
       }
     ]
   },
   {
-    "team1_name": "Guyana Amazon Warriors",
-    "team2_name": "Lahore Qalandars",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Lahore-Qalandars.png",
-    "time": "1785105000000",
-    "league_name": "Cricket || Global Super League, 2026",
+    "team1_name": "Namibia",
+    "team2_name": "Nepal",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NAB@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NEP@2x.png",
+    "time": "1785141000000",
+    "league_name": "Cricket || Icc Cwc League 2 Netherlands, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+        "link_title": "Namibia Vs Nepal",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246707_english_hls_fefe03448672489_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -64,12 +64,12 @@
     ]
   },
   {
-    "team1_name": "Namibia",
-    "team2_name": "Nepal",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NAB@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NEP@2x.png",
-    "time": "1785141000000",
-    "league_name": "Cricket || Icc Cwc League 2 Netherlands, 2026",
+    "team1_name": "Sri Lanka Women",
+    "team2_name": "Pakistan Women",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785143739540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785143739540x302.jpg",
+    "time": "1785213000000",
+    "league_name": "Cricket || Pakistan Women Tour Of Sri Lanka 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -128,12 +128,28 @@
     ]
   },
   {
-    "team1_name": "India",
-    "team2_name": "Zimbabwe",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IND@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ZIM@2x.png",
-    "time": "1785061800000",
-    "league_name": "Cricket || India Tour Of Zimbabwe, 2026",
+    "team1_name": "Chelsea",
+    "team2_name": "Western Sydney Wanderers",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHEL@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SYWA@2x.png",
+    "time": "1785230100000",
+    "league_name": "Football || Club Friendlies 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Colombo Kaps",
+    "team2_name": "Jaffna Kings",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png",
+    "time": "1785245400000",
+    "league_name": "Cricket || Lanka Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -176,28 +192,12 @@
     ]
   },
   {
-    "team1_name": "Chelsea",
-    "team2_name": "Western Sydney Wanderers",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHEL@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SYWA@2x.png",
-    "time": "1785230100000",
-    "league_name": "Football || Club Friendlies 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Colombo Kaps",
-    "team2_name": "Jaffna Kings",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png",
-    "time": "1785245400000",
-    "league_name": "Cricket || Lanka Premier League, 2026",
+    "team1_name": "Guyana Amazon Warriors",
+    "team2_name": "Lahore Qalandars",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Lahore-Qalandars.png",
+    "time": "1785105000000",
+    "league_name": "Cricket || Global Super League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -390,38 +390,6 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/pb-flags/FC-PB@2x.png",
     "time": "1785537000000",
     "league_name": "Cricket || Global Super League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Krl",
-    "team2_name": "Jk",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/369187/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/453388/image",
-    "time": "1785058200000",
-    "league_name": "Cricket || Lanka Premier League",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Msg-W",
-    "team2_name": "Bph-W",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/377201/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/377202/image",
-    "time": "1785060000000",
-    "league_name": "Cricket || The Hundred Women",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
