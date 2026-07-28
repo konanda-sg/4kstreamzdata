@@ -16,6 +16,22 @@
     ]
   },
   {
+    "team1_name": "World Feed 2",
+    "team2_name": "Washington, United States",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785317400000",
+    "league_name": "Tennis || Atp 500 - Mubadala Dc Open 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
+    "category": "Tennis",
+    "live_links": [
+      {
+        "link_title": "World Feed 2",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/143643_english_hls_adfe3dbeb394633_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "Welsh Fire",
     "team2_name": "Trent Rockets",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785235293540x302men.jpg",
@@ -144,12 +160,12 @@
     ]
   },
   {
-    "team1_name": "San Francisco Unicorns",
-    "team2_name": "Desert Vipers",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/San-Francisco-Unicorns.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DVDD@2x.png",
-    "time": "1785191400000",
-    "league_name": "Cricket || Global Super League, 2026",
+    "team1_name": "Malaysia Xi",
+    "team2_name": "Sea Hawks Cricket Club",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALY@2x.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Seahawks.png",
+    "time": "1785373200000",
+    "league_name": "Cricket || Malaysia And Sea Hawks Cricket Club 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -182,22 +198,6 @@
     "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
     "time": "1785245400000",
     "league_name": "Cricket || Lanka Premier League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Malaysia Xi",
-    "team2_name": "Sea Hawks Cricket Club",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALY@2x.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Seahawks.png",
-    "time": "1785373200000",
-    "league_name": "Cricket || Malaysia And Sea Hawks Cricket Club 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -453,22 +453,6 @@
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
     "time": "1785313800000",
-    "league_name": "Tennis || Atp 500 - Mubadala Dc Open 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
-    "category": "Tennis",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "World Feed 2",
-    "team2_name": "Washington, United States",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785317400000",
     "league_name": "Tennis || Atp 500 - Mubadala Dc Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
     "category": "Tennis",
