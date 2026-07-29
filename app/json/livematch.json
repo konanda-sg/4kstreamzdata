@@ -1,17 +1,33 @@
 [
   {
-    "team1_name": "Day 2",
-    "team2_name": "Mexico",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785285000000",
-    "league_name": "Tennis || Atp 250 - Mifel Tennis Open By Telcel Oppo 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
-    "category": "Tennis",
+    "team1_name": "Netherlands",
+    "team2_name": "Nepal",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NED@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NEP@2x.png",
+    "time": "1785313800000",
+    "league_name": "Cricket || Icc Cwc League 2 Netherlands, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Day 2",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/143517_english_hls_026d19806b81456_1ta-di_h264/index.m3u8"
+        "link_title": "Netherlands Vs Nepal",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246708_english_hls_ea32c4304326061_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Galle Gallants",
+    "team2_name": "Kandy Royals",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Kandy-Royals.png",
+    "time": "1785315600000",
+    "league_name": "Cricket || Lanka Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Galle Gallants Vs Kandy Royals",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246726_english_hls_44910f186893977_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -38,38 +54,6 @@
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785236567540x302men.jpg",
     "time": "1785346200000",
     "league_name": "Cricket || The Hundred Men'S Competition 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Nepal",
-    "team2_name": "Netherlands",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NEP@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NED@2x.png",
-    "time": "1785313800000",
-    "league_name": "Cricket || Icc Cwc League 2 Netherlands, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Galle Gallants",
-    "team2_name": "Kandy Royals",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Kandy-Royals.png",
-    "time": "1785315600000",
-    "league_name": "Cricket || Lanka Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -161,6 +145,22 @@
   },
   {
     "team1_name": "Jaffna Kings",
+    "team2_name": "Kandy Royals",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Kandy-Royals.png",
+    "time": "1785418200000",
+    "league_name": "Cricket || Lanka Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Jaffna Kings",
     "team2_name": "Colombo Kaps",
     "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png",
     "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
@@ -182,22 +182,6 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DVDD@2x.png",
     "time": "1785277800000",
     "league_name": "Cricket || Global Super League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Jaffna Kings",
-    "team2_name": "Kandy Royals",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Kandy-Royals.png",
-    "time": "1785418200000",
-    "league_name": "Cricket || Lanka Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -280,6 +264,22 @@
     "league_name": "Cricket || Delhi Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Birmingham City F.C.",
+    "team2_name": "Fc Barcelona",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BIRM@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png",
+    "time": "1785521700000",
+    "league_name": "Football || Club Friendlies 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
     "live_links": [
       {
         "link_title": "Intro",
