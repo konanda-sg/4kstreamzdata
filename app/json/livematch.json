@@ -16,6 +16,22 @@
     ]
   },
   {
+    "team1_name": "Sri Lankan Lions",
+    "team2_name": "Afghanistan Pathans",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SLN@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFP@2x.png",
+    "time": "1785403800000",
+    "league_name": "Cricket || Asian Legends League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Sri Lankan Lions Vs Afghanistan Pathans",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248200_english_hls_9780c44d6569459_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "Gsl",
     "team2_name": "Gsl",
     "team1_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvZEkeGD-aTND_Umjxnkz5mM7UC7Yam3DQlA2FeQSTuw&s=10",
@@ -376,6 +392,22 @@
     ]
   },
   {
+    "team1_name": "Main Feed - Day 1",
+    "team2_name": "Detroit Golf Club - Detroit, Michigan",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
+    "time": "1785407400000",
+    "league_name": "Golf || Rocket Classic 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
+    "category": "Golf",
+    "live_links": [
+      {
+        "link_title": "Main Feed Day 1",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248044_english_hls_579a8a938f65205_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "Aew",
     "team2_name": "Aew",
     "team1_logo_url": "https://i.ibb.co/sdQb8WBx/20260310-203106.png",
@@ -684,6 +716,38 @@
     ]
   },
   {
+    "team1_name": "Pakistan Panthers",
+    "team2_name": "Asian Stars",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785407244540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785407244540x302.jpg",
+    "time": "1785483000000",
+    "league_name": "Cricket || Asian Legends League 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Indian Royals",
+    "team2_name": "Bangladesh Tigers",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785407313540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785407313540x302.jpg",
+    "time": "1785497400000",
+    "league_name": "Cricket || Asian Legends League 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
     "team1_name": "Manchester Super Giants",
     "team2_name": "Trent Rockets",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785403129540x302men.jpg",
@@ -754,22 +818,6 @@
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785399727540x302.jpg",
     "time": "1785679200000",
     "league_name": "Cricket || Pakistan Tour Of West Indies 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Sri Lankan Lions",
-    "team2_name": "Afghanistan Pathans",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SLN@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFP@2x.png",
-    "time": "1785403800000",
-    "league_name": "Cricket || Asian Legends League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -860,6 +908,22 @@
     ]
   },
   {
+    "team1_name": "Central Delhi Kings",
+    "team2_name": "Purani Dilli-6",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDK@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png",
+    "time": "1785510000000",
+    "league_name": "Cricket || Delhi Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
     "team1_name": "Dambulla Sixers",
     "team2_name": "Colombo Kaps",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DS@2x.png",
@@ -908,22 +972,6 @@
     ]
   },
   {
-    "team1_name": "Central Delhi Kings",
-    "team2_name": "Purani Dilli-6",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDK@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png",
-    "time": "1785510000000",
-    "league_name": "Cricket || Delhi Premier League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Birmingham City F.C.",
     "team2_name": "Fc Barcelona",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BIRM@2x.png",
@@ -940,10 +988,10 @@
     ]
   },
   {
-    "team1_name": "Tbc",
-    "team2_name": "Tbc",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/pb-flags/FC-PB@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/pb-flags/FC-PB@2x.png",
+    "team1_name": "Desert Vipers",
+    "team2_name": "San Francisco Unicorns",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DVDD@2x.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/San-Francisco-Unicorns.png",
     "time": "1785537000000",
     "league_name": "Cricket || Global Super League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
@@ -1116,9 +1164,9 @@
     ]
   },
   {
-    "team1_name": "Tbc",
+    "team1_name": "Guyana Amazon Warriors",
     "team2_name": "Tbc",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/pb-flags/FC-PB@2x.png",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/pb-flags/FC-PB@2x.png",
     "time": "1785623400000",
     "league_name": "Cricket || Global Super League, 2026",
@@ -1516,22 +1564,6 @@
     ]
   },
   {
-    "team1_name": "Wef-W",
-    "team2_name": "Trt-W",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/377207/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/377204/image",
-    "time": "1785321000000",
-    "league_name": "Cricket || The Hundred Women",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Durand Cup",
     "team2_name": "Durand Cup",
     "team1_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/20809/image/dark",
@@ -1684,22 +1716,6 @@
     "league_name": "Football || Women'S Africa Cup Of Nations",
     "league_icon": "https://img.icons8.com/color/96/000000/football.png",
     "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Main Feed - Day 1",
-    "team2_name": "Detroit Golf Club - Detroit, Michigan",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
-    "time": "1785407400000",
-    "league_name": "Golf || Rocket Classic 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
-    "category": "Golf",
     "live_links": [
       {
         "link_title": "Intro",
