@@ -16,38 +16,6 @@
     ]
   },
   {
-    "team1_name": "Purani Dilli-6",
-    "team2_name": "Central Delhi Kings",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDK@2x.png",
-    "time": "1785510000000",
-    "league_name": "Cricket || Delhi Premier League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Purani Dilli 6 Vs Central Delhi Kings",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4247965_english_hls_7a1f83336319019_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Birmingham City F.C.",
-    "team2_name": "Fc Barcelona",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BIRM@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png",
-    "time": "1785521700000",
-    "league_name": "Football || Club Friendlies 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Birmingham City F.C. Vs Fc Barcelona",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248218_english_hls_344fd577a419508_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Sl-W",
     "team2_name": "Pak-W",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187806/image",
@@ -296,46 +264,6 @@
     ]
   },
   {
-    "team1_name": "Grêmio",
-    "team2_name": "Bolívar",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/5926/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/7059/image",
-    "time": "1785448800000",
-    "league_name": "Football || Conmebol Sudamericana",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "beiN SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "link_title": "SportDigital Fussball",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|drmScheme=clearkey&drmLicense=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      },
-      {
-        "link_title": "SD SERVER",
-        "channel_url": "http://162.251.160.53:8089/THURaFOT3/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Corinthians",
-    "team2_name": "Athletico",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1957/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1967/image",
-    "time": "1785450600000",
-    "league_name": "Football || Brasileirão Betano",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "PREMIER SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd?|drmScheme=clearkey&drmLicense=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-      }
-    ]
-  },
-  {
     "team1_name": "Caracas",
     "team2_name": "Santa Fe",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/6230/image",
@@ -352,22 +280,6 @@
       {
         "link_title": "SD SERVER",
         "channel_url": "http://162.251.160.53:8089/THURaFOT5/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Main Feed - Day 2",
-    "team2_name": "Detroit Golf Club - Detroit, Michigan",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
-    "time": "1785493800000",
-    "league_name": "Golf || Rocket Classic 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
-    "category": "Golf",
-    "live_links": [
-      {
-        "link_title": "Main Feed Day 2",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248046_english_hls_51fcc84f2978352_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -876,22 +788,6 @@
     ]
   },
   {
-    "team1_name": "Girona Fc",
-    "team2_name": "Arsenal",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GIR@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png",
-    "time": "1785605400000",
-    "league_name": "Football || Club Friendlies 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Guyana Amazon Warriors",
     "team2_name": "Tbc",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png",
@@ -900,6 +796,22 @@
     "league_name": "Cricket || Global Super League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Girona Fc",
+    "team2_name": "Arsenal",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GIR@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png",
+    "time": "1785605400000",
+    "league_name": "Football || Club Friendlies 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
     "live_links": [
       {
         "link_title": "Intro",
@@ -962,6 +874,22 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAT@2x.png",
     "time": "1785495600000",
     "league_name": "Cricket || Asian Legends League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Purani Dilli-6",
+    "team2_name": "Central Delhi Kings",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDK@2x.png",
+    "time": "1785510000000",
+    "league_name": "Cricket || Delhi Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -1572,6 +1500,38 @@
     "league_name": "Golf || Rocket Classic 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
     "category": "Golf",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Atp Masters Omnium Banque National 2026",
+    "team2_name": "Montreal, Canada",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785686400000",
+    "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
+    "category": "Tennis",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Atp Masters Omnium Banque National 2026",
+    "team2_name": "Montreal, Canada",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785686400000",
+    "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
+    "category": "Tennis",
     "live_links": [
       {
         "link_title": "Intro",
