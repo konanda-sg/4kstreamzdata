@@ -1,17 +1,33 @@
 [
   {
-    "team1_name": "World Feed - Day 3",
-    "team2_name": "Detroit Golf Club - Detroit, Michigan",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
-    "time": "1785601800000",
-    "league_name": "Golf || Rocket Classic 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
-    "category": "Golf",
+    "team1_name": "Guyana Amazon Warriors",
+    "team2_name": "San Francisco Unicorns",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/San-Francisco-Unicorns.png",
+    "time": "1785623400000",
+    "league_name": "Cricket || Global Super League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
     "live_links": [
       {
-        "link_title": "World Feed Day 3",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248047_english_hls_84d731038268847_1ta-di_h264/index.m3u8"
+        "link_title": "Guyana Amazon Warriors Vs San Francisco Unicorns",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4247442_english_hls_46f008f7787192_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Atp 500 - Mubadala Dc Open 2026",
+    "team2_name": "Washington, United States",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785621600000",
+    "league_name": "Tennis || Atp 500 - Mubadala Dc Open 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
+    "category": "Tennis",
+    "live_links": [
+      {
+        "link_title": "Atp 500 Mubadala Dc Open 2026",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/143650_english_hls_83b9312ab58473_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -86,22 +102,6 @@
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785602192540x302men.jpg",
     "time": "1785690000000",
     "league_name": "Cricket || The Hundred Men'S Competition 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Guyana Amazon Warriors",
-    "team2_name": "San Francisco Unicorns",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/San-Francisco-Unicorns.png",
-    "time": "1785623400000",
-    "league_name": "Cricket || Global Super League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -416,6 +416,22 @@
     ]
   },
   {
+    "team1_name": "New Delhi Tigers",
+    "team2_name": "Outer Delhi Warriors",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png",
+    "time": "1785828600000",
+    "league_name": "Cricket || Delhi Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
     "team1_name": "Wi",
     "team2_name": "Pak",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187760/image",
@@ -460,38 +476,6 @@
       {
         "link_title": "WILLOW FHD",
         "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd?|drmScheme=clearkey&drmLicense=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      }
-    ]
-  },
-  {
-    "team1_name": "Gsl",
-    "team2_name": "Gsl",
-    "team1_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvZEkeGD-aTND_Umjxnkz5mM7UC7Yam3DQlA2FeQSTuw&s=10",
-    "team2_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvZEkeGD-aTND_Umjxnkz5mM7UC7Yam3DQlA2FeQSTuw&s=10",
-    "time": "1785538800000",
-    "league_name": "Cricket || Global Super League, T20",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "WILLOW FHD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/k6ytnnvpku/out/v1/7389c6f858bd4980b5af3d4b54c62164/cenc.mpd?|drmScheme=clearkey&drmLicense=5022e0919cc89dcace126f9ea8391c30:01c9d354104c7c68be179a6e12f1b89c"
-      },
-      {
-        "link_title": "WILLOW HD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd?|drmScheme=clearkey&drmLicense=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      },
-      {
-        "link_title": "WILLOW SD",
-        "channel_url": "http://tvsen5.aynascope.net/willowhd/index.m3u8"
-      },
-      {
-        "link_title": "SKY SPORT NZ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz.m3u8"
-      },
-      {
-        "link_title": "WILLOW ALT",
-        "channel_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/k6ytnnvpku/out/v1/7389c6f858bd4980b5af3d4b54c62164/cenc.mpd?|drmScheme=clearkey&drmLicense=5022e0919cc89dcace126f9ea8391c30:01c9d354104c7c68be179a6e12f1b89c"
       }
     ]
   },
@@ -768,22 +752,6 @@
     ]
   },
   {
-    "team1_name": "Atp 500 - Mubadala Dc Open 2026",
-    "team2_name": "Washington, United States",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785621600000",
-    "league_name": "Tennis || Atp 500 - Mubadala Dc Open 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
-    "category": "Tennis",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Day 6",
     "team2_name": "Mexico",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
@@ -1016,6 +984,22 @@
     "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
     "category": "Tennis",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Day 3",
+    "team2_name": "Binjiang Gymnasium, China",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/AUBL-TourSize.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-LOC@2x.png",
+    "time": "1785812400000",
+    "league_name": "Live Events || Asian University Basketball League 2026",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Live Events",
     "live_links": [
       {
         "link_title": "Intro",
