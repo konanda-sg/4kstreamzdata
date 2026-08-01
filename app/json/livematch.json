@@ -48,22 +48,6 @@
     ]
   },
   {
-    "team1_name": "Galle Gallants",
-    "team2_name": "Colombo Kaps",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
-    "time": "1785591000000",
-    "league_name": "Cricket || Lanka Premier League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Galle Gallants Vs Colombo Kaps",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246729_english_hls_5446b7db6477233_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Real Madrid",
     "team2_name": "Fiorentina",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png",
@@ -76,6 +60,22 @@
       {
         "link_title": "Real Madrid Vs Fiorentina",
         "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248016_english_hls_d97e92363555615_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Girona Fc",
+    "team2_name": "Arsenal",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GIR@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png",
+    "time": "1785605400000",
+    "league_name": "Football || Club Friendlies 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Girona Fc Vs Arsenal",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248015_english_hls_9f3b495b4583793_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -304,22 +304,6 @@
     ]
   },
   {
-    "team1_name": "Girona Fc",
-    "team2_name": "Arsenal",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GIR@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png",
-    "time": "1785605400000",
-    "league_name": "Football || Club Friendlies 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Liverpool",
     "team2_name": "Leeds United",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LP@2x.png",
@@ -390,6 +374,22 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAT@2x.png",
     "time": "1785582000000",
     "league_name": "Cricket || Asian Legends League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Galle Gallants",
+    "team2_name": "Colombo Kaps",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
+    "time": "1785591000000",
+    "league_name": "Cricket || Lanka Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
