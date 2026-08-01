@@ -1,25 +1,17 @@
 [
   {
-    "team1_name": "Legends League",
-    "team2_name": "Legends League",
-    "team1_logo_url": "https://i.ibb.co/cKnDWPL8/20260730-122144.png",
-    "team2_logo_url": "https://i.ibb.co/cKnDWPL8/20260730-122144.png",
-    "time": "1785483000000",
-    "league_name": "Cricket || Asian Legends League, T20",
+    "team1_name": "Afghanistan Pathans",
+    "team2_name": "Asian Stars",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785489917540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785489917540x302.jpg",
+    "time": "1785569400000",
+    "league_name": "Cricket || Asian Legends League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "TAPMAD FHD",
-        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8|referer=https://tapmad.com"
-      },
-      {
-        "link_title": "FANCODE (IND)",
-        "channel_url": "https://dai-fancode.pages.dev/mumbai/4248200_english_hls_9780c44d6569459_1ta-di_h264/index.m3u8"
-      },
-      {
-        "link_title": "FANCODE (BD)",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248200_english_hls_9780c44d6569459_1ta-di_h264/index.m3u8"
+        "link_title": "Afghanistan Pathans Vs Asian Stars",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
       }
     ]
   },
@@ -172,22 +164,6 @@
       {
         "link_title": "SERVER 3",
         "channel_url": "https://fastly.live.brightcove.com/1850722103624061910/ap-southeast-1/6195549636001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaTE3dzIxLmVncmVzcy5zYjBmOGsiLCJhY2NvdW50X2lkIjoiNjE5NTU0OTYzNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MTk1NTQ5NjM2MDAxIl0sImp0aSI6IjE4NTA3MjIxMDM2MjQwNjE5MTAifQ.MQrZwY5puqZGRgWL843gOZ-Y7i2jUGB5McfZKwoOB1I/playlist-hls.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Afghanistan Pathans",
-    "team2_name": "Asian Stars",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785489917540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785489917540x302.jpg",
-    "time": "1785569400000",
-    "league_name": "Cricket || Asian Legends League 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -517,22 +493,6 @@
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-INR@2x.png",
     "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/PakistanPantherslog.png",
     "time": "1785661200000",
-    "league_name": "Cricket || Asian Legends League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Asian Stars",
-    "team2_name": "Pakistan Panthers",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ASR@2x.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/PakistanPantherslog.png",
-    "time": "1785481200000",
     "league_name": "Cricket || Asian Legends League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
