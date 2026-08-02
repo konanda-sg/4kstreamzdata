@@ -64,22 +64,6 @@
     ]
   },
   {
-    "team1_name": "Dambulla Sixers",
-    "team2_name": "Jaffna Kings",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DS@2x.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png",
-    "time": "1785677400000",
-    "league_name": "Cricket || Lanka Premier League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Dambulla Sixers Vs Jaffna Kings",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Main Feed - Day 4",
     "team2_name": "Detroit Golf Club - Detroit, Michigan",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
@@ -384,6 +368,22 @@
     ]
   },
   {
+    "team1_name": "Dambulla Sixers",
+    "team2_name": "Jaffna Kings",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DS@2x.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png",
+    "time": "1785677400000",
+    "league_name": "Cricket || Lanka Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
     "team1_name": "Sri Lanka Women",
     "team2_name": "Pakistan Women",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png",
@@ -536,6 +536,38 @@
     "league_name": "Cricket || Icc Cwc League 2 Scotland, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "East Delhi Riders",
+    "team2_name": "North Delhi Strikers",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-EDR@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png",
+    "time": "1785934800000",
+    "league_name": "Cricket || Delhi Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Chelsea",
+    "team2_name": "Juventus",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHEL@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JUT@2x.png",
+    "time": "1785928500000",
+    "league_name": "Football || Club Friendlies 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
     "live_links": [
       {
         "link_title": "Intro",
