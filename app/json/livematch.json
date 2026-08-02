@@ -32,22 +32,6 @@
     ]
   },
   {
-    "team1_name": "Indian Royals",
-    "team2_name": "Pakistan Panthers",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-INR@2x.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/PakistanPantherslog.png",
-    "time": "1785661200000",
-    "league_name": "Cricket || Asian Legends League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Indian Royals Vs Pakistan Panthers",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248197_english_hls_f9620bce7b28629_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "New Delhi Tigers",
     "team2_name": "East Delhi Riders",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png",
@@ -326,6 +310,22 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDK@2x.png",
     "time": "1785655800000",
     "league_name": "Cricket || Delhi Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Indian Royals",
+    "team2_name": "Pakistan Panthers",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-INR@2x.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/PakistanPantherslog.png",
+    "time": "1785661200000",
+    "league_name": "Cricket || Asian Legends League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
