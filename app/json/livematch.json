@@ -10,8 +10,40 @@
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+        "link_title": "Afghanistan Pathans Vs Bangladesh Tigers",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Afghanistan Pathans",
+    "team2_name": "Bangladesh Tigers",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAT@2x.png",
+    "time": "1785740400000",
+    "league_name": "Cricket || Asian Legends League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Afghanistan Pathans Vs Bangladesh Tigers",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248196_english_hls_474e9b2ae850769_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "West Delhi Lions",
+    "team2_name": "Purani Dilli-6",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png",
+    "time": "1785742200000",
+    "league_name": "Cricket || Delhi Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "West Delhi Lions Vs Purani Dilli 6",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4247968_english_hls_12b02df88b18060_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -64,12 +96,12 @@
     ]
   },
   {
-    "team1_name": "Afghanistan Pathans",
-    "team2_name": "Bangladesh Tigers",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFP@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAT@2x.png",
-    "time": "1785740400000",
-    "league_name": "Cricket || Asian Legends League, 2026",
+    "team1_name": "Sri Lanka Women",
+    "team2_name": "Pakistan Women",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785740145540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785740145540x302.jpg",
+    "time": "1785816000000",
+    "league_name": "Cricket || Pakistan Women Tour Of Sri Lanka 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -80,12 +112,44 @@
     ]
   },
   {
-    "team1_name": "West Delhi Lions",
-    "team2_name": "Purani Dilli-6",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png",
-    "time": "1785742200000",
-    "league_name": "Cricket || Delhi Premier League, 2026",
+    "team1_name": "Pakistan Panthers",
+    "team2_name": "Afghanistan Pathans",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785741961540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785741961540x302.jpg",
+    "time": "1785828600000",
+    "league_name": "Cricket || Asian Legends League 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Sri Lankan Lions",
+    "team2_name": "Asian Stars",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785742115540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785742116540x302.jpg",
+    "time": "1785843000000",
+    "league_name": "Cricket || Asian Legends League 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Sunrisers Leeds",
+    "team2_name": "London Spirit",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785740780540x302men.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785740780540x302men.jpg",
+    "time": "1785864600000",
+    "league_name": "Cricket || The Hundred Men'S Competition 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -192,12 +256,12 @@
     ]
   },
   {
-    "team1_name": "Outer Delhi Warriors",
-    "team2_name": "Central Delhi Kings",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDK@2x.png",
-    "time": "1785655800000",
-    "league_name": "Cricket || Delhi Premier League, 2026",
+    "team1_name": "Sri Lankan Lions",
+    "team2_name": "Asian Stars",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SLN@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ASR@2x.png",
+    "time": "1785841200000",
+    "league_name": "Cricket || Asian Legends League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -208,12 +272,12 @@
     ]
   },
   {
-    "team1_name": "Indian Royals",
-    "team2_name": "Pakistan Panthers",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-INR@2x.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/PakistanPantherslog.png",
-    "time": "1785661200000",
-    "league_name": "Cricket || Asian Legends League, 2026",
+    "team1_name": "South Delhi Superstarz",
+    "team2_name": "West Delhi Lions",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png",
+    "time": "1785848400000",
+    "league_name": "Cricket || Delhi Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -246,38 +310,6 @@
     "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png",
     "time": "1785677400000",
     "league_name": "Cricket || Lanka Premier League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Sri Lankan Lions",
-    "team2_name": "Asian Stars",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SLN@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ASR@2x.png",
-    "time": "1785841200000",
-    "league_name": "Cricket || Asian Legends League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "South Delhi Superstarz",
-    "team2_name": "West Delhi Lions",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png",
-    "time": "1785848400000",
-    "league_name": "Cricket || Delhi Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -438,22 +470,6 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAT@2x.png",
     "time": "1785999600000",
     "league_name": "Cricket || Asian Legends League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "South Delhi Superstarz",
-    "team2_name": "Outer Delhi Warriors",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png",
-    "time": "1786001400000",
-    "league_name": "Cricket || Delhi Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -768,11 +784,11 @@
     ]
   },
   {
-    "team1_name": "Atp Masters Omnium Banque National 2026",
+    "team1_name": "Center Court",
     "team2_name": "Montreal, Canada",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785772800000",
+    "time": "1785767400000",
     "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
     "category": "Tennis",
@@ -784,11 +800,11 @@
     ]
   },
   {
-    "team1_name": "Atp Masters Omnium Banque National 2026",
+    "team1_name": "World Feed",
     "team2_name": "Montreal, Canada",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785772800000",
+    "time": "1785767400000",
     "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
     "category": "Tennis",
@@ -800,11 +816,11 @@
     ]
   },
   {
-    "team1_name": "Atp Masters Omnium Banque National 2026",
+    "team1_name": "Court 5",
     "team2_name": "Montreal, Canada",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785772800000",
+    "time": "1785767400000",
     "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
     "category": "Tennis",
@@ -816,12 +832,44 @@
     ]
   },
   {
-    "team1_name": "Atp Masters Omnium Banque National 2026",
+    "team1_name": "Court 9",
     "team2_name": "Montreal, Canada",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785772800000",
+    "time": "1785767400000",
     "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
+    "category": "Tennis",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Rogers Court",
+    "team2_name": "Montreal, Canada",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785771000000",
+    "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
+    "category": "Tennis",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Final",
+    "team2_name": "Washington, United States",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785774600000",
+    "league_name": "Tennis || Atp 500 - Mubadala Dc Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
     "category": "Tennis",
     "live_links": [
