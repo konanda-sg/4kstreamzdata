@@ -1,17 +1,293 @@
 [
   {
-    "team1_name": "New Delhi Tigers",
-    "team2_name": "Outer Delhi Warriors",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png",
-    "time": "1785828600000",
+    "team1_name": "South Delhi Superstarz",
+    "team2_name": "West Delhi Lions",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png",
+    "time": "1785848400000",
     "league_name": "Cricket || Delhi Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "New Delhi Tigers Vs Outer Delhi Warriors",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4247970_english_hls_96c0e7798b23998_1ta-di_h264/index.m3u8"
+        "link_title": "South Delhi Superstarz Vs West Delhi Lions",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4247978_english_hls_6c7295b1e677335_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Wi",
+    "team2_name": "Pak",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187760/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187754/image",
+    "time": "1785850200000",
+    "league_name": "Cricket || Icc World Test Championship",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "WILLOW FHD",
+        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rppouzsbk7/out/v1/f51c2e9845e24c8c959e0725614aaf61/cenc.mpd?|drmScheme=clearkey&drmLicense=ae4d308848c3fa0e2f6e9e57cae1bffb:12fdaa10a7f4dd536e9c121dc08a72b3"
+      },
+      {
+        "link_title": "TAPMAD FHD",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8|referer=https://tapmad.com"
+      },
+      {
+        "link_title": "WILLOW ALT",
+        "channel_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rppouzsbk7/out/v1/f51c2e9845e24c8c959e0725614aaf61/cenc.mpd?|drmScheme=clearkey&drmLicense=ae4d308848c3fa0e2f6e9e57cae1bffb:12fdaa10a7f4dd536e9c121dc08a72b3"
+      },
+      {
+        "link_title": "TNT SPORTS FHD",
+        "channel_url": "https://messi.damitv.st/papi/ts/tntsports2-uk/playlist.m3u8"
+      },
+      {
+        "link_title": "PTV SPORTS",
+        "channel_url": "https://live.incableinternet.com/v/kooker_ptvsportshd/kooker_ptvsportshd.m3u8"
+      },
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.193/hls/YOOOAAAA.m3u8|referer=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "FANCODE (IND)",
+        "channel_url": "https://dai-fancode.pages.dev/mumbai/143634_english_hls_3a8752838638691_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Calcutta Premier Division",
+    "team2_name": "Calcutta Premier Division",
+    "team1_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
+    "team2_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
+    "time": "1785835800000",
+    "league_name": "Football || Calcutta Premier Division",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Measurers Club vs Peerless SC",
+        "channel_url": "https://live-n10.videostech.cloud/match/behalasssportingclub_vs_eastbengalfc/HLS/master.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Durand Cup",
+    "team2_name": "Durand Cup",
+    "team1_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/20809/image/dark",
+    "team2_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/20809/image/dark",
+    "time": "1785839400000",
+    "league_name": "Football || Durand Cup 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "JAMSHEDPUR FC VS SC DELHI",
+        "channel_url": "https://sonydaimenew.akamaized.net/hls/live/20000298/Football0308/ENG/std_lrh-800300010.m3u8?hdnea=exp=1785804643~acl=/*~id=43066143494206625324545938698522~hmac=a5e79df143bffca486a2d76ae9f4decdbb1e9c504f482ba619d755fc56060a2d"
+      },
+      {
+        "link_title": "MOHUN BAGAN SUPER GIANT VS SOUTH UNITED FC",
+        "channel_url": "#"
+      }
+    ]
+  },
+  {
+    "team1_name": "Pathum Utd",
+    "team2_name": "Aston Villa",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/35607/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/40/image",
+    "time": "1785846600000",
+    "league_name": "Football || Club Friendly Games",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.190/hls/IOOOAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Al-Nassr",
+    "team2_name": "Almería",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/23400/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2858/image",
+    "time": "1785862800000",
+    "league_name": "Football || Club Friendly Games",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Strasbourg",
+    "team2_name": "Elversberg",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1659/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2598/image",
+    "time": "1785859200000",
+    "league_name": "Football || Club Friendly Games",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Norwich",
+    "team2_name": "Cambridge",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/263/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/63/image",
+    "time": "1785855600000",
+    "league_name": "Football || Club Friendly Games",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Jeju",
+    "team2_name": "Bayern",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/7649/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2672/image",
+    "time": "1785841200000",
+    "league_name": "Football || Club Friendly Games",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Sport TV1 HD",
+        "channel_url": "https://cast.zlive.st/p/auto-sport-tv1-0/index.m3u8|referer=https://zlive.st/"
+      },
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.190/hls/IOOOA.m3u8|referer=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Sl-W",
+    "team2_name": "Lns-W",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/377206/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/377203/image",
+    "time": "1785852000000",
+    "league_name": "Cricket || The Hundred Women",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Sl",
+    "team2_name": "Lns",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/377178/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/377175/image",
+    "time": "1785864600000",
+    "league_name": "Cricket || The Hundred",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Philippines",
+    "team2_name": "Thailand",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4791/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4730/image",
+    "time": "1785848400000",
+    "league_name": "Football || Asean Championship",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "HD SERVER",
+        "channel_url": "https://live2.streambylivepulse.com/live/channel15.m3u8|Referer=https://soco.livepingscorex.com"
+      },
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.190/hls/IOOOAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Myanmar",
+    "team2_name": "Laos",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/23484/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/23486/image",
+    "time": "1785837600000",
+    "league_name": "Football || Asean Championship",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.190/hls/IOOO.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "World Feed",
+    "team2_name": "Montreal, Canada",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785853800000",
+    "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
+    "category": "Tennis",
+    "live_links": [
+      {
+        "link_title": "World Feed",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248066_english_hls_f60cf3662559481_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Rogers Court",
+    "team2_name": "Montreal, Canada",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785853800000",
+    "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
+    "category": "Tennis",
+    "live_links": [
+      {
+        "link_title": "Rogers Court",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248067_english_hls_9d75ed2e2276858_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Court 5",
+    "team2_name": "Montreal, Canada",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+    "time": "1785853800000",
+    "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
+    "category": "Tennis",
+    "live_links": [
+      {
+        "link_title": "Court 5",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248068_english_hls_469771a15198481_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -22,22 +298,6 @@
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785740780540x302men.jpg",
     "time": "1785864600000",
     "league_name": "Cricket || The Hundred Men'S Competition 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "South Delhi Superstarz",
-    "team2_name": "West Delhi Lions",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png",
-    "time": "1785848400000",
-    "league_name": "Cricket || Delhi Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -160,6 +420,22 @@
     ]
   },
   {
+    "team1_name": "Arsenal",
+    "team2_name": "Real Betis",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-REALB@2x.png",
+    "time": "1785952800000",
+    "league_name": "Football || Club Friendlies 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
     "team1_name": "Sri Lanka Women",
     "team2_name": "Pakistan Women",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png",
@@ -176,14 +452,14 @@
     ]
   },
   {
-    "team1_name": "Arsenal",
-    "team2_name": "Real Betis",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-REALB@2x.png",
-    "time": "1785952800000",
-    "league_name": "Football || Club Friendlies 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
+    "team1_name": "New Delhi Tigers",
+    "team2_name": "Outer Delhi Warriors",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png",
+    "time": "1785828600000",
+    "league_name": "Cricket || Delhi Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
     "live_links": [
       {
         "link_title": "Intro",
@@ -316,6 +592,26 @@
       {
         "link_title": "Intro",
         "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Legends League",
+    "team2_name": "Legends League",
+    "team1_logo_url": "https://i.ibb.co/cKnDWPL8/20260730-122144.png",
+    "team2_logo_url": "https://i.ibb.co/cKnDWPL8/20260730-122144.png",
+    "time": "1785828600000",
+    "league_name": "Cricket || Asian Legends League, T20",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "TAPMAD FHD",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8|referer=https://tapmad.com"
+      },
+      {
+        "link_title": "FANCODE (IND)",
+        "channel_url": "https://dai-fancode.pages.dev/mumbai/4248197_english_hls_f9620bce7b28629_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       }
     ]
   },
@@ -576,50 +872,130 @@
     ]
   },
   {
-    "team1_name": "World Feed",
-    "team2_name": "Montreal, Canada",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785853800000",
-    "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
-    "category": "Tennis",
+    "team1_name": "Ck",
+    "team2_name": "Krl",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/453390/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/369187/image",
+    "time": "1785938400000",
+    "league_name": "Cricket || Lanka Premier League",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
       }
     ]
   },
   {
-    "team1_name": "Rogers Court",
-    "team2_name": "Montreal, Canada",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785853800000",
-    "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
-    "category": "Tennis",
+    "team1_name": "Jk",
+    "team2_name": "Gg",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/453388/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/453389/image",
+    "time": "1785922200000",
+    "league_name": "Cricket || Lanka Premier League",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
       }
     ]
   },
   {
-    "team1_name": "Court 5",
-    "team2_name": "Montreal, Canada",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1785853800000",
-    "league_name": "Tennis || Atp Masters Omnium Banque National 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
-    "category": "Tennis",
+    "team1_name": "Ipswich",
+    "team2_name": "Le Havre",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/32/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1662/image",
+    "time": "1785869100000",
+    "league_name": "Football || Club Friendly Games",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
     "live_links": [
       {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Newport",
+    "team2_name": "Roma",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/79/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2702/image",
+    "time": "1785866400000",
+    "league_name": "Football || Club Friendly Games",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Rotherham",
+    "team2_name": "Derby",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/13/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/27/image",
+    "time": "1785868200000",
+    "league_name": "Football || Club Friendly Games",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Msg-W",
+    "team2_name": "Wef-W",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/377201/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/377207/image",
+    "time": "1785925800000",
+    "league_name": "Cricket || The Hundred Women",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Tanzania",
+    "team2_name": "Côte D'Ivoire",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/291680/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/186328/image",
+    "time": "1785873600000",
+    "league_name": "Football || Women'S Africa Cup Of Nations",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Burkina Faso",
+    "team2_name": "South Africa",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/316668/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/65336/image",
+    "time": "1785873600000",
+    "league_name": "Football || Women'S Africa Cup Of Nations",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
       }
     ]
   },
@@ -944,7 +1320,7 @@
     "team2_name": "Wwe Raw",
     "team1_logo_url": "https://i.ibb.co/Hmg2K3Q/20260310-201809.png",
     "team2_logo_url": "https://i.ibb.co/Hmg2K3Q/20260310-201809.png",
-    "time": "1785801600000",
+    "time": "1786406400000",
     "league_name": "Boxing || Monday Night Raw",
     "league_icon": "https://img.icons8.com/color/96/000000/boxing.png",
     "category": "Boxing",
@@ -1012,6 +1388,310 @@
       {
         "link_title": "SD SERVER",
         "channel_url": "http://193.47.62.190/hls/KEEEA.m3u8|referer=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "One Friday Fights",
+    "team2_name": "One Friday Fights",
+    "team1_logo_url": "https://i.ibb.co/qfjhxpT/20260313-084834.png",
+    "team2_logo_url": "https://i.ibb.co/qfjhxpT/20260313-084834.png",
+    "time": "1786105800000",
+    "league_name": "Boxing || One Friday Fights",
+    "league_icon": "https://img.icons8.com/color/96/000000/boxing.png",
+    "category": "Boxing",
+    "live_links": [
+      {
+        "link_title": "One Fight FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd?|drmScheme=clearkey&drmLicense=308006101c8fd0262c0f529319b9c127:37683aadc75b1450efa82d62c647984d"
+      },
+      {
+        "link_title": "SERVER 2",
+        "channel_url": "https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd?|drmScheme=clearkey&drmLicense=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271"
+      },
+      {
+        "link_title": "SERVER 3",
+        "channel_url": "https://fastly.live.brightcove.com/1850722103624061910/ap-southeast-1/6195549636001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaTE3dzIxLmVncmVzcy5zYjBmOGsiLCJhY2NvdW50X2lkIjoiNjE5NTU0OTYzNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MTk1NTQ5NjM2MDAxIl0sImp0aSI6IjE4NTA3MjIxMDM2MjQwNjE5MTAifQ.MQrZwY5puqZGRgWL843gOZ-Y7i2jUGB5McfZKwoOB1I/playlist-hls.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Smackdown",
+    "team2_name": "Smackdown",
+    "team1_logo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg",
+    "team2_logo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg",
+    "time": "1786147200000",
+    "league_name": "Boxing || Friday Night Smackdown",
+    "league_icon": "https://img.icons8.com/color/96/000000/boxing.png",
+    "category": "Boxing",
+    "live_links": [
+      {
+        "link_title": "WWE HD",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/53741/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+      },
+      {
+        "link_title": "WWE LIVE HD",
+        "channel_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8"
+      },
+      {
+        "link_title": "SD SERVER",
+        "channel_url": "http://193.47.62.41/hls/AWAWAW.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Mariners",
+    "team2_name": "Tigers",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3641/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3648/image",
+    "time": "1785894000000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Guardians",
+    "team2_name": "Mets",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3650/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3629/image",
+    "time": "1785883200000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Orioles",
+    "team2_name": "Angels",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3652/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/5929/image",
+    "time": "1785882900000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Red Sox",
+    "team2_name": "White Sox",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3646/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3644/image",
+    "time": "1785885000000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Rangers",
+    "team2_name": "Giants",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3647/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3634/image",
+    "time": "1785888300000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Rockies",
+    "team2_name": "Rays",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3628/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3653/image",
+    "time": "1785890400000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Yankees",
+    "team2_name": "Cardinals",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3654/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3632/image",
+    "time": "1785884700000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Cubs",
+    "team2_name": "Dodgers",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3627/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3638/image",
+    "time": "1785888300000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Brewers",
+    "team2_name": "Pirates",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3630/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3637/image",
+    "time": "1785886800000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Diamondbacks",
+    "team2_name": "Padres",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3640/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3636/image",
+    "time": "1785894000000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Phillies",
+    "team2_name": "Nationals",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3635/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/5930/image",
+    "time": "1785883200000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Braves",
+    "team2_name": "Marlins",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3656/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3639/image",
+    "time": "1785885300000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Astros",
+    "team2_name": "Blue Jays",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3655/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3642/image",
+    "time": "1785888600000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Reds",
+    "team2_name": "Athletics",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3633/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3645/image",
+    "time": "1785883200000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Royals",
+    "team2_name": "Twins",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3651/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3649/image",
+    "time": "1785886800000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Valkyries",
+    "team2_name": "Tempo",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1041936/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1166445/image",
+    "time": "1785895200000",
+    "league_name": "Basketball || Wnba",
+    "league_icon": "https://img.icons8.com/color/96/000000/basketball.png",
+    "category": "Basketball",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
       }
     ]
   }
