@@ -2,7 +2,7 @@
 """
 Generate Live Match JSON from source sports data.
 Converts Bangladesh time (Asia/Dhaka) to UTC Unix timestamp in milliseconds.
-Auto-removes matches older than 24 hours.
+Filters out matches with status "FINISHED".
 """
 
 import json
@@ -63,6 +63,9 @@ CATEGORY_ICONS = {
 
 # Bangladesh timezone
 BDT_TIMEZONE = pytz.timezone("Asia/Dhaka")
+
+# Statuses to exclude (matches with these statuses will be skipped)
+EXCLUDED_STATUSES = ["FINISHED", "COMPLETED", "ENDED"]
 
 
 def fetch_source_data() -> Dict[str, Any]:
@@ -154,25 +157,6 @@ def convert_bdt_to_utc_timestamp(start_time: str) -> str:
         return str(int(datetime.now().timestamp() * 1000))
 
 
-def is_match_expired(start_time: str) -> bool:
-    """
-    Check if a match is older than 24 hours.
-    Returns True if the match should be removed.
-    """
-    if not start_time:
-        return False
-    
-    utc_dt = convert_bdt_to_datetime(start_time)
-    if not utc_dt:
-        return False
-    
-    # Check if match is older than 24 hours
-    now_utc = datetime.now(pytz.UTC)
-    time_diff = now_utc - utc_dt
-    
-    return time_diff > timedelta(hours=24)
-
-
 def get_valid_url(url: str, fallback: str = None) -> str:
     """
     Return a valid URL. If the URL is empty or None, return the fallback.
@@ -212,6 +196,18 @@ def build_stream_url(stream_url: str, drm_key: str = None) -> str:
     return stream_url
 
 
+def is_match_finished(status: str) -> bool:
+    """
+    Check if a match is finished (should be excluded).
+    Returns True if the match should be removed.
+    """
+    if not status:
+        return False
+    
+    status_upper = status.upper().strip()
+    return status_upper in EXCLUDED_STATUSES
+
+
 def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     """Transform a single match from source format to target format."""
     try:
@@ -226,14 +222,15 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         category = match.get("Category", "Unknown")
         event_name = event_info.get("eventName", "")
         match_event_name = match.get("event_name", "")
+        status = match.get("status", "")
         
         if not team_a or not team_b:
             print(f"⚠️  Skipping match: Missing team names")
             return None
         
-        # Check if match is expired (older than 24 hours)
-        if is_match_expired(start_time):
-            print(f"   🕐 Skipping expired match: {team_a} vs {team_b} (started at {start_time})")
+        # Check if match is finished (exclude it)
+        if is_match_finished(status):
+            print(f"   🏁 Skipping finished match: {team_a} vs {team_b} (Status: {status})")
             return None
         
         if category and event_name:
@@ -313,7 +310,8 @@ def main():
     print("🚀 Starting Live Match JSON Generator")
     print("=" * 50)
     print(f"⏰ Current UTC time: {datetime.now(pytz.UTC).strftime('%Y-%m-%d %H:%M:%S %Z')}")
-    print("📋 Matches older than 24 hours will be automatically removed")
+    print(f"📋 Excluding matches with status: {', '.join(EXCLUDED_STATUSES)}")
+    print("📋 Including matches with status: LIVE, UPCOMING, and others")
     print("=" * 50)
     
     try:
@@ -327,29 +325,28 @@ def main():
             print(f"\n🔄 Processing {len(matches)} matches...")
             transformed_matches = []
             skipped = 0
-            expired = 0
+            finished = 0
             
             for idx, match in enumerate(matches, 1):
+                status = match.get("status", "Unknown")
                 transformed = transform_match(match)
                 if transformed:
                     transformed_matches.append(transformed)
                     live_links_count = len(transformed.get('live_links', []))
-                    print(f"   ✓ Match {idx}: {transformed.get('team1_name')} vs {transformed.get('team2_name')} (Links: {live_links_count})")
+                    print(f"   ✓ Match {idx}: {transformed.get('team1_name')} vs {transformed.get('team2_name')} (Status: {status}, Links: {live_links_count})")
                 else:
-                    # Check if it was skipped due to expiry
-                    event_info = match.get("eventInfo", {})
-                    start_time = event_info.get("startTime", "")
-                    if start_time and is_match_expired(start_time):
-                        expired += 1
+                    # Check if it was skipped due to finished status
+                    if is_match_finished(status):
+                        finished += 1
                     else:
                         skipped += 1
-                    print(f"   ✗ Match {idx}: Skipped")
+                    print(f"   ✗ Match {idx}: Skipped (Status: {status})")
             
             print(f"\n✅ Successfully transformed {len(transformed_matches)} matches")
             if skipped > 0:
                 print(f"   ⚠️  Skipped {skipped} matches (missing required fields)")
-            if expired > 0:
-                print(f"   🕐 Removed {expired} expired matches (older than 24 hours)")
+            if finished > 0:
+                print(f"   🏁 Excluded {finished} finished matches (Status: FINISHED)")
         
         os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
         
