@@ -2,8 +2,8 @@ name: Generate Live Match JSON
 
 on:
   schedule:
-    # Check every hour for changes
-    - cron: '0 * * * *'
+    # Check for changes every 5 minutes (minimum allowed by GitHub)
+    - cron: '*/5 * * * *'
   workflow_dispatch:
   push:
     paths:
@@ -17,7 +17,7 @@ permissions:
 jobs:
   check-and-generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     
     steps:
       - name: Checkout repository
@@ -33,7 +33,7 @@ jobs:
           
           # Fetch the current source data hash
           echo "📡 Fetching latest source data hash..."
-          CURRENT_HASH=$(curl -s "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json" | md5sum | cut -d' ' -f1)
+          CURRENT_HASH=$(curl -s --max-time 5 "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json" | md5sum | cut -d' ' -f1)
           echo "Current hash: $CURRENT_HASH"
           
           # Check if we have a stored hash
@@ -49,7 +49,6 @@ jobs:
           if [ "$CURRENT_HASH" != "$STORED_HASH" ]; then
             echo "✅ Source data has changed! Running full workflow..."
             echo "source_changed=true" >> $GITHUB_OUTPUT
-            # Store the new hash
             echo "$CURRENT_HASH" > app/json/.source_hash
             echo "📝 Updated stored hash"
           else
@@ -118,7 +117,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Add both the generated JSON and the hash file
           git add app/json/livematch.json app/json/.source_hash
           git commit -m "chore: update live match data [skip ci]
           
