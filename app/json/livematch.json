@@ -16,34 +16,18 @@
     ]
   },
   {
-    "team1_name": "East Delhi Riders",
-    "team2_name": "North Delhi Strikers",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-EDR@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png",
-    "time": "1785934800000",
-    "league_name": "Cricket || Delhi Premier League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
+    "team1_name": "Arsenal",
+    "team2_name": "Real Betis",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-REALB@2x.png",
+    "time": "1785952800000",
+    "league_name": "Football || Club Friendlies 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
     "live_links": [
       {
-        "link_title": "East Delhi Riders Vs North Delhi Strikers",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4247976_english_hls_d97853e58773754_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "West Indies",
-    "team2_name": "Pakistan",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
-    "time": "1785936600000",
-    "league_name": "Cricket || Pakistan Tour Of West Indies, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "West Indies Vs Pakistan",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/143634_english_hls_3a8752838648530_1ta-di_h264/index.m3u8"
+        "link_title": "Arsenal Vs Real Betis",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248019_english_hls_392fbb236a92017_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -108,42 +92,6 @@
       {
         "link_title": "Link 1",
         "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Calcutta Premier Division",
-    "team2_name": "Calcutta Premier Division",
-    "team1_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
-    "team2_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
-    "time": "1785922200000",
-    "league_name": "Football || Calcutta Premier Division",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Measurers Club vs Peerless SC",
-        "channel_url": "https://live-n10.videostech.cloud/match/behalasssportingclub_vs_eastbengalfc/HLS/master.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Durand Cup",
-    "team2_name": "Durand Cup",
-    "team1_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/20809/image/dark",
-    "team2_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/20809/image/dark",
-    "time": "1785925800000",
-    "league_name": "Football || Durand Cup 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "MOHUN BAGAN SUPER GIANT VS SOUTH UNITED FC",
-        "channel_url": "https://sonydaimenew.akamaized.net/hls/live/20000301/football0408/ENG/std_lrh-800300010.m3u8?hdnea=exp=1785893278~acl=/*~id=23050157995297615685436094975170~hmac=391443fc4400ce73bb1bc81cd0b6c6fc1b4ffd105f3e0404835a15431117922d"
-      },
-      {
-        "link_title": "JAMSHEDPUR FC VS SC DELHI",
-        "channel_url": "https://sonydaimenew.akamaized.net/hls/live/20000298/Football0308/ENG/std_lrh-800300010.m3u8?hdnea=exp=1785804643~acl=/*~id=43066143494206625324545938698522~hmac=a5e79df143bffca486a2d76ae9f4decdbb1e9c504f482ba619d755fc56060a2d"
       }
     ]
   },
@@ -388,6 +336,22 @@
     ]
   },
   {
+    "team1_name": "Brann",
+    "team2_name": "Apollon",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1159/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3402/image",
+    "time": "1785949200000",
+    "league_name": "Football || Uefa Conference League",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
     "team1_name": "Rogers Court",
     "team2_name": "Montreal, Canada",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
@@ -548,43 +512,11 @@
     ]
   },
   {
-    "team1_name": "Arsenal",
-    "team2_name": "Real Betis",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-REALB@2x.png",
-    "time": "1785952800000",
-    "league_name": "Football || Club Friendlies 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "New Delhi Tigers",
     "team2_name": "Purani Dilli-6",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png",
     "time": "1786021200000",
-    "league_name": "Cricket || Delhi Premier League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "South Delhi Superstarz",
-    "team2_name": "West Delhi Lions",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png",
-    "time": "1785848400000",
     "league_name": "Cricket || Delhi Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -650,6 +582,38 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CAN@2x.png",
     "time": "1785922200000",
     "league_name": "Cricket || Icc Cwc League 2 Scotland, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "East Delhi Riders",
+    "team2_name": "North Delhi Strikers",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-EDR@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png",
+    "time": "1785934800000",
+    "league_name": "Cricket || Delhi Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "West Indies",
+    "team2_name": "Pakistan",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
+    "time": "1785936600000",
+    "league_name": "Cricket || Pakistan Tour Of West Indies, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -826,6 +790,22 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ABF@2x.png",
     "time": "1786141800000",
     "league_name": "Cricket || Caribbean Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Central Delhi Kings",
+    "team2_name": "Outer Delhi Warriors",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDK@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png",
+    "time": "1786194000000",
+    "league_name": "Cricket || Delhi Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -1108,6 +1088,42 @@
     ]
   },
   {
+    "team1_name": "Calcutta Premier Division",
+    "team2_name": "Calcutta Premier Division",
+    "team1_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
+    "team2_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
+    "time": "1785922200000",
+    "league_name": "Football || Calcutta Premier Division",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Measurers Club vs Peerless SC",
+        "channel_url": "https://live-n10.videostech.cloud/match/behalasssportingclub_vs_eastbengalfc/HLS/master.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Durand Cup",
+    "team2_name": "Durand Cup",
+    "team1_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/20809/image/dark",
+    "team2_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/20809/image/dark",
+    "time": "1785925800000",
+    "league_name": "Football || Durand Cup 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "MOHUN BAGAN SUPER GIANT VS SOUTH UNITED FC",
+        "channel_url": "https://sonydaimenew.akamaized.net/hls/live/20000301/football0408/ENG/std_lrh-800300010.m3u8?hdnea=exp=1785893278~acl=/*~id=23050157995297615685436094975170~hmac=391443fc4400ce73bb1bc81cd0b6c6fc1b4ffd105f3e0404835a15431117922d"
+      },
+      {
+        "link_title": "JAMSHEDPUR FC VS SC DELHI",
+        "channel_url": "https://sonydaimenew.akamaized.net/hls/live/20000298/Football0308/ENG/std_lrh-800300010.m3u8?hdnea=exp=1785804643~acl=/*~id=43066143494206625324545938698522~hmac=a5e79df143bffca486a2d76ae9f4decdbb1e9c504f482ba619d755fc56060a2d"
+      }
+    ]
+  },
+  {
     "team1_name": "Torino",
     "team2_name": "Vado",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/2696/image",
@@ -1242,6 +1258,358 @@
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/7420/image",
     "time": "1785960000000",
     "league_name": "Football || Women'S Africa Cup Of Nations",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Tigre",
+    "team2_name": "Belgrano",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/7628/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3203/image",
+    "time": "1785975300000",
+    "league_name": "Football || Liga Profesional De Fútbol",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Boca Juniors",
+    "team2_name": "Estudiantes",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3202/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3206/image",
+    "time": "1785967200000",
+    "league_name": "Football || Liga Profesional De Fútbol",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Cruzeiro",
+    "team2_name": "Chapecoence",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1954/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/21845/image",
+    "time": "1785967200000",
+    "league_name": "Football || Copa Betano Do Brasil",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Grêmio",
+    "team2_name": "Mirassol",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/5926/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/21982/image",
+    "time": "1785969000000",
+    "league_name": "Football || Copa Betano Do Brasil",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Fluminense",
+    "team2_name": "Vasco",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1961/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1974/image",
+    "time": "1785976200000",
+    "league_name": "Football || Copa Betano Do Brasil",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Fortaleza",
+    "team2_name": "Palmeiras",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2020/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1963/image",
+    "time": "1785976200000",
+    "league_name": "Football || Copa Betano Do Brasil",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Austin",
+    "team2_name": "Tijuana",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/377973/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/36525/image",
+    "time": "1786064400000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Chicago",
+    "team2_name": "Necaxa",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2505/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1944/image",
+    "time": "1786062600000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Inter Miami",
+    "team2_name": "San Luis",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/337602/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1950/image",
+    "time": "1785972600000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "América",
+    "team2_name": "San Diego Fc",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1939/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1043961/image",
+    "time": "1786068000000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Los Angeles",
+    "team2_name": "Guadalajara",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/274650/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1938/image",
+    "time": "1785983400000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Monterrey",
+    "team2_name": "Orlando",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1932/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/52237/image",
+    "time": "1785972600000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Toluca",
+    "team2_name": "Seattle",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1931/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/22009/image",
+    "time": "1785981600000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Dallas",
+    "team2_name": "Querétaro",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2512/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1951/image",
+    "time": "1785976200000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Nashville",
+    "team2_name": "León",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/337612/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/36534/image",
+    "time": "1785976200000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Cruz Azul",
+    "team2_name": "Philadelphia",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1947/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/39833/image",
+    "time": "1786061400000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Ny City",
+    "team2_name": "Santos",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187643/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1948/image",
+    "time": "1786059000000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Portland",
+    "team2_name": "Puebla",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/22007/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1941/image",
+    "time": "1786069800000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Inter Miami",
+    "team2_name": "San Luis",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/337602/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1950/image",
+    "time": "1785972600000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Nashville",
+    "team2_name": "León",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/337612/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/36534/image",
+    "time": "1785976200000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Toluca",
+    "team2_name": "Seattle",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1931/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/22009/image",
+    "time": "1785981600000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Los Angeles",
+    "team2_name": "Guadalajara",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/274650/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1938/image",
+    "time": "1785983400000",
+    "league_name": "Football || Leagues Cup",
     "league_icon": "https://img.icons8.com/color/96/000000/football.png",
     "category": "Football",
     "live_links": [
