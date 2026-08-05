@@ -16,6 +16,54 @@
     ]
   },
   {
+    "team1_name": "Jaffna Kings",
+    "team2_name": "Galle Gallants",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png",
+    "time": "1785920400000",
+    "league_name": "Cricket || Lanka Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Jaffna Kings Vs Galle Gallants",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246730_english_hls_2cd3c7f2c483767_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Ireland",
+    "team2_name": "Afghanistan",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFG@2x.png",
+    "time": "1785921300000",
+    "league_name": "Cricket || Afghanistan Tour Of Ireland, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Ireland Vs Afghanistan",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248054_english_hls_03789dd60351500_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "United Arab Emirates",
+    "team2_name": "Canada",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CAN@2x.png",
+    "time": "1785922200000",
+    "league_name": "Cricket || Icc Cwc League 2 Scotland, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "United Arab Emirates Vs Canada",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248213_english_hls_8b9cbf1c6252001_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "Wi",
     "team2_name": "Pak",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187760/image",
@@ -340,44 +388,12 @@
     ]
   },
   {
-    "team1_name": "Jaffna Kings",
-    "team2_name": "Galle Gallants",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png",
-    "time": "1785920400000",
-    "league_name": "Cricket || Lanka Premier League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Ireland",
-    "team2_name": "Afghanistan",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFG@2x.png",
-    "time": "1785921300000",
-    "league_name": "Cricket || Afghanistan Tour Of Ireland, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "United Arab Emirates",
-    "team2_name": "Canada",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CAN@2x.png",
-    "time": "1785922200000",
-    "league_name": "Cricket || Icc Cwc League 2 Scotland, 2026",
+    "team1_name": "Battle",
+    "team2_name": "Rosta",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785921163540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785921163540x302.jpg",
+    "time": "1786143600000",
+    "league_name": "Cricket || Pfl 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
