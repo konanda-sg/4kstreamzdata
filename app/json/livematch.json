@@ -1,49 +1,33 @@
 [
   {
-    "team1_name": "Purani Dilli-6",
-    "team2_name": "Central Delhi Kings",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDK@2x.png",
-    "time": "1785915000000",
-    "league_name": "Cricket || Delhi Premier League, 2026",
+    "team1_name": "West Indies",
+    "team2_name": "Pakistan",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785399727540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785399727540x302.jpg",
+    "time": "1785679200000",
+    "league_name": "Cricket || Pakistan Tour Of West Indies 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Purani Dilli 6 Vs Central Delhi Kings",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4247969_english_hls_530117550a4719_1ta-di_h264/index.m3u8"
+        "link_title": "West Indies Vs Pakistan",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8"
       }
     ]
   },
   {
-    "team1_name": "Jaffna Kings",
-    "team2_name": "Galle Gallants",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png",
-    "time": "1785920400000",
-    "league_name": "Cricket || Lanka Premier League, 2026",
+    "team1_name": "Manchester Super Giants",
+    "team2_name": "Welsh Fire",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785908174540x302men.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785908174540x302men.jpg",
+    "time": "1785938400000",
+    "league_name": "Cricket || The Hundred Men'S Competition 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Jaffna Kings Vs Galle Gallants",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246730_english_hls_2cd3c7f2c483767_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Ireland",
-    "team2_name": "Afghanistan",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFG@2x.png",
-    "time": "1785921300000",
-    "league_name": "Cricket || Afghanistan Tour Of Ireland, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Ireland Vs Afghanistan",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248054_english_hls_03789dd60351500_1ta-di_h264/index.m3u8"
+        "link_title": "Manchester Super Giants Vs Welsh Fire",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
       }
     ]
   },
@@ -64,18 +48,50 @@
     ]
   },
   {
-    "team1_name": "Chelsea",
-    "team2_name": "Juventus",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHEL@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JUT@2x.png",
-    "time": "1785927600000",
-    "league_name": "Football || Club Friendlies 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
+    "team1_name": "East Delhi Riders",
+    "team2_name": "North Delhi Strikers",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-EDR@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png",
+    "time": "1785934800000",
+    "league_name": "Cricket || Delhi Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Chelsea Vs Juventus",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/index.m3u8"
+        "link_title": "East Delhi Riders Vs North Delhi Strikers",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4247976_english_hls_d97853e58773754_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Colombo Kaps",
+    "team2_name": "Kandy Royals",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Kandy-Royals.png",
+    "time": "1785936600000",
+    "league_name": "Cricket || Lanka Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Colombo Kaps Vs Kandy Royals",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4246725_english_hls_4970c22efa72931_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "West Indies",
+    "team2_name": "Pakistan",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
+    "time": "1785936600000",
+    "league_name": "Cricket || Pakistan Tour Of West Indies, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "West Indies Vs Pakistan",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/143634_english_hls_3a8752838648530_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -340,38 +356,6 @@
     ]
   },
   {
-    "team1_name": "Manchester Super Giants",
-    "team2_name": "Welsh Fire",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785908174540x302men.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785908174540x302men.jpg",
-    "time": "1785938400000",
-    "league_name": "Cricket || The Hundred Men'S Competition 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "West Indies",
-    "team2_name": "Pakistan",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785399727540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785399727540x302.jpg",
-    "time": "1785938400000",
-    "league_name": "Cricket || Pakistan Tour Of West Indies 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Trent Rockets",
     "team2_name": "Birmingham Pheonix",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785909156540x302men.jpg",
@@ -410,38 +394,6 @@
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785921163540x302.jpg",
     "time": "1786143600000",
     "league_name": "Cricket || Pfl 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "East Delhi Riders",
-    "team2_name": "North Delhi Strikers",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-EDR@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png",
-    "time": "1785934800000",
-    "league_name": "Cricket || Delhi Premier League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Colombo Kaps",
-    "team2_name": "Kandy Royals",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
-    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Kandy-Royals.png",
-    "time": "1785936600000",
-    "league_name": "Cricket || Lanka Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -500,11 +452,11 @@
     ]
   },
   {
-    "team1_name": "New Delhi Tigers",
-    "team2_name": "Outer Delhi Warriors",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png",
-    "time": "1785828600000",
+    "team1_name": "South Delhi Superstarz",
+    "team2_name": "West Delhi Lions",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png",
+    "time": "1785848400000",
     "league_name": "Cricket || Delhi Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -516,12 +468,44 @@
     ]
   },
   {
-    "team1_name": "South Delhi Superstarz",
-    "team2_name": "West Delhi Lions",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png",
-    "time": "1785848400000",
+    "team1_name": "Purani Dilli-6",
+    "team2_name": "Central Delhi Kings",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDK@2x.png",
+    "time": "1785915000000",
     "league_name": "Cricket || Delhi Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Jaffna Kings",
+    "team2_name": "Galle Gallants",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png",
+    "time": "1785920400000",
+    "league_name": "Cricket || Lanka Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Ireland",
+    "team2_name": "Afghanistan",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFG@2x.png",
+    "time": "1785921300000",
+    "league_name": "Cricket || Afghanistan Tour Of Ireland, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -650,6 +634,38 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UGN@2x.png",
     "time": "1786167000000",
     "league_name": "Cricket || Icc Cwc Challenge League B 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Purani Dilli-6",
+    "team2_name": "South Delhi Superstarz",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png",
+    "time": "1786174200000",
+    "league_name": "Cricket || Delhi Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Jamaica Kingsmen",
+    "team2_name": "Antigua & Barbuda Falcons",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/default_squad_image.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ABF@2x.png",
+    "time": "1786141800000",
+    "league_name": "Cricket || Caribbean Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
