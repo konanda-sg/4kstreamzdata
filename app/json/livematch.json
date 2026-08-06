@@ -1,16 +1,16 @@
 [
   {
-    "team1_name": "South Delhi Superstarz",
-    "team2_name": "Outer Delhi Warriors",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png",
+    "team1_name": "Outer Delhi Warriors",
+    "team2_name": "South Delhi Superstarz",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png",
     "time": "1786001400000",
     "league_name": "Cricket || Delhi Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "South Delhi Superstarz Vs Outer Delhi Warriors",
+        "link_title": "Outer Delhi Warriors Vs South Delhi Superstarz",
         "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4247975_english_hls_75a4fe130f92250_1ta-di_h264/index.m3u8"
       }
     ]
@@ -220,6 +220,22 @@
       {
         "link_title": "Day 1 Main Feed",
         "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Day 1",
+    "team2_name": "Centurion Club, St Albans, United Kingdom",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PIY@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
+    "time": "1786019400000",
+    "league_name": "Golf || Pif London Championship 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
+    "category": "Golf",
+    "live_links": [
+      {
+        "link_title": "Day 1",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248208_english_hls_3e8cea0d0374479_1ta-di_h264/index.m3u8"
       }
     ]
   },
@@ -464,22 +480,6 @@
     ]
   },
   {
-    "team1_name": "Ireland",
-    "team2_name": "Afghanistan",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFG@2x.png",
-    "time": "1785921300000",
-    "league_name": "Cricket || Afghanistan Tour Of Ireland, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "United Arab Emirates",
     "team2_name": "Canada",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png",
@@ -646,6 +646,22 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MIL@2x.png",
     "time": "1786188600000",
     "league_name": "Football || Club Friendlies 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Queens Park Rangers F.C.",
+    "team2_name": "Millwall F.C.",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-QPRN@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MILW@2x.png",
+    "time": "1786192200000",
+    "league_name": "Football || Carabao Cup 2026-27",
     "league_icon": "https://img.icons8.com/color/96/000000/football.png",
     "category": "Football",
     "live_links": [
@@ -1276,22 +1292,6 @@
       {
         "link_title": "Link 1",
         "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Day 1",
-    "team2_name": "Centurion Club, St Albans, United Kingdom",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PIY@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
-    "time": "1786019400000",
-    "league_name": "Golf || Pif London Championship 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
-    "category": "Golf",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
