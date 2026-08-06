@@ -208,6 +208,22 @@
     ]
   },
   {
+    "team1_name": "Day 1 - Main Feed",
+    "team2_name": "Sedgefield Country Club - Greensboro, Nc",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
+    "time": "1786011300000",
+    "league_name": "Golf || Wyndham Championship 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
+    "category": "Golf",
+    "live_links": [
+      {
+        "link_title": "Day 1 Main Feed",
+        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/index.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "Atp",
     "team2_name": "Wta",
     "team1_logo_url": "https://pbs.twimg.com/profile_images/1995612160613920768/jdwbOzZi_400x400.jpg",
@@ -276,7 +292,7 @@
     "team2_name": "Rosta",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785921163540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1785921163540x302.jpg",
-    "time": "1786143600000",
+    "time": "1786141800000",
     "league_name": "Cricket || Pfl 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -384,14 +400,30 @@
     ]
   },
   {
-    "team1_name": "Tbc",
-    "team2_name": "Tbc",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/pb-flags/FC-PB@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/pb-flags/FC-PB@2x.png",
+    "team1_name": "Galle Gallants",
+    "team2_name": "Colombo Kaps",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png",
+    "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png",
     "time": "1786109400000",
     "league_name": "Cricket || Lanka Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Fc Bayern München",
+    "team2_name": "Aston Villa",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BAYERN@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AVL@2x.png",
+    "time": "1786102200000",
+    "league_name": "Football || Club Friendlies 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
     "live_links": [
       {
         "link_title": "Intro",
@@ -512,12 +544,12 @@
     ]
   },
   {
-    "team1_name": "Fc Bayern München",
-    "team2_name": "Aston Villa",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BAYERN@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AVL@2x.png",
-    "time": "1786102200000",
-    "league_name": "Football || Club Friendlies 2026",
+    "team1_name": "Middlesbrough F.C.",
+    "team2_name": "Wrexham A.F.C.",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MIDDB@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WRX@2x.png",
+    "time": "1786127400000",
+    "league_name": "Football || Carabao Cup 2026-27",
     "league_icon": "https://img.icons8.com/color/96/000000/football.png",
     "category": "Football",
     "live_links": [
@@ -528,14 +560,14 @@
     ]
   },
   {
-    "team1_name": "Middlesbrough F.C.",
-    "team2_name": "Wrexham A.F.C.",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MIDDB@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WRX@2x.png",
-    "time": "1786127400000",
-    "league_name": "Football || Carabao Cup 2026-27",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
+    "team1_name": "Jamaica Kingsmen",
+    "team2_name": "Antigua & Barbuda Falcons",
+    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jamaica-Kingsmen.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ABF@2x.png",
+    "time": "1786141800000",
+    "league_name": "Cricket || Caribbean Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
     "live_links": [
       {
         "link_title": "Intro",
@@ -566,22 +598,6 @@
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png",
     "time": "1786174200000",
     "league_name": "Cricket || Delhi Premier League, 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Jamaica Kingsmen",
-    "team2_name": "Antigua & Barbuda Falcons",
-    "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Jamaica-Kingsmen.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ABF@2x.png",
-    "time": "1786141800000",
-    "league_name": "Cricket || Caribbean Premier League, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -1260,22 +1276,6 @@
       {
         "link_title": "Link 1",
         "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Day 1 - Main Feed",
-    "team2_name": "Sedgefield Country Club - Greensboro, Nc",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
-    "time": "1786011300000",
-    "league_name": "Golf || Wyndham Championship 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/golf.png",
-    "category": "Golf",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
