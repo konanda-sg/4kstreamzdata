@@ -1,5 +1,21 @@
 [
   {
+    "team1_name": "Battle",
+    "team2_name": "Rosta",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786086410540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786086410540x302.jpg",
+    "time": "1786141800000",
+    "league_name": "Cricket || Pfl 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Battle Vs Rosta",
+        "channel_url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/tapmad-PAKvsWI-BKd2-TesT/master.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "Ire",
     "team2_name": "Afg",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187766/image",
@@ -252,22 +268,6 @@
     "league_name": "Rugby || Nrl",
     "league_icon": "https://img.icons8.com/color/96/000000/rugby.png",
     "category": "Rugby",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Battle",
-    "team2_name": "Rosta",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786086410540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786086410540x302.jpg",
-    "time": "1786141800000",
-    "league_name": "Cricket || Pfl 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
     "live_links": [
       {
         "link_title": "Intro",
