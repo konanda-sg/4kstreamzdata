@@ -16,38 +16,6 @@
     ]
   },
   {
-    "team1_name": "Sl-Xi",
-    "team2_name": "Ind",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187756/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187765/image",
-    "time": "1786248000000",
-    "league_name": "Cricket || Icc World Test Championship Warm Up Test",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "SONYLIV ",
-        "channel_url": "https://sonydaimenew.akamaized.net/hls/live/20000292/criclive0808/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786207430~acl=/*~id=16695139551526506901251541115361~hmac=36fb389ead05454d15c10e46ffb6be410535793eed6dc5d461408c556c05892f"
-      }
-    ]
-  },
-  {
-    "team1_name": "The Hundred W",
-    "team2_name": "The Hundred W",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/16717/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/16717/image",
-    "time": "1786269600000",
-    "league_name": "Cricket || The Hundred Women",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Sl",
     "team2_name": "Wef",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/377178/image",
@@ -336,22 +304,6 @@
     ]
   },
   {
-    "team1_name": "Arezzo",
-    "team2_name": "Union Brescia",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2731/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1110141/image",
-    "time": "1786297500000",
-    "league_name": "Football || Coppa Italia",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Porto",
     "team2_name": "Alverca",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/3002/image",
@@ -389,6 +341,22 @@
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/1641/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/2825/image",
     "time": "1786289400000",
+    "league_name": "Football || Club Friendly Games",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Arsenal",
+    "team2_name": "Dortmund",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/42/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2673/image",
+    "time": "1786280400000",
     "league_name": "Football || Club Friendly Games",
     "league_icon": "https://img.icons8.com/color/96/000000/football.png",
     "category": "Football",
@@ -544,6 +512,22 @@
     ]
   },
   {
+    "team1_name": "Sl",
+    "team2_name": "Ind",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187756/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187765/image",
+    "time": "1786768200000",
+    "league_name": "Cricket || Icc World Test Championship",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "SONYLIV ",
+        "channel_url": "https://sonydaimenew.akamaized.net/hls/live/20000292/criclive0808/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786207430~acl=/*~id=16695139551526506901251541115361~hmac=36fb389ead05454d15c10e46ffb6be410535793eed6dc5d461408c556c05892f"
+      }
+    ]
+  },
+  {
     "team1_name": "Cpl T20",
     "team2_name": "Cpl T20",
     "team1_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVoZlb6Sy8wYeauCRmlU-hqecNkyzkY6l3yrQ-KXyqiA&s=10",
@@ -580,6 +564,22 @@
       {
         "link_title": "FANCODE (IND)",
         "channel_url": "https://dai-fancode.pages.dev/mumbai/4248286_english_hls_c15d148d2e71126_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      }
+    ]
+  },
+  {
+    "team1_name": "The Hundred W",
+    "team2_name": "The Hundred W",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/16717/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/16717/image",
+    "time": "1786370400000",
+    "league_name": "Cricket || The Hundred Women",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -872,6 +872,46 @@
     ]
   },
   {
+    "team1_name": "Calcutta Premier Division",
+    "team2_name": "Calcutta Premier Division",
+    "team1_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
+    "team2_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
+    "time": "1786354200000",
+    "league_name": "Football || Calcutta Premier Division",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Mohammedan SC Reserves vs Calcutta Police",
+        "channel_url": "https://live-n10.videostech.cloud/match/mohammedansportingclub_vs_calcuttapoliceclub/HLS/master.m3u8"
+      },
+      {
+        "link_title": "Coal India Spa vs Measures Club",
+        "channel_url": "https://live-n10.videostech.cloud/match/coalindiaspa_vs_measurersclub/HLS/master.m3u8"
+      },
+      {
+        "link_title": "Wari Athletic Club vs Techno Aryan",
+        "channel_url": "https://live-n10.videostech.cloud/match/wariathleticclub_vs_aryanclub/HLS/master.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Durand Cup",
+    "team2_name": "Durand Cup",
+    "team1_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/20809/image/dark",
+    "team2_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/20809/image/dark",
+    "time": "1786357800000",
+    "league_name": "Football || Durand Cup 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Shillong Lajong FC vs Mumbay FC",
+        "channel_url": "https://sonydaimenew.akamaized.net/hls/live/20000293/Football0808/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786229886~acl=/*~id=14719823539692838376837758475488~hmac=e34d1dffff0dddbdd008d1075eea66320e3d75e437f5df2ab83def81ce5c1a13"
+      }
+    ]
+  },
+  {
     "team1_name": "Sco",
     "team2_name": "Uae",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187576/image",
@@ -880,6 +920,22 @@
     "league_name": "Cricket || Icc Cwc League 2",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Arezzo",
+    "team2_name": "Union Brescia",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2731/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1110141/image",
+    "time": "1786297500000",
+    "league_name": "Football || Coppa Italia",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
     "live_links": [
       {
         "link_title": "Intro",
@@ -942,6 +998,166 @@
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/5318/image",
     "time": "1786302000000",
     "league_name": "Football || Coppa Italia",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Gil Vicente",
+    "team2_name": "Rio Ave",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3010/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3036/image",
+    "time": "1786303800000",
+    "league_name": "Football || Liga Portugal Betclic",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Santos",
+    "team2_name": "Athletico",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1968/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1967/image",
+    "time": "1786311000000",
+    "league_name": "Football || Brasileirão Betano",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Benfica",
+    "team2_name": "Académico Viseu",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3006/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3022/image",
+    "time": "1786303800000",
+    "league_name": "Football || Liga Portugal Betclic",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Flamengo",
+    "team2_name": "Vitória",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/5981/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1962/image",
+    "time": "1786314600000",
+    "league_name": "Football || Brasileirão Betano",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Moreirense",
+    "team2_name": "Braga",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3014/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2999/image",
+    "time": "1786303800000",
+    "league_name": "Football || Liga Portugal Betclic",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Rb Bragantino",
+    "team2_name": "Corinthians",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1999/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1957/image",
+    "time": "1786311000000",
+    "league_name": "Football || Brasileirão Betano",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Malawi",
+    "team2_name": "Ghana",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/298498/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/7417/image",
+    "time": "1786305600000",
+    "league_name": "Football || Women'S Africa Cup Of Nations",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Cruz Azul",
+    "team2_name": "Ny City",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1947/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187643/image",
+    "time": "1786318800000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "América",
+    "team2_name": "Portland",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1939/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/22007/image",
+    "time": "1786328100000",
+    "league_name": "Football || Leagues Cup",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Frosinone",
+    "team2_name": "Lazio",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2801/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2699/image",
+    "time": "1786301100000",
+    "league_name": "Football || Club Friendly Games",
     "league_icon": "https://img.icons8.com/color/96/000000/football.png",
     "category": "Football",
     "live_links": [
