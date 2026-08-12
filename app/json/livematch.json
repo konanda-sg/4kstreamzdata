@@ -1,5 +1,21 @@
 [
   {
+    "team1_name": "Aussie Mavericks Jaguars",
+    "team2_name": "Vedanta Leopards",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786428087540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786428087540x302.jpg",
+    "time": "1786530600000",
+    "league_name": "Cricket || World Padel League 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Aussie Mavericks Jaguars Vs Vedanta Leopards",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "The Hundred W",
     "team2_name": "The Hundred W",
     "team1_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/16717/image",
@@ -405,7 +421,7 @@
   },
   {
     "team1_name": "Welsh Fire",
-    "team2_name": "London Spirirt",
+    "team2_name": "London Spirit",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786450540540x302men.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786450540540x302men.jpg",
     "time": "1786543200000",
@@ -538,6 +554,22 @@
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786440680540x302.jpg",
     "time": "1786842000000",
     "league_name": "Cricket || Ufc 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "England",
+    "team2_name": "Pakistan",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786527399540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786527399540x302.jpg",
+    "time": "1787133600000",
+    "league_name": "Cricket || Pakistan Tour Of England 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
