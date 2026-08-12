@@ -1,16 +1,16 @@
 [
   {
-    "team1_name": "Aussie Mavericks Jaguars",
-    "team2_name": "Vedanta Leopards",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786428087540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786428087540x302.jpg",
-    "time": "1786530600000",
+    "team1_name": "Vb Realty Cheetahs",
+    "team2_name": "Panorama Panthers",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786428364540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786428364540x302.jpg",
+    "time": "1786539600000",
     "league_name": "Cricket || World Padel League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Aussie Mavericks Jaguars Vs Vedanta Leopards",
+        "link_title": "Vb Realty Cheetahs Vs Panorama Panthers",
         "channel_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
       }
     ]
@@ -404,38 +404,6 @@
     ]
   },
   {
-    "team1_name": "Vb Realty Cheetahs",
-    "team2_name": "Panorama Panthers",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786428364540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786428364540x302.jpg",
-    "time": "1786539600000",
-    "league_name": "Cricket || World Padel League 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Welsh Fire",
-    "team2_name": "London Spirit",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786450540540x302men.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786450540540x302men.jpg",
-    "time": "1786543200000",
-    "league_name": "Cricket || The Hundred Men'S Competition 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Birmingham Pheonix",
     "team2_name": "Mi London",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786451416540x302men.jpg",
@@ -456,7 +424,7 @@
     "team2_name": "Aston Villa",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786516759540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786516759540x302.jpg",
-    "time": "1786561200000",
+    "time": "1786555800000",
     "league_name": "Cricket || Uefa Super Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
