@@ -1,16 +1,16 @@
 [
   {
-    "team1_name": "Game Changer Lions",
-    "team2_name": "Hubtown Panorama Panthers",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786519292540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786519292540x302.jpg",
-    "time": "1786617000000",
+    "team1_name": "Khan Tigers",
+    "team2_name": "Vedanta Leopards",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786519428540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786519428540x302.jpg",
+    "time": "1786626000000",
     "league_name": "Cricket || World Padel League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Game Changer Lions Vs Hubtown Panorama Panthers",
+        "link_title": "Khan Tigers Vs Vedanta Leopards",
         "channel_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
       }
     ]
@@ -900,22 +900,6 @@
       {
         "link_title": "LOW SERVER",
         "channel_url": "http://193.47.62.190/hls/YYYY.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Khan Tigers",
-    "team2_name": "Vedanta Leopards",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786519428540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786519428540x302.jpg",
-    "time": "1786626000000",
-    "league_name": "Cricket || World Padel League 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
