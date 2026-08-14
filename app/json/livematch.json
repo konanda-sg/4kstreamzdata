@@ -28,30 +28,6 @@
     ]
   },
   {
-    "team1_name": "National Cup",
-    "team2_name": "National Cup",
-    "team1_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdpnm37Bj0VP9MXI2YZb3vbBWBfoJaQe6N_7h7QiQTow&s=10",
-    "team2_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdpnm37Bj0VP9MXI2YZb3vbBWBfoJaQe6N_7h7QiQTow&s=10",
-    "time": "1786701600000",
-    "league_name": "Cricket || National Champions League, Odi",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "TAPMAD [PK]",
-        "channel_url": "https://tencent-cdn.tapmad.com/v1/019ea6d121dd15e8f4122afee4cf8f/019ea6d2f96e15e8f0602c5e1b7bc3/fifa1_720.m3u8"
-      },
-      {
-        "link_title": "TAMASHA [PK]",
-        "channel_url": "https://cdn05khi-n.tamashaweb.com:8087/jazzauth/NCC-2026-abr/playlist.m3u8"
-      },
-      {
-        "link_title": "TEST",
-        "channel_url": "http://162.251.160.53:8089/NCC1/index.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Msg",
     "team2_name": "Sl",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/377173/image",
@@ -516,98 +492,6 @@
       {
         "link_title": "Link 1",
         "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Klaksvík",
-    "team2_name": "Lech",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/5194/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3121/image",
-    "time": "1786730400000",
-    "league_name": "Football || Uefa Europa League",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Al-Ettifaq",
-    "team2_name": "Al-Riyadh",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/34318/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/168088/image",
-    "time": "1786730400000",
-    "league_name": "Football || Saudi Pro League",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "HD SERVER ",
-        "channel_url": "https://hls.live123.fans/live/4599544.m3u8"
-      },
-      {
-        "link_title": "HD QUALITY",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4599544.m3u8?txSecret=a9c71d0bc2840ee2084dd3e6827e3d69&txTime=6A7F6B92|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW QUALITY",
-        "channel_url": "http://193.47.62.193/hls/ITTT.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Al-Hilal",
-    "team2_name": "Al Faisaly",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/21895/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/56035/image",
-    "time": "1786730400000",
-    "league_name": "Football || Saudi Pro League",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "FOX DEPORTES FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd?|drmScheme=clearkey&drmLicense=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-      },
-      {
-        "link_title": "HD SERVER",
-        "channel_url": "https://chatgpt.hereisman.net/playlist/54611/load-playlist.m3u8|Referer=https://gooz.aapmains.net"
-      },
-      {
-        "link_title": "HD QUALITY",
-        "channel_url": "https://hls.live123.fans/live/4599545.m3u8"
-      },
-      {
-        "link_title": "SPORT TV HD",
-        "channel_url": "https://t7.ultrastream.vip/sporttv4/index.m3u8?|Referer=https://foottime.top/"
-      },
-      {
-        "link_title": "SD QUALITY",
-        "channel_url": "http://162.251.160.53:8089/78/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Telstar",
-    "team2_name": "Sparta",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2972/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2960/image",
-    "time": "1786730400000",
-    "league_name": "Football || Vriendenloterij Eredivisie",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "HD SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4552156.m3u8?txSecret=9126fa4f43d5d562b10b9445fb68fb64&txTime=6A7F6AF3|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW QUALITY",
-        "channel_url": "http://193.47.62.193/hls/IPPPAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
