@@ -3,6 +3,7 @@
 Generate Live Match JSON from source sports data.
 Converts Bangladesh time (Asia/Dhaka) to UTC Unix timestamp in milliseconds.
 Filters out matches with status "FINISHED".
+Supports cached data for faster processing.
 """
 
 import json
@@ -20,11 +21,17 @@ SOURCE_URL = "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Liv
 # Output file path
 OUTPUT_FILE = "app/json/livematch.json"
 
+# Cache file path (if provided by environment)
+CACHE_FILE = os.environ.get("SOURCE_DATA_CACHE", "")
+
 # Fallback video URL when no streams are available
 FALLBACK_VIDEO_URL = "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
 
 # Fallback image URL when team flags are missing
 FALLBACK_IMAGE_URL = "https://via.placeholder.com/96x96/cccccc/666666?text=Team"
+
+# Statuses to exclude (matches with these statuses will be skipped)
+EXCLUDED_STATUSES = ["FINISHED", "COMPLETED", "ENDED"]
 
 # Category icons mapping - EDIT THIS TO CUSTOMIZE ICONS
 CATEGORY_ICONS = {
@@ -64,12 +71,23 @@ CATEGORY_ICONS = {
 # Bangladesh timezone
 BDT_TIMEZONE = pytz.timezone("Asia/Dhaka")
 
-# Statuses to exclude (matches with these statuses will be skipped)
-EXCLUDED_STATUSES = ["FINISHED", "COMPLETED", "ENDED"]
-
 
 def fetch_source_data() -> Dict[str, Any]:
-    """Fetch the source JSON data from the URL."""
+    """Fetch the source JSON data from the URL or cache."""
+    # Try to use cached data first
+    if CACHE_FILE and os.path.exists(CACHE_FILE):
+        try:
+            print(f"📂 Loading source data from cache: {CACHE_FILE}")
+            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            print(f"✅ Successfully loaded cached data")
+            print(f"   Total matches: {data.get('total_matches', 0)}")
+            print(f"   Live matches: {data.get('live_match', 0)}")
+            return data
+        except Exception as e:
+            print(f"⚠️  Failed to load cached data: {e}")
+    
+    # Fallback to fetching from URL
     try:
         print(f"📡 Fetching data from: {SOURCE_URL}")
         response = requests.get(SOURCE_URL, timeout=30)
@@ -312,6 +330,8 @@ def main():
     print(f"⏰ Current UTC time: {datetime.now(pytz.UTC).strftime('%Y-%m-%d %H:%M:%S %Z')}")
     print(f"📋 Excluding matches with status: {', '.join(EXCLUDED_STATUSES)}")
     print("📋 Including matches with status: LIVE, UPCOMING, and others")
+    if CACHE_FILE:
+        print(f"📂 Cache enabled: {CACHE_FILE}")
     print("=" * 50)
     
     try:
