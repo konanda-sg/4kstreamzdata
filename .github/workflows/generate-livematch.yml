@@ -2,7 +2,7 @@ name: Generate Live Match JSON
 
 on:
   schedule:
-    # Check for changes every 5 minutes (minimum allowed by GitHub)
+    # Check every 5 minutes (minimum allowed by GitHub)
     - cron: '*/5 * * * *'
   workflow_dispatch:
   push:
@@ -30,11 +30,33 @@ jobs:
         id: check_source
         run: |
           echo "🔍 Checking if source data has changed..."
+          echo "⏰ Current time: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
           
-          # Fetch the current source data hash
-          echo "📡 Fetching latest source data hash..."
-          CURRENT_HASH=$(curl -s --max-time 5 "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json" | md5sum | cut -d' ' -f1)
+          # Fetch the current source data with headers to check if modified
+          echo "📡 Fetching latest source data..."
+          
+          # Download the full JSON to compare content
+          CURRENT_DATA=$(curl -s --max-time 10 "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json")
+          
+          if [ -z "$CURRENT_DATA" ]; then
+            echo "❌ Failed to fetch source data!"
+            echo "source_changed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          # Calculate hash of the full content
+          CURRENT_HASH=$(echo "$CURRENT_DATA" | md5sum | cut -d' ' -f1)
           echo "Current hash: $CURRENT_HASH"
+          
+          # Extract additional metadata for comparison
+          CURRENT_TOTAL=$(echo "$CURRENT_DATA" | jq -r '.total_matches // 0')
+          CURRENT_LIVE=$(echo "$CURRENT_DATA" | jq -r '.live_match // 0')
+          CURRENT_UPDATE_TIME=$(echo "$CURRENT_DATA" | jq -r '.last_update_time // "unknown"')
+          
+          echo "📊 Source metadata:"
+          echo "   Total matches: $CURRENT_TOTAL"
+          echo "   Live matches: $CURRENT_LIVE"
+          echo "   Last update: $CURRENT_UPDATE_TIME"
           
           # Check if we have a stored hash
           if [ -f "app/json/.source_hash" ]; then
@@ -45,12 +67,23 @@ jobs:
             echo "No stored hash found. First run!"
           fi
           
-          # Compare hashes
+          # Store the actual JSON for processing if changed
           if [ "$CURRENT_HASH" != "$STORED_HASH" ]; then
             echo "✅ Source data has changed! Running full workflow..."
             echo "source_changed=true" >> $GITHUB_OUTPUT
+            
+            # Store the new hash
             echo "$CURRENT_HASH" > app/json/.source_hash
-            echo "📝 Updated stored hash"
+            
+            # Store metadata for debugging
+            echo "$CURRENT_TOTAL" > app/json/.total_matches
+            echo "$CURRENT_LIVE" > app/json/.live_matches
+            echo "$CURRENT_UPDATE_TIME" > app/json/.last_update_time
+            
+            # Save the current data for processing
+            echo "$CURRENT_DATA" > app/json/.source_data_cache.json
+            
+            echo "📝 Updated stored hash and metadata"
           else
             echo "ℹ️ Source data has not changed. Skipping workflow..."
             echo "source_changed=false" >> $GITHUB_OUTPUT
@@ -80,6 +113,7 @@ jobs:
           python scripts/generate_livematch.py
         env:
           PYTHONUNBUFFERED: 1
+          SOURCE_DATA_CACHE: app/json/.source_data_cache.json
 
       - name: Validate generated JSON
         if: steps.check_source.outputs.source_changed == 'true'
@@ -117,11 +151,24 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add app/json/livematch.json app/json/.source_hash
+          # Add all generated files
+          git add app/json/livematch.json 
+          git add app/json/.source_hash
+          git add app/json/.total_matches
+          git add app/json/.live_matches
+          git add app/json/.last_update_time
+          
+          # Get source metadata for commit message
+          SOURCE_TOTAL=$(cat app/json/.total_matches 2>/dev/null || echo "0")
+          SOURCE_LIVE=$(cat app/json/.live_matches 2>/dev/null || echo "0")
+          SOURCE_TIME=$(cat app/json/.last_update_time 2>/dev/null || echo "unknown")
+          
           git commit -m "chore: update live match data [skip ci]
           
           Automated update triggered by data change in source repository.
-          Source: https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json"
+          Source: sm-monirulislam/Upcoming-and-Live-Sports-Data
+          Total matches: $SOURCE_TOTAL | Live matches: $SOURCE_LIVE
+          Source last update: $SOURCE_TIME"
           
           git push origin main
 
@@ -154,6 +201,16 @@ jobs:
           if [ -f "app/json/livematch.json" ]; then
             COUNT=$(python -c "import json; print(len(json.load(open('app/json/livematch.json'))))")
             echo "**Total Matches:** $COUNT" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          if [ -f "app/json/.total_matches" ]; then
+            SOURCE_TOTAL=$(cat app/json/.total_matches)
+            echo "**Source Total:** $SOURCE_TOTAL" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          if [ -f "app/json/.live_matches" ]; then
+            SOURCE_LIVE=$(cat app/json/.live_matches)
+            echo "**Source Live:** $SOURCE_LIVE" >> $GITHUB_STEP_SUMMARY
           fi
           
           if [ "${{ steps.check_changes.outputs.changes_detected }}" == "true" ]; then
