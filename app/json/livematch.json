@@ -112,26 +112,6 @@
     ]
   },
   {
-    "team1_name": "Marseille",
-    "team2_name": "Atl. Madrid",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1641/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2836/image",
-    "time": "1786721400000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "HD SERVER",
-        "channel_url": "https://hls.live123.fans/live/4611427.m3u8"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.190/hls/AIIIZZZ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Neom",
     "team2_name": "Al-Fayha",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/530631/image",
