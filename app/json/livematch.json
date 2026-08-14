@@ -1,5 +1,21 @@
 [
   {
+    "team1_name": "St Lucia Kings",
+    "team2_name": "Antigua And Barbuda Falcons",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786732519540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786732519540x302.jpg",
+    "time": "1786748400000",
+    "league_name": "Cricket || Caribbean Premier League 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "St Lucia Kings Vs Antigua And Barbuda Falcons",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "The Hundred W",
     "team2_name": "The Hundred W",
     "team1_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/16717/image",
@@ -52,22 +68,6 @@
       {
         "link_title": "LOW SERVER",
         "channel_url": "http://193.47.62.193/hls/AFFFFAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "St Lucia Kings",
-    "team2_name": "Antigua And Barbuda Falcons",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786732519540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786732519540x302.jpg",
-    "time": "1786748400000",
-    "league_name": "Cricket || Caribbean Premier League 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -548,38 +548,6 @@
     ]
   },
   {
-    "team1_name": "Galatasaray",
-    "team2_name": "Çorum",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3061/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/77629/image",
-    "time": "1786732200000",
-    "league_name": "Football || Trendyol Süper Lig",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "HD SERVER",
-        "channel_url": "http://193.47.62.191/hls/DMMMA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "beiN SPORTS HD",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/beinsports1tr.m3u8"
-      },
-      {
-        "link_title": "HD QUALITY",
-        "channel_url": "https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8"
-      },
-      {
-        "link_title": "SD SERVER ",
-        "channel_url": "https://pull.niues.live/live/stream-527383_lhd.m3u8?auth_key=1786735620-0-0-c69b32e0dfe5e91d242b5251b8d41881"
-      },
-      {
-        "link_title": "LOW QUALITY ",
-        "channel_url": "https://pull.niues.live/live/stream-599634_lhd.m3u8?auth_key=1786735620-0-0-31aef0aa6b91dc25d04003ec5952865f"
-      }
-    ]
-  },
-  {
     "team1_name": "Fiorentina",
     "team2_name": "Benevento",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/2693/image",
@@ -640,42 +608,6 @@
       {
         "link_title": "SD SERVER",
         "channel_url": "http://193.47.62.190/hls/siiiia.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Real Sociedad B",
-    "team2_name": "Castellón",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/24360/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/5067/image",
-    "time": "1786732200000",
-    "league_name": "Football || Laliga 2",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LaLiga TV FHD",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4567222.m3u8?txSecret=cef1472b1c83d46d63113063854e75fc&txTime=6A7F7185|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW QUALITY ",
-        "channel_url": "http://193.47.62.191/hls/DMMMAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Coventry",
-    "team2_name": "As Monaco",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/11/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1653/image",
-    "time": "1786732200000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "HD SERVER ",
-        "channel_url": "http://193.47.62.191/hls/DMMMAAAAA.m3u8|referer=http://www.fawanews.sc/"
       }
     ]
   },
@@ -988,30 +920,6 @@
       {
         "link_title": "Link 1",
         "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Cubs",
-    "team2_name": "Cardinals",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3627/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3632/image",
-    "time": "1786731600000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "HD SERVER ",
-        "channel_url": "https://chatgpt.hereisman.net/playlist/54622/load-playlist.m3u8|Referer=https://gooz.aapmains.net"
-      },
-      {
-        "link_title": "HD QUALITY",
-        "channel_url": "https://edgestream2.pro/hls/dazhfiach15.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "LOW QUALITY",
-        "channel_url": "http://193.47.62.190/hls/ITTTAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
