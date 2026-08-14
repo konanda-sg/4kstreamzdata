@@ -3,7 +3,9 @@
 Generate Live Match JSON from source sports data.
 Converts Bangladesh time (Asia/Dhaka) to UTC Unix timestamp in milliseconds.
 Filters out matches with status "FINISHED".
-Supports cached data for faster processing.
+Auto-removes matches based on sport-specific time limits:
+- Football, Basketball, Baseball: 4 hours
+- Cricket: 12 hours
 """
 
 import json
@@ -32,6 +34,46 @@ FALLBACK_IMAGE_URL = "https://via.placeholder.com/96x96/cccccc/666666?text=Team"
 
 # Statuses to exclude (matches with these statuses will be skipped)
 EXCLUDED_STATUSES = ["FINISHED", "COMPLETED", "ENDED"]
+
+# Sport-specific expiry hours (how long a match should stay after start time)
+SPORT_EXPIRY_HOURS = {
+    "Football": 4,
+    "Basketball": 4,
+    "Baseball": 4,
+    "Cricket": 12,
+    "Tennis": 6,
+    "Volleyball": 3,
+    "Badminton": 3,
+    "Table Tennis": 3,
+    "Rugby": 4,
+    "Boxing": 3,
+    "MMA": 3,
+    "WWE": 3,
+    "Golf": 8,
+    "Motorsport": 6,
+    "Motogp": 6,
+    "E-Sports": 4,
+    "NBA": 4,
+    "NFL": 6,
+    "MLB": 4,
+    "NHL": 4,
+    "Soccer": 4,
+    "FIFA": 4,
+    "UEFA": 4,
+    "Bundesliga": 4,
+    "La Liga": 4,
+    "Serie A": 4,
+    "Premier League": 4,
+    "Ligue 1": 4,
+    "IPL": 12,
+    "Big Bash": 12,
+    "PSL": 12,
+    "CPL": 12,
+    "The Hundred": 12,
+}
+
+# Default expiry hours for unknown sports
+DEFAULT_EXPIRY_HOURS = 6
 
 # Category icons mapping - EDIT THIS TO CUSTOMIZE ICONS
 CATEGORY_ICONS = {
@@ -175,6 +217,51 @@ def convert_bdt_to_utc_timestamp(start_time: str) -> str:
         return str(int(datetime.now().timestamp() * 1000))
 
 
+def get_expiry_hours(category: str) -> int:
+    """
+    Get the expiry hours for a specific sport category.
+    Returns the number of hours after which a match should be removed.
+    """
+    # Check if the category has a specific expiry time
+    if category in SPORT_EXPIRY_HOURS:
+        return SPORT_EXPIRY_HOURS[category]
+    
+    # Check for partial matches (e.g., "Football - Premier League" -> "Football")
+    for sport, hours in SPORT_EXPIRY_HOURS.items():
+        if sport.lower() in category.lower() or category.lower() in sport.lower():
+            return hours
+    
+    # Return default if no match found
+    return DEFAULT_EXPIRY_HOURS
+
+
+def is_match_expired(start_time: str, category: str) -> bool:
+    """
+    Check if a match has exceeded its sport-specific expiry time.
+    Returns True if the match should be removed.
+    """
+    if not start_time:
+        return False
+    
+    utc_dt = convert_bdt_to_datetime(start_time)
+    if not utc_dt:
+        return False
+    
+    # Get expiry hours for this sport
+    expiry_hours = get_expiry_hours(category)
+    
+    # Check if match has exceeded the expiry time
+    now_utc = datetime.now(pytz.UTC)
+    time_diff = now_utc - utc_dt
+    
+    is_expired = time_diff > timedelta(hours=expiry_hours)
+    
+    if is_expired:
+        print(f"   🕐 Match expired: {category} started {time_diff.total_seconds() / 3600:.1f}h ago (limit: {expiry_hours}h)")
+    
+    return is_expired
+
+
 def get_valid_url(url: str, fallback: str = None) -> str:
     """
     Return a valid URL. If the URL is empty or None, return the fallback.
@@ -249,6 +336,12 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         # Check if match is finished (exclude it)
         if is_match_finished(status):
             print(f"   🏁 Skipping finished match: {team_a} vs {team_b} (Status: {status})")
+            return None
+        
+        # Check if match has expired based on sport-specific time limit
+        if is_match_expired(start_time, category):
+            expiry_hours = get_expiry_hours(category)
+            print(f"   🕐 Removing expired match: {team_a} vs {team_b} ({category} - limit: {expiry_hours}h)")
             return None
         
         if category and event_name:
@@ -328,10 +421,11 @@ def main():
     print("🚀 Starting Live Match JSON Generator")
     print("=" * 50)
     print(f"⏰ Current UTC time: {datetime.now(pytz.UTC).strftime('%Y-%m-%d %H:%M:%S %Z')}")
-    print(f"📋 Excluding matches with status: {', '.join(EXCLUDED_STATUSES)}")
-    print("📋 Including matches with status: LIVE, UPCOMING, and others")
-    if CACHE_FILE:
-        print(f"📂 Cache enabled: {CACHE_FILE}")
+    print("📋 Excluding matches with status: FINISHED, COMPLETED, ENDED")
+    print("📋 Sport-specific expiry rules:")
+    print("   • Football, Basketball, Baseball: 4 hours")
+    print("   • Cricket: 12 hours")
+    print("   • Other sports: 6 hours (default)")
     print("=" * 50)
     
     try:
@@ -346,27 +440,36 @@ def main():
             transformed_matches = []
             skipped = 0
             finished = 0
+            expired = 0
             
             for idx, match in enumerate(matches, 1):
                 status = match.get("status", "Unknown")
+                category = match.get("Category", "Unknown")
                 transformed = transform_match(match)
                 if transformed:
                     transformed_matches.append(transformed)
                     live_links_count = len(transformed.get('live_links', []))
-                    print(f"   ✓ Match {idx}: {transformed.get('team1_name')} vs {transformed.get('team2_name')} (Status: {status}, Links: {live_links_count})")
+                    print(f"   ✓ Match {idx}: {transformed.get('team1_name')} vs {transformed.get('team2_name')} (Status: {status}, Category: {category}, Links: {live_links_count})")
                 else:
-                    # Check if it was skipped due to finished status
+                    # Check why it was skipped
                     if is_match_finished(status):
                         finished += 1
+                    elif match.get("eventInfo", {}).get("startTime") and is_match_expired(
+                        match.get("eventInfo", {}).get("startTime", ""), 
+                        category
+                    ):
+                        expired += 1
                     else:
                         skipped += 1
-                    print(f"   ✗ Match {idx}: Skipped (Status: {status})")
+                    print(f"   ✗ Match {idx}: Skipped (Status: {status}, Category: {category})")
             
             print(f"\n✅ Successfully transformed {len(transformed_matches)} matches")
             if skipped > 0:
                 print(f"   ⚠️  Skipped {skipped} matches (missing required fields)")
             if finished > 0:
-                print(f"   🏁 Excluded {finished} finished matches (Status: FINISHED)")
+                print(f"   🏁 Excluded {finished} finished matches (Status: FINISHED/COMPLETED/ENDED)")
+            if expired > 0:
+                print(f"   🕐 Removed {expired} expired matches (exceeded sport-specific time limit)")
         
         os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
         
