@@ -94,8 +94,20 @@
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "WILLOW FHD",
+        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4ez0nzel5u/out/v1/f62c7744a9f04e3fa845d956442d98ab/cenc.mpd?|drmScheme=clearkey&drmLicense=b15cdaf34362e1491ef3ae071e7e893d:166810dd6b122c4219b4901eb5d1a218"
+      },
+      {
+        "link_title": "CRICKET FHD",
+        "channel_url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla"
+      },
+      {
+        "link_title": "WILLOW ALT",
+        "channel_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/4ez0nzel5u/out/v1/f62c7744a9f04e3fa845d956442d98ab/cenc.mpd?|drmScheme=clearkey&drmLicense=b15cdaf34362e1491ef3ae071e7e893d:166810dd6b122c4219b4901eb5d1a218"
+      },
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.193/hls/AFFFFAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -130,8 +142,16 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "HD SERVER",
+        "channel_url": "https://hls.live123.fans/live/4599543.m3u8"
+      },
+      {
+        "link_title": "FAST SERVER",
+        "channel_url": "https://pul-tenm.gkykp.com/live/sd-1-4599543.m3u8?txSecret=efb1b760b45fef0cf4f199d88d910b3c&txTime=6A8071D0"
+      },
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.191/hls/FFSSSAAAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -172,6 +192,10 @@
       {
         "link_title": "ELEVEN SPORTS HD",
         "channel_url": "https://cast.zlive.st/p/auto-eleven-sports-1-0/index.m3u8?|referer=https://zlive.st/"
+      },
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.191/hls/FFSSSAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -188,6 +212,10 @@
       {
         "link_title": "ELEVEN SPORTS HD",
         "channel_url": "https://cast.zlive.st/p/auto-eleven-sports-2-0/index.m3u8?|referer=https://zlive.st/"
+      },
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.191/hls/FFSSSAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -260,6 +288,22 @@
       {
         "link_title": "WTA Toronto",
         "channel_url": "http://193.47.62.190/hls/XAXAXA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "St Lucia Kings",
+    "team2_name": "Antigua And Barbuda Falcons",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786732519540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786732519540x302.jpg",
+    "time": "1786748400000",
+    "league_name": "Cricket || Caribbean Premier League 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -714,8 +758,8 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "HD SERVER ",
+        "channel_url": "https://hls.live123.fans/live/4599544.m3u8"
       }
     ]
   },
@@ -730,8 +774,24 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "FOX DEPORTES FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd?|drmScheme=clearkey&drmLicense=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
+      },
+      {
+        "link_title": "HD SERVER",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/54611/load-playlist.m3u8|Referer=https://gooz.aapmains.net"
+      },
+      {
+        "link_title": "HD QUALITY",
+        "channel_url": "https://hls.live123.fans/live/4599545.m3u8"
+      },
+      {
+        "link_title": "SPORT TV HD",
+        "channel_url": "https://t7.ultrastream.vip/sporttv4/index.m3u8?|Referer=https://foottime.top/"
+      },
+      {
+        "link_title": "SD QUALITY",
+        "channel_url": "http://162.251.160.53:8089/78/index.m3u8"
       }
     ]
   },
@@ -746,8 +806,8 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "LOW QUALITY",
+        "channel_url": "http://162.251.160.53:8089/321/index.m3u8"
       }
     ]
   },
@@ -842,8 +902,12 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "LaLiga TV FHD",
+        "channel_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd?|drmScheme=clearkey&drmLicense=620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a"
+      },
+      {
+        "link_title": "LaLiga Hypermotion Es",
+        "channel_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd?|drmScheme=clearkey&drmLicense=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
       }
     ]
   },
@@ -853,6 +917,38 @@
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/11/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/1653/image",
     "time": "1786732200000",
+    "league_name": "Football || Club Friendly Games",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Sporting",
+    "team2_name": "Vitória",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3001/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3009/image",
+    "time": "1786734900000",
+    "league_name": "Football || Liga Portugal Betclic",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Atalanta",
+    "team2_name": "Athletic Club",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2686/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2825/image",
+    "time": "1786733100000",
     "league_name": "Football || Club Friendly Games",
     "league_icon": "https://img.icons8.com/color/96/000000/football.png",
     "category": "Football",
@@ -1142,8 +1238,12 @@
     "category": "Baseball",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "HD SERVER ",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/54622/load-playlist.m3u8|Referer=https://gooz.aapmains.net"
+      },
+      {
+        "link_title": "HD QUALITY",
+        "channel_url": "https://edgestream2.pro/hls/dazhfiach15.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
       }
     ]
   },
