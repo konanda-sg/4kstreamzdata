@@ -1,21 +1,5 @@
 [
   {
-    "team1_name": "Jamaica Kingsmen",
-    "team2_name": "Trinbago Knight Riders",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786808660540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786808660540x302.jpg",
-    "time": "1786838400000",
-    "league_name": "Cricket || Caribbean Premier League 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Australia",
     "team2_name": "Bangladesh",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786429467540x302.jpg",
@@ -356,34 +340,6 @@
     ]
   },
   {
-    "team1_name": "Sevilla",
-    "team2_name": "Rayo Vallecano",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2833/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2818/image",
-    "time": "1786822200000",
-    "league_name": "Football || Laliga",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "beiN ENGLISH FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|drmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "link_title": "PREMIER SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd?|drmScheme=clearkey&drmLicense=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-      },
-      {
-        "link_title": "FANCODE FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd?|drmScheme=clearkey&drmLicense=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "link_title": "HD SERVER",
-        "channel_url": "https://hls.live123.fans/live/4565324.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "R. Racing Club",
     "team2_name": "Villarreal",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/2835/image",
@@ -464,26 +420,6 @@
     ]
   },
   {
-    "team1_name": "Rio Ave",
-    "team2_name": "Porto",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3036/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3002/image",
-    "time": "1786822200000",
-    "league_name": "Football || Liga Portugal Betclic",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SPORT TV HD",
-        "channel_url": "https://rdcstream.life/live/sport-tv-1-pt/index.m3u8?|Referer=https://bolodechocolate.fit/"
-      },
-      {
-        "link_title": "beiN SPORTS ES",
-        "channel_url": "https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Ado",
     "team2_name": "Groningen",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/2966/image",
@@ -544,42 +480,6 @@
       {
         "link_title": "Link 1",
         "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Fluminense",
-    "team2_name": "Palmeiras",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1961/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1963/image",
-    "time": "1786822200000",
-    "league_name": "Football || Brasileirão Betano",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "PREMIERE BR FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd?|drmScheme=clearkey&drmLicense=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-      },
-      {
-        "link_title": "PREMIER SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd?|drmScheme=clearkey&drmLicense=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-      }
-    ]
-  },
-  {
-    "team1_name": "Mallorca",
-    "team2_name": "Real Valladolid",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2826/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2831/image",
-    "time": "1786822200000",
-    "league_name": "Football || Laliga 2",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LaLiga Hypermotion Es",
-        "channel_url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd?|drmScheme=clearkey&drmLicense=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
       }
     ]
   },
