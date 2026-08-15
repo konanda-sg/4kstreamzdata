@@ -1,73 +1,5 @@
 [
   {
-    "team1_name": "Hubtown Panaroma Panthers",
-    "team2_name": "Vb Realty Cheetahs",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786798293540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786798293540x302.jpg",
-    "time": "1786798800000",
-    "league_name": "Cricket || World Padel League 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Hubtown Panaroma Panthers Vs Vb Realty Cheetahs",
-        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Sl",
-    "team2_name": "Ind",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187756/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187765/image",
-    "time": "1786767600000",
-    "league_name": "Cricket || Icc World Test Championship",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "WILLOW FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vsbkktsjpw/out/v1/a73da2deccb14219939a675c0b3d99cf/cenc.mpd?|drmScheme=clearkey&drmLicense=97a5513689d3b2f6a4e31bfedb2ea2d6:19ba11eba39303ebd05986d92d974a02"
-      },
-      {
-        "link_title": "TNT SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd?|drmScheme=clearkey&drmLicense=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-      },
-      {
-        "link_title": "WILLOW HD",
-        "channel_url": "https://cdn72834346.blzcdn.net/dx15hd/index.m3u8|referer=https://copyright.com/"
-      },
-      {
-        "link_title": "WILLOW HD",
-        "channel_url": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd?|drmScheme=clearkey&drmLicense=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      },
-      {
-        "link_title": "SonyLiv [ENG]",
-        "channel_url": "https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1508/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786808995~acl=/*~id=46538824643663372298043104821612~hmac=6e6070a56d54cf568ea0fea031f575d2c8826db606a22dcc3339f16e433e3ba3|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com"
-      },
-      {
-        "link_title": "SonyLiv [HIN]",
-        "channel_url": "https://sonydaimenew.akamaized.net/hls/live/20000300/cricodi1508/HIN/std_lrh-800300010.m3u8?hdnea=exp=1786808995~acl=/*~id=46538824643663372298043104821612~hmac=6e6070a56d54cf568ea0fea031f575d2c8826db606a22dcc3339f16e433e3ba3|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com"
-      },
-      {
-        "link_title": "SonyLiv [TAM]",
-        "channel_url": "https://sonydaimenew.akamaized.net/hls/live/20000377/cricodi1508/TAM/std_lrh-800300010.m3u8?hdnea=exp=1786808995~acl=/*~id=46538824643663372298043104821612~hmac=6e6070a56d54cf568ea0fea031f575d2c8826db606a22dcc3339f16e433e3ba3|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com"
-      },
-      {
-        "link_title": "WILLOW SD",
-        "channel_url": "https://cdn72834346.blzcdn.net/dx15md/index.m3u8|referer=https://copyright.com/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.190/hls/KKKK.m3u8|referer=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "WILLOW HD",
-        "channel_url": "https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Ire",
     "team2_name": "Afg",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187766/image",
@@ -140,22 +72,6 @@
       {
         "link_title": "Link 1",
         "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Bremen",
-    "team2_name": "Auxerre",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2534/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1646/image",
-    "time": "1786797000000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.190/hls/MFFFAAA.m3u8|referer=http://www.fawanews.sc/"
       }
     ]
   },
@@ -864,6 +780,26 @@
     ]
   },
   {
+    "team1_name": "Fulham",
+    "team2_name": "Stuttgart",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/43/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2677/image",
+    "time": "1786806000000",
+    "league_name": "Football || Club Friendly Games",
+    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.41/hls/OOOO.m3u8|referer=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "FAST SERVER",
+        "channel_url": "https://live2.jxa76.com/live/sd-6MxiKC6MtLbLYUhUVH_540p.m3u8?txSecret=a75c4112c3ffe5632cfcb071b6ffcf46&txTime=1A0074FA20F"
+      }
+    ]
+  },
+  {
     "team1_name": "Tottenham",
     "team2_name": "Hoffenheim",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/33/image",
@@ -1066,8 +1002,8 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.43/hls/GGGGAAAAAA.m3u8|referer=http://www.fawanews.sc/"
       }
     ]
   },
@@ -1120,6 +1056,18 @@
       {
         "link_title": "D SPORTS FHD",
         "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd?|drmScheme=clearkey&drmLicense=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+      },
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.43/hls/GGGGAAAAA.m3u8|referer=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "HD SERVER",
+        "channel_url": "https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8"
+      },
+      {
+        "link_title": "HD SERVER+",
+        "channel_url": "https://edgestream1.pro/hls/sqdahach1ax.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
       }
     ]
   },
@@ -1324,42 +1272,6 @@
     ]
   },
   {
-    "team1_name": "Golf Eventos",
-    "team2_name": "Golf Eventos",
-    "team1_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s",
-    "team2_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s",
-    "time": "1786789800000",
-    "league_name": "Others || Golf Events",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Others",
-    "live_links": [
-      {
-        "link_title": "SKY SPORTS GOLF",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysportsgolf.m3u8"
-      },
-      {
-        "link_title": "SKY SPORT NZ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz15866.m3u8"
-      },
-      {
-        "link_title": "SonyLiv (Asia)",
-        "channel_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/20000291/Danish_G1408/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=58bdddc9258a07df770299350c7389a6-1786703405914"
-      },
-      {
-        "link_title": "SKY GOLF SD",
-        "channel_url": "http://193.47.62.190/hls/BBBBAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "SD SERVER",
-        "channel_url": "http://193.47.62.190/hls/BBBBAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.190/hls/SFSGFD.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Tennis",
     "team2_name": "Tennis",
     "team1_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLWwdt6bQdg3K2WTEigjn2XDFGQZcGCRhe-lDsDTKRJg&s=10",
@@ -1392,6 +1304,54 @@
       {
         "link_title": "WTA Toronto",
         "channel_url": "http://193.47.62.190/hls/XAXAXA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Al-Ittihad",
+    "team2_name": "Al Kholood",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786809496540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786809496540x302.jpg",
+    "time": "1786816800000",
+    "league_name": "Cricket || Saudi Pro League 2026/27",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Al-Nassr",
+    "team2_name": "Al Fateh",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786809580540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786809580540x302.jpg",
+    "time": "1786816800000",
+    "league_name": "Cricket || Saudi Pro League 2026/27",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Jamaica Kingsmen",
+    "team2_name": "Trinbago Knight Riders",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786808660540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786808660540x302.jpg",
+    "time": "1786838400000",
+    "league_name": "Cricket || Caribbean Premier League 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -1837,22 +1797,6 @@
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/2556/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/60/image",
     "time": "1786800600000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Fulham",
-    "team2_name": "Stuttgart",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/43/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2677/image",
-    "time": "1786806000000",
     "league_name": "Football || Club Friendly Games",
     "league_icon": "https://img.icons8.com/color/96/000000/football.png",
     "category": "Football",
