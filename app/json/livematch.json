@@ -76,514 +76,6 @@
     ]
   },
   {
-    "team1_name": "Norwich",
-    "team2_name": "West Brom",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/263/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/8/image",
-    "time": "1786802400000",
-    "league_name": "Football || Championship",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "FAST SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4563509.m3u8?txSecret=0d2d6ded82fcfb952176efa0028b2e8e&txTime=6A807FE9|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.193/hls/AUUUUAAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Bristol City",
-    "team2_name": "Millwall",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/58/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/25/image",
-    "time": "1786802400000",
-    "league_name": "Football || Championship",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "FAST SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4563506.m3u8?txSecret=c16651eb3d23688d6189d1216ff229cc&txTime=6A807DD2|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.193/hls/AUUUUAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Charlton",
-    "team2_name": "Derby",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/47/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/27/image",
-    "time": "1786802400000",
-    "league_name": "Football || Championship",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "FAST SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4563507.m3u8?txSecret=6e208e1c573ae844c0c24fea0c6c65f9&txTime=6A807DF4|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.194/hls/YNNN.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Portsmouth",
-    "team2_name": "Qpr",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1/image",
-    "time": "1786802400000",
-    "league_name": "Football || Championship",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.194/hls/YNNNA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Stoke",
-    "team2_name": "Swansea",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/29/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/74/image",
-    "time": "1786802400000",
-    "league_name": "Football || Championship",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "FAST SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4563511.m3u8?txSecret=1b1a7fca68639cc9a6fbe26ba77d9c8b&txTime=6A808033|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.192/hls/AAFFF.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Middlesbrough",
-    "team2_name": "Lincoln",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/36/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/92/image",
-    "time": "1786802400000",
-    "league_name": "Football || Championship",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "beIN ENGLISH FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|drmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "link_title": "FAST SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4563508.m3u8?txSecret=c36ca4ddadbd519e3870e2fa1423cc37&txTime=6A807F5E|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.192/hls/ECCCAAAAAAA.m3u8|referer=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "SD SERVER",
-        "channel_url": "http://162.251.160.53:8089/421/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Burton",
-    "team2_name": "Stevenage",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/134/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/133/image",
-    "time": "1786802400000",
-    "league_name": "Football || League One",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.193/hls/AUUUU.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Plymouth",
-    "team2_name": "Stockport County",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/71/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/10/image",
-    "time": "1786802400000",
-    "league_name": "Football || League One",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.192/hls/ECCCAAAAAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Bradford",
-    "team2_name": "Peterborough Utd",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/22/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/54/image",
-    "time": "1786802400000",
-    "league_name": "Football || League One",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.192/hls/ECCCAAAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Cambridge",
-    "team2_name": "Wigan",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/63/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/49/image",
-    "time": "1786802400000",
-    "league_name": "Football || League One",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.194/hls/MRRRAAAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Huddersfield",
-    "team2_name": "Wimbledon",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/59/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/23957/image",
-    "time": "1786802400000",
-    "league_name": "Football || League One",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.192/hls/ECCCAAAAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Mansfield",
-    "team2_name": "Doncaster",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/70/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/84/image",
-    "time": "1786802400000",
-    "league_name": "Football || League One",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.194/hls/YNNN.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Barnsley",
-    "team2_name": "Bromley",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/23/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/180/image",
-    "time": "1786802400000",
-    "league_name": "Football || League One",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.193/hls/OEEEAAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Leyton Orient",
-    "team2_name": "Sheffield Wed",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/83/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/12/image",
-    "time": "1786802400000",
-    "league_name": "Football || League One",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.193/hls/AUUUUA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Blackpool",
-    "team2_name": "Wycombe",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/67/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/62/image",
-    "time": "1786802400000",
-    "league_name": "Football || League One",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.194/hls/MRRRAAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "York",
-    "team2_name": "Bristol Rovers",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/73/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/76/image",
-    "time": "1786802400000",
-    "league_name": "Football || League Two",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.192/hls/ECCCAAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Gillingham",
-    "team2_name": "Walsall",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/20/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/26/image",
-    "time": "1786802400000",
-    "league_name": "Football || League Two",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.194/hls/MRRRA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Cheltenham",
-    "team2_name": "Rotherham",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/69/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/13/image",
-    "time": "1786802400000",
-    "league_name": "Football || League Two",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.194/hls/MRRR.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Crawley",
-    "team2_name": "Crewe",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4875/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/19/image",
-    "time": "1786802400000",
-    "league_name": "Football || League Two",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.193/hls/OEEEA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Northampton",
-    "team2_name": "Swindon",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/57/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/53/image",
-    "time": "1786802400000",
-    "league_name": "Football || League Two",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.193/hls/OEEEAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Tranmere",
-    "team2_name": "Shrewsbury",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/51/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/82/image",
-    "time": "1786802400000",
-    "league_name": "Football || League Two",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.194/hls/MRRRAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Chesterfield",
-    "team2_name": "Fleetwood",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/68/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/23959/image",
-    "time": "1786802400000",
-    "league_name": "Football || League Two",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.192/hls/ECCCA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Grimsby",
-    "team2_name": "Exeter",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/18/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/86/image",
-    "time": "1786802400000",
-    "league_name": "Football || League Two",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.192/hls/ECCCAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Barnet",
-    "team2_name": "Salford",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/77/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/37998/image",
-    "time": "1786802400000",
-    "league_name": "Football || League Two",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.193/hls/OEEE.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Leeds",
-    "team2_name": "Augsburg",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/34/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2600/image",
-    "time": "1786802400000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.191/hls/FOOOOAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Sunderland",
-    "team2_name": "Rennes",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/41/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1658/image",
-    "time": "1786802400000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.190/hls/TMMMAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Brighton",
-    "team2_name": "Bologna",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/30/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2685/image",
-    "time": "1786802400000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "FAST SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4613262.m3u8?txSecret=29166c4c9d7487bec156e5e1d9d0bcc5&txTime=6A807D69|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.190/hls/TMMMAAAA.m3u8|referer=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "Sport TV4 HD",
-        "channel_url": "https://rdcstream.life/live/sport-tv-4-pt/index.m3u8?|Referer=https://bolodechocolate.fit/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Hull",
-    "team2_name": "Nice",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/96/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1661/image",
-    "time": "1786802400000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.191/hls/FOOOOA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Brentford",
-    "team2_name": "Frankfurt",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/50/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2674/image",
-    "time": "1786802400000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "FAST SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4594040.m3u8?txSecret=f5c1f06b71e8b382f9aa7fd7c51e19c9&txTime=6A8080C8|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "ESPN4 BR HD",
-        "channel_url": "https://rdcstream.life/live/espn4/index.m3u8?|Referer=https://bolodechocolate.fit/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.190/hls/TMMMAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Milan",
     "team2_name": "Man Utd",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/2692/image",
@@ -628,54 +120,6 @@
     ]
   },
   {
-    "team1_name": "Everton",
-    "team2_name": "Lille",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/48/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1643/image",
-    "time": "1786802400000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "FAST SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4594037.m3u8?txSecret=d6995d780c1827ddc61003c816197ac3&txTime=6A807D4E|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.190/hls/TMMMAAAAAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Newcastle",
-    "team2_name": "Leverkusen",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/39/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2681/image",
-    "time": "1786802400000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "CBS NETWORK",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd?|drmScheme=clearkey&drmLicense=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "link_title": "ESPN BR HD",
-        "channel_url": "https://rdcstream.life/live/espn/index.m3u8?|Referer=https://bolodechocolate.fit/"
-      },
-      {
-        "link_title": "FAST SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4594043.m3u8?txSecret=de2b5ed967741474900bda674e1a624b&txTime=6A807DA2|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.191/hls/FOOOO.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Fc Andorra",
     "team2_name": "Ceuta",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/324871/image",
@@ -708,38 +152,6 @@
       {
         "link_title": "FAST SERVER",
         "channel_url": "https://live2.jxa76.com/live/sd-6MxiKC6MtLbLYUhUVH_540p.m3u8?txSecret=a75c4112c3ffe5632cfcb071b6ffcf46&txTime=1A0074FA20F"
-      }
-    ]
-  },
-  {
-    "team1_name": "Tottenham",
-    "team2_name": "Hoffenheim",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/33/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2569/image",
-    "time": "1786802400000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "beiN ENGLISH FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "link_title": "D SPORTS FHD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?|drmScheme=clearkey&drmLicense=03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
-      },
-      {
-        "link_title": "FAST SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4565096.m3u8?txSecret=93b8e3b5ccbaf7620a7654c6c50c8286&txTime=6A807C5F|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "HD SERVER",
-        "channel_url": "https://edgestream1.pro/hls/eJmauBDCIf.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.190/hls/TMMMAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -910,8 +322,12 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "beiN SPORTS EXTRA",
+        "channel_url": "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8"
+      },
+      {
+        "link_title": "LOW QUALITY",
+        "channel_url": "http://193.47.62.40/hls/HHHHZAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -1094,8 +510,12 @@
     "category": "Baseball",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "MLB HD",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/54672/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+      },
+      {
+        "link_title": "HD SERVER",
+        "channel_url": "https://edgestream2.pro/hls/dazhfiach15.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
       }
     ]
   },
@@ -1110,8 +530,16 @@
     "category": "American Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "NFL HD",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/54675/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+      },
+      {
+        "link_title": "HD SERVER",
+        "channel_url": "https://edgestream2.pro/hls/qsdnajbq32.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "LOW QUALITY",
+        "channel_url": "http://193.47.62.194/hls/AYYYYA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -1126,8 +554,16 @@
     "category": "American Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "NFL HD",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/54671/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+      },
+      {
+        "link_title": "HD SERVER",
+        "channel_url": "https://edgestream2.pro/hls/sfjnzabacah31.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "LOW QUALITY",
+        "channel_url": "http://193.47.62.194/hls/AYYYYAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -1142,56 +578,16 @@
     "category": "American Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Bears",
-    "team2_name": "Browns",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4391/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4417/image",
-    "time": "1786813200000",
-    "league_name": "American Football || Nfl Preseason",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "American Football",
-    "live_links": [
+        "link_title": "NFL HD",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/54674/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+      },
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Bills",
-    "team2_name": "Panthers",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4414/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4415/image",
-    "time": "1786813200000",
-    "league_name": "American Football || Nfl Preseason",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "American Football",
-    "live_links": [
+        "link_title": "HD SERVER",
+        "channel_url": "https://edgestream2.pro/hls/JHDAJBDnjdna30.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Giants",
-    "team2_name": "Vikings",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4426/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4423/image",
-    "time": "1786813200000",
-    "league_name": "American Football || Nfl Preseason",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "American Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "LOW QUALITY",
+        "channel_url": "http://193.47.62.194/hls/AYYYYAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -2397,22 +1793,6 @@
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/4430/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/4392/image",
     "time": "1786838400000",
-    "league_name": "American Football || Nfl Preseason",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "American Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Chiefs",
-    "team2_name": "Rams",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4422/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4387/image",
-    "time": "1786824000000",
     "league_name": "American Football || Nfl Preseason",
     "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
     "category": "American Football",
