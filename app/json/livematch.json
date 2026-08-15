@@ -152,54 +152,6 @@
     ]
   },
   {
-    "team1_name": "Sheffield Utd",
-    "team2_name": "Birmingham",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/15/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/9/image",
-    "time": "1786811400000",
-    "league_name": "Football || Championship",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "beIN ENGLISH FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|drmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "link_title": "CBS NETWORK",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd?|drmScheme=clearkey&drmLicense=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "link_title": "ESPN BR HD",
-        "channel_url": "https://rdcstream.life/live/espn/index.m3u8?|Referer=https://bolodechocolate.fit/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Udinese",
-    "team2_name": "Padova",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2695/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2741/image",
-    "time": "1786811400000",
-    "league_name": "Football || Coppa Italia",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "ITALIA 1 FHD",
-        "channel_url": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest.mpd?|drmScheme=clearkey&drmLicense=00f9f3c0783536b8ee91704e23b78016:bfd04d6f544c9cc4d35cb13ab6778587"
-      },
-      {
-        "link_title": "D Sports FHD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?|drmScheme=clearkey&drmLicense=03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
-      },
-      {
-        "link_title": "FAST SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4564317.m3u8?txSecret=ab8274cf041117b1934d9e16c1d1908d&txTime=6A80A483|Referer=https://player.online909.com/"
-      }
-    ]
-  },
-  {
     "team1_name": "Real Oviedo",
     "team2_name": "Granada",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/2851/image",
@@ -256,26 +208,6 @@
       {
         "link_title": "LOW QUALITY",
         "channel_url": "http://193.47.62.40/hls/HHHHZAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Al-Taawoun",
-    "team2_name": "Al-Khaleej",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/56021/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/167228/image",
-    "time": "1786810500000",
-    "league_name": "Football || Saudi Pro League",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "FAST SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4599546.m3u8?txSecret=c1b1e54ca754f0e83c73ff934fb0d52d&txTime=6A80A43A|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.57/hls/CCCA.m3u8|referer=http://www.fawanews.sc/"
       }
     ]
   },
