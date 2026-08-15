@@ -200,26 +200,6 @@
     ]
   },
   {
-    "team1_name": "Konyaspor",
-    "team2_name": "Rizespor",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3085/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3064/image",
-    "time": "1786809600000",
-    "league_name": "Football || Trendyol Süper Lig",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "BEIN2 TR HD",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/beinsports2tr.m3u8"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.57/hls/RUUUAAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Real Oviedo",
     "team2_name": "Granada",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/2851/image",
@@ -240,30 +220,6 @@
       {
         "link_title": "LOW SERVER",
         "channel_url": "http://193.47.62.40/hls/HHHHZAAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Catanzaro",
-    "team2_name": "Südtirol",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2796/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2760/image",
-    "time": "1786809600000",
-    "league_name": "Football || Coppa Italia",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "PARAMOUNT+ FHD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/mlmsrlyeb6/out/v1/f24ec71750694b07a01030e537d399e7/0f91b816-1804-4aff-b76f-19576ad89ac8-cenc.mpd?|drmScheme=clearkey&drmLicense=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      },
-      {
-        "link_title": "D SPORTS FHD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd?|drmScheme=clearkey&drmLicense=83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.57/hls/SAAAAQQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -336,22 +292,6 @@
       {
         "link_title": "HD SERVER",
         "channel_url": "http://193.47.62.40/hls/HHHHZAAAAAAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Kasımpaşa",
-    "team2_name": "Trabzonspor",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/6063/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3051/image",
-    "time": "1786809600000",
-    "league_name": "Football || Trendyol Süper Lig",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "http://193.47.62.57/hls/RUUUAA.m3u8|referer=http://www.fawanews.sc/"
       }
     ]
   },
@@ -904,6 +844,18 @@
       {
         "link_title": "beiN ENGLISH FHD",
         "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|drmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "link_title": "PREMIER SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd?|drmScheme=clearkey&drmLicense=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
+      },
+      {
+        "link_title": "FANCODE FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd?|drmScheme=clearkey&drmLicense=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "link_title": "HD SERVER",
+        "channel_url": "https://hls.live123.fans/live/4565324.m3u8"
       }
     ]
   },
@@ -1294,8 +1246,8 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "HD SERVER ",
+        "channel_url": "http://193.47.62.190/hls/DIIIAA.m3u8|referer=http://www.fawanews.sc/"
       }
     ]
   },
@@ -1898,8 +1850,8 @@
     "category": "American Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "HD SERVER",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/54683/load-playlist.m3u8|Referer=https://gooz.aapmains.net"
       }
     ]
   }
