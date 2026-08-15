@@ -76,50 +76,6 @@
     ]
   },
   {
-    "team1_name": "Singapore",
-    "team2_name": "Thailand",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4738/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4730/image",
-    "time": "1786798800000",
-    "league_name": "Football || Asean Championship",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "HD SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4612548.m3u8?txSecret=d5f3bc92c67e3df919823da116f5d0ec&txTime=6A807390|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.190/hls/NNNFAAAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Chelsea",
-    "team2_name": "Real Sociedad",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/38/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2824/image",
-    "time": "1786798800000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "ETB 1 HD (ES)",
-        "channel_url": "https://chatgpt.hereisman.net/playlist/54661/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
-      },
-      {
-        "link_title": "HD SERVER",
-        "channel_url": "https://edgestream7.pro/hls/24SDAZFcsqnj24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.191/hls/UMMMA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Union Berlin",
     "team2_name": "Ipswich",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/2547/image",
@@ -858,8 +814,16 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "beIN ENGLISH FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|drmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "link_title": "CBS NETWORK",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd?|drmScheme=clearkey&drmLicense=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      },
+      {
+        "link_title": "ESPN BR HD",
+        "channel_url": "https://rdcstream.life/live/espn/index.m3u8?|Referer=https://bolodechocolate.fit/"
       }
     ]
   },
@@ -874,8 +838,16 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "ITALIA 1 FHD",
+        "channel_url": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest.mpd?|drmScheme=clearkey&drmLicense=00f9f3c0783536b8ee91704e23b78016:bfd04d6f544c9cc4d35cb13ab6778587"
+      },
+      {
+        "link_title": "D Sports FHD",
+        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?|drmScheme=clearkey&drmLicense=03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
+      },
+      {
+        "link_title": "FAST SERVER",
+        "channel_url": "https://live.vivo200.com/live/sd-1-4564317.m3u8?txSecret=ab8274cf041117b1934d9e16c1d1908d&txTime=6A80A483|Referer=https://player.online909.com/"
       }
     ]
   },
@@ -890,8 +862,12 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "BEIN2 TR HD",
+        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/beinsports2tr.m3u8"
+      },
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.57/hls/RUUUAAA.m3u8|referer=http://www.fawanews.sc/"
       }
     ]
   },
@@ -938,8 +914,16 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "PARAMOUNT+ FHD",
+        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/mlmsrlyeb6/out/v1/f24ec71750694b07a01030e537d399e7/0f91b816-1804-4aff-b76f-19576ad89ac8-cenc.mpd?|drmScheme=clearkey&drmLicense=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      },
+      {
+        "link_title": "D SPORTS FHD",
+        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd?|drmScheme=clearkey&drmLicense=83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
+      },
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.57/hls/SAAAAQQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -986,8 +970,12 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "FAST SERVER",
+        "channel_url": "https://live.vivo200.com/live/sd-1-4599546.m3u8?txSecret=c1b1e54ca754f0e83c73ff934fb0d52d&txTime=6A80A43A|Referer=https://player.online909.com/"
+      },
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.57/hls/CCCA.m3u8|referer=http://www.fawanews.sc/"
       }
     ]
   },
@@ -1083,7 +1071,7 @@
     "live_links": [
       {
         "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "channel_url": "http://193.47.62.57/hls/RUUUAA.m3u8|referer=http://www.fawanews.sc/"
       }
     ]
   },
