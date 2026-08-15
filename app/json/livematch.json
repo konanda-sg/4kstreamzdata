@@ -516,50 +516,6 @@
     ]
   },
   {
-    "team1_name": "Kaiserslautern",
-    "team2_name": "Karlsruhe",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2675/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2553/image",
-    "time": "1786818600000",
-    "league_name": "Football || 2. Bundesliga",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "HD SERVER",
-        "channel_url": "https://stream.sports3.win/iptv/live/signal-4566593-37824.m3u8"
-      },
-      {
-        "link_title": "LOW QUALITY",
-        "channel_url": "http://193.47.62.193/hls/TYTYTYAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Gaziantep",
-    "team2_name": "Alanyaspor",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/5138/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/6362/image",
-    "time": "1786818600000",
-    "league_name": "Football || Trendyol Süper Lig",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LIVE SERVER ",
-        "channel_url": "https://hls.live123.fans/live/4581273.m3u8"
-      },
-      {
-        "link_title": "HD QUALITY",
-        "channel_url": "https://stream.sports3.win/iptv/live/signal-4581273-37826.m3u8"
-      },
-      {
-        "link_title": "LOW QUALITY",
-        "channel_url": "http://193.47.62.193/hls/DRRRAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Cavalry",
     "team2_name": "Forge",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/309889/image",
@@ -640,30 +596,6 @@
       {
         "link_title": "HD SERVER ",
         "channel_url": "http://193.47.62.190/hls/DIIIAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Gençlerbirliği",
-    "team2_name": "Fenerbahçe",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/7802/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3052/image",
-    "time": "1786818600000",
-    "league_name": "Football || Trendyol Süper Lig",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "beiN SPORTS FHD",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/beinsports1tr.m3u8"
-      },
-      {
-        "link_title": "HD SERVER ",
-        "channel_url": "https://stream.sports3.win/iptv/live/signal-4581274-37827.m3u8"
-      },
-      {
-        "link_title": "LOW QUALITY",
-        "channel_url": "http://193.47.62.193/hls/DRRRAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -1068,22 +1000,6 @@
       {
         "link_title": "HD QUALITY",
         "channel_url": "https://edgestream2.pro/hls/jkzahzadach20.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    ]
-  },
-  {
-    "team1_name": "Cubs",
-    "team2_name": "Cardinals",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3627/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3632/image",
-    "time": "1786818000000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "HD QUALITY",
-        "channel_url": "https://edgestream2.pro/hls/16yuitzaerghbhc16.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
       }
     ]
   },
