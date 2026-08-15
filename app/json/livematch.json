@@ -76,22 +76,6 @@
     ]
   },
   {
-    "team1_name": "Union Berlin",
-    "team2_name": "Ipswich",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2547/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/32/image",
-    "time": "1786800600000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.190/hls/TMMMA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Norwich",
     "team2_name": "West Brom",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/263/image",
@@ -128,34 +112,6 @@
       {
         "link_title": "LOW SERVER",
         "channel_url": "http://193.47.62.193/hls/AUUUUAA.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "M'Gladbach",
-    "team2_name": "Aston Villa",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2527/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/40/image",
-    "time": "1786800600000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "FUBO SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/y3mtc7phj2/out/v1/a48ab8dfd51c4d1f9a08774b3cd4c49e/cenc.mpd?|drmScheme=clearkey&drmLicense=fa5e8db5359fc7d1f15207d5de2a3ac4:78a6c0a41972dfdba2145ae0ad4bd681"
-      },
-      {
-        "link_title": "beiN SPORTS XTRA",
-        "channel_url": "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8"
-      },
-      {
-        "link_title": "HD SERVER",
-        "channel_url": "https://chatgpt.hereisman.net/playlist/54654/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
-      },
-      {
-        "link_title": "FUBO SPORTS SD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash-sd/enc/r6xfuh6cco/out/v1/d861be5c8987450b848a14be98e1c3c6/cenc-sd.mpd?|drmScheme=clearkey&drmLicense=b427e6e286108e53b7e3a016f22fde8d:13710fa5489e1a6ca946adb44f158cf5"
       }
     ]
   },
@@ -939,7 +895,7 @@
     "live_links": [
       {
         "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "channel_url": "http://193.47.62.57/hls/DHHHAA.m3u8|referer=http://www.fawanews.sc/"
       }
     ]
   },
@@ -1108,26 +1064,6 @@
     ]
   },
   {
-    "team1_name": "Bayern",
-    "team2_name": "Leipzig",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2672/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/36360/image",
-    "time": "1786800600000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "HD SERVER",
-        "channel_url": "https://live.vivo200.com/live/sd-1-4561579.m3u8?txSecret=f100075f647d80d7aa54f9bf2637241a&txTime=6A807BB8|Referer=https://player.online909.com/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.190/hls/TMMM.m3u8|referer=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Alverca",
     "team2_name": "Estrela Amadora",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/190328/image",
@@ -1292,38 +1228,6 @@
       {
         "link_title": "WTA Toronto",
         "channel_url": "http://193.47.62.190/hls/XAXAXA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Al-Ittihad",
-    "team2_name": "Al Kholood",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786809496540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786809496540x302.jpg",
-    "time": "1786816800000",
-    "league_name": "Cricket || Saudi Pro League 2026/27",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Al-Nassr",
-    "team2_name": "Al Fateh",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786809580540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786809580540x302.jpg",
-    "time": "1786816800000",
-    "league_name": "Cricket || Saudi Pro League 2026/27",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -1756,38 +1660,6 @@
     "league_name": "Cricket || The Hundred",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Elversberg",
-    "team2_name": "Lorient",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2598/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1656/image",
-    "time": "1786800600000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Mainz 05",
-    "team2_name": "Bournemouth",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2556/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/60/image",
-    "time": "1786800600000",
-    "league_name": "Football || Club Friendly Games",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
     "live_links": [
       {
         "link_title": "Link 1",
