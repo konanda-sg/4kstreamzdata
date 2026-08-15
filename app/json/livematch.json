@@ -1,5 +1,37 @@
 [
   {
+    "team1_name": "Al-Ittihad",
+    "team2_name": "Al Kholood",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786809496540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786809496540x302.jpg",
+    "time": "1786816800000",
+    "league_name": "Cricket || Saudi Pro League 2026/27",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Al-Ittihad Vs Al Kholood",
+        "channel_url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Al-Nassr",
+    "team2_name": "Al Fateh",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786809580540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786809580540x302.jpg",
+    "time": "1786816800000",
+    "league_name": "Cricket || Saudi Pro League 2026/27",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Al-Nassr Vs Al Fateh",
+        "channel_url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/tapmad-PAKvsWI-BKd2-TesT/master.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "Ire",
     "team2_name": "Afg",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187766/image",
@@ -70,8 +102,36 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "PREMIER SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd?|drmScheme=clearkey&drmLicense=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
+      },
+      {
+        "link_title": "FANCODE FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd?|drmScheme=clearkey&drmLicense=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "link_title": "ESPN SPORTS HD",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/54682/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+      },
+      {
+        "link_title": "HD SERVER",
+        "channel_url": "https://live.vivo200.com/live/sd-1-4565316.m3u8?txSecret=ae9e18011df4da0dcfb49b4f71ced368&txTime=6A80B0FF|Referer=https://player.online909.com/"
+      },
+      {
+        "link_title": "FANCODE [IND]",
+        "channel_url": "https://in-mc-flive.fancode.com/mumbai/4247576_english_dash_58903_1drmta-di_h264/index.mpd?|drmScheme=clearkey&drmLicense=ab6e31c207f54f9d806f8c12225b79ed:40cde1acfead2dae291c8c55a8408187"
+      },
+      {
+        "link_title": "FANCODE [BD]",
+        "channel_url": "https://bd-mc-flive.fancode.com/mumbai/4247576_english_dash_58903_1drmta-di_h264/index.mpd?|drmScheme=clearkey&drmLicense=ab6e31c207f54f9d806f8c12225b79ed:40cde1acfead2dae291c8c55a8408187"
+      },
+      {
+        "link_title": "FLV SERVER ",
+        "channel_url": "https://flv.lauthaitv.cc/live/alaves-getafe-laliga.flv"
+      },
+      {
+        "link_title": "SD SERVER",
+        "channel_url": "https://pull.niur.live/live/stream-552832_lsd.m3u8?txSecret=a8876251605e962e412704b729bce45b&txTime=6a80f5c4"
       }
     ]
   },
@@ -250,8 +310,16 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "LaLiga Hypermotion Es",
+        "channel_url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd?|drmScheme=clearkey&drmLicense=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      },
+      {
+        "link_title": "FAST SERVER",
+        "channel_url": "https://live.vivo200.com/live/sd-1-4567221.m3u8?txSecret=7a8fdef496ecc6a8939ff0234fe44405&txTime=6A80AA3B|Referer=https://player.online909.com/"
+      },
+      {
+        "link_title": "LOW SERVER",
+        "channel_url": "http://193.47.62.40/hls/HHHHZAAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -458,8 +526,20 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "LIVE SERVER",
+        "channel_url": "http://193.47.62.57/hls/FAFAFAFAAAA.m3u8|referer=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "HD SERVER ",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/54681/load-playlist.m3u8|Referer=https://gooz.aapmains.net"
+      },
+      {
+        "link_title": "HD QUALITY",
+        "channel_url": "https://edgestream1.pro/hls/griogoehvn2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "SD SERVER",
+        "channel_url": "https://pull.niur.live/live/stream-501412_lsd.m3u8?txSecret=63088f44729b8ce718ead655dfceabd6&txTime=6a80f5c4"
       }
     ]
   },
@@ -476,26 +556,6 @@
       {
         "link_title": "Link 1",
         "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Alverca",
-    "team2_name": "Estrela Amadora",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/190328/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3035/image",
-    "time": "1786804200000",
-    "league_name": "Football || Liga Portugal Betclic",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Sport TV1 HD",
-        "channel_url": "https://rdcstream.life/live/sport-tv-1-pt/index.m3u8?|Referer=https://bolodechocolate.fit/"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.190/hls/riiiaAAAAa.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -624,6 +684,30 @@
       {
         "link_title": "WTA Toronto",
         "channel_url": "http://193.47.62.190/hls/XAXAXA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Sun",
+    "team2_name": "Liberty",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/35547/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3446/image",
+    "time": "1786813200000",
+    "league_name": "Basketball || Wnba",
+    "league_icon": "https://img.icons8.com/color/96/000000/basketball.png",
+    "category": "Basketball",
+    "live_links": [
+      {
+        "link_title": "WNBA HD",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/54668/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+      },
+      {
+        "link_title": "HD QUALITY",
+        "channel_url": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "LOW QUALITY",
+        "channel_url": "http://193.47.62.40/hls/HHHHZAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -1056,38 +1140,6 @@
     "league_name": "Cricket || The Hundred",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Volendam",
-    "team2_name": "Top Oss",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2968/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2978/image",
-    "time": "1786804200000",
-    "league_name": "Football || Eerste Divisie",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Willem Ii",
-    "team2_name": "Nec",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2961/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2962/image",
-    "time": "1786804200000",
-    "league_name": "Football || Vriendenloterij Eredivisie",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
     "live_links": [
       {
         "link_title": "Link 1",
