@@ -168,22 +168,6 @@
     ]
   },
   {
-    "team1_name": "Los Angeles",
-    "team2_name": "San Diego",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/274650/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1043961/image",
-    "time": "1786847400000",
-    "league_name": "Football || Mls",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Ado",
     "team2_name": "Groningen",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/2966/image",
