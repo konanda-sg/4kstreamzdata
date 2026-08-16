@@ -44,22 +44,6 @@
     ]
   },
   {
-    "team1_name": "R. Racing Club",
-    "team2_name": "Villarreal",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2835/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2819/image",
-    "time": "1786892400000",
-    "league_name": "Football || Laliga",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Espanyol",
     "team2_name": "Levante",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/2814/image",
