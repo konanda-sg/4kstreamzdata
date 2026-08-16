@@ -1,21 +1,5 @@
 [
   {
-    "team1_name": "Aussie Mavericks Jaguars",
-    "team2_name": "Vb Realty Cheetahs",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786870733540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786870733540x302.jpg",
-    "time": "1786881600000",
-    "league_name": "Cricket || World Padel League 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Aussie Mavericks Jaguars Vs Vb Realty Cheetahs",
-        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Arsenal",
     "team2_name": "Manchester City",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786838872540x302.jpg",
@@ -28,6 +12,22 @@
       {
         "link_title": "Arsenal Vs Manchester City Live",
         "channel_url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Game Changer Lions",
+    "team2_name": "Aussie Mavericks Jaguars",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786890127540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786890127540x302.jpg",
+    "time": "1786891500000",
+    "league_name": "Cricket || World Padel League 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Game Changer Lions Vs Aussie Mavericks Jaguars",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8"
       }
     ]
   },
