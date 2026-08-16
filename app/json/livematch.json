@@ -1,69 +1,17 @@
 [
   {
-    "team1_name": "Game Changer Lions",
-    "team2_name": "Vedanta Leopards",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786870441540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786870441540x302.jpg",
-    "time": "1786872600000",
+    "team1_name": "Aussie Mavericks Jaguars",
+    "team2_name": "Vb Realty Cheetahs",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786870733540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786870733540x302.jpg",
+    "time": "1786881600000",
     "league_name": "Cricket || World Padel League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Game Changer Lions Vs Vedanta Leopards",
+        "link_title": "Aussie Mavericks Jaguars Vs Vb Realty Cheetahs",
         "channel_url": "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Aus",
-    "team2_name": "Ban",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187746/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187744/image",
-    "time": "1786839600000",
-    "league_name": "Cricket || Icc World Test Championship",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "WILLOW FHD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ze0xmkhfw8/out/v1/a36a54f3b43149f7885048f3465ea115/cenc.mpd?|drmScheme=clearkey&drmLicense=f0150a56b1be7ec9071169fd5bffc237:3f949ad399e6a732e57d9100cc79317e"
-      },
-      {
-        "link_title": "TAPMAD FHD",
-        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8|referer=https://tapmad.com"
-      },
-      {
-        "link_title": "HD SERVER",
-        "channel_url": "https://cdn72834346.blzcdn.net/dx14hd/index.m3u8|referer=https://copyright.com/"
-      },
-      {
-        "link_title": "WILLOW ALT",
-        "channel_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ze0xmkhfw8/out/v1/a36a54f3b43149f7885048f3465ea115/cenc.mpd?|drmScheme=clearkey&drmLicense=f0150a56b1be7ec9071169fd5bffc237:3f949ad399e6a732e57d9100cc79317e"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.192/hls/NNNND.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "FAST SERVER",
-        "channel_url": "https://cdn72834346.blzcdn.net/dx14md/index.m3u8|referer=https://copyright.com/"
-      },
-      {
-        "link_title": "SD SERVER",
-        "channel_url": "http://162.251.160.53:8089/BANvsAUS1/index.m3u8"
-      },
-      {
-        "link_title": "TAPMAD [PK 🇵🇰]",
-        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8"
-      },
-      {
-        "link_title": "WILLOW HD",
-        "channel_url": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1786684643-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-322440449efa8988d6ba51ab3f7c24a6|Referer=https://iframe.rumsport8.live/&Origin=https://livecdn-tc-iptv.rumsport10.live&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-      },
-      {
-        "link_title": "SKY SPORT HD",
-        "channel_url": "https://latestmovies.net/api/live/playlist/592?.m3u8"
       }
     ]
   },
