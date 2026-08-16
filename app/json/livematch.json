@@ -184,22 +184,6 @@
     ]
   },
   {
-    "team1_name": "Atlas",
-    "team2_name": "Tigres",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1949/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1940/image",
-    "time": "1786849800000",
-    "league_name": "Football || Liga Mx, Apertura",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Arsenal",
     "team2_name": "Manchester City",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786838872540x302.jpg",
