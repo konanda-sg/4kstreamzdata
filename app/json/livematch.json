@@ -232,38 +232,6 @@
     ]
   },
   {
-    "team1_name": "Athletics",
-    "team2_name": "Rangers",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3645/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3647/image",
-    "time": "1786844400000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Angels",
-    "team2_name": "Royals",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/5929/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3651/image",
-    "time": "1786844280000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Arsenal",
     "team2_name": "Manchester City",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786838872540x302.jpg",
