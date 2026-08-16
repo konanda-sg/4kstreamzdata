@@ -1,17 +1,17 @@
 [
   {
-    "team1_name": "Australia",
-    "team2_name": "Bangladesh",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786429467540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786429467540x302.jpg",
-    "time": "1786840200000",
-    "league_name": "Cricket || Bangladesh Tour Of Australia 2026",
+    "team1_name": "Jamaica Kingsmen",
+    "team2_name": "Trinbago Knight Riders",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786808660540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786808660540x302.jpg",
+    "time": "1786838400000",
+    "league_name": "Cricket || Caribbean Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+        "link_title": "Jamaica Kingsmen Vs Trinbago Knight Riders",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
       }
     ]
   },
@@ -26,8 +26,8 @@
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+        "link_title": "Makhachev Vs Machado Garry",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
       }
     ]
   },
@@ -38,6 +38,22 @@
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786522344540x302.jpg",
     "time": "1786854600000",
     "league_name": "Cricket || India Tour Of Sri Lanka 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Arsenal",
+    "team2_name": "Manchester City",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786838872540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786838872540x302.jpg",
+    "time": "1786888800000",
+    "league_name": "Cricket || Fa Community Shield 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -452,22 +468,6 @@
     ]
   },
   {
-    "team1_name": "Cavalry",
-    "team2_name": "Forge",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/309889/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/313716/image",
-    "time": "1786827600000",
-    "league_name": "Football || Canadian Premier League",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Atlas",
     "team2_name": "Tigres",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/1949/image",
@@ -784,22 +784,6 @@
     ]
   },
   {
-    "team1_name": "Giants",
-    "team2_name": "Rockies",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3634/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3628/image",
-    "time": "1786824300000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "HD QUALITY",
-        "channel_url": "https://edgestream2.pro/hls/Czajafjihafch18.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    ]
-  },
-  {
     "team1_name": "Rays",
     "team2_name": "Orioles",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/3653/image",
@@ -828,22 +812,6 @@
       {
         "link_title": "HD QUALITY",
         "channel_url": "https://edgestream2.pro/hls/kjhfzua25.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    ]
-  },
-  {
-    "team1_name": "Mets",
-    "team2_name": "Nationals",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3629/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/5930/image",
-    "time": "1786824600000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "HD QUALITY",
-        "channel_url": "https://edgestream2.pro/hls/bzagLHzach19.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
       }
     ]
   },
@@ -880,22 +848,6 @@
     ]
   },
   {
-    "team1_name": "Saints",
-    "team2_name": "Jaguars",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4425/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4386/image",
-    "time": "1786824000000",
-    "league_name": "American Football || Nfl Preseason",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "American Football",
-    "live_links": [
-      {
-        "link_title": "HD QUALITY",
-        "channel_url": "https://edgestream2.pro/hls/oipozuezeji33.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    ]
-  },
-  {
     "team1_name": "Seahawks",
     "team2_name": "Cowboys",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/4430/image",
@@ -908,22 +860,6 @@
       {
         "link_title": "HD QUALITY",
         "channel_url": "https://edgestream2.pro/hls/jkhazabcka36.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    ]
-  },
-  {
-    "team1_name": "Chiefs",
-    "team2_name": "Rams",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4422/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4387/image",
-    "time": "1786824000000",
-    "league_name": "American Football || Nfl Preseason",
-    "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
-    "category": "American Football",
-    "live_links": [
-      {
-        "link_title": "HD QUALITY",
-        "channel_url": "https://edgestream2.pro/hls/uheyztezgj34.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
       }
     ]
   },
