@@ -16,46 +16,6 @@
     ]
   },
   {
-    "team1_name": "Cpl T20",
-    "team2_name": "Cpl T20",
-    "team1_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/11167/image/dark",
-    "team2_logo_url": "http://api.sofascore.com/api/v1/unique-tournament/11167/image/dark",
-    "time": "1786838400000",
-    "league_name": "Cricket || Caribbean Premier League T20",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "TNT SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?|drmScheme=clearkey&drmLicense=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-      },
-      {
-        "link_title": "FOX CRICKET HD",
-        "channel_url": "http://line.tvdsz.cc/play/live.php?mac=00:1A:79:B5:AD:FB&stream=809389&extension=m3u8"
-      },
-      {
-        "link_title": "WILLOW HD",
-        "channel_url": "http://tvsen5.aynascope.net/willowhd/index.m3u8"
-      },
-      {
-        "link_title": "WILLOW ALT",
-        "channel_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/nwlpftqadx/out/v1/eb355c59d99443d7aaf05b6f9f6afd75/cenc.mpd?|drmScheme=clearkey&drmLicense=ee7be87726ddb2707317c53d2359e012:075a609968f9052109f3c92982170396"
-      },
-      {
-        "link_title": "SKY SPORTS NZ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport4nz97xdfg.m3u8"
-      },
-      {
-        "link_title": "TAPMAD FHD",
-        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8|referer=https://tapmad.com"
-      },
-      {
-        "link_title": "FANCODE (IND)",
-        "channel_url": "https://dai-fancode.pages.dev/mumbai/4248286_english_hls_c15d148d2e71126_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      }
-    ]
-  },
-  {
     "team1_name": "Aus",
     "team2_name": "Ban",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187746/image",
