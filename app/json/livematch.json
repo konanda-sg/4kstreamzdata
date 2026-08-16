@@ -16,6 +16,22 @@
     ]
   },
   {
+    "team1_name": "Arsenal",
+    "team2_name": "Manchester City",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786838872540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786838872540x302.jpg",
+    "time": "1786888800000",
+    "league_name": "Cricket || Fa Community Shield 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Arsenal Vs Manchester City Live",
+        "channel_url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "The Hundred W",
     "team2_name": "The Hundred W",
     "team1_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/16717/image",
@@ -84,22 +100,6 @@
     "league_name": "Cricket || The Hundred",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Ado",
-    "team2_name": "Groningen",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2966/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2951/image",
-    "time": "1786875300000",
-    "league_name": "Football || Vriendenloterij Eredivisie",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
     "live_links": [
       {
         "link_title": "Link 1",
