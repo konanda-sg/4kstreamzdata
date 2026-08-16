@@ -1,21 +1,5 @@
 [
   {
-    "team1_name": "Jamaica Kingsmen",
-    "team2_name": "Trinbago Knight Riders",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786808660540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786808660540x302.jpg",
-    "time": "1786838400000",
-    "league_name": "Cricket || Caribbean Premier League 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Jamaica Kingsmen Vs Trinbago Knight Riders",
-        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Makhachev",
     "team2_name": "Machado Garry",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786532816540x302.jpg",
@@ -222,22 +206,6 @@
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/2951/image",
     "time": "1786875300000",
     "league_name": "Football || Vriendenloterij Eredivisie",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Monterrey",
-    "team2_name": "Juárez",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1932/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/201624/image",
-    "time": "1786842600000",
-    "league_name": "Football || Liga Mx, Apertura",
     "league_icon": "https://img.icons8.com/color/96/000000/football.png",
     "category": "Football",
     "live_links": [
