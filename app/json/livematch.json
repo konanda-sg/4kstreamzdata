@@ -232,22 +232,6 @@
     ]
   },
   {
-    "team1_name": "Celta",
-    "team2_name": "Osasuna",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2821/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2820/image",
-    "time": "1786908600000",
-    "league_name": "Football || Laliga",
-    "league_icon": "https://img.icons8.com/color/96/000000/football.png",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Formula 1",
     "team2_name": "Formula 1",
     "team1_logo_url": "https://cdn-icons-png.flaticon.com/512/2418/2418779.png",
