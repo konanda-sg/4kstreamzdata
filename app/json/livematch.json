@@ -1,21 +1,5 @@
 [
   {
-    "team1_name": "Trt",
-    "team2_name": "Msg",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/377176/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/377173/image",
-    "time": "1786899600000",
-    "league_name": "Cricket || The Hundred",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "England",
     "team2_name": "Pakistan",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786527399540x302.jpg",
