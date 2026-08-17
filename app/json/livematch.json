@@ -16,34 +16,6 @@
     ]
   },
   {
-    "team1_name": "The Hundred W",
-    "team2_name": "The Hundred W",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/16717/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/16717/image",
-    "time": "1786885200000",
-    "league_name": "Cricket || The Hundred Women",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "WILLOW FHD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vrvl6ur6af/out/v1/7ac2d43b1dff45c28977a0917d3b94c5/cenc.mpd?|drmScheme=clearkey&drmLicense=a6da7c3d90997ede43bdc0aa59a51ffd:7664d9539a1d217fb1bcf00b6332eed8"
-      },
-      {
-        "link_title": "CRICKET FHD",
-        "channel_url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla"
-      },
-      {
-        "link_title": "WILLOW ALT",
-        "channel_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vrvl6ur6af/out/v1/7ac2d43b1dff45c28977a0917d3b94c5/cenc.mpd?|drmScheme=clearkey&drmLicense=a6da7c3d90997ede43bdc0aa59a51ffd:7664d9539a1d217fb1bcf00b6332eed8"
-      },
-      {
-        "link_title": "LOW SERVER",
-        "channel_url": "http://193.47.62.193/hls/AFFFFAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Trt",
     "team2_name": "Msg",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/377176/image",
