@@ -220,34 +220,6 @@
     ]
   },
   {
-    "team1_name": "Wwe Raw",
-    "team2_name": "Wwe Raw",
-    "team1_logo_url": "https://i.ibb.co/Hmg2K3Q/20260310-201809.png",
-    "team2_logo_url": "https://i.ibb.co/Hmg2K3Q/20260310-201809.png",
-    "time": "1787011200000",
-    "league_name": "Boxing || Monday Night Raw",
-    "league_icon": "https://img.icons8.com/color/96/000000/boxing.png",
-    "category": "Boxing",
-    "live_links": [
-      {
-        "link_title": "WWE+ HD",
-        "channel_url": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      },
-      {
-        "link_title": "WWE HD",
-        "channel_url": "https://chatgpt.hereisman.net/playlist/54451/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
-      },
-      {
-        "link_title": "ATL SERVER",
-        "channel_url": "http://193.47.62.58/hls/XAXAXA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "SD SERVER",
-        "channel_url": "http://193.47.62.47/hls/XAXAXA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Wwe Nxt",
     "team2_name": "Wwe Nxt",
     "team1_logo_url": "https://i.ibb.co/jPMHTs55/20260310-202452.png",
