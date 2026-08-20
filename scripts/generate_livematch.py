@@ -6,6 +6,7 @@ Filters out matches with status "FINISHED".
 Auto-removes matches based on sport-specific time limits:
 - Football, Basketball, Baseball: 4 hours
 - Cricket: 12 hours
+Supports event_logo for league icons.
 """
 
 import json
@@ -155,6 +156,39 @@ def convert_bdt_to_datetime(start_time: str) -> Optional[datetime]:
         return None
     
     try:
+        # Handle different date formats
+        start_time = start_time.strip()
+        
+        # Try format: "20/08/2026 04:00:00 PM"
+        if '/' in start_time:
+            parts = start_time.split()
+            if len(parts) >= 2:
+                date_part = parts[0]
+                time_part = parts[1]
+                ampm = parts[2] if len(parts) > 2 else ""
+                
+                day, month, year = map(int, date_part.split('/'))
+                
+                # Parse time (could be "04:00:00" or "04:00")
+                if ':' in time_part:
+                    time_parts = time_part.split(':')
+                    hour = int(time_parts[0])
+                    minute = int(time_parts[1])
+                else:
+                    hour = int(time_part)
+                    minute = 0
+                
+                if ampm.upper() == "PM" and hour != 12:
+                    hour += 12
+                elif ampm.upper() == "AM" and hour == 12:
+                    hour = 0
+                
+                naive_dt = datetime(year, month, day, hour, minute)
+                bdt_dt = BDT_TIMEZONE.localize(naive_dt)
+                utc_dt = bdt_dt.astimezone(pytz.UTC)
+                return utc_dt
+        
+        # Try format: "20-08-2026 04:00 PM"
         parts = start_time.strip().split()
         if len(parts) < 3:
             return None
@@ -163,8 +197,22 @@ def convert_bdt_to_datetime(start_time: str) -> Optional[datetime]:
         time_str = parts[1]
         ampm = parts[2]
         
-        day, month, year = map(int, date_str.split('-'))
-        hour, minute = map(int, time_str.split(':'))
+        # Handle different date separators
+        if '-' in date_str:
+            day, month, year = map(int, date_str.split('-'))
+        elif '/' in date_str:
+            day, month, year = map(int, date_str.split('/'))
+        else:
+            return None
+        
+        # Parse time (could be "04:00:00" or "04:00")
+        if ':' in time_str:
+            time_parts = time_str.split(':')
+            hour = int(time_parts[0])
+            minute = int(time_parts[1])
+        else:
+            hour = int(time_str)
+            minute = 0
         
         if ampm.upper() == "PM" and hour != 12:
             hour += 12
@@ -189,6 +237,13 @@ def convert_bdt_to_utc_timestamp(start_time: str) -> str:
         return str(int(datetime.now().timestamp() * 1000))
     
     try:
+        # Try to use the improved parser
+        utc_dt = convert_bdt_to_datetime(start_time)
+        if utc_dt:
+            timestamp_ms = int(utc_dt.timestamp() * 1000)
+            return str(timestamp_ms)
+        
+        # Fallback to original parsing
         parts = start_time.strip().split()
         if len(parts) < 3:
             raise ValueError(f"Invalid time format: {start_time}")
@@ -197,8 +252,22 @@ def convert_bdt_to_utc_timestamp(start_time: str) -> str:
         time_str = parts[1]
         ampm = parts[2]
         
-        day, month, year = map(int, date_str.split('-'))
-        hour, minute = map(int, time_str.split(':'))
+        # Handle different date separators
+        if '-' in date_str:
+            day, month, year = map(int, date_str.split('-'))
+        elif '/' in date_str:
+            day, month, year = map(int, date_str.split('/'))
+        else:
+            raise ValueError(f"Invalid date format: {date_str}")
+        
+        # Parse time (could be "04:00:00" or "04:00")
+        if ':' in time_str:
+            time_parts = time_str.split(':')
+            hour = int(time_parts[0])
+            minute = int(time_parts[1])
+        else:
+            hour = int(time_str)
+            minute = 0
         
         if ampm.upper() == "PM" and hour != 12:
             hour += 12
@@ -329,6 +398,9 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         match_event_name = match.get("event_name", "")
         status = match.get("status", "")
         
+        # Get event_logo if available (new field)
+        event_logo = event_info.get("event_logo", "")
+        
         if not team_a or not team_b:
             print(f"⚠️  Skipping match: Missing team names")
             return None
@@ -353,9 +425,15 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         else:
             league_name = "Unknown League"
         
-        # Get league icon with fallback
-        league_icon = CATEGORY_ICONS.get(category, "")
-        league_icon = get_valid_url(league_icon, "https://via.placeholder.com/96x96/cccccc/666666?text=Sport")
+        # Get league icon: prefer event_logo, fallback to category icon
+        league_icon = ""
+        if event_logo and event_logo.strip():
+            league_icon = get_valid_url(event_logo)
+            print(f"   🏷️  Using event_logo for league icon: {league_icon}")
+        else:
+            # Fallback to category icon
+            league_icon = CATEGORY_ICONS.get(category, "")
+            league_icon = get_valid_url(league_icon, "https://via.placeholder.com/96x96/cccccc/666666?text=Sport")
         
         timestamp = convert_bdt_to_utc_timestamp(start_time)
         
@@ -367,7 +445,8 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
             for stream in streams:
                 stream_url = stream.get("stream_url", "")
                 drm_key = stream.get("drm_key", "")
-                stream_name = stream.get("name", "")
+                # Support both "name" and "channel_name" fields
+                stream_name = stream.get("name", "") or stream.get("channel_name", "")
                 
                 if stream_url and stream_url.strip():
                     # Build the final URL with DRM if available
@@ -426,6 +505,7 @@ def main():
     print("   • Football, Basketball, Baseball: 4 hours")
     print("   • Cricket: 12 hours")
     print("   • Other sports: 6 hours (default)")
+    print("📋 League icon priority: event_logo > category icon > fallback")
     print("=" * 50)
     
     try:
