@@ -4,7 +4,7 @@
     "team2_name": "Pakistan",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786527399540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786527399540x302.jpg",
-    "time": "1787242929606",
+    "time": "1787245337307",
     "league_name": "Cricket || Pakistan Tour Of England 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -20,7 +20,7 @@
     "team2_name": "Spain",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787137552540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787137552540x302MEN.jpg",
-    "time": "1787242929606",
+    "time": "1787245337307",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -28,6 +28,22 @@
       {
         "link_title": "Ireland Vs Spain",
         "channel_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Netherlands",
+    "team2_name": "Japan",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787138094540x302MEN.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787138094540x302MEN.jpg",
+    "time": "1787245337307",
+    "league_name": "Cricket || Fih Hockey World Cup 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Netherlands Vs Japan",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8"
       }
     ]
   },
@@ -72,42 +88,138 @@
     ]
   },
   {
-    "team1_name": "Tanzania",
-    "team2_name": "Matches",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/291680/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/291680/image",
-    "time": "1787230800000",
-    "league_name": "Football || Tanzania 🇹🇿 League",
-    "league_icon": "https://pbs.twimg.com/profile_images/637495443774140416/Ek5Gmtj2_400x400.jpg",
+    "team1_name": "Al-Wakrah",
+    "team2_name": "Qatar Sc",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/44440/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/25914/image",
+    "time": "1787235300000",
+    "league_name": "Football || Stars League",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/825/image/dark",
     "category": "Football",
     "live_links": [
       {
-        "link_title": "QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/DEDEDEAAAAAX.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/DEDEDEAAAAAX.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+        "link_title": "STREAM + FHD",
+        "channel_url": "https://liveeu-gcp.alkassdigital.net/alkass5-p/main.m3u8"
       }
     ]
   },
   {
-    "team1_name": "Mohun Bagan Super Giant",
-    "team2_name": "Northeast United Fc",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/370834/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/174602/image",
-    "time": "1787232600000",
-    "league_name": "Football || Durand Cup",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/20809/image/dark",
+    "team1_name": "Mjällby Aif",
+    "team2_name": "Red Bull Salzburg",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1783/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2046/image",
+    "time": "1787241600000",
+    "league_name": "Football || Uefa Europa League",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/679/image/dark",
     "category": "Football",
     "live_links": [
       {
-        "link_title": "STREAM + ENGLISH ",
-        "channel_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/20000292/DC_Mohun2008/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=f5f97c24402282bbda8188f7828a82e7-1787230203272"
+        "link_title": "HD QUALITY ",
+        "channel_url": "https://live.666666.zip/live/4608866.m3u8"
       },
       {
-        "link_title": "BANGLA",
-        "channel_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/20000292/DC_Mohun2008/BEN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=f5f97c24402282bbda8188f7828a82e7-1787230203272"
+        "link_title": "HD SERVER ",
+        "channel_url": "https://pul-tenm.gkykp.com/live/sd-1-4608866.m3u8?txSecret=c39c9d88576bc154d16f31e9f48e5773&txTime=6A887600"
+      },
+      {
+        "link_title": "HD STREAMING 2 ",
+        "channel_url": "https://edgestream1.pro/hls/sdghjvqazhvg80.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.44/hls/EJJJAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Jagiellonia Białystok",
+    "team2_name": "Fc Iberia 1999",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/7691/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/116312/image",
+    "time": "1787241600000",
+    "league_name": "Football || Uefa Europa League",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/679/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "HD QUALITY ",
+        "channel_url": "https://live.666666.zip/live/4608865.m3u8"
+      },
+      {
+        "link_title": "HD SERVER ",
+        "channel_url": "https://pul-tenm.gkykp.com/live/sd-1-4608865.m3u8?txSecret=3fbfb70f42b43258c222ead0552ad893&txTime=6A887588"
+      },
+      {
+        "link_title": "HD QUICK ",
+        "channel_url": "http://162.251.160.53:8089/1210/index.m3u8"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.44/hls/EJJJAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Lincoln Red Imps",
+    "team2_name": "Larne Fc",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/126304/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/5184/image",
+    "time": "1787241600000",
+    "league_name": "Football || Uefa Conference League",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/17015/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "STREAM + FHD",
+        "channel_url": "https://live.666666.zip/live/4608887.m3u8"
+      },
+      {
+        "link_title": "HD SERVER ",
+        "channel_url": "https://pul-tenm.gkykp.com/live/sd-1-4608887.m3u8?txSecret=29dbbb3c54ec2dd1e01c4763a5752549&txTime=6A887510"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.44/hls/EJJJA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Inter Turku",
+    "team2_name": "Fc København",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2247/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1284/image",
+    "time": "1787241600000",
+    "league_name": "Football || Uefa Conference League",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/17015/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "STREAM + FHD",
+        "channel_url": "https://live.666666.zip/live/4608894.m3u8"
+      },
+      {
+        "link_title": "HD SERVER ",
+        "channel_url": "https://pul-tenm.gkykp.com/live/sd-1-4608894.m3u8?txSecret=11f5217cb9571ed4e6b2f62406088aca&txTime=6A887510"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.44/hls/EJJJ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Al-Rayyan",
+    "team2_name": "Lusail Sc",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/40660/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/337651/image",
+    "time": "1787243400000",
+    "league_name": "Football || Stars League",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/825/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "STREAM + FHD",
+        "channel_url": "https://liveeu-gcp.alkassdigital.net/alkass5-p/main.m3u8"
       }
     ]
   },
@@ -400,7 +512,7 @@
     "team2_name": "Al-Hilal",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787228944540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787228945540x302.jpg",
-    "time": "1787242929607",
+    "time": "1787245337308",
     "league_name": "Cricket || Saudi Pro League 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -416,7 +528,7 @@
     "team2_name": "Alaves",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787134887540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787134887540x302.jpg",
-    "time": "1787242929607",
+    "time": "1787245337308",
     "league_name": "Cricket || Laliga 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -432,7 +544,7 @@
     "team2_name": "St Kitts And Nevis Patriots",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787210464540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787210464540x302.jpg",
-    "time": "1787242929607",
+    "time": "1787245337308",
     "league_name": "Cricket || Caribbean Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -448,7 +560,7 @@
     "team2_name": "Al-Nassr",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787229090540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787229090540x302.jpg",
-    "time": "1787242929607",
+    "time": "1787245337308",
     "league_name": "Cricket || Saudi Pro League 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -464,7 +576,7 @@
     "team2_name": "Jamaica Kingsmen",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787212832540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787212832540x302.jpg",
-    "time": "1787242929607",
+    "time": "1787245337308",
     "league_name": "Cricket || Caribbean Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -480,7 +592,7 @@
     "team2_name": "Bangladesh",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787048102540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787048102540x302.jpg",
-    "time": "1787242929607",
+    "time": "1787245337308",
     "league_name": "Cricket || Bangladesh Tour Of Australia 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -496,7 +608,7 @@
     "team2_name": "Vieira",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787214929540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787214929540x302.jpg",
-    "time": "1787242929607",
+    "time": "1787245337308",
     "league_name": "Cricket || Pfl 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -512,7 +624,7 @@
     "team2_name": "Rodrigues",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787230052540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787230052540x302.jpg",
-    "time": "1787242929607",
+    "time": "1787245337308",
     "league_name": "Cricket || Ufc 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -580,102 +692,6 @@
     ]
   },
   {
-    "team1_name": "Mjällby Aif",
-    "team2_name": "Red Bull Salzburg",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1783/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2046/image",
-    "time": "1787241600000",
-    "league_name": "Football || Uefa Europa League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/679/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "HD STREAMING 2 ",
-        "channel_url": "https://edgestream1.pro/hls/sdghjvqazhvg80.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/EJJJAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Jagiellonia Białystok",
-    "team2_name": "Fc Iberia 1999",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/7691/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/116312/image",
-    "time": "1787241600000",
-    "league_name": "Football || Uefa Europa League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/679/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "http://162.251.160.53:8089/1210/index.m3u8"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/EJJJAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Lincoln Red Imps",
-    "team2_name": "Larne Fc",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/126304/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/5184/image",
-    "time": "1787241600000",
-    "league_name": "Football || Uefa Conference League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/17015/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "STREAM + FHD",
-        "channel_url": "http://193.47.62.44/hls/EJJJA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/EJJJA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Inter Turku",
-    "team2_name": "Fc København",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2247/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1284/image",
-    "time": "1787241600000",
-    "league_name": "Football || Uefa Conference League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/17015/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "STREAM + FHD",
-        "channel_url": "http://193.47.62.44/hls/EJJJ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/EJJJ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Al-Rayyan",
-    "team2_name": "Lusail Sc",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/40660/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/337651/image",
-    "time": "1787243400000",
-    "league_name": "Football || Stars League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/825/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "STREAM + FHD",
-        "channel_url": "https://edgestream1.pro/hls/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      }
-    ]
-  },
-  {
     "team1_name": "Kf Egnatia",
     "team2_name": "Lillestrøm Sk",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/264619/image",
@@ -687,7 +703,11 @@
     "live_links": [
       {
         "link_title": "STREAM + FHD",
-        "channel_url": "https://edgestream1.pro/hls/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+        "channel_url": "http://193.47.62.56/hls/FRRRAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.56/hls/FRRRAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -704,6 +724,10 @@
       {
         "link_title": "HD STREAMING 2 ",
         "channel_url": "https://edgestream1.pro/hls/jkhfsgqghjqsd85.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.56/hls/FRRRA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -719,7 +743,11 @@
     "live_links": [
       {
         "link_title": "STREAM + FHD",
-        "channel_url": "https://edgestream1.pro/hls/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+        "channel_url": "http://193.47.62.56/hls/FRRRAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.56/hls/FRRRAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -735,7 +763,11 @@
     "live_links": [
       {
         "link_title": "STREAM + FHD",
-        "channel_url": "https://edgestream1.pro/hls/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+        "channel_url": "http://193.47.62.56/hls/FRRRAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.56/hls/FRRRAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -751,7 +783,11 @@
     "live_links": [
       {
         "link_title": "STREAM + FHD",
-        "channel_url": "https://edgestream1.pro/hls/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+        "channel_url": "http://193.47.62.56/hls/FRRRAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.56/hls/FRRRAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -767,7 +803,11 @@
     "live_links": [
       {
         "link_title": "STREAM + FHD",
-        "channel_url": "https://edgestream1.pro/hls/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+        "channel_url": "http://193.47.62.44/hls/EJJJAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.44/hls/EJJJAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -783,7 +823,11 @@
     "live_links": [
       {
         "link_title": "STREAM + FHD",
-        "channel_url": "https://edgestream1.pro/hls/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+        "channel_url": "http://193.47.62.44/hls/EJJJAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.44/hls/EJJJAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -799,7 +843,11 @@
     "live_links": [
       {
         "link_title": "STREAM + FHD",
-        "channel_url": "https://edgestream1.pro/hls/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+        "channel_url": "http://193.47.62.58/hls/IIIIAAAaa.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.58/hls/IIIIAAAaa.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -1004,6 +1052,10 @@
       {
         "link_title": "HD BOX TV ",
         "channel_url": "http://162.251.160.53:8089/3310/index.m3u8"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.41/hls/ETTTAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -1082,8 +1134,8 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "STREAM + FHD",
-        "channel_url": "https://edgestream1.pro/hls/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -1560,6 +1612,10 @@
       {
         "link_title": "HD BOX ",
         "channel_url": "http://162.251.160.53:8089/1118/index.m3u8"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.41/hls/ETTTAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -2898,6 +2954,14 @@
     "category": "Baseball",
     "live_links": [
       {
+        "link_title": "MLBHD TV ",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/54913/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.41/hls/EOOOOAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      },
+      {
         "link_title": "STREAM + FHD",
         "channel_url": "https://edgestream1.pro/hls/dazhfiach15.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
       }
@@ -2930,6 +2994,14 @@
     "category": "Baseball",
     "live_links": [
       {
+        "link_title": "HD QUALITY ",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/54914/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.41/hls/ETTT.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      },
+      {
         "link_title": "STREAM + FHD",
         "channel_url": "https://edgestream1.pro/hls/16yuitzaerghbhc16.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
       }
@@ -2948,6 +3020,14 @@
       {
         "link_title": "TNT1 SPORTS FHD ",
         "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd?|drmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      },
+      {
+        "link_title": "HD QUALITY ",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/54915/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.41/hls/ETTTA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       },
       {
         "link_title": "STREAM + FHD",
