@@ -4,7 +4,7 @@
     "team2_name": "Pakistan",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786527399540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1786527399540x302.jpg",
-    "time": "1787312631349",
+    "time": "1787313829340",
     "league_name": "Cricket || Pakistan Tour Of England 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -100,30 +100,6 @@
       {
         "link_title": "HD QUALITY ",
         "channel_url": "https://stream.sports3.win/iptv/live/signal-4555273-42172.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Top End T20",
-    "team2_name": "Top End T20",
-    "team1_logo_url": "https://styxsports.b-cdn.net/styxsports-public/tours/1787045529768-11144625.webp",
-    "team2_logo_url": "https://styxsports.b-cdn.net/styxsports-public/tours/1787045529768-11144625.webp",
-    "time": "1787290200000",
-    "league_name": "Cricket || Top End T20 Series 2026",
-    "league_icon": "https://styxsports.b-cdn.net/styxsports-public/tours/1787045529768-11144625.webp",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "WILLOW HD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd?|drmScheme=clearkey&drmLicense=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      },
-      {
-        "link_title": "HD QUALITY ",
-        "channel_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8"
-      },
-      {
-        "link_title": "WILLOW FHD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qg6trb939f/out/v1/19ef731d667348189f51557380caa6fe/cenc.mpd?|drmScheme=clearkey&drmLicense=9be4ba39ca21b80b2b7301da1f3e4bbf:9eb7f96ea43b0ecafa6cd6d2906f19a4"
       }
     ]
   },
@@ -392,7 +368,7 @@
     "team2_name": "Spain",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787294092540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787294092540x302MEN.jpg",
-    "time": "1787312631350",
+    "time": "1787313829341",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -408,7 +384,23 @@
     "team2_name": "Al-Nassr",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787229090540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787229090540x302.jpg",
-    "time": "1787312631350",
+    "time": "1787313829341",
+    "league_name": "Cricket || Saudi Pro League 2026/27",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Al Qadsiah",
+    "team2_name": "Al-Ittihad",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787312140540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787312140540x302.jpg",
+    "time": "1787313829341",
     "league_name": "Cricket || Saudi Pro League 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -424,7 +416,7 @@
     "team2_name": "Belgium",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787294476540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787294476540x302MEN.jpg",
-    "time": "1787312631350",
+    "time": "1787313829341",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -440,7 +432,7 @@
     "team2_name": "Real Sociedad",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787310321540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787310321540x302.jpg",
-    "time": "1787312631350",
+    "time": "1787313829341",
     "league_name": "Cricket || Laliga 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -456,7 +448,7 @@
     "team2_name": "Jamaica Kingsmen",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787212832540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787212832540x302.jpg",
-    "time": "1787312631350",
+    "time": "1787313829341",
     "league_name": "Cricket || Caribbean Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -472,7 +464,7 @@
     "team2_name": "Bangladesh",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787048102540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787048102540x302.jpg",
-    "time": "1787312631350",
+    "time": "1787313829341",
     "league_name": "Cricket || Bangladesh Tour Of Australia 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -488,7 +480,7 @@
     "team2_name": "Hungary",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787296561540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787296561540x302.jpg",
-    "time": "1787312631350",
+    "time": "1787313829341",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -504,7 +496,7 @@
     "team2_name": "England",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787297215540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787297215540x302.jpg",
-    "time": "1787312631350",
+    "time": "1787313829341",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -520,7 +512,7 @@
     "team2_name": "Poland",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787297878540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787297878540x302.jpg",
-    "time": "1787312631350",
+    "time": "1787313829341",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -536,7 +528,7 @@
     "team2_name": "Hungary",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787298541540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787298541540x302.jpg",
-    "time": "1787312631350",
+    "time": "1787313829341",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -552,7 +544,7 @@
     "team2_name": "England",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787306256540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787306256540x302.jpg",
-    "time": "1787312631350",
+    "time": "1787313829341",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -1612,6 +1604,30 @@
     ]
   },
   {
+    "team1_name": "Top End T20",
+    "team2_name": "Top End T20",
+    "team1_logo_url": "https://styxsports.b-cdn.net/styxsports-public/tours/1787045529768-11144625.webp",
+    "team2_logo_url": "https://styxsports.b-cdn.net/styxsports-public/tours/1787045529768-11144625.webp",
+    "time": "1787358600000",
+    "league_name": "Cricket || Top End T20 Series 2026",
+    "league_icon": "https://styxsports.b-cdn.net/styxsports-public/tours/1787045529768-11144625.webp",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "WILLOW HD",
+        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd?|drmScheme=clearkey&drmLicense=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+      },
+      {
+        "link_title": "HD QUALITY ",
+        "channel_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8"
+      },
+      {
+        "link_title": "WILLOW FHD",
+        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qg6trb939f/out/v1/19ef731d667348189f51557380caa6fe/cenc.mpd?|drmScheme=clearkey&drmLicense=9be4ba39ca21b80b2b7301da1f3e4bbf:9eb7f96ea43b0ecafa6cd6d2906f19a4"
+      }
+    ]
+  },
+  {
     "team1_name": "Saint Lucia Kings",
     "team2_name": "Jamaica Kingsmen",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187825/image",
@@ -1726,8 +1742,8 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+        "link_title": "SERVER + TV",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
       }
     ]
   },
