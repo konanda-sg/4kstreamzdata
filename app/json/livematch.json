@@ -4,7 +4,7 @@
     "team2_name": "Bangladesh",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787048102540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787048102540x302.jpg",
-    "time": "1787377702337",
+    "time": "1787379278571",
     "league_name": "Cricket || Bangladesh Tour Of Australia 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -20,7 +20,7 @@
     "team2_name": "Bangladesh",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787356726540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787356726540x302.jpg",
-    "time": "1787377702337",
+    "time": "1787379278571",
     "league_name": "Cricket || Bangladesh Tour Of Australia 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -28,58 +28,6 @@
       {
         "link_title": "Watch Free - Australia Vs Bangladesh",
         "channel_url": "https://premierleagpl23.akamaized.net/hls/live/2107108/ucl-5tap347/master.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Fc Juárez",
-    "team2_name": "Club América",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/201624/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1939/image",
-    "time": "1787368200000",
-    "league_name": "Football || Liga Mx, Apertura",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "FOX DEPORTES FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd?|drmScheme=clearkey&drmLicense=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-      },
-      {
-        "link_title": "HD QUALITY ",
-        "channel_url": "https://hls.live123.fans/live/4553832.m3u8"
-      },
-      {
-        "link_title": "FOX ONE (MEXICO)",
-        "channel_url": "https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE3MX_HD)/manifest.mpd?|drmScheme=clearkey&drmLicense=3bd0bc0772acc1708445948f2c7bb25f:426afdc873d71265183d15cd7f9cb612"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.41/hls/YPPPAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Querétaro Fc",
-    "team2_name": "Cd Toluca",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1951/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1931/image",
-    "time": "1787368200000",
-    "league_name": "Football || Liga Mx, Apertura",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "TUDN MEXICO FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd?|drmScheme=clearkey&drmLicense=763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411"
-      },
-      {
-        "link_title": "HD QUALITY ",
-        "channel_url": "https://hls.live123.fans/live/4553834.m3u8"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.41/hls/YPPPAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -276,6 +224,26 @@
     ]
   },
   {
+    "team1_name": "North Harbour",
+    "team2_name": "Auckland",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/42715/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/42726/image",
+    "time": "1787376900000",
+    "league_name": "Rugby || National Provincial Championship",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/797/image/dark",
+    "category": "Rugby",
+    "live_links": [
+      {
+        "link_title": "SERVER + TV",
+        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz15866.m3u8"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.41/hls/ROOOB.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
     "team1_name": "Supercars",
     "team2_name": "Supercars",
     "team1_logo_url": "https://i.ibb.co/CKKNc9gD/car-1.png",
@@ -296,7 +264,7 @@
     "team2_name": "Wales",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787342578540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787342578540x302MEN.jpg",
-    "time": "1787377702339",
+    "time": "1787379278572",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -312,7 +280,7 @@
     "team2_name": "Hungary",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787296561540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787296561540x302.jpg",
-    "time": "1787377702339",
+    "time": "1787379278572",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -328,7 +296,7 @@
     "team2_name": "England",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787297215540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787297215540x302.jpg",
-    "time": "1787377702339",
+    "time": "1787379278572",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -344,7 +312,7 @@
     "team2_name": "Poland",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787297878540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787297878540x302.jpg",
-    "time": "1787377702339",
+    "time": "1787379278572",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -360,7 +328,7 @@
     "team2_name": "Japan",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787342981540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787342981540x302MEN.jpg",
-    "time": "1787377702339",
+    "time": "1787379278572",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -376,7 +344,7 @@
     "team2_name": "Hungary",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787298541540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787298541540x302.jpg",
-    "time": "1787377702339",
+    "time": "1787379278572",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -392,7 +360,7 @@
     "team2_name": "England",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787306256540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787306256540x302.jpg",
-    "time": "1787377702339",
+    "time": "1787379278572",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -408,7 +376,7 @@
     "team2_name": "Poland",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787306482540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787306482540x302.jpg",
-    "time": "1787377702339",
+    "time": "1787379278573",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -424,7 +392,7 @@
     "team2_name": "India",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787343329540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787343329540x302MEN.jpg",
-    "time": "1787377702339",
+    "time": "1787379278573",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -440,7 +408,7 @@
     "team2_name": "Sevilla",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787310424540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787310424540x302.jpg",
-    "time": "1787377702339",
+    "time": "1787379278573",
     "league_name": "Cricket || Laliga 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -3916,26 +3884,6 @@
       {
         "link_title": "SKY1 NZ HD",
         "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz15866.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "North Harbour",
-    "team2_name": "Auckland",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/42715/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/42726/image",
-    "time": "1787376900000",
-    "league_name": "Rugby || National Provincial Championship",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/797/image/dark",
-    "category": "Rugby",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz15866.m3u8"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.41/hls/ROOOB.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
