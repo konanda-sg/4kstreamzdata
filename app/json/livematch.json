@@ -4,7 +4,7 @@
     "team2_name": "Jamaica Kingsmen",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787212832540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787212832540x302.jpg",
-    "time": "1787364361102",
+    "time": "1787367900965",
     "league_name": "Cricket || Caribbean Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -20,7 +20,7 @@
     "team2_name": "Bangladesh",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787048102540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787048102540x302.jpg",
-    "time": "1787364361102",
+    "time": "1787367900966",
     "league_name": "Cricket || Bangladesh Tour Of Australia 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -36,7 +36,7 @@
     "team2_name": "Bangladesh",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787356726540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787356726540x302.jpg",
-    "time": "1787364361102",
+    "time": "1787367900966",
     "league_name": "Cricket || Bangladesh Tour Of Australia 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -44,54 +44,6 @@
       {
         "link_title": "Watch Free - Australia Vs Bangladesh",
         "channel_url": "https://premierleagpl23.akamaized.net/hls/live/2107108/ucl-5tap347/master.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Estudiantes De Río Cuarto",
-    "team2_name": "San Lorenzo",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/266694/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3201/image",
-    "time": "1787353200000",
-    "league_name": "Football || Liga Profesional De Fútbol",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/155/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "TV SPORTS ",
-        "channel_url": "http://162.251.160.53:8089/961/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Leones Del Norte",
-    "team2_name": "Independiente Del Valle",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/388234/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/39723/image",
-    "time": "1787356800000",
-    "league_name": "Football || Ligapro Serie A",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/240/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Deportivo Cuenca",
-    "team2_name": "Mushuc Runa Sc",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/5251/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/134976/image",
-    "time": "1787356800000",
-    "league_name": "Football || Ligapro Serie A",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/240/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -144,6 +96,22 @@
       {
         "link_title": "FOX2 SPORTS FHD ",
         "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd?|drmScheme=clearkey&drmLicense=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+      }
+    ]
+  },
+  {
+    "team1_name": "San Diego Wave Fc",
+    "team2_name": "Utah Royals Fc",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/408170/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/278067/image",
+    "time": "1787364000000",
+    "league_name": "Football || Nwsl",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/1690/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "TNT2 SPORTS HD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?|drmScheme=clearkey&drmLicense=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
       }
     ]
   },
@@ -256,54 +224,22 @@
     ]
   },
   {
-    "team1_name": "Smackdown",
-    "team2_name": "Smackdown",
-    "team1_logo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg",
-    "team2_logo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg",
-    "time": "1787356800000",
-    "league_name": "Boxing || Friday Night Smackdown",
-    "league_icon": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-    "category": "Boxing",
-    "live_links": [
-      {
-        "link_title": "TV WWE ALT",
-        "channel_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8"
-      },
-      {
-        "link_title": "HD QUALITY 2 ",
-        "channel_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/6.m3u8"
-      },
-      {
-        "link_title": "SPORT CAST FHD",
-        "channel_url": "https://melancholy.fromthyheart.site/dailymotion/live/playlist/5.m3u8"
-      },
-      {
-        "link_title": "WWE LIVE HD",
-        "channel_url": "https://acumen.loreofeldenring.site/dailymotion/live/playlist/1.m3u8"
-      },
-      {
-        "link_title": "WWE SMACKDOWN ",
-        "channel_url": "https://serendipity.loreofeldenring.site/dailymotion/live/playlist/5.m3u8"
-      },
-      {
-        "link_title": "USA TV (US VPN)",
-        "channel_url": "https://g001-sle-us-cmaf-prd-ak.pcdn03.cssott.com/Content/CMAF_OS1-CTR-4s-v2/Live/channel(12010340-12010340-4445585a62764)/master_2hr.mpd?|drmScheme=clearkey&drmLicense=58551b13211b37d5b325d67e5c6cabef:3b4c3f8b4236fc57d66cdb54a606fe41"
-      }
-    ]
-  },
-  {
-    "team1_name": "Pittsburgh Steelers",
-    "team2_name": "New York Jets",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4345/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4427/image",
-    "time": "1787353200000",
-    "league_name": "American Football || Nfl Preseason",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/9465/image/dark",
+    "team1_name": "Edmonton Elks",
+    "team2_name": "Winnipeg Blue Bombers",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4434/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4435/image",
+    "time": "1787362200000",
+    "league_name": "American Football || Cfl",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11208/image/dark",
     "category": "American Football",
     "live_links": [
       {
-        "link_title": "HD BOX TV ",
-        "channel_url": "https://edgestream2.pro/hls/JHDAJBDnjdna30.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+        "link_title": "TSN1 SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|drmScheme=clearkey&drmLicense=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+      },
+      {
+        "link_title": "TSN3 SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd?|drmScheme=clearkey&drmLicense=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
       }
     ]
   },
@@ -356,6 +292,26 @@
     ]
   },
   {
+    "team1_name": "Australia Women",
+    "team2_name": "New Zealand Women",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/213117/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/213115/image",
+    "time": "1787364900000",
+    "league_name": "Rugby || International Friendly Games",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/851/image/dark",
+    "category": "Rugby",
+    "live_links": [
+      {
+        "link_title": "Link 1",
+        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz15866.m3u8"
+      },
+      {
+        "link_title": "FOX NEWS HD ",
+        "channel_url": "https://crimson-cloud-807f.kamrukhanchy.workers.dev/441307/index.json?&e=.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "Colorado Rockies",
     "team2_name": "Cleveland Guardians",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/3628/image",
@@ -376,6 +332,102 @@
       {
         "link_title": "HD QUICK ",
         "channel_url": "https://edgestream2.pro/hls/kjhfzua25.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+      }
+    ]
+  },
+  {
+    "team1_name": "Seattle Mariners",
+    "team2_name": "Chicago Cubs",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3641/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3627/image",
+    "time": "1787364600000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://edgestream2.pro/hls/hefbafbakx28.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "HD QUICK 2 ",
+        "channel_url": "https://ftv.dlhd.net/MLBTVSEA/B0026/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+      },
+      {
+        "link_title": "HD QUICK ",
+        "channel_url": "https://edgestream2.pro/hls/hefbafbakx28.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+      }
+    ]
+  },
+  {
+    "team1_name": "Los Angeles Dodgers",
+    "team2_name": "Pittsburgh Pirates",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3638/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3637/image",
+    "time": "1787364600000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://edgestream2.pro/hls/hfzljfahzcax29.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "HD QUICK 2 ",
+        "channel_url": "https://ftv.dlhd.net/MLBTVLAD/B0015/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+      },
+      {
+        "link_title": "HD QUICK ",
+        "channel_url": "https://edgestream2.pro/hls/hfzljfahzcax29.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+      }
+    ]
+  },
+  {
+    "team1_name": "San Diego Padres",
+    "team2_name": "Minnesota Twins",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3636/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3649/image",
+    "time": "1787362800000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://edgestream2.pro/hls/jzabfazkbf27.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "HD QUICK 2 ",
+        "channel_url": "https://ftv.dlhd.net/MLBTVMIN/B0017/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+      },
+      {
+        "link_title": "HD QUICK.",
+        "channel_url": "https://edgestream2.pro/hls/jzabfazkbf27.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+      }
+    ]
+  },
+  {
+    "team1_name": "Arizona Diamondbacks",
+    "team2_name": "Cincinnati Reds",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3640/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3633/image",
+    "time": "1787362800000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://edgestream2.pro/hls/dzjhkfazbka26.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "HD QUICK 2 ",
+        "channel_url": "https://ftv.dlhd.net/MLBTVCIN/B0008/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+      },
+      {
+        "link_title": "HD QUICK ",
+        "channel_url": "https://edgestream2.pro/hls/dzjhkfazbka26.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
       }
     ]
   },
@@ -432,30 +484,6 @@
     ]
   },
   {
-    "team1_name": "Baltimore Orioles",
-    "team2_name": "Tampa Bay Rays",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3652/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3653/image",
-    "time": "1787354100000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/jkzahzadach20.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK 2 ",
-        "channel_url": "https://ftv.dlhd.net/MLBTVTBR/B0028/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://edgestream2.pro/hls/jkzahzadach20.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
     "team1_name": "Houston Astros",
     "team2_name": "Athletics",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/3655/image",
@@ -476,30 +504,6 @@
       {
         "link_title": "HD QUICK 2 ",
         "channel_url": "https://edgestream2.pro/hls/ijfnakfidch22.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
-    "team1_name": "Miami Marlins",
-    "team2_name": "Washington Nationals",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3639/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/5930/image",
-    "time": "1787353800000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/bzagLHzach19.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK 2 ",
-        "channel_url": "https://ftv.dlhd.net/MLBTVMIA/B0012/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://edgestream2.pro/hls/bzagLHzach19.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
       }
     ]
   },
@@ -528,122 +532,22 @@
     ]
   },
   {
-    "team1_name": "New York Yankees",
-    "team2_name": "Toronto Blue Jays",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3654/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3642/image",
-    "time": "1787353500000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/ihfazugfyjcazich17.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK 2 ",
-        "channel_url": "https://ftv.dlhd.net/MLBTVNYY/B0020/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://edgestream2.pro/hls/ihfazugfyjcazich17.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
-    "team1_name": "Boston Red Sox",
-    "team2_name": "San Francisco Giants",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3646/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3634/image",
-    "time": "1787353800000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/Czajafjihafch18.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK 2 ",
-        "channel_url": "https://ftv.dlhd.net/MLBTVSFG/B0025/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://edgestream2.pro/hls/Czajafjihafch18.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
-    "team1_name": "Philadelphia Phillies",
-    "team2_name": "St. Louis Cardinals",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3635/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3632/image",
-    "time": "1787352000000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/16yuitzaerghbhc16.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK 2 ",
-        "channel_url": "https://ftv.dlhd.net/MLBTVPHI/B0022/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://edgestream2.pro/hls/16yuitzaerghbhc16.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
-    "team1_name": "Washington Mystics",
-    "team2_name": "Minnesota Lynx",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3454/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3440/image",
-    "time": "1787355000000",
+    "team1_name": "Toronto Tempo",
+    "team2_name": "Portland Fire",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1166445/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1166446/image",
+    "time": "1787364000000",
     "league_name": "Basketball || Wnba",
     "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/486/image/dark",
     "category": "Basketball",
     "live_links": [
       {
         "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUALITY ",
-        "channel_url": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+        "channel_url": "https://edgestream2.pro/hls/pllmazjkdzajh72.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
       },
       {
         "link_title": "HD QUICK ",
-        "channel_url": "https://edgestream2.pro/hls/ztyarueaghj71.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      },
-      {
-        "link_title": "HD QUICK 2 ",
-        "channel_url": "https://edgestream2.pro/hls/hefbafbakx28.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
-    "team1_name": "Chicago Sky",
-    "team2_name": "Golden State Valkyries",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/35546/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1041936/image",
-    "time": "1787355000000",
-    "league_name": "Basketball || Wnba",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/486/image/dark",
-    "category": "Basketball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://edgestream2.pro/hls/ztyarueaghj71.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+        "channel_url": "https://edgestream2.pro/hls/pllmazjkdzajh72.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
       }
     ]
   },
@@ -652,7 +556,7 @@
     "team2_name": "Wales",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787342578540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787342578540x302MEN.jpg",
-    "time": "1787364361106",
+    "time": "1787367900969",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -668,7 +572,7 @@
     "team2_name": "Hungary",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787296561540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787296561540x302.jpg",
-    "time": "1787364361106",
+    "time": "1787367900969",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -684,7 +588,7 @@
     "team2_name": "England",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787297215540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787297215540x302.jpg",
-    "time": "1787364361106",
+    "time": "1787367900969",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -700,7 +604,7 @@
     "team2_name": "Poland",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787297878540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787297878540x302.jpg",
-    "time": "1787364361106",
+    "time": "1787367900969",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -716,7 +620,7 @@
     "team2_name": "Japan",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787342981540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787342981540x302MEN.jpg",
-    "time": "1787364361106",
+    "time": "1787367900969",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -732,7 +636,7 @@
     "team2_name": "Hungary",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787298541540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787298541540x302.jpg",
-    "time": "1787364361106",
+    "time": "1787367900969",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -748,7 +652,7 @@
     "team2_name": "England",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787306256540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787306256540x302.jpg",
-    "time": "1787364361106",
+    "time": "1787367900969",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -764,7 +668,7 @@
     "team2_name": "Poland",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787306482540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787306482540x302.jpg",
-    "time": "1787364361106",
+    "time": "1787367900969",
     "league_name": "Cricket || Euro Beach Kabaddi Championship 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -780,7 +684,7 @@
     "team2_name": "India",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787343329540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787343329540x302MEN.jpg",
-    "time": "1787364361106",
+    "time": "1787367900969",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -796,7 +700,7 @@
     "team2_name": "Sevilla",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787310424540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787310424540x302.jpg",
-    "time": "1787364361106",
+    "time": "1787367900969",
     "league_name": "Cricket || Laliga 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -912,22 +816,6 @@
       {
         "link_title": "Intro",
         "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "San Diego Wave Fc",
-    "team2_name": "Utah Royals Fc",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/408170/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/278067/image",
-    "time": "1787364000000",
-    "league_name": "Football || Nwsl",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/1690/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "TNT2 SPORTS HD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?|drmScheme=clearkey&drmLicense=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
       }
     ]
   },
@@ -3508,26 +3396,6 @@
     ]
   },
   {
-    "team1_name": "Edmonton Elks",
-    "team2_name": "Winnipeg Blue Bombers",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4434/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4435/image",
-    "time": "1787362200000",
-    "league_name": "American Football || Cfl",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11208/image/dark",
-    "category": "American Football",
-    "live_links": [
-      {
-        "link_title": "TSN1 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|drmScheme=clearkey&drmLicense=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-      },
-      {
-        "link_title": "TSN3 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd?|drmScheme=clearkey&drmLicense=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
-      }
-    ]
-  },
-  {
     "team1_name": "Minnesota Vikings",
     "team2_name": "Baltimore Ravens",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/4423/image",
@@ -3732,142 +3600,6 @@
       {
         "link_title": "Intro",
         "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Australia Women",
-    "team2_name": "New Zealand Women",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/213117/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/213115/image",
-    "time": "1787364900000",
-    "league_name": "Rugby || International Friendly Games",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/851/image/dark",
-    "category": "Rugby",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz15866.m3u8"
-      },
-      {
-        "link_title": "FOX NEWS HD ",
-        "channel_url": "https://crimson-cloud-807f.kamrukhanchy.workers.dev/441307/index.json?&e=.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Seattle Mariners",
-    "team2_name": "Chicago Cubs",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3641/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3627/image",
-    "time": "1787364600000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/hefbafbakx28.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK 2 ",
-        "channel_url": "https://ftv.dlhd.net/MLBTVSEA/B0026/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://edgestream2.pro/hls/hefbafbakx28.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
-    "team1_name": "Los Angeles Dodgers",
-    "team2_name": "Pittsburgh Pirates",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3638/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3637/image",
-    "time": "1787364600000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/hfzljfahzcax29.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK 2 ",
-        "channel_url": "https://ftv.dlhd.net/MLBTVLAD/B0015/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://edgestream2.pro/hls/hfzljfahzcax29.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
-    "team1_name": "San Diego Padres",
-    "team2_name": "Minnesota Twins",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3636/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3649/image",
-    "time": "1787362800000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/jzabfazkbf27.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK 2 ",
-        "channel_url": "https://ftv.dlhd.net/MLBTVMIN/B0017/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      },
-      {
-        "link_title": "HD QUICK.",
-        "channel_url": "https://edgestream2.pro/hls/jzabfazkbf27.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
-    "team1_name": "Arizona Diamondbacks",
-    "team2_name": "Cincinnati Reds",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3640/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3633/image",
-    "time": "1787362800000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/dzjhkfazbka26.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK 2 ",
-        "channel_url": "https://ftv.dlhd.net/MLBTVCIN/B0008/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://edgestream2.pro/hls/dzjhkfazbka26.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
-    "team1_name": "Toronto Tempo",
-    "team2_name": "Portland Fire",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1166445/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1166446/image",
-    "time": "1787364000000",
-    "league_name": "Basketball || Wnba",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/486/image/dark",
-    "category": "Basketball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/pllmazjkdzajh72.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://edgestream2.pro/hls/pllmazjkdzajh72.m3u8|referer=https%3A%2F%2Fstreame.center&origin=https%3A%2F%2Fstreame.center&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
       }
     ]
   }
