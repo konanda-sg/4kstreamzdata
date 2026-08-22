@@ -4,7 +4,7 @@
     "team2_name": "Japan",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787342981540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787342981540x302MEN.jpg",
-    "time": "1787403316231",
+    "time": "1787405292704",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -64,34 +64,18 @@
     ]
   },
   {
-    "team1_name": "Kidderpore Sc",
-    "team2_name": "Patha Chakra",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/296265/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/294069/image",
-    "time": "1787391000000",
-    "league_name": "Football || Calcutta Premier Division",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
+    "team1_name": "Fakel Voronezh",
+    "team2_name": "Orenburg",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2317/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/24118/image",
+    "time": "1787401800000",
+    "league_name": "Football || Russian Premier League",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/203/image/dark",
     "category": "Football",
     "live_links": [
       {
         "link_title": "SERVER + TV",
-        "channel_url": "https://live-n10.videostech.cloud/match/luxurylivingkidderporesportingclub_vs_mamonigrouppathachakra/HLS/master.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "United Sc",
-    "team2_name": "Mohammedan Sc Reserves",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/46147/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/526594/image",
-    "time": "1787391000000",
-    "league_name": "Football || Calcutta Premier Division",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "https://live-n10.videostech.cloud/match/unitedsportsclub_vs_mohammedansportingclub/HLS/master.m3u8"
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
       }
     ]
   },
@@ -152,22 +136,18 @@
     ]
   },
   {
-    "team1_name": "Eintracht Frankfurt",
-    "team2_name": "1. Fc Köln",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/108685/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/229794/image",
-    "time": "1787392800000",
+    "team1_name": "1. Fc Nürnberg",
+    "team2_name": "Vfl Wolfsburg",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/164534/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/5556/image",
+    "time": "1787400000000",
     "league_name": "Football || Frauen-Bundesliga",
     "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/232/image/dark",
     "category": "Football",
     "live_links": [
       {
         "link_title": "SERVER + TV",
-        "channel_url": "http://193.47.62.41/hls/RGGGA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.41/hls/RGGGA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
       }
     ]
   },
@@ -295,7 +275,7 @@
     "live_links": [
       {
         "link_title": "STREAM TV + HD",
-        "channel_url": "http://193.47.62.41/hls/frrr.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+        "channel_url": "https://hls.live123.fans/live/4562967.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       },
       {
         "link_title": "LOW QUALITY (USE VPN)",
@@ -416,6 +396,42 @@
       {
         "link_title": "PGA BMW ",
         "channel_url": "http://193.47.62.41/hls/DEDEDEAAAX.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Horse Racing",
+    "team2_name": "Horse Racing",
+    "team1_logo_url": "https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg",
+    "team2_logo_url": "https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg",
+    "time": "1787400000000",
+    "league_name": "Other || Horse Racing",
+    "league_icon": "https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg",
+    "category": "Other",
+    "live_links": [
+      {
+        "link_title": "HD QUALITY ",
+        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysportsracing.m3u8"
+      },
+      {
+        "link_title": "ITV1 FHD ",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd?|drmScheme=clearkey&drmLicense=30089c52924f037b225b82c616fee2a5:f55dc8b66ed4fc6753d6035ae7e17144"
+      },
+      {
+        "link_title": "FOX2 SPORTS FHD ",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd?|drmScheme=clearkey&drmLicense=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+      },
+      {
+        "link_title": "FOX1 SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd?|drmScheme=clearkey&drmLicense=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16"
+      },
+      {
+        "link_title": "1 TV Use VPN ",
+        "channel_url": "http://193.47.62.194/hls/vavavavaq.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "2 TV Use VPN ",
+        "channel_url": "http://193.47.62.194/hls/vavavava.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
@@ -576,7 +592,7 @@
     "team2_name": "India",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787343329540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787343329540x302MEN.jpg",
-    "time": "1787403316232",
+    "time": "1787405292707",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -592,7 +608,7 @@
     "team2_name": "Sevilla",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787310424540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787310424540x302.jpg",
-    "time": "1787403316232",
+    "time": "1787405292707",
     "league_name": "Cricket || Laliga 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -608,7 +624,7 @@
     "team2_name": "Al-Ettifaq",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787312224540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787312224540x302.jpg",
-    "time": "1787403316232",
+    "time": "1787405292707",
     "league_name": "Cricket || Saudi Pro League 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -624,7 +640,7 @@
     "team2_name": "Celta",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787310509540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787310509540x302.jpg",
-    "time": "1787403316232",
+    "time": "1787405292707",
     "league_name": "Cricket || Laliga 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -640,7 +656,7 @@
     "team2_name": "Vieira",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787214929540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787214929540x302.jpg",
-    "time": "1787403316232",
+    "time": "1787405292707",
     "league_name": "Cricket || Pfl 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -656,7 +672,7 @@
     "team2_name": "Trinbago Knight Riders",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787295520540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787295520540x302.jpg",
-    "time": "1787403316232",
+    "time": "1787405292707",
     "league_name": "Cricket || Caribbean Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -672,7 +688,7 @@
     "team2_name": "Rodrigues",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787230052540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787230052540x302.jpg",
-    "time": "1787403316232",
+    "time": "1787405292707",
     "league_name": "Cricket || Ufc 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -688,7 +704,7 @@
     "team2_name": "Bangladesh",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787048102540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787048102540x302.jpg",
-    "time": "1787403316232",
+    "time": "1787405292707",
     "league_name": "Cricket || Bangladesh Tour Of Australia 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -704,7 +720,7 @@
     "team2_name": "India",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787312620540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787312620540x302.jpg",
-    "time": "1787403316232",
+    "time": "1787405292707",
     "league_name": "Cricket || India Tour Of Sri Lanka 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -720,7 +736,7 @@
     "team2_name": "Women'S Singles Qualifying",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787314060540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787314060540x302.jpg",
-    "time": "1787403316232",
+    "time": "1787405292707",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -1308,22 +1324,6 @@
       {
         "link_title": "LIGUE + HD",
         "channel_url": "https://tmaxapp.site/ligue6sc6/ligue4.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Fakel Voronezh",
-    "team2_name": "Orenburg",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2317/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/24118/image",
-    "time": "1787401800000",
-    "league_name": "Football || Russian Premier League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/203/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
       }
     ]
   },
@@ -2504,22 +2504,6 @@
     ]
   },
   {
-    "team1_name": "1. Fc Nürnberg",
-    "team2_name": "Vfl Wolfsburg",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/164534/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/5556/image",
-    "time": "1787400000000",
-    "league_name": "Football || Frauen-Bundesliga",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/232/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Afc Wimbledon",
     "team2_name": "Reading",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/23957/image",
@@ -3368,42 +3352,6 @@
       {
         "link_title": "FOX1 SPORTS FHD",
         "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd?|drmScheme=clearkey&drmLicense=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16"
-      }
-    ]
-  },
-  {
-    "team1_name": "Horse Racing",
-    "team2_name": "Horse Racing",
-    "team1_logo_url": "https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg",
-    "team2_logo_url": "https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg",
-    "time": "1787400000000",
-    "league_name": "Other || Horse Racing",
-    "league_icon": "https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg",
-    "category": "Other",
-    "live_links": [
-      {
-        "link_title": "HD QUALITY ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysportsracing.m3u8"
-      },
-      {
-        "link_title": "ITV1 FHD ",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd?|drmScheme=clearkey&drmLicense=30089c52924f037b225b82c616fee2a5:f55dc8b66ed4fc6753d6035ae7e17144"
-      },
-      {
-        "link_title": "FOX2 SPORTS FHD ",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd?|drmScheme=clearkey&drmLicense=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-      },
-      {
-        "link_title": "FOX1 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd?|drmScheme=clearkey&drmLicense=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16"
-      },
-      {
-        "link_title": "1 TV Use VPN ",
-        "channel_url": "http://193.47.62.194/hls/vavavavaq.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "2 TV Use VPN ",
-        "channel_url": "http://193.47.62.194/hls/vavavava.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
