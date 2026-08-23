@@ -1,17 +1,17 @@
 [
   {
-    "team1_name": "Inter Toronto",
-    "team2_name": "Fc Supra Du Quebec",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/309890/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1165894/image",
-    "time": "1787515200000",
-    "league_name": "Football || Canadian Premier League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/13470/image/dark",
-    "category": "Football",
+    "team1_name": "Antigua And Barbuda Falcons",
+    "team2_name": "Guyana Amazon Warriors",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787499280540x302.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787499280540x302.jpg",
+    "time": "1787527754609",
+    "league_name": "Cricket || Caribbean Premier League 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
     "live_links": [
       {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "Antigua And Barbuda Falcons Vs Guyana Amazon Warriors",
+        "channel_url": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8"
       }
     ]
   },
@@ -64,22 +64,6 @@
     ]
   },
   {
-    "team1_name": "Washington Spirit",
-    "team2_name": "Orlando Pride",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/151012/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/215083/image",
-    "time": "1787515200000",
-    "league_name": "Football || Nwsl",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/1690/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Bay Fc",
     "team2_name": "Houston Dash",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/505655/image",
@@ -92,22 +76,6 @@
       {
         "link_title": "CBS NETWORK HD",
         "channel_url": "https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Club Atlético Belgrano",
-    "team2_name": "Defensa Y Justicia",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3203/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/36839/image",
-    "time": "1787515200000",
-    "league_name": "Football || Liga Profesional De Fútbol",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/155/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "TV QUALITY ",
-        "channel_url": "http://162.251.160.53:8089/200/index.m3u8"
       }
     ]
   },
@@ -136,6 +104,26 @@
       {
         "link_title": "SD QUALITY ",
         "channel_url": "http://162.251.160.53:8089/200/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Coritiba",
+    "team2_name": "Corinthians",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1982/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1957/image",
+    "time": "1787524200000",
+    "league_name": "Football || Brasileirão Betano",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "PREMIER1 SPORTS FHD ",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd?|drmScheme=clearkey&drmLicense=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
+      },
+      {
+        "link_title": "PREMIERER1 FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd?|drmScheme=clearkey&drmLicense=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
       }
     ]
   },
@@ -328,7 +316,7 @@
     "team2_name": "India",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787312620540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787312620540x302.jpg",
-    "time": "1787525043912",
+    "time": "1787527754610",
     "league_name": "Cricket || India Tour Of Sri Lanka 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -344,7 +332,7 @@
     "team2_name": "Women'S Singles Qualifying",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787314060540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787314060540x302.jpg",
-    "time": "1787525043912",
+    "time": "1787527754610",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -652,26 +640,6 @@
       {
         "link_title": "Intro",
         "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Coritiba",
-    "team2_name": "Corinthians",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1982/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1957/image",
-    "time": "1787524200000",
-    "league_name": "Football || Brasileirão Betano",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "PREMIER1 SPORTS FHD ",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd?|drmScheme=clearkey&drmLicense=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-      },
-      {
-        "link_title": "PREMIERER1 FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd?|drmScheme=clearkey&drmLicense=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
       }
     ]
   },
