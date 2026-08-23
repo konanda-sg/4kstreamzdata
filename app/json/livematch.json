@@ -4,7 +4,7 @@
     "team2_name": "India",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787312620540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787312620540x302.jpg",
-    "time": "1787477766834",
+    "time": "1787480590755",
     "league_name": "Cricket || India Tour Of Sri Lanka 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -12,6 +12,22 @@
       {
         "link_title": "Sri Lanka Vs India",
         "channel_url": "https://saseries.akamaized.net/hls/live/2110097/301@295Tapmad/master.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Malaysia",
+    "team2_name": "South Africa",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787452650540x302MEN.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787452650540x302MEN.jpg",
+    "time": "1787480590756",
+    "league_name": "Cricket || Fih Hockey World Cup 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Malaysia Vs South Africa",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
       }
     ]
   },
@@ -64,22 +80,6 @@
     ]
   },
   {
-    "team1_name": "Rovers Fc",
-    "team2_name": "Rajshahi Stars Fc",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1244102/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1161728/image",
-    "time": "1787472000000",
-    "league_name": "Football || Afc Women'S Champions League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/23009/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Snooker",
     "team2_name": "Snooker",
     "team1_logo_url": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
@@ -100,11 +100,11 @@
     ]
   },
   {
-    "team1_name": "Sydney Swans",
-    "team2_name": "North Melbourne",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4447/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4454/image",
-    "time": "1787462400000",
+    "team1_name": "West Coast Eagles",
+    "team2_name": "Hawthorn Hawks",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4449/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4445/image",
+    "time": "1787476800000",
     "league_name": "Aussie Rules || Afl",
     "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/656/image/dark",
     "category": "Aussie Rules",
@@ -120,50 +120,6 @@
       {
         "link_title": "SKY6 NZ HD ",
         "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport6nz47z58f.m3u8"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.41/hls/ARRRV.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Melbourne Demons",
-    "team2_name": "Gws Giants",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/245150/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/245070/image",
-    "time": "1787459700000",
-    "league_name": "Aussie Rules || Afl, Women",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/10159/image/dark",
-    "category": "Aussie Rules",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Carlton Blues",
-    "team2_name": "Adelaide Crows",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/245028/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/245069/image",
-    "time": "1787462400000",
-    "league_name": "Aussie Rules || Afl, Women",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/10159/image/dark",
-    "category": "Aussie Rules",
-    "live_links": [
-      {
-        "link_title": "TNT4 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd?|drmScheme=clearkey&drmLicense=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-      },
-      {
-        "link_title": "TSN5 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd?|drmScheme=clearkey&drmLicense=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-      },
-      {
-        "link_title": "SKY7 NZ HD ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport7nz45cx74fvg.m3u8"
       }
     ]
   },
@@ -200,22 +156,6 @@
       {
         "link_title": "SKY4 NZ HD ",
         "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport4nz97xcdfg.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Sydney Roosters",
-    "team2_name": "Wests Tigers",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4264/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4254/image",
-    "time": "1787465100000",
-    "league_name": "Rugby || Nrl",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/294/image/dark",
-    "category": "Rugby",
-    "live_links": [
-      {
-        "link_title": "SKY3 NZ HD ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport3nz7X8xg5fv5.m3u8"
       },
       {
         "link_title": "LOW QUALITY (USE VPN)",
@@ -280,7 +220,7 @@
     "team2_name": "Ireland",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787452910540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787452910540x302MEN.jpg",
-    "time": "1787477766837",
+    "time": "1787480590756",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -296,7 +236,7 @@
     "team2_name": "Villarreal",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787417109540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787417109540x302.jpg",
-    "time": "1787477766837",
+    "time": "1787480590756",
     "league_name": "Cricket || Laliga 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -312,7 +252,7 @@
     "team2_name": "Australia",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787453174540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787453174540x302MEN.jpg",
-    "time": "1787477766837",
+    "time": "1787480590756",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -328,7 +268,7 @@
     "team2_name": "Racing Santander",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787417204540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787417204540x302.jpg",
-    "time": "1787477766837",
+    "time": "1787480590756",
     "league_name": "Cricket || Laliga 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -344,7 +284,7 @@
     "team2_name": "Belgium",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787453420540x302MEN.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787453420540x302MEN.jpg",
-    "time": "1787477766837",
+    "time": "1787480590757",
     "league_name": "Cricket || Fih Hockey World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -360,7 +300,7 @@
     "team2_name": "Barcelona",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787453964540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787453964540x302.jpg",
-    "time": "1787477766837",
+    "time": "1787480590757",
     "league_name": "Cricket || Laliga 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -376,7 +316,7 @@
     "team2_name": "Women'S Singles Qualifying",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787314060540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787314060540x302.jpg",
-    "time": "1787477766837",
+    "time": "1787480590757",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -2648,30 +2588,6 @@
       {
         "link_title": "2 TV Use VPN ",
         "channel_url": "http://193.47.62.194/hls/vavavava.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "West Coast Eagles",
-    "team2_name": "Hawthorn Hawks",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4449/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4445/image",
-    "time": "1787476800000",
-    "league_name": "Aussie Rules || Afl",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/656/image/dark",
-    "category": "Aussie Rules",
-    "live_links": [
-      {
-        "link_title": "TNT2 SPORTS HD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?|drmScheme=clearkey&drmLicense=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-      },
-      {
-        "link_title": "FOX2 SPORTS FHD ",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd?|drmScheme=clearkey&drmLicense=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-      },
-      {
-        "link_title": "SKY6 NZ HD ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport6nz47z58f.m3u8"
       }
     ]
   },
