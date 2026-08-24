@@ -4,7 +4,7 @@
     "team2_name": "Guyana Amazon Warriors",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787499280540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787499280540x302.jpg",
-    "time": "1787528924741",
+    "time": "1787529691221",
     "league_name": "Cricket || Caribbean Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -32,6 +32,22 @@
       {
         "link_title": "SKY6 NZ HD ",
         "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport6nz47z58f.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Universitario De Deportes",
+    "team2_name": "Los Chankas Cyc",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2305/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/252254/image",
+    "time": "1787527800000",
+    "league_name": "Football || Liga 1 Te Apuesto",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/406/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -169,22 +185,6 @@
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/6112/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/1164534/image",
     "time": "1787526600000",
-    "league_name": "Football || Primera A",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11539/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Deportivo Pasto",
-    "team2_name": "Llaneros Fc",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/6113/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/89374/image",
-    "time": "1787519100000",
     "league_name": "Football || Primera A",
     "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11539/image/dark",
     "category": "Football",
@@ -356,7 +356,7 @@
     "team2_name": "India",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787312620540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787312620540x302.jpg",
-    "time": "1787528924743",
+    "time": "1787529691223",
     "league_name": "Cricket || India Tour Of Sri Lanka 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -372,7 +372,7 @@
     "team2_name": "Women'S Singles Qualifying",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787314060540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787314060540x302.jpg",
-    "time": "1787528924743",
+    "time": "1787529691223",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -551,22 +551,6 @@
     "time": "1787529600000",
     "league_name": "Football || Ligapro Serie A",
     "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/240/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Universitario De Deportes",
-    "team2_name": "Los Chankas Cyc",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2305/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/252254/image",
-    "time": "1787527800000",
-    "league_name": "Football || Liga 1 Te Apuesto",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/406/image/dark",
     "category": "Football",
     "live_links": [
       {
