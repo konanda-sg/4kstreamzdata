@@ -1,21 +1,5 @@
 [
   {
-    "team1_name": "Antigua And Barbuda Falcons",
-    "team2_name": "Guyana Amazon Warriors",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787499280540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787499280540x302.jpg",
-    "time": "1787536300168",
-    "league_name": "Cricket || Caribbean Premier League 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Antigua And Barbuda Falcons Vs Guyana Amazon Warriors",
-        "channel_url": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Australia",
     "team2_name": "Bangladesh",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187746/image",
@@ -396,26 +380,6 @@
     ]
   },
   {
-    "team1_name": "Tna Lockdow",
-    "team2_name": "Tna Lockdow",
-    "team1_logo_url": "https://i.ibb.co/RkFszNyM/20260313-082317.png",
-    "team2_logo_url": "https://i.ibb.co/RkFszNyM/20260313-082317.png",
-    "time": "1787526000000",
-    "league_name": "Boxing || Tna Lockdow",
-    "league_icon": "https://i.ibb.co/RkFszNyM/20260313-082317.png",
-    "category": "Boxing",
-    "live_links": [
-      {
-        "link_title": "TNA TV HD ",
-        "channel_url": "https://chatgpt.hereisman.net/playlist/55156/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net"
-      },
-      {
-        "link_title": "QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.41/hls/A777.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Milwaukee Brewers",
     "team2_name": "Atlanta Braves",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/3630/image",
@@ -520,7 +484,7 @@
     "team2_name": "India",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787312620540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787312620540x302.jpg",
-    "time": "1787536300170",
+    "time": "1787539957843",
     "league_name": "Cricket || India Tour Of Sri Lanka 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -536,7 +500,7 @@
     "team2_name": "Women'S Singles Qualifying",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787314060540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787314060540x302.jpg",
-    "time": "1787536300170",
+    "time": "1787539957843",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
