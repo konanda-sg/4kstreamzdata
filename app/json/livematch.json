@@ -1,26 +1,10 @@
 [
   {
-    "team1_name": "Men'S",
-    "team2_name": "Women'S Singles Qualifying",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787573172540x302.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787573172540x302.jpg",
-    "time": "1787698937576",
-    "league_name": "Cricket || Us Open 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "Men'S & Women'S Singles Qualifying",
-        "channel_url": "https://multiregion-asia-cdn.tapmad.com/v1/019f067c253015e8f412028003fe/019f067d5e3615e8f060213b29a21b/main.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Antigua And Barbuda Falcons",
     "team2_name": "Barbados Tridents",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787562495540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787562495540x302.jpg",
-    "time": "1787698937576",
+    "time": "1787700736773",
     "league_name": "Cricket || Caribbean Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -28,6 +12,66 @@
       {
         "link_title": "Antigua And Barbuda Falcons Vs Barbados Tridents",
         "channel_url": "https://tencent-cdn.tapmad.com/v1/019ea6d121dd15e8f4122afee4cf8f/019ea6d2f96e15e8f0602c5e1b7bc3/master.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Top End T20 Series 2026",
+    "team2_name": "Top End T20 Series 2026",
+    "team1_logo_url": "https://styxsports.b-cdn.net/styxsports-public/tours/1787045529768-11144625.webp",
+    "team2_logo_url": "https://styxsports.b-cdn.net/styxsports-public/tours/1787045529768-11144625.webp",
+    "time": "1787699100000",
+    "league_name": "Cricket || Top End T20 Series 2026",
+    "league_icon": "https://styxsports.b-cdn.net/styxsports-public/tours/1787045529768-11144625.webp",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "WILLOW FHD",
+        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ubse8txudr/out/v1/1f133d3c622b48938e229302019408fa/cenc.mpd?|drmScheme=clearkey&drmLicense=2610defcad4585d40173657829b132a6:53a3d3a93952f54247b411e1b06eefed"
+      },
+      {
+        "link_title": "WILLOW HD",
+        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd?|drmScheme=clearkey&drmLicense=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+      },
+      {
+        "link_title": "T SPORTS HD",
+        "channel_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Antigua & Barbuda Falcons",
+    "team2_name": "Barbados Tridents",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/514842/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187795/image",
+    "time": "1787698800000",
+    "league_name": "Cricket || Caribbean Premier League",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11167/image/dark",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "TNT2 SPORTS HD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?|drmScheme=clearkey&drmLicense=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+      },
+      {
+        "link_title": "SKY2 NZ HD ",
+        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz5f5az.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Atlético Bucaramanga",
+    "team2_name": "Rionegro Águilas Doradas",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/6103/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/48244/image",
+    "time": "1787698800000",
+    "league_name": "Football || Primera A",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11539/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -92,6 +136,74 @@
     ]
   },
   {
+    "team1_name": "Atlanta Braves",
+    "team2_name": "Los Angeles Dodgers",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3656/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3638/image",
+    "time": "1787699700000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "TNT1 SPORTS FHD ",
+        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd?|drmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      },
+      {
+        "link_title": "TSN1 SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|drmScheme=clearkey&drmLicense=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+      },
+      {
+        "link_title": "SERVER + TV",
+        "channel_url": "https://edgestream2.pro/hls/ojzkajnach21.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "HD QUICK ",
+        "channel_url": "https://ftv.xyzstreams.blog/MLBTVATL/B0003/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+      }
+    ]
+  },
+  {
+    "team1_name": "Toronto Blue Jays",
+    "team2_name": "Kansas City Royals",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3642/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3651/image",
+    "time": "1787699220000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "SERVER + TV",
+        "channel_url": "https://edgestream2.pro/hls/bzagLHzach19.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "HD QUICK ",
+        "channel_url": "https://ftv.xyzstreams.blog/MLBTVKCR/B0014/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+      }
+    ]
+  },
+  {
+    "team1_name": "New York Yankees",
+    "team2_name": "Houston Astros",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3654/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3655/image",
+    "time": "1787699100000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "SERVER + TV",
+        "channel_url": "https://edgestream2.pro/hls/Czajafjihafch18.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "HD QUICK ",
+        "channel_url": "https://ftv.xyzstreams.blog/MLBTVHOU/B0013/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+      }
+    ]
+  },
+  {
     "team1_name": "Detroit Tigers",
     "team2_name": "Tampa Bay Rays",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/3648/image",
@@ -132,6 +244,26 @@
     ]
   },
   {
+    "team1_name": "New York Mets",
+    "team2_name": "Milwaukee Brewers",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3629/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3630/image",
+    "time": "1787699400000",
+    "league_name": "Baseball || Mlb",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "SERVER + TV",
+        "channel_url": "https://edgestream2.pro/hls/jkzahzadach20.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      },
+      {
+        "link_title": "HD QUICK ",
+        "channel_url": "https://ftv.xyzstreams.blog/MLBTVMIL/B0016/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
+      }
+    ]
+  },
+  {
     "team1_name": "Washington Nationals",
     "team2_name": "Colorado Rockies",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/5930/image",
@@ -144,6 +276,22 @@
       {
         "link_title": "SERVER + TV",
         "channel_url": "https://edgestream2.pro/hls/ihfazugfyjcazich17.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
+      }
+    ]
+  },
+  {
+    "team1_name": "Connecticut Sun",
+    "team2_name": "Chicago Sky",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/35547/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/35546/image",
+    "time": "1787698800000",
+    "league_name": "Basketball || Wnba",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/486/image/dark",
+    "category": "Basketball",
+    "live_links": [
+      {
+        "link_title": "SERVER + TV",
+        "channel_url": "https://edgestream2.pro/hls/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
       }
     ]
   },
@@ -164,39 +312,11 @@
     ]
   },
   {
-    "team1_name": "Darts Pdc",
-    "team2_name": "Darts Pdc",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/751/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/751/image",
-    "time": "1787677500000",
-    "league_name": "Other || Darts Pdc",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/751/image",
-    "category": "Other",
-    "live_links": [
-      {
-        "link_title": "BOARD 1",
-        "channel_url": "http://193.47.62.41/hls/BAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "BOARD 2",
-        "channel_url": "http://193.47.62.41/hls/BAAAQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "BOARD 3",
-        "channel_url": "http://193.47.62.41/hls/BAAAQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "BOARD 4",
-        "channel_url": "http://193.47.62.41/hls/DGPPP.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Sri Lanka",
     "team2_name": "India",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787312620540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787312620540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736775",
     "league_name": "Cricket || India Tour Of Sri Lanka 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -212,7 +332,7 @@
     "team2_name": "Amsterdam Flames",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787664991540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787664991540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736775",
     "league_name": "Cricket || European T20 Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -228,7 +348,7 @@
     "team2_name": "Women'S Singles Qualifying",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787640982540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787640983540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736775",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -244,7 +364,7 @@
     "team2_name": "Aek",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787568237540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787568237540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736775",
     "league_name": "Cricket || 2Nd Leg",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -260,7 +380,7 @@
     "team2_name": "Fenerbache",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787571644540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787571645540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736775",
     "league_name": "Cricket || 2Nd Leg",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -276,7 +396,7 @@
     "team2_name": "Dinamo Zagreb",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787572424540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787572424540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736775",
     "league_name": "Cricket || 2Nd Leg",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -292,7 +412,7 @@
     "team2_name": "Slovan Bratislava",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787572582540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787572582540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736775",
     "league_name": "Cricket || 2Nd Leg",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -308,7 +428,7 @@
     "team2_name": "Real Sociedad",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787651257540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787651257540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736775",
     "league_name": "Cricket || Laliga 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -324,7 +444,7 @@
     "team2_name": "St Lucia Kings",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787638071540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787638071540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736775",
     "league_name": "Cricket || Caribbean Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -340,7 +460,7 @@
     "team2_name": "Championship",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787641677540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787641677540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736775",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -356,7 +476,7 @@
     "team2_name": "Dublin Guardians",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787665206540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787665206540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736775",
     "league_name": "Cricket || European T20 Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -372,7 +492,7 @@
     "team2_name": "Pakistan",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787576024540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787576024540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736775",
     "league_name": "Cricket || Pakistan Tour Of England 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -388,7 +508,7 @@
     "team2_name": "Women'S Singles Qualifying",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787641980540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787641980540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736776",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -404,7 +524,7 @@
     "team2_name": "Usa",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787653937540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787653937540x302.jpg",
-    "time": "1787698937578",
+    "time": "1787700736776",
     "league_name": "Cricket || Socca World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -504,30 +624,6 @@
     ]
   },
   {
-    "team1_name": "Top End T20 Series 2026",
-    "team2_name": "Top End T20 Series 2026",
-    "team1_logo_url": "https://styxsports.b-cdn.net/styxsports-public/tours/1787045529768-11144625.webp",
-    "team2_logo_url": "https://styxsports.b-cdn.net/styxsports-public/tours/1787045529768-11144625.webp",
-    "time": "1787699100000",
-    "league_name": "Cricket || Top End T20 Series 2026",
-    "league_icon": "https://styxsports.b-cdn.net/styxsports-public/tours/1787045529768-11144625.webp",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "WILLOW FHD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ubse8txudr/out/v1/1f133d3c622b48938e229302019408fa/cenc.mpd?|drmScheme=clearkey&drmLicense=2610defcad4585d40173657829b132a6:53a3d3a93952f54247b411e1b06eefed"
-      },
-      {
-        "link_title": "WILLOW HD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd?|drmScheme=clearkey&drmLicense=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      },
-      {
-        "link_title": "T SPORTS HD",
-        "channel_url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Cruzeiro",
     "team2_name": "Atlético Mineiro",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/1954/image",
@@ -552,42 +648,6 @@
       {
         "link_title": "PREMIERER1 FHD",
         "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd?|drmScheme=clearkey&drmLicense=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-      }
-    ]
-  },
-  {
-    "team1_name": "Antigua & Barbuda Falcons",
-    "team2_name": "Barbados Tridents",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/514842/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187795/image",
-    "time": "1787698800000",
-    "league_name": "Cricket || Caribbean Premier League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11167/image/dark",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "TNT2 SPORTS HD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?|drmScheme=clearkey&drmLicense=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-      },
-      {
-        "link_title": "SKY2 NZ HD ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz5f5az.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Atlético Bucaramanga",
-    "team2_name": "Rionegro Águilas Doradas",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/6103/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/48244/image",
-    "time": "1787698800000",
-    "league_name": "Football || Primera A",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11539/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -1068,34 +1128,6 @@
     ]
   },
   {
-    "team1_name": "Atlanta Braves",
-    "team2_name": "Los Angeles Dodgers",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3656/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3638/image",
-    "time": "1787699700000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "TNT1 SPORTS FHD ",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd?|drmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      },
-      {
-        "link_title": "TSN1 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|drmScheme=clearkey&drmLicense=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-      },
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "https://edgestream2.pro/hls/ojzkajnach21.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://ftv.xyzstreams.blog/MLBTVATL/B0003/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
     "team1_name": "Los Angeles Angels",
     "team2_name": "Cleveland Guardians",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/5929/image",
@@ -1152,82 +1184,6 @@
       {
         "link_title": "HD QUICK ",
         "channel_url": "https://ftv.xyzstreams.blog/MLBTVCHW/B0007/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
-    "team1_name": "Toronto Blue Jays",
-    "team2_name": "Kansas City Royals",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3642/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3651/image",
-    "time": "1787699220000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "https://edgestream2.pro/hls/bzagLHzach19.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://ftv.xyzstreams.blog/MLBTVKCR/B0014/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
-    "team1_name": "New York Yankees",
-    "team2_name": "Houston Astros",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3654/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3655/image",
-    "time": "1787699100000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "https://edgestream2.pro/hls/Czajafjihafch18.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://ftv.xyzstreams.blog/MLBTVHOU/B0013/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
-    "team1_name": "New York Mets",
-    "team2_name": "Milwaukee Brewers",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3629/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3630/image",
-    "time": "1787699400000",
-    "league_name": "Baseball || Mlb",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "https://edgestream2.pro/hls/jkzahzadach20.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
-      },
-      {
-        "link_title": "HD QUICK ",
-        "channel_url": "https://ftv.xyzstreams.blog/MLBTVMIL/B0016/master.m3u8|referer=https%3A%2F%2Fxyzstreams.st%2F&origin=https%3A%2F%2Fxyzstreams.st%2F&user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F134.0.0.0%20Safari%2F537.36%20Edg%2F134.0.0.0"
-      }
-    ]
-  },
-  {
-    "team1_name": "Connecticut Sun",
-    "team2_name": "Chicago Sky",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/35547/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/35546/image",
-    "time": "1787698800000",
-    "league_name": "Basketball || Wnba",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/486/image/dark",
-    "category": "Basketball",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "https://edgestream2.pro/hls/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center"
       }
     ]
   },
