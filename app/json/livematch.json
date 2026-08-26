@@ -4,7 +4,7 @@
     "team2_name": "India",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787312620540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787312620540x302.jpg",
-    "time": "1787736192351",
+    "time": "1787738646836",
     "league_name": "Cricket || India Tour Of Sri Lanka 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -104,6 +104,70 @@
     ]
   },
   {
+    "team1_name": "Bidhannagar Msa",
+    "team2_name": "Sangbad Pratidin Bhawanipore",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1124551/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/296264/image",
+    "time": "1787736600000",
+    "league_name": "Football || Calcutta Premier Division",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "SERVER + TV",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Calcutta Customs",
+    "team2_name": "United Kolkata Sc",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/264307/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1116647/image",
+    "time": "1787736600000",
+    "league_name": "Football || Calcutta Premier Division",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "SERVER + TV",
+        "channel_url": "https://live-n10.videostech.cloud/match/unitedsportsclub_vs_policeathleticclub/HLS/master.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Patha Chakra",
+    "team2_name": "Bss Sporting Club",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/294069/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/326588/image",
+    "time": "1787736600000",
+    "league_name": "Football || Calcutta Premier Division",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "SERVER + TV",
+        "channel_url": "https://live-n10.videostech.cloud/match/measurersclub_vs_mohammedansportingclub/HLS/master.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Tamluk Khelaghar George Telegraph Sc",
+    "team2_name": "Mohun Bagan Sg Reserves",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1266821/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1116646/image",
+    "time": "1787736600000",
+    "league_name": "Football || Calcutta Premier Division",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "SERVER + TV",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "Snooker",
     "team2_name": "Snooker",
     "team1_logo_url": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
@@ -156,7 +220,7 @@
     "team2_name": "Amsterdam Flames",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787664991540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787664991540x302.jpg",
-    "time": "1787736192352",
+    "time": "1787738646839",
     "league_name": "Cricket || European T20 Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -172,7 +236,7 @@
     "team2_name": "Women'S Singles Qualifying",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787640982540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787640983540x302.jpg",
-    "time": "1787736192352",
+    "time": "1787738646839",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -188,7 +252,7 @@
     "team2_name": "Aek",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787568237540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787568237540x302.jpg",
-    "time": "1787736192352",
+    "time": "1787738646839",
     "league_name": "Cricket || 2Nd Leg",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -204,7 +268,7 @@
     "team2_name": "Fenerbache",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787571644540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787571645540x302.jpg",
-    "time": "1787736192352",
+    "time": "1787738646839",
     "league_name": "Cricket || 2Nd Leg",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -220,7 +284,7 @@
     "team2_name": "Dinamo Zagreb",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787572424540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787572424540x302.jpg",
-    "time": "1787736192352",
+    "time": "1787738646839",
     "league_name": "Cricket || 2Nd Leg",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -236,7 +300,7 @@
     "team2_name": "Slovan Bratislava",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787572582540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787572582540x302.jpg",
-    "time": "1787736192352",
+    "time": "1787738646839",
     "league_name": "Cricket || 2Nd Leg",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -252,7 +316,7 @@
     "team2_name": "Real Sociedad",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787651257540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787651257540x302.jpg",
-    "time": "1787736192352",
+    "time": "1787738646839",
     "league_name": "Cricket || Laliga 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -268,7 +332,7 @@
     "team2_name": "St Lucia Kings",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787638071540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787638071540x302.jpg",
-    "time": "1787736192352",
+    "time": "1787738646839",
     "league_name": "Cricket || Caribbean Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -284,7 +348,7 @@
     "team2_name": "Championship",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787641677540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787641677540x302.jpg",
-    "time": "1787736192352",
+    "time": "1787738646839",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -300,7 +364,7 @@
     "team2_name": "Dublin Guardians",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787665206540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787665206540x302.jpg",
-    "time": "1787736192352",
+    "time": "1787738646839",
     "league_name": "Cricket || European T20 Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -316,7 +380,7 @@
     "team2_name": "Pakistan",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787576024540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787576024540x302.jpg",
-    "time": "1787736192352",
+    "time": "1787738646839",
     "league_name": "Cricket || Pakistan Tour Of England 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -332,7 +396,7 @@
     "team2_name": "Women'S Singles Qualifying",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787641980540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787641980540x302.jpg",
-    "time": "1787736192352",
+    "time": "1787738646840",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -348,7 +412,7 @@
     "team2_name": "Usa",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787653937540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787653937540x302.jpg",
-    "time": "1787736192352",
+    "time": "1787738646840",
     "league_name": "Cricket || Socca World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -1280,70 +1344,6 @@
       {
         "link_title": "WILLOW SPORTS",
         "channel_url": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd?|drmScheme=clearkey&drmLicense=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      }
-    ]
-  },
-  {
-    "team1_name": "Bidhannagar Msa",
-    "team2_name": "Sangbad Pratidin Bhawanipore",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1124551/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/296264/image",
-    "time": "1787736600000",
-    "league_name": "Football || Calcutta Premier Division",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Calcutta Customs",
-    "team2_name": "United Kolkata Sc",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/264307/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1116647/image",
-    "time": "1787736600000",
-    "league_name": "Football || Calcutta Premier Division",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "https://live-n10.videostech.cloud/match/unitedsportsclub_vs_policeathleticclub/HLS/master.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Patha Chakra",
-    "team2_name": "Bss Sporting Club",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/294069/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/326588/image",
-    "time": "1787736600000",
-    "league_name": "Football || Calcutta Premier Division",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "https://live-n10.videostech.cloud/match/measurersclub_vs_mohammedansportingclub/HLS/master.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Tamluk Khelaghar George Telegraph Sc",
-    "team2_name": "Mohun Bagan Sg Reserves",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1266821/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1116646/image",
-    "time": "1787736600000",
-    "league_name": "Football || Calcutta Premier Division",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2289/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
       }
     ]
   },
