@@ -4,7 +4,7 @@
     "team2_name": "India",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787312620540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787312620540x302.jpg",
-    "time": "1787741237883",
+    "time": "1787742920398",
     "league_name": "Cricket || India Tour Of Sri Lanka 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -168,6 +168,66 @@
     ]
   },
   {
+    "team1_name": "Gangwon Fc",
+    "team2_name": "Gwangju Fc",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/34220/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/48912/image",
+    "time": "1787740200000",
+    "league_name": "Football || K League 1",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/410/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "SERVER + TV",
+        "channel_url": "http://193.47.62.41/hls/FAFAFA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.41/hls/FAFAFA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Fc Anyang",
+    "team2_name": "Incheon United",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/32675/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/7648/image",
+    "time": "1787740200000",
+    "league_name": "Football || K League 1",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/410/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "SERVER + TV",
+        "channel_url": "http://193.47.62.41/hls/FAFAFAB.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.41/hls/FAFAFAB.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
+    "team1_name": "Daejeon Hana Citizen",
+    "team2_name": "Ulsan Hd",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/7645/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/7653/image",
+    "time": "1787740200000",
+    "league_name": "Football || K League 1",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/410/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "SERVER + TV",
+        "channel_url": "http://193.47.62.41/hls/FAFAFABB.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      },
+      {
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.41/hls/FAFAFABB.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+      }
+    ]
+  },
+  {
     "team1_name": "Snooker",
     "team2_name": "Snooker",
     "team1_logo_url": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
@@ -196,31 +256,11 @@
     ]
   },
   {
-    "team1_name": "Tszyu",
-    "team2_name": "Mahoney",
-    "team1_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojAXpDVYQ8eDCnzLF24wvEhrmjMu3xBp9gTvk86MnsQ&s=10",
-    "team2_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojAXpDVYQ8eDCnzLF24wvEhrmjMu3xBp9gTvk86MnsQ&s=10",
-    "time": "1787731200000",
-    "league_name": "Boxing || Ufc",
-    "league_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojAXpDVYQ8eDCnzLF24wvEhrmjMu3xBp9gTvk86MnsQ&s=10",
-    "category": "Boxing",
-    "live_links": [
-      {
-        "link_title": "FOX SPORTS HD ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/fox503dg959zDF.m3u8"
-      },
-      {
-        "link_title": " QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.59/hls/eyyy.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
     "team1_name": "Rotterdam Dockers",
     "team2_name": "Amsterdam Flames",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787664991540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787664991540x302.jpg",
-    "time": "1787741237884",
+    "time": "1787742920400",
     "league_name": "Cricket || European T20 Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -236,7 +276,7 @@
     "team2_name": "Women'S Singles Qualifying",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787640982540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787640983540x302.jpg",
-    "time": "1787741237884",
+    "time": "1787742920400",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -252,7 +292,7 @@
     "team2_name": "Aek",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787568237540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787568237540x302.jpg",
-    "time": "1787741237884",
+    "time": "1787742920400",
     "league_name": "Cricket || 2Nd Leg",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -268,7 +308,7 @@
     "team2_name": "Fenerbache",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787571644540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787571645540x302.jpg",
-    "time": "1787741237884",
+    "time": "1787742920400",
     "league_name": "Cricket || 2Nd Leg",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -284,7 +324,7 @@
     "team2_name": "Dinamo Zagreb",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787572424540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787572424540x302.jpg",
-    "time": "1787741237884",
+    "time": "1787742920400",
     "league_name": "Cricket || 2Nd Leg",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -300,7 +340,7 @@
     "team2_name": "Slovan Bratislava",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787572582540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787572582540x302.jpg",
-    "time": "1787741237884",
+    "time": "1787742920400",
     "league_name": "Cricket || 2Nd Leg",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -316,7 +356,7 @@
     "team2_name": "Real Sociedad",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787651257540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787651257540x302.jpg",
-    "time": "1787741237884",
+    "time": "1787742920400",
     "league_name": "Cricket || Laliga 2026/27",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -332,7 +372,7 @@
     "team2_name": "St Lucia Kings",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787638071540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787638071540x302.jpg",
-    "time": "1787741237884",
+    "time": "1787742920400",
     "league_name": "Cricket || Caribbean Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -348,7 +388,7 @@
     "team2_name": "Championship",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787641677540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787641677540x302.jpg",
-    "time": "1787741237884",
+    "time": "1787742920400",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -364,7 +404,7 @@
     "team2_name": "Dublin Guardians",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787665206540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787665206540x302.jpg",
-    "time": "1787741237884",
+    "time": "1787742920401",
     "league_name": "Cricket || European T20 Premier League 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -380,7 +420,7 @@
     "team2_name": "Pakistan",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787576024540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787576024540x302.jpg",
-    "time": "1787741237884",
+    "time": "1787742920401",
     "league_name": "Cricket || Pakistan Tour Of England 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -396,7 +436,7 @@
     "team2_name": "Women'S Singles Qualifying",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787641980540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787641980540x302.jpg",
-    "time": "1787741237884",
+    "time": "1787742920401",
     "league_name": "Cricket || Us Open 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -412,7 +452,7 @@
     "team2_name": "Usa",
     "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787653937540x302.jpg",
     "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1787653937540x302.jpg",
-    "time": "1787741237884",
+    "time": "1787742920401",
     "league_name": "Cricket || Socca World Cup 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
@@ -1344,66 +1384,6 @@
       {
         "link_title": "WILLOW SPORTS",
         "channel_url": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd?|drmScheme=clearkey&drmLicense=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      }
-    ]
-  },
-  {
-    "team1_name": "Gangwon Fc",
-    "team2_name": "Gwangju Fc",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/34220/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/48912/image",
-    "time": "1787740200000",
-    "league_name": "Football || K League 1",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/410/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "http://193.47.62.41/hls/FAFAFA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.41/hls/FAFAFA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Fc Anyang",
-    "team2_name": "Incheon United",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/32675/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/7648/image",
-    "time": "1787740200000",
-    "league_name": "Football || K League 1",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/410/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "http://193.47.62.41/hls/FAFAFAB.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.41/hls/FAFAFAB.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      }
-    ]
-  },
-  {
-    "team1_name": "Daejeon Hana Citizen",
-    "team2_name": "Ulsan Hd",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/7645/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/7653/image",
-    "time": "1787740200000",
-    "league_name": "Football || K League 1",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/410/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SERVER + TV",
-        "channel_url": "http://193.47.62.41/hls/FAFAFABB.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.41/hls/FAFAFABB.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       }
     ]
   },
