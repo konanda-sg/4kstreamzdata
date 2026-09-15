@@ -1,5 +1,133 @@
 [
   {
+    "team1_name": "EUROPEAN T20",
+    "team2_name": "Premier League T20",
+    "team1_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujBtPOgUpOHILwHzxdBP5T8Q4sgCfxOGrHdlJCHp2Rfd4Ep2UFJLSLbRP&s=10",
+    "team2_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujBtPOgUpOHILwHzxdBP5T8Q4sgCfxOGrHdlJCHp2Rfd4Ep2UFJLSLbRP&s=10",
+    "time": "1789464600000",
+    "league_name": "Cricket || EUROPEAN T20 Premier League",
+    "league_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujBtPOgUpOHILwHzxdBP5T8Q4sgCfxOGrHdlJCHp2Rfd4Ep2UFJLSLbRP&s=10",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "TNT2 SPORTS HD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?|drmScheme=clearkey&drmLicense=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+      },
+      {
+        "link_title": "Willow Cricbuzz - HD",
+        "channel_url": "http://tvsen5.aynascope.net/willowhd/index.m3u8"
+      },
+      {
+        "link_title": "FOX CRICKET HD",
+        "channel_url": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8"
+      },
+      {
+        "link_title": "WILLOW SPORTS",
+        "channel_url": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd?|drmScheme=clearkey&drmLicense=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+      }
+    ]
+  },
+  {
+    "team1_name": "Zimbabwe",
+    "team2_name": "Australia",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187745/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187746/image",
+    "time": "1789457400000",
+    "league_name": "Cricket || One Day International",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "FOX CRICKET HD",
+        "channel_url": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8"
+      },
+      {
+        "link_title": "WILLOW HD",
+        "channel_url": "http://tvsen5.aynascope.net/willowhd/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Kashima Antlers",
+    "team2_name": "Newcastle Jets",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3134/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2934/image",
+    "time": "1789466400000",
+    "league_name": "Football || AFC Champions League Elite",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "BEIN2 ARABIC HD ",
+        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/bein2ar.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Gamba Osaka",
+    "team2_name": "Công An Hà Nội",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3138/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/193616/image",
+    "time": "1789466400000",
+    "league_name": "Football || AFC Champions League Elite",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "BEIN3 ARABIC HD ",
+        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/bein3ar.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Daejeon Hana Citizen",
+    "team2_name": "Kyoto Sanga FC",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/7645/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3149/image",
+    "time": "1789466400000",
+    "league_name": "Football || AFC Champions League Elite",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "BEIN4 ARABIC HD ",
+        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/bein4ar.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Ratchaburi",
+    "team2_name": "Shanghai Port",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/85743/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/41537/image",
+    "time": "1789466400000",
+    "league_name": "Football || AFC Champions League Elite",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "BEIN5 ARABIC HD ",
+        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/bein5ar.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "South Melbourne FC",
+    "team2_name": "Lions FC",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2944/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/47708/image",
+    "time": "1789464600000",
+    "league_name": "Football || Australia Cup",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/1786/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "STREAM TV + LIVE ",
+        "channel_url": "https://edgestream2.pro/hls/.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "SmackDown",
     "team2_name": "SmackDown",
     "team1_logo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg",
@@ -292,34 +420,6 @@
     ]
   },
   {
-    "team1_name": "EUROPEAN T20",
-    "team2_name": "Premier League T20",
-    "team1_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujBtPOgUpOHILwHzxdBP5T8Q4sgCfxOGrHdlJCHp2Rfd4Ep2UFJLSLbRP&s=10",
-    "team2_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujBtPOgUpOHILwHzxdBP5T8Q4sgCfxOGrHdlJCHp2Rfd4Ep2UFJLSLbRP&s=10",
-    "time": "1789464600000",
-    "league_name": "Cricket || EUROPEAN T20 Premier League",
-    "league_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujBtPOgUpOHILwHzxdBP5T8Q4sgCfxOGrHdlJCHp2Rfd4Ep2UFJLSLbRP&s=10",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "TNT2 SPORTS HD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?|drmScheme=clearkey&drmLicense=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-      },
-      {
-        "link_title": "Willow Cricbuzz - HD",
-        "channel_url": "http://tvsen5.aynascope.net/willowhd/index.m3u8"
-      },
-      {
-        "link_title": "FOX CRICKET HD",
-        "channel_url": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8"
-      },
-      {
-        "link_title": "WILLOW SPORTS",
-        "channel_url": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd?|drmScheme=clearkey&drmLicense=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      }
-    ]
-  },
-  {
     "team1_name": "WWE NXT",
     "team2_name": "WWE NXT",
     "team1_logo_url": "https://i.ibb.co/jPMHTs55/20260310-202452.png",
@@ -408,26 +508,6 @@
     ]
   },
   {
-    "team1_name": "Zimbabwe",
-    "team2_name": "Australia",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187745/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187746/image",
-    "time": "1789457400000",
-    "league_name": "Cricket || One Day International",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "FOX CRICKET HD",
-        "channel_url": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8"
-      },
-      {
-        "link_title": "WILLOW HD",
-        "channel_url": "http://tvsen5.aynascope.net/willowhd/index.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Barbados Tridents",
     "team2_name": "Jamaica Kingsmen",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187795/image",
@@ -464,70 +544,6 @@
       {
         "link_title": "FOX CRICKET HD",
         "channel_url": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Kashima Antlers",
-    "team2_name": "Newcastle Jets",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3134/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2934/image",
-    "time": "1789466400000",
-    "league_name": "Football || AFC Champions League Elite",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "BEIN2 ARABIC HD ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/bein2ar.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Gamba Osaka",
-    "team2_name": "Công An Hà Nội",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3138/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/193616/image",
-    "time": "1789466400000",
-    "league_name": "Football || AFC Champions League Elite",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "BEIN3 ARABIC HD ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/bein3ar.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Daejeon Hana Citizen",
-    "team2_name": "Kyoto Sanga FC",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/7645/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3149/image",
-    "time": "1789466400000",
-    "league_name": "Football || AFC Champions League Elite",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "BEIN4 ARABIC HD ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/bein4ar.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Ratchaburi",
-    "team2_name": "Shanghai Port",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/85743/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/41537/image",
-    "time": "1789466400000",
-    "league_name": "Football || AFC Champions League Elite",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "BEIN5 ARABIC HD ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/bein5ar.m3u8"
       }
     ]
   },
@@ -592,22 +608,6 @@
       {
         "link_title": "BEIN1 ARABIC HD ",
         "channel_url": "https://tmaxapp.site/8wirwjs76erftg/bein1ar.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "South Melbourne FC",
-    "team2_name": "Lions FC",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2944/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/47708/image",
-    "time": "1789464600000",
-    "league_name": "Football || Australia Cup",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/1786/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + LIVE ",
-        "channel_url": "https://edgestream2.pro/hls/.m3u8"
       }
     ]
   },
