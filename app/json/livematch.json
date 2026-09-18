@@ -200,70 +200,6 @@
     ]
   },
   {
-    "team1_name": "DARTS PDC",
-    "team2_name": "DARTS PDC",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/751/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/751/image",
-    "time": "1789758300000",
-    "league_name": "Other || DARTS PDC",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/751/image",
-    "category": "Other",
-    "live_links": [
-      {
-        "link_title": "SKY NZ FHD",
-        "channel_url": "https://dice-live-oc.akamaized.net/hdntl=exp=1789839055~acl=*dash%2flive%2f2093741%2f219027-330907%2f*!*dash%2flive%2f2093741-b%2f219027-330907-b%2f*!%2fv1%2fdashsegment%2f*~id=383ac51b-ea4e-4e1a-b86e-6e587adc4dfa~data=hdntl,dWlkPTl6ZnpZZnxkNTE1MGY4Ny1jMjk2LTQwOGQtODhmNi04OWRmZTQ4MmFmNjcmc3JjPWRnZSZpcD04NS4yOC41NC4yMzUmZXhwPTE3ODk4MzkwNzkmZWlkPTIxOTAyNyZjaWQ9ZGNlLnNreW56Jm9pZD0zMTgmdHlwZT1MSVZF~hmac=46743b3e89571ebcc18ed7cfeac86770edfb6d54b2abc16cabe3a1f603abd5e0/dash/live/2093741/219027-330907/manifest-d.mpd?|drmScheme=clearkey&drmLicense=f97fcfe561e142e2879163dbda72349f:06101e0459d743a39ea4bdb6fdba7b49"
-      },
-      {
-        "link_title": "SKY2 NZ HD ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz5f5az.m3u8"
-      },
-      {
-        "link_title": "SKY2 SPORT NZ",
-        "channel_url": "https://baila-lentoo.pages.dev/nwp/809393.m3u8"
-      },
-      {
-        "link_title": "World Series Finals",
-        "channel_url": "http://193.47.62.52/hls/FYYYQQQ.m3u8?"
-      }
-    ]
-  },
-  {
-    "team1_name": "Wakefield Trinity",
-    "team2_name": "Leigh Leopards",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4273/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4235/image",
-    "time": "1789758000000",
-    "league_name": "Rugby || Super League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/302/image/dark",
-    "category": "Rugby",
-    "live_links": [
-      {
-        "link_title": "SKY SPORT MIX HD ",
-        "channel_url": "https://tmaxapp.site/8wirwjs76erftg/skysportsmix.m3u8"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.55/hls/UNNNAAAAAQQQ.m3u8?"
-      }
-    ]
-  },
-  {
-    "team1_name": "Alianza Atlético de Sullana",
-    "team2_name": "Comerciantes Unidos",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2307/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/213609/image",
-    "time": "1789761600000",
-    "league_name": "Football || Liga 1 Te Apuesto",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/406/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Central Córdoba",
     "team2_name": "Defensa y Justicia",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/65676/image",
@@ -292,6 +228,58 @@
       {
         "link_title": "Intro",
         "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Club Independiente Petrolero",
+    "team2_name": "CD San Antonio",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/372975/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/396625/image",
+    "time": "1789772400000",
+    "league_name": "Football || División Profesional",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/16736/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://file.genoads.com/ch1.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Cincinnati Reds",
+    "team2_name": "Chicago Cubs",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3633/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3627/image",
+    "time": "1789771200000",
+    "league_name": "Baseball || MLB",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://edgestream4.pro/hls/dazhfiach15.m3u8"
+      },
+      {
+        "link_title": "TV QUALITY ",
+        "channel_url": "http://162.251.160.53:8089/MLB12/index.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Pittsburgh Pirates",
+    "team2_name": "Kansas City Royals",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3637/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3651/image",
+    "time": "1789771200000",
+    "league_name": "Baseball || MLB",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+    "category": "Baseball",
+    "live_links": [
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://edgestream4.pro/hls/16yuitzaerghbhc16.m3u8"
       }
     ]
   },
@@ -1320,22 +1308,6 @@
     ]
   },
   {
-    "team1_name": "Club Independiente Petrolero",
-    "team2_name": "CD San Antonio",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/372975/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/396625/image",
-    "time": "1789772400000",
-    "league_name": "Football || División Profesional",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/16736/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Club Puebla",
     "team2_name": "Atlante FC",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/1941/image",
@@ -1388,26 +1360,6 @@
     ]
   },
   {
-    "team1_name": "Cincinnati Reds",
-    "team2_name": "Chicago Cubs",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3633/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3627/image",
-    "time": "1789771200000",
-    "league_name": "Baseball || MLB",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream4.pro/hls/dazhfiach15.m3u8"
-      },
-      {
-        "link_title": "TV QUALITY ",
-        "channel_url": "http://162.251.160.53:8089/MLB12/index.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Baltimore Orioles",
     "team2_name": "Milwaukee Brewers",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/3652/image",
@@ -1440,22 +1392,6 @@
       {
         "link_title": "TV QUALITY ",
         "channel_url": "http://162.251.160.53:8089/MLB14/index.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Pittsburgh Pirates",
-    "team2_name": "Kansas City Royals",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3637/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3651/image",
-    "time": "1789771200000",
-    "league_name": "Baseball || MLB",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-    "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream4.pro/hls/16yuitzaerghbhc16.m3u8"
       }
     ]
   },
